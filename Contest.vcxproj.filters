@@ -156,6 +156,39 @@
     <ClCompile Include="UVaOJ\202.cpp">
       <Filter>UVaOJ\200</Filter>
     </ClCompile>
+    <ClCompile Include="UVaOJ\227.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\232.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\256.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\260.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\263.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\264.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\271.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\272.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\275.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\278.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\290.cpp">
+      <Filter>UVaOJ\200</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h">
