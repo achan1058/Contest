@@ -48,6 +48,24 @@
     <ClCompile Include="UVaOJ\10023.cpp">
       <Filter>UVaOJ\10000</Filter>
     </ClCompile>
+    <ClCompile Include="UVaOJ\112.cpp">
+      <Filter>UVaOJ\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\113.cpp">
+      <Filter>UVaOJ\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\116.cpp">
+      <Filter>UVaOJ\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\118.cpp">
+      <Filter>UVaOJ\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\122.cpp">
+      <Filter>UVaOJ\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\128.cpp">
+      <Filter>UVaOJ\100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h">
