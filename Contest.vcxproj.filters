@@ -276,6 +276,48 @@
     <ClCompile Include="UVaOJ\442.cpp">
       <Filter>UVaOJ\400</Filter>
     </ClCompile>
+    <ClCompile Include="UVaOJ\443.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\444.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\445.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\457.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\458.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\460.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\465.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\469.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\474.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\483.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\485.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\488.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\489.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\490.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h">
@@ -307,6 +349,9 @@
       <Filter>UVaOJ\300</Filter>
     </None>
     <None Include="UVaOJ\424.py">
+      <Filter>UVaOJ\400</Filter>
+    </None>
+    <None Include="UVaOJ\485.py">
       <Filter>UVaOJ\400</Filter>
     </None>
   </ItemGroup>
