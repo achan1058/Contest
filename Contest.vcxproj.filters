@@ -39,6 +39,9 @@
     <ClCompile Include="UVaOJ\108.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="UVaOJ\10023.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h">
