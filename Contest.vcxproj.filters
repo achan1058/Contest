@@ -52,6 +52,9 @@
     <Filter Include="UVaOJ\300">
       <UniqueIdentifier>{cfee22a3-da9e-43a6-95a0-2ca820449272}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ\400">
+      <UniqueIdentifier>{de4f4faf-706a-408c-b0ce-4f3a40b7865b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Library\stdc++.cpp">
@@ -240,6 +243,39 @@
     <ClCompile Include="UVaOJ\369.cpp">
       <Filter>UVaOJ\300</Filter>
     </ClCompile>
+    <ClCompile Include="UVaOJ\371.cpp">
+      <Filter>UVaOJ\300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\374.cpp">
+      <Filter>UVaOJ\300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\386.cpp">
+      <Filter>UVaOJ\300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\401.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\413.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\414.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\417.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\422.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\424.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\441.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\442.cpp">
+      <Filter>UVaOJ\400</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h">
@@ -266,6 +302,12 @@
     </None>
     <None Include="UVaOJ\369.py">
       <Filter>UVaOJ\300</Filter>
+    </None>
+    <None Include="UVaOJ\374.py">
+      <Filter>UVaOJ\300</Filter>
+    </None>
+    <None Include="UVaOJ\424.py">
+      <Filter>UVaOJ\400</Filter>
     </None>
   </ItemGroup>
 </Project>
