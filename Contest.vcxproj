@@ -149,16 +149,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Contest.cpp" />
     <ClCompile Include="Library\stdc++.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="source.cpp" />
+    <ClCompile Include="UVaOJ\100.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h" />
+    <ClInclude Include="Library\header.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />

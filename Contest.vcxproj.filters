@@ -18,16 +18,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Contest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Library\stdc++.cpp">
       <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\100.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h">
       <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\header.h">
+      <Filter>Library</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
