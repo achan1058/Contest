@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -16,31 +12,41 @@
     <Filter Include="Current Files">
       <UniqueIdentifier>{d8663db4-8ff1-4d7c-b5bf-0b5a4485047c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UVaOJ\100">
+      <UniqueIdentifier>{e54ca688-a9b3-43a6-979f-cb6cc2b826a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\10000">
+      <UniqueIdentifier>{45a02f2c-7a6e-487e-a32a-729962af690c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Library\stdc++.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="UVaOJ\100.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="source.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>UVaOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\100.cpp">
+      <Filter>UVaOJ\100</Filter>
     </ClCompile>
     <ClCompile Include="UVaOJ\101.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>UVaOJ\100</Filter>
     </ClCompile>
     <ClCompile Include="UVaOJ\102.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>UVaOJ\100</Filter>
     </ClCompile>
     <ClCompile Include="UVaOJ\105.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>UVaOJ\100</Filter>
     </ClCompile>
     <ClCompile Include="UVaOJ\108.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>UVaOJ\100</Filter>
     </ClCompile>
     <ClCompile Include="UVaOJ\10023.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>UVaOJ\10000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -58,5 +64,10 @@
     <Text Include="input.txt">
       <Filter>Current Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UVaOJ\10023.py">
+      <Filter>UVaOJ\10000</Filter>
+    </None>
   </ItemGroup>
 </Project>
