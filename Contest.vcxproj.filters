@@ -88,6 +88,9 @@
     <Filter Include="UVaOJ\400\490">
       <UniqueIdentifier>{2a7017bf-a234-49c4-aae5-ce9a9a8f15ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ\600">
+      <UniqueIdentifier>{c72ab2b0-9b19-4e7b-a4ee-720a6c54d936}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\10023.cpp">
@@ -387,6 +390,51 @@
     <ClCompile Include="Library\stdc++.cpp">
       <Filter>Library</Filter>
     </ClCompile>
+    <ClCompile Include="UVaOJ\568.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\572.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\573.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\574.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\575.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\576.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\579.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\580.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\587.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\591.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\594.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\608.cpp">
+      <Filter>UVaOJ\600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\612.cpp">
+      <Filter>UVaOJ\600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\621.cpp">
+      <Filter>UVaOJ\600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\623.cpp">
+      <Filter>UVaOJ\600</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -425,6 +473,9 @@
     </None>
     <None Include="UVaOJ\495.py">
       <Filter>UVaOJ\400\490</Filter>
+    </None>
+    <None Include="UVaOJ\623.py">
+      <Filter>UVaOJ\600</Filter>
     </None>
   </ItemGroup>
 </Project>
