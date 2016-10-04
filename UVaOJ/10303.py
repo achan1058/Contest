@@ -6,10 +6,5 @@ while True:
     except EOFError:
         exit()
 
-    s = str(math.factorial(n))
-    ans = 0
-    for c in s:
-        ans += int(c)
-
-    print(ans)
+    print(math.factorial(2 * n) // math.factorial(n) // math.factorial(n) // (n + 1))
 
