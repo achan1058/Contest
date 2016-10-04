@@ -94,6 +94,9 @@
     <Filter Include="UVaOJ\700">
       <UniqueIdentifier>{ac683e5f-e30c-4f46-9255-bcfb26edf163}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ\800">
+      <UniqueIdentifier>{43958bec-139d-45aa-9512-c9ad5f9d8a75}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\10023.cpp">
@@ -483,6 +486,48 @@
     <ClCompile Include="UVaOJ\706.cpp">
       <Filter>UVaOJ\700</Filter>
     </ClCompile>
+    <ClCompile Include="UVaOJ\713.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\714.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\725.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\729.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\737.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\739.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\740.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\750.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\755.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\784.cpp">
+      <Filter>UVaOJ\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\815.cpp">
+      <Filter>UVaOJ\800</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\839.cpp">
+      <Filter>UVaOJ\800</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\846.cpp">
+      <Filter>UVaOJ\800</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\847.cpp">
+      <Filter>UVaOJ\800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -524,6 +569,9 @@
     </None>
     <None Include="UVaOJ\623.py">
       <Filter>UVaOJ\600</Filter>
+    </None>
+    <None Include="UVaOJ\713.py">
+      <Filter>UVaOJ\700</Filter>
     </None>
   </ItemGroup>
 </Project>
