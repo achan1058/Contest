@@ -136,6 +136,15 @@
     <Filter Include="UVaOJ\10000\10050">
       <UniqueIdentifier>{e7c4601f-c776-4a3c-bc16-c2fb78c25c8a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ\10000\10060">
+      <UniqueIdentifier>{acc8ffbd-9bc9-4683-897c-5c58b1a84b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\10000\10070">
+      <UniqueIdentifier>{d944155b-32bb-451f-9f9a-f2a1bef0b6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\10000\10080">
+      <UniqueIdentifier>{bddd630f-c69d-4e09-9958-d52fc9cbada0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\100.cpp">
@@ -702,6 +711,36 @@
     <ClCompile Include="UVaOJ\10057.cpp">
       <Filter>UVaOJ\10000\10050</Filter>
     </ClCompile>
+    <ClCompile Include="UVaOJ\10062.cpp">
+      <Filter>UVaOJ\10000\10060</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10063.cpp">
+      <Filter>UVaOJ\10000\10060</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10067.cpp">
+      <Filter>UVaOJ\10000\10060</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10069.cpp">
+      <Filter>UVaOJ\10000\10060</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10070.cpp">
+      <Filter>UVaOJ\10000\10070</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10071.cpp">
+      <Filter>UVaOJ\10000\10070</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10079.cpp">
+      <Filter>UVaOJ\10000\10070</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10081.cpp">
+      <Filter>UVaOJ\10000\10080</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10082.cpp">
+      <Filter>UVaOJ\10000\10080</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10089.cpp">
+      <Filter>UVaOJ\10000\10080</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -752,6 +791,9 @@
     </None>
     <None Include="UVaOJ\10023.py">
       <Filter>UVaOJ\10000\10000</Filter>
+    </None>
+    <None Include="UVaOJ\10069.py">
+      <Filter>UVaOJ\10000\10060</Filter>
     </None>
   </ItemGroup>
 </Project>
