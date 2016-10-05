@@ -4,5 +4,5 @@
 int main() {
 	double D, V;
 	while (cin >> D >> V && (D != 0 || V != 0))
-		printf("%.3f\n", pow(D * D * D - 6 * V / acos(-1), 1. / 3));
+		printf("%.3f\n", pow(D * D * D - 6 * V / PI, 1. / 3));
 }

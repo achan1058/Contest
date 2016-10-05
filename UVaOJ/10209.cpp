@@ -2,7 +2,7 @@
 #include "header.h"
 
 int main() {
-	double r, PI = acos(-1);
+	double r;
 	double tri = PI / 3 - sqrt(3) / 4;
 	double qcirc = PI / 4;
 	double cone = 2 * tri - qcirc;

@@ -18,6 +18,7 @@ typedef vector<vl> vvl;
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
 ll mod = 1000000007ll;
+double PI = acos(-1);
 
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
 #define sz(a) int(a.size())
