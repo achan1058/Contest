@@ -184,6 +184,9 @@
     <Filter Include="UVaOJ\10200">
       <UniqueIdentifier>{8f630fdc-ae16-4264-aa09-3aad9f03d7fe}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ\10300">
+      <UniqueIdentifier>{1001f68d-fc60-4924-8c3e-c81ac586e961}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\100.cpp">
@@ -907,10 +910,61 @@
       <Filter>UVaOJ\10200</Filter>
     </ClCompile>
     <ClCompile Include="UVaOJ\10300.cpp">
-      <Filter>UVaOJ\10200</Filter>
+      <Filter>UVaOJ\10300</Filter>
     </ClCompile>
     <ClCompile Include="UVaOJ\10302.cpp">
-      <Filter>UVaOJ\10200</Filter>
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10303.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10306.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10309.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10324.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10327.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10328.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10334.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10336.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10340.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10344.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10346.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10360.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10363.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10365.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10370.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10387.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10391.cpp">
+      <Filter>UVaOJ\10300</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -974,6 +1028,15 @@
     </None>
     <None Include="UVaOJ\10220.py">
       <Filter>UVaOJ\10200</Filter>
+    </None>
+    <None Include="UVaOJ\10303.py">
+      <Filter>UVaOJ\10300</Filter>
+    </None>
+    <None Include="UVaOJ\10328.py">
+      <Filter>UVaOJ\10300</Filter>
+    </None>
+    <None Include="UVaOJ\10334.py">
+      <Filter>UVaOJ\10300</Filter>
     </None>
   </ItemGroup>
 </Project>
