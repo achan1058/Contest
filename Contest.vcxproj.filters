@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
     <Filter Include="Library">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
@@ -222,6 +218,12 @@
     </Filter>
     <Filter Include="UVaOJ\11500">
       <UniqueIdentifier>{3031e626-1318-4cf1-b320-657b3104be21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\11600">
+      <UniqueIdentifier>{29d8a10e-1c7f-4353-bf9b-c36b562c4961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\11700">
+      <UniqueIdentifier>{77287876-968e-484d-8436-408eda2a207b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1421,6 +1423,78 @@
     </ClCompile>
     <ClCompile Include="UVaOJ\11559.cpp">
       <Filter>UVaOJ\11500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11608.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11614.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11624.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11634.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11636.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11650.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11661.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11677.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11679.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11687.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11689.cpp">
+      <Filter>UVaOJ\11600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11703.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11713.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11715.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11716.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11723.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11727.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11729.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11734.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11743.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11764.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11777.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11780.cpp">
+      <Filter>UVaOJ\11700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11799.cpp">
+      <Filter>UVaOJ\11700</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
