@@ -7,6 +7,6 @@ int main() {
 	cin >> N;
 	rep(X, 0, N) {
 		cin >> D >> L;
-		printf("%.3f\n", PI * L *sqrt(L * L - D * D) / 4);
+		printf("%.3f\n", M_PI * L *sqrt(L * L - D * D) / 4);
 	}
 }

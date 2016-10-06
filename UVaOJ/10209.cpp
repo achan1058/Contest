@@ -3,8 +3,8 @@
 
 int main() {
 	double r;
-	double tri = PI / 3 - sqrt(3) / 4;
-	double qcirc = PI / 4;
+	double tri = M_PI / 3 - sqrt(3) / 4;
+	double qcirc = M_PI / 4;
 	double cone = 2 * tri - qcirc;
 	double wedge = 2 * qcirc - 1;
 	double center = 2 * cone - wedge;
