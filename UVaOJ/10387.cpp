@@ -6,7 +6,7 @@ int main() {
 	while (cin >> a >> b >> s >> m >> n && (a || b || s || m || n)) {
 		a *= m;
 		b *= n;
-		double v = sqrt(a * a + b * b), d = acos(a / v) / acos(-1) * 180;
+		double v = sqrt(a * a + b * b), d = acos(a / v) / M_PI * 180;
 		printf("%.2lf %.2lf\n", d, v / s);
 	}
 }
