@@ -196,6 +196,9 @@
     <Filter Include="UVaOJ\10600">
       <UniqueIdentifier>{17b39a5c-1674-4bd7-8610-428ab5f2cc19}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ\10700">
+      <UniqueIdentifier>{daaf608e-a91c-4f27-a32e-a50bc29654cc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\100.cpp">
@@ -1082,6 +1085,51 @@
     </ClCompile>
     <ClCompile Include="UVaOJ\10678.cpp">
       <Filter>UVaOJ\10600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10684.cpp">
+      <Filter>UVaOJ\10600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10693.cpp">
+      <Filter>UVaOJ\10600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10696.cpp">
+      <Filter>UVaOJ\10600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10700.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10701.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10703.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10714.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10719.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10721.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10739.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10763.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10773.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10783.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10784.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\10790.cpp">
+      <Filter>UVaOJ\10700</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
