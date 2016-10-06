@@ -214,6 +214,9 @@
     <Filter Include="UVaOJ\11200">
       <UniqueIdentifier>{89d50751-907e-4ae9-b97f-1fb6aaa7a715}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ\11300">
+      <UniqueIdentifier>{6d1bd489-728d-46de-97e7-9dabe1215459}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\100.cpp">
@@ -1295,6 +1298,33 @@
     </ClCompile>
     <ClCompile Include="UVaOJ\11292.cpp">
       <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11321.cpp">
+      <Filter>UVaOJ\11300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11332.cpp">
+      <Filter>UVaOJ\11300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11340.cpp">
+      <Filter>UVaOJ\11300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11342.cpp">
+      <Filter>UVaOJ\11300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11349.cpp">
+      <Filter>UVaOJ\11300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11362.cpp">
+      <Filter>UVaOJ\11300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11369.cpp">
+      <Filter>UVaOJ\11300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11364.cpp">
+      <Filter>UVaOJ\11300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11371.cpp">
+      <Filter>UVaOJ\11300</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
