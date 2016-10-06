@@ -211,6 +211,9 @@
     <Filter Include="UVaOJ\11100">
       <UniqueIdentifier>{15e3b880-703f-48af-a407-9d5ef71477d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVaOJ\11200">
+      <UniqueIdentifier>{89d50751-907e-4ae9-b97f-1fb6aaa7a715}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\100.cpp">
@@ -1244,6 +1247,54 @@
     </ClCompile>
     <ClCompile Include="UVaOJ\11094.cpp">
       <Filter>UVaOJ\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11111.cpp">
+      <Filter>UVaOJ\11100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11121.cpp">
+      <Filter>UVaOJ\11100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11136.cpp">
+      <Filter>UVaOJ\11100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11137.cpp">
+      <Filter>UVaOJ\11100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11150.cpp">
+      <Filter>UVaOJ\11100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11172.cpp">
+      <Filter>UVaOJ\11100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11192.cpp">
+      <Filter>UVaOJ\11100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11202.cpp">
+      <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11207.cpp">
+      <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11219.cpp">
+      <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11221.cpp">
+      <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11242.cpp">
+      <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11244.cpp">
+      <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11246.cpp">
+      <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11286.cpp">
+      <Filter>UVaOJ\11200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVaOJ\11292.cpp">
+      <Filter>UVaOJ\11200</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
