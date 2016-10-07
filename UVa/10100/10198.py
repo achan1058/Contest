@@ -1,14 +1,14 @@
-import bisect
-
-fib = [1, 2]
-while fib[-1] < 10**100:
-    fib.append(fib[-1] + fib[-2])
+arr = [0] * 1003
+arr[0] = 1
+for i in range(1000):
+    arr[i + 1] += arr[i] * 2;
+    arr[i + 2] += arr[i];
+    arr[i + 3] += arr[i];
 while True:
     try:
-        small,big = map(int,input().split())
+        n = int(input())
     except EOFError:
         exit()
-    if small == 0 and big == 0:
-        exit()
 
-    print(bisect.bisect_right(fib, big) - bisect.bisect_left(fib, small))
+    print(arr[n])
+    
