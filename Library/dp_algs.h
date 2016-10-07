@@ -1,6 +1,7 @@
 #pragma once
 #include "header.h"
 
+// returns the lex minial LCS w.r.t. s1.
 template<class T>
 vector<T> lcs(const vector<T>& s1, const vector<T>& s2) {
 	int n = sz(s1), m = sz(s2);
