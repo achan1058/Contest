@@ -8,7 +8,6 @@ int main() {
 		if (primes[i] == primes[i + 1] - 2)
 			twin.pb(primes[i]);
 	}
-
 	while (cin >> n)
 		printf("(%d, %d)\n", twin[n - 1], twin[n - 1] + 2);
 }
