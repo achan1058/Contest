@@ -13,6 +13,36 @@ bool isPrime(T n) {
 	return true;
 }
 
+template <class T>
+vector<T> factor(T n) {
+	vector<T> result;
+	if (n < 0) {
+		result.pb(-1);
+		n *= -1;
+	}
+	while (n % 2 == 0) {
+		result.pb(2);
+		n /= 2;
+	}
+	while (n % 3 == 0) {
+		result.pb(3);
+		n /= 3;
+	}
+	for (T p = 5; p * p <= n; p += 6) {
+		while (n % p == 0) {
+			result.pb(p);
+			n /= p;
+		}
+		while (n % (p + 2) == 0) {
+			result.pb(p + 2);
+			n /= p + 2;
+		}
+	}
+	if (n > 1)
+		result.pb(n);
+	return result;
+}
+
 vi sieve(int n) {
 	n = (n - 1) / 2;
 	vb arr(n + 1);
