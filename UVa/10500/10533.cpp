@@ -13,7 +13,7 @@ bool isDigitPrime(int n) {
 
 int main() {
 	int N, t1, t2;
-	vi primes = sieve(1000000), digitPrimes(1, -100);
+	vi primes = sieve(1000000), digitPrimes;
 	for (int i = 0; primes[i] < 1000; i++)
 		smallPrimes[primes[i]] = true;
 	irep(p, primes) {
@@ -26,9 +26,6 @@ int main() {
 		cin >> t1 >> t2;
 		auto i1 = lower_bound(all(digitPrimes), t1);
 		auto i2 = upper_bound(all(digitPrimes), t2);
-
-		if (*i1 < t1)
-			i1++;
 		printf("%d\n", i2 - i1);
 	}
 }
