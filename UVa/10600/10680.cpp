@@ -26,4 +26,3 @@ int main() {
 	while (cin >> n && n != 0)
 		printf("%d\n", ans[n]);
 }
- 
