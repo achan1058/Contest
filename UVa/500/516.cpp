@@ -14,13 +14,9 @@ int main() {
 				result *= p;
 		}
 
-		vi primes = factor(result - 1);
-		map<int, int> facts;
-		irep(p, primes)
-			facts[p]++;
-
+		auto primes = tally(factor(result - 1));
 		bool fs = true;
-		for (auto it = facts.rbegin(); it != facts.rend(); it++) {
+		for (auto it = primes.rbegin(); it != primes.rend(); it++) {
 			printf("%s%d %d", fs ? "" : " ", it->x, it->y);
 			fs = false;
 		}
