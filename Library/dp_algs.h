@@ -38,7 +38,7 @@ vector<T> lcs(const vector<T>& s1, const vector<T>& s2) {
 template<class T>
 vector<T> lis(const vector<T>& s, bool nondecrease = false) {
 	if (sz(s) == 0) return vector<T>();
-	vi index(1, 0);
+	vi index = { 0 };
 	vi prev(sz(s), -1);
 	rep(i, 1, sz(s)) {
 		int pos;
