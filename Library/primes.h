@@ -66,3 +66,36 @@ vi sieve(int n) {
 
 	return primes;
 }
+
+template <class T>
+bool fastIsPrime(T n, const vi& primes) {
+	if (n < T(2))
+		return false;
+	irep(p, primes) {
+		if (T(p) * T(p) > n)
+			return true;
+		if (n % T(p) == 0)
+			return false;
+	}
+	return true;
+}
+
+template <class T>
+vector<T> fastFactor(T n, const vi& primes) {
+	vector<T> result;
+	if (n < T(0)) {
+		result.pb(T(-1));
+		n *= T(-1);
+	}
+	irep(p, primes) {
+		if (T(p) * T(p) > n)
+			break;
+		while (n % T(p) == 0) {
+			result.pb(T(p));
+			n /= T(p);
+		}
+	}
+	if (n > T(1))
+		result.pb(T(n));
+	return result;
+}
