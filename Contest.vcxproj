@@ -2002,6 +2002,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h" />
+    <ClInclude Include="Library\dp_algs.h" />
     <ClInclude Include="Library\header.h" />
     <ClInclude Include="Library\primes.h" />
   </ItemGroup>

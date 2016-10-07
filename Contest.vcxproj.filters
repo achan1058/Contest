@@ -1711,6 +1711,9 @@
     <ClInclude Include="Library\primes.h">
       <Filter>Library\Mathematics</Filter>
     </ClInclude>
+    <ClInclude Include="Library\dp_algs.h">
+      <Filter>Library</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
