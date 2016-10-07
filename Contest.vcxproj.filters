@@ -252,11 +252,20 @@
     <Filter Include="UVaOJ\12600">
       <UniqueIdentifier>{ae76f27e-6481-4f6c-b960-d6f80cb13b8d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="UVaOJ\12708">
-      <UniqueIdentifier>{bc3e4061-ca99-46fb-b6c1-ebdb82ae9a2a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Library\Mathematics">
       <UniqueIdentifier>{722cfc6a-65c7-44ce-a817-0814a5836079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\100\170">
+      <UniqueIdentifier>{72182fff-4197-4200-9f60-e81029d0b907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\100\180">
+      <UniqueIdentifier>{3e126991-167f-47c5-bf04-dcd4034921ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\1600">
+      <UniqueIdentifier>{1a11e324-c120-41a7-9ee7-fcff77b50f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVaOJ\12700">
+      <UniqueIdentifier>{bc3e4061-ca99-46fb-b6c1-ebdb82ae9a2a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1665,7 +1674,7 @@
       <Filter>UVaOJ\12600</Filter>
     </ClCompile>
     <ClCompile Include="UVaOJ\12708.cpp">
-      <Filter>UVaOJ\12708</Filter>
+      <Filter>UVaOJ\12700</Filter>
     </ClCompile>
     <ClCompile Include="UVa\10800\10814.cpp">
       <Filter>UVaOJ\10800</Filter>
@@ -1762,6 +1771,9 @@
     </ClCompile>
     <ClCompile Include="UVa\10600\10680.cpp">
       <Filter>UVaOJ\10600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\1600\1644.cpp">
+      <Filter>UVaOJ\1600</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
