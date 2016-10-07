@@ -7,16 +7,16 @@ int main() {
 	vi parent;
 	while (cin >> s1 >> s2 && s1 != "no.child") {
 		int v1 = ind.getI(s1), v2 = ind.getI(s2);
-		if (parent.size() <= v1)
+		if (sz(parent) <= v1)
 			parent.resize(v1 + 1, -1);
 		parent[v1] = v2;
 	}
 
 	while (cin >> s1 >> s2) {
 		vi v1 = { ind.getI(s1) }, v2 = { ind.getI(s2) };
-		while (v1.back() < parent.size() && v1.back() != -1)
+		while (v1.back() < sz(parent) && v1.back() != -1)
 			v1.push_back(parent[v1.back()]);
-		while (v2.back() < parent.size() && v2.back() != -1)
+		while (v2.back() < sz(parent) && v2.back() != -1)
 			v2.push_back(parent[v2.back()]);
 		if (v1.back() != v2.back())
 			printf("no relation\n");
@@ -26,13 +26,13 @@ int main() {
 				v2.resize(v2.size() - 1);
 			}
 			if (v1.empty()) {
-				for (int i = 2; i < v2.size(); i++)
+				for (int i = 2; i < sz(v2); i++)
 					printf("great ");
 				if (v2.size() >= 2)
 					printf("grand ");
 				printf("parent\n");
 			} else if (v2.empty()) {
-				for (int i = 2; i < v1.size(); i++)
+				for (int i = 2; i < sz(v1); i++)
 					printf("great ");
 				if (v1.size() >= 2)
 					printf("grand ");
