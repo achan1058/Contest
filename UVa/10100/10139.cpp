@@ -8,11 +8,8 @@ int main() {
 		if (m == 0) {
 			good = false;
 		} else {
-			map<ll, int> powers;
-			vl primes = factor(m);
-			irep(p, primes)
-				powers[p]++;
-			irep(p, powers) {
+			auto primes = tally(factor(m));
+			irep(p, primes) {
 				int nt = n, deg = 0;
 				while (nt > 0) {
 					nt /= p.x;
