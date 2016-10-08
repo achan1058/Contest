@@ -270,6 +270,9 @@
     <Filter Include="Library\Graph Theory">
       <UniqueIdentifier>{aff378df-bbe8-40b7-8788-f98bad47b3fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Library\Computational Geometry">
+      <UniqueIdentifier>{e8bd4349-787f-46c3-aeeb-949dd6fe335d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\100.cpp">
@@ -1916,6 +1919,9 @@
     <ClCompile Include="UVa\10000\10072.cpp">
       <Filter>UVaOJ\10000\10070</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10080.cpp">
+      <Filter>UVaOJ\10000\10080</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1941,6 +1947,9 @@
     </ClInclude>
     <ClInclude Include="Library\matching.h">
       <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\point.h">
+      <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
