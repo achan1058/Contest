@@ -1934,6 +1934,15 @@
     <ClCompile Include="UVa\600\681.cpp">
       <Filter>UVaOJ\600</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10009.cpp">
+      <Filter>UVaOJ\10000\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10048.cpp">
+      <Filter>UVaOJ\10000\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10099.cpp">
+      <Filter>UVaOJ\10000\10000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1965,6 +1974,12 @@
     </ClInclude>
     <ClInclude Include="Library\graham.h">
       <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\shortest_path.h">
+      <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\graph.h">
+      <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
