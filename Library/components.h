@@ -35,17 +35,14 @@ vvi twoConnected(const vvi& graph) {
 	return blocks;
 }
 
-vi getArticulationPoints(const vvi& blocks) {
-	vi count, pt;
+vi getArticulationPoints(const vvi& graph) {
+	vvi blocks = twoConnected(graph);
+	vi count(sz(graph)), pt;
 	irep(b, blocks) {
-		irep(v, b) {
-			if (v >= sz(count))
-				count.resize(v + 1);
-
+		irep(v, b)
 			count[v]++;
-		}
 	}
-	rep(i, 0, sz(count)) {
+	rep(i, 0, sz(graph)) {
 		if (count[i] > 1)
 			pt.pb(i);
 	}
