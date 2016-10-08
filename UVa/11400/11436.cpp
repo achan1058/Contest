@@ -21,7 +21,7 @@ void test(ll n, ll dx) {
 
 int main() {
 	ll biginf = ll(inf) * inf;
-	vi primes = sieve(5100000);
+	vi primes = sieve(5000000);
 	ll n;
 	while (cin >> n && n != 0) {
 		map<ll, int> primemap = tally(fastFactor(n, primes));
