@@ -273,6 +273,9 @@
     <Filter Include="Library\Computational Geometry">
       <UniqueIdentifier>{e8bd4349-787f-46c3-aeeb-949dd6fe335d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Library\Data Structure">
+      <UniqueIdentifier>{ecdc541e-5302-43cb-8627-796231f36d13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\100.cpp">
@@ -1928,6 +1931,9 @@
     <ClCompile Include="UVa\10700\10746.cpp">
       <Filter>UVaOJ\10700</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\600\681.cpp">
+      <Filter>UVaOJ\600</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1955,6 +1961,9 @@
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
     <ClInclude Include="Library\point.h">
+      <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\graham.h">
       <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
   </ItemGroup>
