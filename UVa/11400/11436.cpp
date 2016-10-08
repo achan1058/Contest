@@ -12,18 +12,11 @@ void test(ll n, ll dx) {
 	if (dy % 3 != 0)
 		return;
 	dy /= 3;
-	// dx = x - y, dy = x * y
 
+	// dx = x - y, dy = x * y
 	ll y = ll((-dx + sqrt(dx * dx + 4 * dy)) / 2 + eps);
-	//cout << y << ' ' << x << endl;
 	if (y * (y + dx) == dy && y < best.y)
 		best = { dx + y, y };
-
-
-	//for (ll y = (ll)(sqrt(dy) - dx); y * (y + dx) <= dy; y++) {
-	//	if (y * (y + dx) == dy && y < best.y)
-	//		best = { dx + y, y };
-	//}
 }
 
 int main() {
