@@ -1,6 +1,47 @@
 #pragma once
 #include "header.h"
 
+// graph is bipartite with r and c vtx in the two components
+vector<pii> matching(const vvb& graph) {
+	vvb reduced = graph;
+	int r = graph.size(), c = graph[0].size(), match_size = 0;
+	vi row_match(r, -1), col_match(c, -1);
+	bool match_found = false;
+
+	rep(j, 0, c) {
+		queue<int> q;
+		vi col_prev(c, -1);
+		q.push(j);
+		while (!q.empty()) {
+			int v = q.front();
+			q.pop();
+			rep(i, 0, r) {
+				if (graph[i][v]) {
+					if (row_match[i] == -1) {
+						while (v != -1) {
+							row_match[i] = v;
+							swap(i, col_match[v]);
+							v = col_prev[v];
+						}
+						goto next_iteration;
+					} else if (col_prev[row_match[i]] == -1) {
+						col_prev[row_match[i]] = v;
+						q.push(row_match[i]);
+					}
+				}
+			}
+		}
+	next_iteration:;
+	}
+
+	vector<pii> match;
+	rep(i, 0, sz(row_match)) {
+		if (row_match[i] != -1)
+			match.pb({ i, row_match[i] });
+	}
+	return match;
+}
+
 // requires rows <= cols
 template<class T>
 pair<T, vi> hungarian(const vector<vector<T>>& graph) {
