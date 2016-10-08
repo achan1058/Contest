@@ -1889,6 +1889,12 @@
     <ClCompile Include="UVa\10300\10330.cpp">
       <Filter>UVaOJ\10300</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10700\10765.cpp">
+      <Filter>UVaOJ\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10100\10199.cpp">
+      <Filter>UVaOJ\10100\10190</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1907,6 +1913,9 @@
       <Filter>Library</Filter>
     </ClInclude>
     <ClInclude Include="Library\max_flow.h">
+      <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\components.h">
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
