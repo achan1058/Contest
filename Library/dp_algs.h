@@ -74,7 +74,7 @@ vi kmp_pre(const string& p) {
 	}
 	return match;
 }
-vi kmp_match(const string& s, const string& p, const vi& match, bool fs = false) {
+vi kmp_match(const string& s, const string& p, const vi& match, bool first = false) {
 	int n = sz(p), m = sz(s), start = 0;
 	vi result;
 	rep(i, 0, m) {
@@ -84,13 +84,13 @@ vi kmp_match(const string& s, const string& p, const vi& match, bool fs = false)
 			start++;
 		if (start == n) {
 			result.pb(i - n + 1);
-			if (fs)
+			if (first)
 				return result;
 			start = match[start - 1];
 		}
 	}
 	return result;
 }
-vi kmp(const string& s, const string& p, bool fs = false) {
-	return kmp_match(s, p, kmp_pre(p), fs);
+vi kmp(const string& s, const string& p, bool first = false) {
+	return kmp_match(s, p, kmp_pre(p), first);
 }
