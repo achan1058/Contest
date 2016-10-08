@@ -16,18 +16,6 @@ pair<T, vi> hungarian(const vector<vector<T>>& graph) {
 			reduced[i][j] -= small;
 	}
 
-	rep(i, 0, r) {
-		rep(j, 0, c) {
-			if (reduced[i][j] == 0 && col_match[j] == -1) {
-				row_match[i] = j;
-				col_match[j] = i;
-				row_covered[i] = true;
-				match_size++;
-				break;
-			}
-		}
-	}
-
 	while (match_size < r) {
 		queue<int> q;
 		vi row_prev(r, -1);
