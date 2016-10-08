@@ -49,7 +49,6 @@ vi getArticulationPoints(const vvi& graph) {
 	return pt;
 }
 
-template<class T>
 void stronglyConnectedHelper(const vvi& graph, int n, int u, int& count, int& numc, vi& num, vi& low, stack<int>& stk, vi& comps) {
 	num[u] = low[u] = count++;
 	stk.push(u);
@@ -72,7 +71,6 @@ void stronglyConnectedHelper(const vvi& graph, int n, int u, int& count, int& nu
 	}
 }
 // returns number of components and component vector
-template<class T>
 pair<int, vi> stronglyConnected(const vvi& graph) {
 	int n = sz(graph), count = 1, numc = 0;
 	vi num(n, 0), low(n), comps(n, 0);
@@ -84,7 +82,6 @@ pair<int, vi> stronglyConnected(const vvi& graph) {
 	return{ numc, comps };
 }
 
-template<class T>
 vvi stronglyConnectedBlocks(const vvi& graph) {
 	pair<int, vi> comps = stronglyConnected(graph);
 	vvi blocks(comps.x);
