@@ -1966,6 +1966,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10072.cpp" />
     <ClCompile Include="UVa\100\111.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2276,6 +2277,7 @@
     <ClInclude Include="Library\components.h" />
     <ClInclude Include="Library\dp_algs.h" />
     <ClInclude Include="Library\header.h" />
+    <ClInclude Include="Library\matching.h" />
     <ClInclude Include="Library\max_flow.h" />
     <ClInclude Include="Library\primes.h" />
     <ClInclude Include="Library\util.h" />

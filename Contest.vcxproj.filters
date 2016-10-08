@@ -1913,6 +1913,9 @@
     <ClCompile Include="UVa\200\247.cpp">
       <Filter>UVaOJ\200</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10072.cpp">
+      <Filter>UVaOJ\10000\10070</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1934,6 +1937,9 @@
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
     <ClInclude Include="Library\components.h">
+      <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\matching.h">
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
