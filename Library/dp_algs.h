@@ -61,3 +61,36 @@ vector<T> lis(const vector<T>& s, bool nondecrease = false) {
 	}
 	return result;
 }
+
+vi kmp_pre(const string& p) {
+	int n = sz(p), start = 0;
+	vi match(n);
+	rep(i, 1, n) {
+		while (start > 0 && p[i] != p[start])
+			start = match[start - 1];
+		if (p[i] == p[start])
+			start++;
+		match[i] = start;
+	}
+	return match;
+}
+vi kmp_match(const string& s, const string& p, const vi& match, bool fs = false) {
+	int n = sz(p), m = sz(s), start = 0;
+	vi result;
+	rep(i, 0, m) {
+		while (start > 0 && s[i] != p[start])
+			start = match[start - 1];
+		if (s[i] == p[start])
+			start++;
+		if (start == n) {
+			result.pb(i - n + 1);
+			if (fs)
+				return result;
+			start = match[start - 1];
+		}
+	}
+	return result;
+}
+vi kmp(const string& s, const string& p, bool fs = false) {
+	return kmp_match(s, p, kmp_pre(p), fs);
+}
