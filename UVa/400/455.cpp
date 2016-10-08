@@ -10,4 +10,3 @@ int main() {
 		printf("%s%d\n", X > 0 ? "\n" : "", kmp(s + s, s)[1]);
 	}
 }
- 
