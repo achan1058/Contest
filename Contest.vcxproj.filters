@@ -267,6 +267,9 @@
     <Filter Include="UVaOJ\12700">
       <UniqueIdentifier>{bc3e4061-ca99-46fb-b6c1-ebdb82ae9a2a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Library\Graph Theory">
+      <UniqueIdentifier>{aff378df-bbe8-40b7-8788-f98bad47b3fc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\100.cpp">
@@ -1896,6 +1899,9 @@
     </ClInclude>
     <ClInclude Include="Library\util.h">
       <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\max_flow.h">
+      <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
