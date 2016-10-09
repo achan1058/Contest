@@ -54,7 +54,6 @@ pair<vector<T>, vi> dijkstra(const AdjList<T>& graph, int start, T non_edge = in
 	return make_pair(dist, prev);
 }
 
-/*
 template<class T>
 pair<vector<T>, vi> bellmanFord(const AdjList<T>& graph, int start, T non_edge = inf) {
 	int n = sz(graph);
@@ -89,7 +88,7 @@ pair<vector<T>, vi> bellmanFord(const AdjList<T>& graph, int start, T non_edge =
 
 	return make_pair(dist, prev);
 }
-*/
+
 vi getPath(const vi& prev, int s, int t) {
 	int n = sz(prev);
 	vi result;
