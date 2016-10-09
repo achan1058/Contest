@@ -10,7 +10,7 @@ while True:
 
     ans = 0
     inc = 1
-    while r > 0: 
+    while r > 0:
         ans += (r % b) * inc
         inc *= 10
         r //= b
