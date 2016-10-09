@@ -1,5 +1,3 @@
-import math
-
 while True:
     try:
         x,y = int(input()),int(input())

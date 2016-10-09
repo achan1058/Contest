@@ -1,4 +1,4 @@
-import math
+from math import *
 
 while True:
     try:
@@ -7,7 +7,7 @@ while True:
         exit()
 
     values = map(int,input().split())
-    ans = math.factorial(n)
+    ans = factorial(n)
     for v in values:
-        ans //= math.factorial(v)
+        ans //= factorial(v)
     print(ans)

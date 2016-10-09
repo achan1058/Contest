@@ -1,4 +1,4 @@
-import math
+from math import *
 
 while True:
     try:
@@ -6,7 +6,7 @@ while True:
     except EOFError:
         exit()
 
-    s = str(math.factorial(n))
+    s = str(factorial(n))
     ans = 0
     for c in s:
         ans += int(c)
