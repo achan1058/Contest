@@ -36,6 +36,44 @@ vi topoSort(const vvi& graph) {
 }
 
 // Path is smallest in reverse lex order.
+vi longestDAG(const vvi& graph, int s = -1, int t = -1) {
+	int n = sz(graph), mv = 0;
+	vi topo = topoSort(graph), prev(n, -1), len(n, -1);
+
+	irep(v, topo) {
+		if (s == v)
+			len[v] = 0;
+		else if (s == -1)
+			len[v] = max(len[v], 0);
+		if (v == t) {
+			mv = t;
+			break;
+		}
+		if (len[v] == -1)
+			continue;
+		if (t == -1 && (len[v] > len[mv] || len[v] == len[mv] && v < mv))
+			mv = v;
+		irep(edge, graph[v]) {
+			if (len[edge] <= len[v] || len[edge] == len[v] + 1 && v < prev[edge]) {
+				len[edge] = len[v] + 1;
+				prev[edge] = v;
+			}
+		}
+	}
+
+	if (len[mv] == -1)
+		return vi();
+	vi result;
+	while (mv != -1) {
+		result.pb(mv);
+		mv = prev[mv];
+	}
+
+	reverse(all(result));
+	return result;
+}
+
+// Path is smallest in reverse lex order.
 template<class T>
 pair<T, vi> longestDAG(const AdjList<T>& graph, int s = -1, int t = -1, T infinity = inf) {
 	int n = sz(graph), mv = 0;
