@@ -1,4 +1,4 @@
-import fractions
+from fractions import *
 
 N = int(input())
 for X in range (N):
