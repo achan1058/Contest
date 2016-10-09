@@ -9,10 +9,10 @@ tuple<T, int, EdgeList<T>> kruskal(EdgeList<T>& edges) {
 	T result = 0;
 	EdgeList<T> tree;
 	edges.sortEdges();
-	irep(e, edges.edges) {
-		if (un.join(get<0>(e), get<1>(e))) {
-			result += get<2>(e);
-			tree.edges.pb(e);
+	rep(i, 0, edges.numE()) {
+		if (un.join(get<0>(edges[i]), get<1>(edges[i]))) {
+			result += get<2>(edges[i]);
+			tree.push(get<0>(edges[i]), get<1>(edges[i]), get<2>(edges[i]));
 		}
 	}
 	return make_tuple(result, sz(un.getComponentSizes()), tree);
