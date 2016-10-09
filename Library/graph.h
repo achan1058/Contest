@@ -15,7 +15,6 @@ public:
 	}
 };
 
-/*
 template<class T>
 class EdgeList {
 	vector<tuple<int, int, T>> edges;
@@ -29,4 +28,3 @@ public:
 	inline void push(int s, int t, T v = 1) { n = max(n, max(s, t) + 1); edges.pb(make_tuple(s, t, v)); }
 	template<class U> friend tuple<U, int, EdgeList<U>> kruskal(EdgeList<U>& edges);
 };
-*/
