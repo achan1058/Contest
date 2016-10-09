@@ -2036,6 +2036,9 @@
     <ClCompile Include="UVa\500\558.cpp">
       <Filter>UVaOJ\500</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10034.cpp">
+      <Filter>UVaOJ\10000\10030</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2082,6 +2085,9 @@
     </ClInclude>
     <ClInclude Include="Library\union_find.h">
       <Filter>Library\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\spanning_tree.h">
+      <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
