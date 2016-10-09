@@ -2060,6 +2060,9 @@
     <ClCompile Include="UVa\400\498.cpp">
       <Filter>UVaOJ\400\490</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\11800\11827.cpp">
+      <Filter>UVaOJ\11800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2214,6 +2217,9 @@
       <Filter>UVaOJ\11100</Filter>
     </None>
     <None Include="UVa\11800\11879.py">
+      <Filter>UVaOJ\11800</Filter>
+    </None>
+    <None Include="UVa\11800\11827.py">
       <Filter>UVaOJ\11800</Filter>
     </None>
   </ItemGroup>
