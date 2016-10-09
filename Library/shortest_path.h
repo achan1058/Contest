@@ -27,7 +27,6 @@ pair<vector<vector<T>>, vvi> floydWarshall(const vector<vector<T>>& graph, T non
 	return make_pair(mat, prev);
 }
 
-/*
 template<class T>
 pair<vector<T>, vi> dijkstra(const AdjList<T>& graph, int start, T non_edge = inf) {
 	int n = sz(graph);
@@ -55,6 +54,7 @@ pair<vector<T>, vi> dijkstra(const AdjList<T>& graph, int start, T non_edge = in
 	return make_pair(dist, prev);
 }
 
+/*
 template<class T>
 pair<vector<T>, vi> bellmanFord(const AdjList<T>& graph, int start, T non_edge = inf) {
 	int n = sz(graph);
