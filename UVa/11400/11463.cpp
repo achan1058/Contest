@@ -23,3 +23,4 @@ int main() {
 		printf("Case %d: %d\n", X, ans);
 	}
 }
+ 
