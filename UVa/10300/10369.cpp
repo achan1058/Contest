@@ -26,7 +26,7 @@ int main() {
 		vector<pti> points(p);
 		EdgeList<int> edges;
 		rep(i, 0, p) {
-			cin >> points[i].x >> points[i].y;
+			cin >> points[i];
 			rep(j, 0, i)
 				edges.push(i, j, points[i].dist2(points[j]));
 		}
