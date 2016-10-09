@@ -2041,6 +2041,9 @@
     <ClInclude Include="Library\graph_util.h">
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
+    <ClInclude Include="Library\union_find.h">
+      <Filter>Library\Data Structure</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
