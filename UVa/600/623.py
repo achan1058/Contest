@@ -1,4 +1,4 @@
-import math
+from math import factorial
     
 while True:
     try:
@@ -6,4 +6,4 @@ while True:
     except EOFError:
         exit()
     
-    print("%d!\n%d" % (n, math.factorial(n)))
+    print("%d!\n%d" % (n, factorial(n)))
