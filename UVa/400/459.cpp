@@ -18,3 +18,4 @@ int main() {
 		printf("%d\n", sz(un.getComponentSizes()));
 	}
 }
+ 
