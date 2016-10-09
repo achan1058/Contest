@@ -7,6 +7,6 @@ for X in range (N):
 
     for i in range (len(nums)):
         for j in range(i + 1, len(nums)):
-            maxgcd = max(maxgcd, fractions.gcd(nums[i], nums[j]))
+            maxgcd = max(maxgcd, gcd(nums[i], nums[j]))
     print(maxgcd)
     
