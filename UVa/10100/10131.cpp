@@ -9,16 +9,16 @@ int main() {
 		s.pb(ss);
 	}
 
-	AdjList<int> graph(sz(w));
+	vvi graph(sz(w));
 	rep(i, 0, sz(w)) {
 		rep(j, 0, sz(w)) {
 			if (w[i] < w[j] && s[i] > s[j])
-				graph.push(i, j);
+				graph[i].pb(j);
 		}
 	}
 
-	pair<int, vi> result = longestDAG(graph);
-	printf("%d\n", result.x + 1);
-	irep(v, result.y)
+	vi result = longestDAG(graph);
+	printf("%d\n", sz(result));
+	irep(v, result)
 		printf("%d\n", v + 1);
 }
