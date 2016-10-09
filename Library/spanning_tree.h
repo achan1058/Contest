@@ -2,26 +2,22 @@
 #include "graph.h"
 #include "union_find.h"
 
-/*
 // CHANGES EDGE ORDER!! int is num component
-FIXME
 template<class T>
 tuple<T, int, EdgeList<T>> kruskal(EdgeList<T>& edges) {
 	UnionFind un(edges.numV());
 	T result = 0;
-	int num = edges.numV();
 	EdgeList<T> tree;
-	sort(all(edges.edges), [&](tuple<int, int, T> v1, tuple<int, int, T> v2) {return get<2>(v1) < get<2>(v2); });
+	edges.sortEdges();
 	irep(e, edges.edges) {
 		if (un.join(get<0>(e), get<1>(e))) {
 			result += get<2>(e);
 			tree.edges.pb(e);
-			num--;
 		}
 	}
-	return make_tuple(result, num, tree);
+	return make_tuple(result, sz(un.getComponentSizes()), tree);
 }
-*/
+
 // int is component num vertex
 template<class T>
 tuple<T, int, AdjList<T>> prim(const AdjList<T>& graph, int start = 0, T non_edge = inf) {

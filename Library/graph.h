@@ -26,6 +26,5 @@ public:
 	inline int numE() const { return sz(edges); }
 	inline int numV() const { return n; }
 	inline void push(int s, int t, T v = 1) { n = max(n, max(s, t) + 1); edges.pb(make_tuple(s, t, v)); }
-	// use internal sort method
-	// template<class U> friend tuple<U, int, EdgeList<U>> kruskal(EdgeList<U>& edges);
+	inline void sortEdges() { sort(all(edges), [](const tuple<int, int, T>& v1, const tuple<int, int, T>& v2) { return get<2>(v1) < get<2>(v2); }); }
 };
