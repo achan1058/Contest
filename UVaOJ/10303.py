@@ -1,4 +1,4 @@
-import math
+from math import *
 
 while True:
     try:
@@ -6,5 +6,5 @@ while True:
     except EOFError:
         exit()
 
-    print(math.factorial(2 * n) // math.factorial(n) // math.factorial(n) // (n + 1))
+    print(factorial(2 * n) // factorial(n) // factorial(n) // (n + 1))
 

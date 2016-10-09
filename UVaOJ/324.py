@@ -1,10 +1,10 @@
-import math
+from math import *
 
 while True:
     n = int(input())
     if n == 0:
         exit()
-    f = str(math.factorial(n))
+    f = str(factorial(n))
 
     print("%d! --" % n)
     for i in range(0, 10):
