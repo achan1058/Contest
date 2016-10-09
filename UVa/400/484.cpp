@@ -15,3 +15,4 @@ int main() {
 	rep(i, 0, sz(count))
 		printf("%s %d\n", m.getL(i).c_str(), count[i]);
 }
+ 
