@@ -1,4 +1,4 @@
-import bisect
+from bisect import *
 
 fib = [1, 2]
 while fib[-1] < 10**100:
@@ -11,4 +11,4 @@ while True:
     if small == 0 and big == 0:
         exit()
 
-    print(bisect.bisect_right(fib, big) - bisect.bisect_left(fib, small))
+    print(bisect_right(fib, big) - bisect_left(fib, small))
