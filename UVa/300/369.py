@@ -6,3 +6,4 @@ while True:
         exit()
 
     print("%d things taken %d at a time is %d exactly." % (n, k, factorial(n) // factorial(k) // factorial(n - k)));
+    
