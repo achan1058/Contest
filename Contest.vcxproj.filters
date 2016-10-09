@@ -1916,9 +1916,6 @@
     <ClCompile Include="UVa\10000\10080.cpp">
       <Filter>UVaOJ\10000\10080</Filter>
     </ClCompile>
-    <ClCompile Include="UVa\11100\11045.cpp">
-      <Filter>UVaOJ\11000</Filter>
-    </ClCompile>
     <ClCompile Include="UVa\10700\10746.cpp">
       <Filter>UVaOJ\10700</Filter>
     </ClCompile>
@@ -1942,9 +1939,6 @@
     </ClCompile>
     <ClCompile Include="UVa\10800\10803.cpp">
       <Filter>UVaOJ\10800</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11100\11015.cpp">
-      <Filter>UVaOJ\11000</Filter>
     </ClCompile>
     <ClCompile Include="UVa\11400\11463.cpp">
       <Filter>UVaOJ\11400</Filter>
@@ -2068,6 +2062,12 @@
     </ClCompile>
     <ClCompile Include="UVa\10200\10226.cpp">
       <Filter>UVaOJ\10200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\11000\11015.cpp">
+      <Filter>UVaOJ\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\11000\11045.cpp">
+      <Filter>UVaOJ\11000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
