@@ -1,4 +1,4 @@
-from math import factorial
+from math import *
 
 while True:
     n,k = map(int, input().split())
