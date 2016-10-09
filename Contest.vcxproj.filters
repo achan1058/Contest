@@ -1979,6 +1979,9 @@
     <ClCompile Include="UVa\500\567.cpp">
       <Filter>UVaOJ\500</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\800\821.cpp">
+      <Filter>UVaOJ\800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2018,6 +2021,9 @@
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
     <ClInclude Include="Library\eularian.h">
+      <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\graph_util.h">
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
