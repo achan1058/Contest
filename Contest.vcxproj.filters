@@ -1970,6 +1970,12 @@
     <ClCompile Include="UVa\400\439.cpp">
       <Filter>UVaOJ\400\430</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\500\534.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\500\544.cpp">
+      <Filter>UVaOJ\500</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
