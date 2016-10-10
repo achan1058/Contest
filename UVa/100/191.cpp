@@ -27,6 +27,6 @@ int main() {
 		else if (s.intersect(Segment<int>(poly.v[3], poly.v[0])) >= 0)
 			printf("T\n");
 		else
-			printf("F\n"); 
+			printf("F\n");
 	}
 }
