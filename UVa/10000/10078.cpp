@@ -17,4 +17,3 @@ int main() {
 		printf("%s\n", ccw || cw ? "No" : "Yes");
 	}
 }
- 
