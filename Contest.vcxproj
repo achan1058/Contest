@@ -2474,7 +2474,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UVa\400\476.cpp" />
+    <ClCompile Include="UVa\400\476.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UVa\400\477.cpp" />
     <ClCompile Include="UVa\400\481.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2562,6 +2566,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\bits\stdc++.h" />
+    <ClInclude Include="Library\circle.h" />
     <ClInclude Include="Library\components.h" />
     <ClInclude Include="Library\double.h" />
     <ClInclude Include="Library\dp_algs.h" />
@@ -2578,6 +2583,7 @@
     <ClInclude Include="Library\shortest_path.h" />
     <ClInclude Include="Library\spanning_tree.h" />
     <ClInclude Include="Library\topo_sort.h" />
+    <ClInclude Include="Library\triangle.h" />
     <ClInclude Include="Library\union_find.h" />
     <ClInclude Include="Library\util.h" />
   </ItemGroup>

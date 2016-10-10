@@ -2135,6 +2135,9 @@
     <ClCompile Include="UVa\400\476.cpp">
       <Filter>UVaOJ\400\470</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\400\477.cpp">
+      <Filter>UVaOJ\400\470</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2192,6 +2195,12 @@
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
     <ClInclude Include="Library\polygon.h">
+      <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\circle.h">
+      <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\triangle.h">
       <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
   </ItemGroup>
