@@ -273,17 +273,11 @@
     <Filter Include="Library\Computational Geometry">
       <UniqueIdentifier>{e8bd4349-787f-46c3-aeeb-949dd6fe335d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Library\Data Structure">
+    <Filter Include="Library\Data Structure and Algorithms">
       <UniqueIdentifier>{ecdc541e-5302-43cb-8627-796231f36d13}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UVaOJ\100.cpp">
-      <Filter>UVaOJ\100\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVaOJ\101.cpp">
-      <Filter>UVaOJ\100\100</Filter>
-    </ClCompile>
     <ClCompile Include="UVaOJ\102.cpp">
       <Filter>UVaOJ\100\100</Filter>
     </ClCompile>
@@ -2195,6 +2189,36 @@
     <ClCompile Include="UVa\100\190.cpp">
       <Filter>UVaOJ\100\190</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\400\440.cpp">
+      <Filter>UVaOJ\400\440</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\800\836.cpp">
+      <Filter>UVaOJ\800</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10074.cpp">
+      <Filter>UVaOJ\10000\10070</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10078.cpp">
+      <Filter>UVaOJ\10000\10070</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10200\10242.cpp">
+      <Filter>UVaOJ\10200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10300\10310.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\300\344.cpp">
+      <Filter>UVaOJ\300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\100\100.cpp">
+      <Filter>UVaOJ\100\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\100\101.cpp">
+      <Filter>UVaOJ\100\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\11100\11191.cpp">
+      <Filter>UVaOJ\11100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2205,9 +2229,6 @@
     </ClInclude>
     <ClInclude Include="Library\primes.h">
       <Filter>Library\Mathematics</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\dp_algs.h">
-      <Filter>Library</Filter>
     </ClInclude>
     <ClInclude Include="Library\util.h">
       <Filter>Library</Filter>
@@ -2240,13 +2261,13 @@
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
     <ClInclude Include="Library\union_find.h">
-      <Filter>Library\Data Structure</Filter>
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
     <ClInclude Include="Library\spanning_tree.h">
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
     <ClInclude Include="Library\double.h">
-      <Filter>Library\Data Structure</Filter>
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
     <ClInclude Include="Library\topo_sort.h">
       <Filter>Library\Graph Theory</Filter>
@@ -2266,26 +2287,29 @@
     <ClInclude Include="Library\line.h">
       <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
-    <ClInclude Include="Library\backtrack.h">
-      <Filter>Library</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\binary_search.h">
-      <Filter>Library</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\combinatorics.h">
-      <Filter>Library</Filter>
-    </ClInclude>
     <ClInclude Include="Library\misc.h">
       <Filter>Library</Filter>
     </ClInclude>
-    <ClInclude Include="Library\number_theory.h">
-      <Filter>Library</Filter>
+    <ClInclude Include="Library\combinatorics.h">
+      <Filter>Library\Mathematics</Filter>
     </ClInclude>
-    <ClInclude Include="Library\radix.h">
-      <Filter>Library</Filter>
+    <ClInclude Include="Library\number_theory.h">
+      <Filter>Library\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\bases.h">
+      <Filter>Library\Mathematics</Filter>
     </ClInclude>
     <ClInclude Include="Library\sweep_line.h">
-      <Filter>Library</Filter>
+      <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\backtrack.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\binary_search.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\dp_algs.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

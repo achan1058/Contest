@@ -26,3 +26,18 @@ map<T, int> tally(const vector<T>& arr) {
 		result[v]++;
 	return result;
 }
+
+// delete me?
+// test include_empty = true
+vs tokenizer(const string& s, int(tokenFunc)(int) = isspace, bool include_empty = false) {
+	vs result;
+	int front = 0;
+	rep(i, 0, sz(s) + 1) {
+		if (i == sz(s) || tokenFunc(s[i])) {
+			if (include_empty || i != front)
+				result.pb(s.substr(front, i - front));
+			front = i + 1;
+		}
+	}
+	return result;
+}
