@@ -2129,6 +2129,12 @@
     <ClCompile Include="UVa\400\408.cpp">
       <Filter>UVaOJ\400\400</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\400\412.cpp">
+      <Filter>UVaOJ\400\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\400\476.cpp">
+      <Filter>UVaOJ\400\470</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2184,6 +2190,9 @@
     </ClInclude>
     <ClInclude Include="Library\topo_sort.h">
       <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\polygon.h">
+      <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2298,6 +2307,9 @@
       <Filter>UVaOJ\10900</Filter>
     </None>
     <None Include="UVa\400\408.py">
+      <Filter>UVaOJ\400\400</Filter>
+    </None>
+    <None Include="UVa\400\412.py">
       <Filter>UVaOJ\400\400</Filter>
     </None>
   </ItemGroup>
