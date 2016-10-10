@@ -2168,6 +2168,9 @@
     <ClCompile Include="UVa\100\191.cpp">
       <Filter>UVaOJ\100\190</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\300\378.cpp">
+      <Filter>UVaOJ\300</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2234,6 +2237,9 @@
       <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
     <ClInclude Include="Library\segment.h">
+      <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\line.h">
       <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
   </ItemGroup>
