@@ -1950,6 +1950,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10006.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="UVa\10000\10007.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2006,6 +2010,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\100\107.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="UVa\100\111.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2030,6 +2038,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\100\151.cpp" />
     <ClCompile Include="UVa\100\160.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2038,6 +2047,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\100\190.cpp" />
     <ClCompile Include="UVa\100\191.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2139,6 +2149,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="UVa\10300\10330.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UVa\10300\10341.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -2618,11 +2632,17 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UVa\800\834.cpp" />
+    <ClCompile Include="UVa\800\834.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Library\backtrack.h" />
+    <ClInclude Include="Library\binary_search.h" />
     <ClInclude Include="Library\bits\stdc++.h" />
     <ClInclude Include="Library\circle.h" />
+    <ClInclude Include="Library\combinatorics.h" />
     <ClInclude Include="Library\components.h" />
     <ClInclude Include="Library\double.h" />
     <ClInclude Include="Library\dp_algs.h" />
@@ -2634,12 +2654,16 @@
     <ClInclude Include="Library\line.h" />
     <ClInclude Include="Library\matching.h" />
     <ClInclude Include="Library\max_flow.h" />
+    <ClInclude Include="Library\misc.h" />
+    <ClInclude Include="Library\number_theory.h" />
     <ClInclude Include="Library\point.h" />
     <ClInclude Include="Library\polygon.h" />
     <ClInclude Include="Library\primes.h" />
+    <ClInclude Include="Library\radix.h" />
     <ClInclude Include="Library\segment.h" />
     <ClInclude Include="Library\shortest_path.h" />
     <ClInclude Include="Library\spanning_tree.h" />
+    <ClInclude Include="Library\sweep_line.h" />
     <ClInclude Include="Library\topo_sort.h" />
     <ClInclude Include="Library\triangle.h" />
     <ClInclude Include="Library\union_find.h" />
@@ -2650,6 +2674,7 @@
     <Text Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Library\primes.py" />
     <None Include="UVaOJ\10023.py" />
     <None Include="UVaOJ\10069.py" />
     <None Include="UVaOJ\10105.py" />
@@ -2666,6 +2691,7 @@
     <None Include="UVaOJ\495.py" />
     <None Include="UVaOJ\713.py" />
     <None Include="UVa\10000\10007.py" />
+    <None Include="UVa\10000\10006.py" />
     <None Include="UVa\10100\10183.py" />
     <None Include="UVa\10100\10198.py" />
     <None Include="UVa\10200\10213.py" />

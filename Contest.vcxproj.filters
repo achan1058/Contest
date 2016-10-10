@@ -2180,6 +2180,21 @@
     <ClCompile Include="UVa\800\834.cpp">
       <Filter>UVaOJ\800</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10006.cpp">
+      <Filter>UVaOJ\10000\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\100\107.cpp">
+      <Filter>UVaOJ\100\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10300\10341.cpp">
+      <Filter>UVaOJ\10300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\100\151.cpp">
+      <Filter>UVaOJ\100\150</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\100\190.cpp">
+      <Filter>UVaOJ\100\190</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2250,6 +2265,27 @@
     </ClInclude>
     <ClInclude Include="Library\line.h">
       <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\backtrack.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\binary_search.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\combinatorics.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\misc.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\number_theory.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\radix.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\sweep_line.h">
+      <Filter>Library</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2357,9 +2393,6 @@
     <None Include="UVa\600\623.py">
       <Filter>UVaOJ\600</Filter>
     </None>
-    <None Include="UVa\10000\10007.py">
-      <Filter>UVaOJ\10000\10000</Filter>
-    </None>
     <None Include="UVa\10900\10976.py">
       <Filter>UVaOJ\10900</Filter>
     </None>
@@ -2374,6 +2407,15 @@
     </None>
     <None Include="UVa\800\834.py">
       <Filter>UVaOJ\800</Filter>
+    </None>
+    <None Include="Library\primes.py">
+      <Filter>Library\Mathematics</Filter>
+    </None>
+    <None Include="UVa\10000\10006.py">
+      <Filter>UVaOJ\10000\10000</Filter>
+    </None>
+    <None Include="UVa\10000\10007.py">
+      <Filter>UVaOJ\10000\10000</Filter>
     </None>
   </ItemGroup>
 </Project>
