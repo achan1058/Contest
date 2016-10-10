@@ -94,3 +94,31 @@ vi kmp_match(const string& s, const string& p, const vi& match, bool fs = false)
 vi kmp(const string& s, const string& p, bool fs = false) {
 	return kmp_match(s, p, kmp_pre(p), fs);
 }
+
+// returns maximum rectangle under histogram, given by the range [left, right)
+template<class T>
+tuple<T, int, int> largestRectangle(vector<T>& s) {
+	int n = sz(s), left = 0, right = 0;
+	stack<pair<int, T>> st;
+	T best = 0;
+	st.push({ -1, -1 });
+	s.pb(0);
+
+	rep(i, 0, n + 1) {
+		int l = i;
+		while (st.top().y >= s[i]) {
+			l = st.top().x;
+			T h = st.top().y;
+			int w = i - l;
+			st.pop();
+			if (w * h > best) {
+				best = w * h;
+				left = l;
+				right = i;
+			}
+		}
+		st.push(make_pair(l, s[i]));
+	}
+	s.pop_back();
+	return make_tuple(best, left, right);
+}
