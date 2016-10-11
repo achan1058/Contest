@@ -35,8 +35,7 @@ int main() {
 			X++;
 		} else {
 			int x0, y0;
-			stringstream ss;
-			ss << s;
+			stringstream ss(s);
 			ss >> x0 >> y0;
 			points.pb({ x0, y0 });
 		}
