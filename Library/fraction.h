@@ -29,7 +29,7 @@ public:
 		return *this;
 	}
 	Fraction& operator-=(const Fraction& f) {
-		T g = get<0>(gcd(n, d)), d1 = d / g, d2 = f.d / g;
+		T g = gcd(n, d), d1 = d / g, d2 = f.d / g;
 		n *= d2; d *= d2;
 		n -= f.sign * d1 * f.n;
 		reduce();
