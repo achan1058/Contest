@@ -3,12 +3,13 @@
 
 int main() {
 	string s;
+	int n;
 	while (getline(cin, s)) {
 		printf("%s\n", s.c_str());
 		stringstream ss(s);
 		vi pancakes;
-		while (ss >> s)
-			pancakes.pb(stoi(s));
+		while (ss >> n)
+			pancakes.pb(n);
 
 		int unsorted = sz(pancakes);
 		while (unsorted > 0) {
