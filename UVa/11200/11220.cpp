@@ -11,13 +11,11 @@ int main() {
 		printf("%sCase #%d:\n", X > 1 ? "\n" : "", X);
 		while (getline(cin, s) && s != "") {
 			stringstream ss(s);
-			int t = 0;
-
-			while(ss >> s) {
-				if (t < sz(s)) {
+			for (int t = 0; ss >> s; t++) {
+				if (t < sz(s))
 					printf("%c", s[t]);
-					t++;
-				}
+				else
+					t--;
 			}
 			printf("\n");
 		}
