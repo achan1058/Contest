@@ -860,9 +860,6 @@
     <ClCompile Include="UVaOJ\10102.cpp">
       <Filter>UVaOJ\10100\10100</Filter>
     </ClCompile>
-    <ClCompile Include="UVaOJ\10105.cpp">
-      <Filter>UVaOJ\10100\10100</Filter>
-    </ClCompile>
     <ClCompile Include="UVaOJ\10106.cpp">
       <Filter>UVaOJ\10100\10100</Filter>
     </ClCompile>
@@ -2351,6 +2348,9 @@
     <ClCompile Include="UVa\1200\1230.cpp">
       <Filter>UVaOJ\1200</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10100\10105.cpp">
+      <Filter>UVaOJ\10100\10100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2476,9 +2476,6 @@
     </None>
     <None Include="UVaOJ\10069.py">
       <Filter>UVaOJ\10000\10060</Filter>
-    </None>
-    <None Include="UVaOJ\10105.py">
-      <Filter>UVaOJ\10100\10100</Filter>
     </None>
     <None Include="UVaOJ\10106.py">
       <Filter>UVaOJ\10100\10100</Filter>
