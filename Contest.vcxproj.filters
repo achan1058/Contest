@@ -2264,6 +2264,9 @@
     <ClCompile Include="UVa\11400\11417.cpp">
       <Filter>UVaOJ\11400</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10400\10407.cpp">
+      <Filter>UVaOJ\10400</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
