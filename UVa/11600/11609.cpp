@@ -1,5 +1,14 @@
 #include <bits/stdc++.h>
+#include "number_theory.h"
 
 int main() {
-	system("python UVa/11600/11609.py < input.txt");
+	ll mod = 1000000007, n;
+	int N;
+	cin >> N;
+	rep(X, 1, N + 1) {
+		cin >> n;
+		n *= power(2ll, n - 1, mod);
+		n %= mod;
+		printf("Case #%d: %lld\n", X, n);
+	}
 }
