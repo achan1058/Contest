@@ -281,9 +281,6 @@
     <ClCompile Include="UVaOJ\105.cpp">
       <Filter>UVaOJ\100\100</Filter>
     </ClCompile>
-    <ClCompile Include="UVaOJ\108.cpp">
-      <Filter>UVaOJ\100\100</Filter>
-    </ClCompile>
     <ClCompile Include="UVaOJ\118.cpp">
       <Filter>UVaOJ\100\110</Filter>
     </ClCompile>
@@ -2349,6 +2346,9 @@
       <Filter>UVaOJ\100\150</Filter>
     </ClCompile>
     <ClCompile Include="UVa\100\102.cpp">
+      <Filter>UVaOJ\100\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\100\108.cpp">
       <Filter>UVaOJ\100\100</Filter>
     </ClCompile>
   </ItemGroup>
