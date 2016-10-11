@@ -2240,6 +2240,9 @@
     <ClCompile Include="UVa\10200\10245.cpp">
       <Filter>UVaOJ\10200</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10400\10408.cpp">
+      <Filter>UVaOJ\10400</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2330,6 +2333,9 @@
       <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
     <ClInclude Include="Library\dp_algs.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\fraction.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
