@@ -12,7 +12,7 @@ vector<T> factTable(int n, T m = 0) {
 }
 
 template <class T>
-vector<vector<T>> pascalTable(int n, T m = 0) {
+vector<vector<T>> binomialTable(int n, T m = 0) {
 	vector<vector<T>> result(n + 1);
 	result[0].pb(T(1));
 	rep(i, 1, n + 1) {
@@ -27,7 +27,7 @@ vector<vector<T>> pascalTable(int n, T m = 0) {
 }
 
 template <class T>
-T nCr(int n, int r) {
+T binomial(int n, int r) {
 	T result = 1;
 	if (r > n / 2)
 		r = n - r;
@@ -46,7 +46,7 @@ T multinomial(const vi& r) {
 	int n = 0;
 	irep(v, r) {
 		n += v;
-		result *= nCr<T>(n, v);
+		result *= binomial<T>(n, v);
 	}
 	return result;
 }
