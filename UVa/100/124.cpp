@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
-#include "header.h"
+#include "util.h"
 
-string vars;
+vs vars;
 vb used(26);
 vi in(26);
 vvi graph;
@@ -12,9 +12,9 @@ void backtrack() {
 		return;
 	}
 	irep(c, vars) {
-		int l = c - 'a';
+		int l = c[0] - 'a';
 		if (in[l] == 0 && !used[l]) {
-			ans.pb(c);
+			ans.pb(c[0]);
 			used[l] = true;
 			irep(e, graph[l])
 				in[e]--;
@@ -36,14 +36,11 @@ int main() {
 		getline(cin, s2);
 		graph = vvi(26);
 		in = vi(26);
-		vars = "";
+		vars = tokenizer(s1);
 		if (X > 1)
 			printf("\n");
 
-		stringstream ss1(s1), ss2(s2);
-		while (ss1 >> c1)
-			vars.pb(c1);
-
+		stringstream ss2(s2);
 		sort(all(vars));
 
 		for (int i = 0; ss2 >> c1 >> c2; i += 2) {
