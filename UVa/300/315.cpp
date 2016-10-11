@@ -2,15 +2,13 @@
 #include "components.h"
 
 int main() {
-	int n;
+	int n, v1, v2;
 	string s;
 	while (cin >> n && n != 0) {
 		vvi graph(n);
 		getline(cin, s);
 		while (getline(cin, s) && s != "0") {
-			stringstream ss;
-			int v1, v2;
-			ss << s;
+			stringstream ss(s);
 			ss >> v1;
 			while (ss >> v2) {
 				graph[v1 - 1].pb(v2 - 1);
