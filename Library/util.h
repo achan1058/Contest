@@ -27,7 +27,6 @@ map<T, int> tally(const vector<T>& arr) {
 	return result;
 }
 
-// delete me?
 // test include_empty = true
 vs tokenizer(const string& s, int(tokenFunc)(int) = isspace, bool include_empty = false) {
 	vs result;
