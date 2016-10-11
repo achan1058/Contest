@@ -2531,12 +2531,6 @@
     <None Include="UVa\11800\11879.py">
       <Filter>UVaOJ\11800</Filter>
     </None>
-    <None Include="UVa\11800\11827.py">
-      <Filter>UVaOJ\11800</Filter>
-    </None>
-    <None Include="UVa\11600\11609.py">
-      <Filter>UVaOJ\11600</Filter>
-    </None>
     <None Include="UVa\600\623.py">
       <Filter>UVaOJ\600</Filter>
     </None>
