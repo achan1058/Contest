@@ -22,14 +22,14 @@ T stringToInt(const string& s, int base = 10) {
 	int neg = s[0] == '-';
 	rep(i, neg, sz(s)) {
 		result *= base;
-		if (c <= '9')
-			result += c - '0';
-		else if (c <= 'Z')
-			result += c - 'A' + 10;
+		if (s[i] <= '9')
+			result += s[i] - '0';
+		else if (s[i] <= 'Z')
+			result += s[i] - 'A' + 10;
 		else if (base > 36)
-			result += c - 'a' + 36;
+			result += s[i] - 'a' + 36;
 		else
-			result += c - 'a' + 10;
+			result += s[i] - 'a' + 10;
 	}
 	if (neg)
 		result *= -1;
