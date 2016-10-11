@@ -1574,10 +1574,6 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UVaOJ\374.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="UVaOJ\386.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2643,6 +2639,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\300\374.cpp" />
     <ClCompile Include="UVa\300\378.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2886,7 +2883,6 @@
     <Text Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Library\primes.py" />
     <None Include="UVaOJ\10023.py" />
     <None Include="UVaOJ\10069.py" />
     <None Include="UVaOJ\10105.py" />
@@ -2897,7 +2893,6 @@
     <None Include="UVaOJ\10334.py" />
     <None Include="UVaOJ\1230.py" />
     <None Include="UVaOJ\324.py" />
-    <None Include="UVaOJ\374.py" />
     <None Include="UVaOJ\424.py" />
     <None Include="UVaOJ\485.py" />
     <None Include="UVaOJ\495.py" />
@@ -2920,7 +2915,6 @@
     <None Include="UVa\11600\11609.py" />
     <None Include="UVa\11800\11827.py" />
     <None Include="UVa\11800\11879.py" />
-    <None Include="UVa\300\369.py" />
     <None Include="UVa\400\408.py" />
     <None Include="UVa\400\412.py" />
     <None Include="UVa\600\623.py" />

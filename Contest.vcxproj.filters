@@ -452,9 +452,6 @@
     <ClCompile Include="UVaOJ\371.cpp">
       <Filter>UVaOJ\300</Filter>
     </ClCompile>
-    <ClCompile Include="UVaOJ\374.cpp">
-      <Filter>UVaOJ\300</Filter>
-    </ClCompile>
     <ClCompile Include="UVaOJ\386.cpp">
       <Filter>UVaOJ\300</Filter>
     </ClCompile>
@@ -2351,6 +2348,9 @@
     <ClCompile Include="UVa\12700\12704.cpp">
       <Filter>UVaOJ\12700</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\300\374.cpp">
+      <Filter>UVaOJ\300</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2459,9 +2459,6 @@
     <None Include="UVaOJ\324.py">
       <Filter>UVaOJ\300</Filter>
     </None>
-    <None Include="UVaOJ\374.py">
-      <Filter>UVaOJ\300</Filter>
-    </None>
     <None Include="UVaOJ\424.py">
       <Filter>UVaOJ\400\420</Filter>
     </None>
@@ -2546,9 +2543,6 @@
     <None Include="UVa\11600\11609.py">
       <Filter>UVaOJ\11600</Filter>
     </None>
-    <None Include="UVa\300\369.py">
-      <Filter>UVaOJ\300</Filter>
-    </None>
     <None Include="UVa\600\623.py">
       <Filter>UVaOJ\600</Filter>
     </None>
@@ -2566,9 +2560,6 @@
     </None>
     <None Include="UVa\800\834.py">
       <Filter>UVaOJ\800</Filter>
-    </None>
-    <None Include="Library\primes.py">
-      <Filter>Library\Mathematics</Filter>
     </None>
     <None Include="UVa\10000\10006.py">
       <Filter>UVaOJ\10000\10000</Filter>
