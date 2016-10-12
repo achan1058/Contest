@@ -1,4 +1,4 @@
-ifstream dat("TopCoder/${Contest.Name}/${Dependencies.testcase.GeneratedFileName}");
+ifstream dat("TopCoder/${Contest;category(srm=25)}/${Contest.Name}/${Dependencies.testcase.GeneratedFileName}");
 
 string next_line() {
     string s;
