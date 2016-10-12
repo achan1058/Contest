@@ -315,6 +315,15 @@
     <Filter Include="Codeforces\175">
       <UniqueIdentifier>{244fbf4b-b3e0-447c-b7d8-f556ccdf249f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\200">
+      <UniqueIdentifier>{0f7c6d15-41f5-4e5e-86d7-8c35f132686a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\225">
+      <UniqueIdentifier>{c1f006a1-c47a-4ea8-a7cb-d0fbd435b55f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\250">
+      <UniqueIdentifier>{8efc66cb-e0fb-47c1-8fcc-55b692f8bde2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2470,6 +2479,12 @@
     </ClCompile>
     <ClCompile Include="Codeforces\150\158B.cpp">
       <Filter>Codeforces\150</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\150\160A.cpp">
+      <Filter>Codeforces\150</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\225\231A.cpp">
+      <Filter>Codeforces\225</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
