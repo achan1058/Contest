@@ -285,6 +285,9 @@
     <Filter Include="SPOJ\1100">
       <UniqueIdentifier>{8465f33e-caf7-4199-a486-7663cd815d5b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder">
+      <UniqueIdentifier>{4f9b7941-0738-4b2f-a161-0ae5817cef30}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2384,6 +2387,12 @@
     <ClCompile Include="SPOJ\1100\1112.cpp">
       <Filter>SPOJ\1100</Filter>
     </ClCompile>
+    <ClCompile Include="TopCoder\greed-source.cpp">
+      <Filter>TopCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\greed-test.cpp">
+      <Filter>TopCoder</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2578,6 +2587,9 @@
     </None>
     <None Include="UVa\700\713.py">
       <Filter>UVa\700</Filter>
+    </None>
+    <None Include="TopCoder\greed.conf">
+      <Filter>TopCoder</Filter>
     </None>
   </ItemGroup>
 </Project>

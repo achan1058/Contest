@@ -15,7 +15,7 @@ typedef vector<vs> vvs;
 typedef vector<vl> vvl;
 
 int inf = 0x3f3f3f3f;
-double eps = 10e-10;
+double eps = 1e-8;
 ll mod = 1000000007ll;
 
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
