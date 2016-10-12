@@ -288,6 +288,12 @@
     <Filter Include="TopCoder">
       <UniqueIdentifier>{4f9b7941-0738-4b2f-a161-0ae5817cef30}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces">
+      <UniqueIdentifier>{103afb93-5440-47f3-8f09-341b9cd7c115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\1">
+      <UniqueIdentifier>{1e82da99-f09a-421a-a4eb-138a85ce6178}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2392,6 +2398,9 @@
     </ClCompile>
     <ClCompile Include="TopCoder\greed-test.cpp">
       <Filter>TopCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\1\1A.cpp">
+      <Filter>Codeforces\1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
