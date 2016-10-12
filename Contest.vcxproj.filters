@@ -333,6 +333,12 @@
     <Filter Include="Codeforces\700">
       <UniqueIdentifier>{79276da7-d6d4-4f0d-b751-99e0bd9013e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699">
+      <UniqueIdentifier>{6c8a49c8-f33b-49af-a5fb-84794473dd99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\675-699\678">
+      <UniqueIdentifier>{42c8e68e-9b89-4cc0-b687-5453c47a8e09}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2521,6 +2527,12 @@
     </ClCompile>
     <ClCompile Include="Codeforces\700\723B.cpp">
       <Filter>Codeforces\700</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 678\ThePhantomMenace.cpp">
+      <Filter>TopCoder\675-699\678</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 678\AttackOfTheClones.cpp">
+      <Filter>TopCoder\675-699\678</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
