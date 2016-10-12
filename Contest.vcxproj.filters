@@ -354,6 +354,9 @@
     <Filter Include="Euler\input">
       <UniqueIdentifier>{d34ff31d-02b1-4f54-8cad-165252024761}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\691">
+      <UniqueIdentifier>{897e434c-9178-45d2-8848-357f8a0b1a5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2579,6 +2582,27 @@
     <ClCompile Include="Euler\1\10.cpp">
       <Filter>Euler\1</Filter>
     </ClCompile>
+    <ClCompile Include="Euler\1\11.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\12.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\13.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\14.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\15.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\16.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 691\Plusonegame.cpp">
+      <Filter>TopCoder\675-699\691</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2685,6 +2709,39 @@
     <Text Include="Euler\input\8.txt">
       <Filter>Euler\input</Filter>
     </Text>
+    <Text Include="Euler\input\18.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\22.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\42.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\67.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\81.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\82.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\83.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\99.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\107.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\11.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\13.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="UVaOJ\324.py">
@@ -2779,6 +2836,12 @@
     </None>
     <None Include="TopCoder\greed.conf">
       <Filter>TopCoder</Filter>
+    </None>
+    <None Include="Euler\1\13.py">
+      <Filter>Euler\1</Filter>
+    </None>
+    <None Include="Euler\1\16.py">
+      <Filter>Euler\1</Filter>
     </None>
   </ItemGroup>
 </Project>
