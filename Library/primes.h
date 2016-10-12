@@ -43,25 +43,31 @@ vector<T> factor(T n) {
 	return result;
 }
 
-vi sieve(int n) {
+vb sieveVector(int n) {
 	n = (n - 1) / 2;
-	vb arr(n + 1);
-	vi primes(1, 2);
+	vb arr(n + 1, true);
+	arr[0] = false;
 	int p = 1;
 
 	while (2 * p * (p + 1) <= n) {
-		if (!arr[p]) {
-			primes.pb(2 * p + 1);
+		if (arr[p]) {
 			for (int j = 2 * p * (p + 1); j <= n; j += 2 * p + 1)
-				arr[j] = true;
+				arr[j] = false;
 		}
 		p++;
 	}
 
-	while (p <= n) {
-		if (!arr[p])
-			primes.push_back(2 * p + 1);
-		p++;
+	return arr;
+}
+
+vi sieve(int n) {
+	vb arr = sieveVector(n);
+	vi primes = { 2 };
+	n = (n - 1) / 2;
+
+	rep(p, 1, sz(arr)) {
+		if (arr[p])
+			primes.pb(2 * p + 1);
 	}
 
 	return primes;

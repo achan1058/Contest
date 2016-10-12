@@ -2606,6 +2606,33 @@
     <ClCompile Include="UVa\11000\11040.cpp">
       <Filter>UVa\11000</Filter>
     </ClCompile>
+    <ClCompile Include="Euler\1\18.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\20.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\21.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\22.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\23.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\24.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\25.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\26.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\27.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2844,6 +2871,12 @@
       <Filter>Euler\1</Filter>
     </None>
     <None Include="Euler\1\16.py">
+      <Filter>Euler\1</Filter>
+    </None>
+    <None Include="Euler\1\20.py">
+      <Filter>Euler\1</Filter>
+    </None>
+    <None Include="Euler\1\25.py">
       <Filter>Euler\1</Filter>
     </None>
   </ItemGroup>
