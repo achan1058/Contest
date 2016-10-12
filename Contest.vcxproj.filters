@@ -2603,6 +2603,9 @@
     <ClCompile Include="TopCoder\SRM 675-699\SRM 691\Plusonegame.cpp">
       <Filter>TopCoder\675-699\691</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\11000\11040.cpp">
+      <Filter>UVa\11000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
