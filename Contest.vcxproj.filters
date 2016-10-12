@@ -339,6 +339,21 @@
     <Filter Include="TopCoder\675-699\678">
       <UniqueIdentifier>{42c8e68e-9b89-4cc0-b687-5453c47a8e09}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Euler">
+      <UniqueIdentifier>{da9e42cf-f3e2-47b5-b6ac-35e46759e50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler\1">
+      <UniqueIdentifier>{8919b8ee-bb30-4235-b32b-45cc055f3cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler\25">
+      <UniqueIdentifier>{db4231e8-e52f-4904-b4dd-8c5eda5fc1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler\50">
+      <UniqueIdentifier>{7993ca42-5bac-44cc-99c4-280b1994c3b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler\input">
+      <UniqueIdentifier>{d34ff31d-02b1-4f54-8cad-165252024761}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2534,6 +2549,36 @@
     <ClCompile Include="TopCoder\SRM 675-699\SRM 678\AttackOfTheClones.cpp">
       <Filter>TopCoder\675-699\678</Filter>
     </ClCompile>
+    <ClCompile Include="Euler\1\1.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\2.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\3.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\4.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\5.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\6.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\7.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\8.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\9.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\10.cpp">
+      <Filter>Euler\1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2636,6 +2681,9 @@
     </Text>
     <Text Include="input.txt">
       <Filter>Current Files</Filter>
+    </Text>
+    <Text Include="Euler\input\8.txt">
+      <Filter>Euler\input</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
