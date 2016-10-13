@@ -2624,14 +2624,50 @@
     <ClCompile Include="Euler\1\24.cpp">
       <Filter>Euler\1</Filter>
     </ClCompile>
-    <ClCompile Include="Euler\1\25.cpp">
-      <Filter>Euler\1</Filter>
+    <ClCompile Include="Euler\25\25.cpp">
+      <Filter>Euler\25</Filter>
     </ClCompile>
-    <ClCompile Include="Euler\1\26.cpp">
-      <Filter>Euler\1</Filter>
+    <ClCompile Include="Euler\25\26.cpp">
+      <Filter>Euler\25</Filter>
     </ClCompile>
-    <ClCompile Include="Euler\1\27.cpp">
-      <Filter>Euler\1</Filter>
+    <ClCompile Include="Euler\25\27.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\28.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\29.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\31.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\62.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\30.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\33.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\34.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\35.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\36.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\37.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\39.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\42.cpp">
+      <Filter>Euler\25</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -2876,8 +2912,12 @@
     <None Include="Euler\1\20.py">
       <Filter>Euler\1</Filter>
     </None>
-    <None Include="Euler\1\25.py">
-      <Filter>Euler\1</Filter>
+    <None Include="Euler\25\25.py">
+      <Filter>Euler\25</Filter>
+    </None>
+    <None Include="..\My Records\Contest.xlsx" />
+    <None Include="Contest.xlsx">
+      <Filter>Current Files</Filter>
     </None>
   </ItemGroup>
 </Project>
