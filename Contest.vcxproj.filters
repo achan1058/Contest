@@ -393,6 +393,12 @@
     <Filter Include="TopCoder\675-699\686">
       <UniqueIdentifier>{c36bfbc0-fd57-4927-bdc8-df538be7dd54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\685">
+      <UniqueIdentifier>{ecd9aff8-768b-43ab-8d02-286679262193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\675-699\684">
+      <UniqueIdentifier>{af971624-b10e-4f60-946d-da6955e26941}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2839,6 +2845,12 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 675-699\SRM 686\SegmentsAndPoints.cpp">
       <Filter>TopCoder\675-699\686</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 685\MultiplicationTable2Easy.cpp">
+      <Filter>TopCoder\675-699\685</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 684\Istr.cpp">
+      <Filter>TopCoder\675-699\684</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
