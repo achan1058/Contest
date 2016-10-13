@@ -35,7 +35,7 @@ ll mod = 1000000007ll;
 #define add(i, j) ((i) + (j)) % mod
 #define mul(i, j) ((i) * (j)) % mod
 #define bits(n) int(__builtin_popcount(n))
-#define gcd(a, b) __gcd(a, b)
+#define gcd(a, b) abs(__gcd(a, b))
 
 class ${ClassName} {
 public:
