@@ -16,17 +16,6 @@ T power(T b, T e, T m = 0) {
 	return r;
 }
 
-template <class T>
-T gcd(T a, T b) {
-	if (b == 0)
-		swap(a, b);
-	while (b != 0) {
-		a %= b;
-		swap(a, b);
-	}
-	return abs(a);
-}
-
 // returns gcd, a0, b0 such that a0*a + b0*b = gcd, requires b != 0
 template <class T>
 tuple<T, T, T> egcd(T a, T b) {
