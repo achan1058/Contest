@@ -381,6 +381,9 @@
     <Filter Include="TopCoder\675-699\690">
       <UniqueIdentifier>{4be58cf2-742e-4906-a719-f1189d49ef0a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\689">
+      <UniqueIdentifier>{3cca1c5e-2dae-4d0a-8b61-dd8c63327748}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2800,6 +2803,15 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 675-699\SRM 690\WolfCardGame.cpp">
       <Filter>TopCoder\675-699\690</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 689\SimilarUserDetection.cpp">
+      <Filter>TopCoder\675-699\689</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 689\NonDeterministicSubstring.cpp">
+      <Filter>TopCoder\675-699\689</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 689\ColorfulGarden.cpp">
+      <Filter>TopCoder\675-699\689</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
