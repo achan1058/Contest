@@ -1,5 +1,5 @@
 #pragma once
-#include "number_theory.h"
+#include "header.h"
 
 template<class T>
 class Fraction {

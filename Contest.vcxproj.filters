@@ -3014,9 +3014,6 @@
     <None Include="UVa\700\748.py">
       <Filter>UVa\700</Filter>
     </None>
-    <None Include="UVa\800\834.py">
-      <Filter>UVa\800</Filter>
-    </None>
     <None Include="UVa\10000\10007.py">
       <Filter>UVa\10000\10000</Filter>
     </None>
