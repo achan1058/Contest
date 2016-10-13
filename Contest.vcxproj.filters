@@ -357,6 +357,12 @@
     <Filter Include="TopCoder\675-699\691">
       <UniqueIdentifier>{897e434c-9178-45d2-8848-357f8a0b1a5b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Euler\75">
+      <UniqueIdentifier>{ffb3531d-eb52-4bd8-9a33-8867264cd627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler\100">
+      <UniqueIdentifier>{029d592d-7f73-4a85-bf0c-e07646d69aa0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2669,6 +2675,60 @@
     <ClCompile Include="Euler\25\42.cpp">
       <Filter>Euler\25</Filter>
     </ClCompile>
+    <ClCompile Include="Euler\25\43.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\45.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\46.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\48.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\49.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\50.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\52.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\53.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\56.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\63.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\67.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\69.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\71.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\83.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\87.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\76.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\81.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\92.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2915,9 +2975,8 @@
     <None Include="Euler\25\25.py">
       <Filter>Euler\25</Filter>
     </None>
-    <None Include="..\My Records\Contest.xlsx" />
-    <None Include="Contest.xlsx">
-      <Filter>Current Files</Filter>
+    <None Include="Euler\50\56.py">
+      <Filter>Euler\50</Filter>
     </None>
   </ItemGroup>
 </Project>
