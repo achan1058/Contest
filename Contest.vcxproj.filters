@@ -366,6 +366,18 @@
     <Filter Include="Euler\200">
       <UniqueIdentifier>{461ec18c-2a21-4cfa-a998-15b5835c2b0e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Euler\150">
+      <UniqueIdentifier>{66e18add-e2d4-4e50-8e6d-83001aa66196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler\175">
+      <UniqueIdentifier>{53ab40b0-7c3a-4696-a6e9-3b2100a57e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler\300">
+      <UniqueIdentifier>{d70cf90f-cb10-450f-8dd5-450086b507e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Euler\325">
+      <UniqueIdentifier>{c40557d7-26af-4331-8154-e2b2b71d1c39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2753,6 +2765,30 @@
     <ClCompile Include="Euler\100\102.cpp">
       <Filter>Euler\100</Filter>
     </ClCompile>
+    <ClCompile Include="Euler\75\99.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\150\173.cpp">
+      <Filter>Euler\150</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\150\174.cpp">
+      <Filter>Euler\150</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\200\205.cpp">
+      <Filter>Euler\200</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\175\187.cpp">
+      <Filter>Euler\175</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\300\301.cpp">
+      <Filter>Euler\300</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\325\345.cpp">
+      <Filter>Euler\325</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\1200\1203.cpp">
+      <Filter>UVa\1200</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2895,6 +2931,9 @@
     <Text Include="Euler\input\102.txt">
       <Filter>Euler\input</Filter>
     </Text>
+    <Text Include="Euler\input\345.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="UVaOJ\324.py">
@@ -3004,6 +3043,9 @@
     </None>
     <None Include="Euler\50\56.py">
       <Filter>Euler\50</Filter>
+    </None>
+    <None Include="..\My Records\Contest.xlsx">
+      <Filter>Current Files</Filter>
     </None>
   </ItemGroup>
 </Project>
