@@ -4,9 +4,8 @@
 // graph is bipartite with r and c vtx in the two components
 vector<pii> matching(const vvb& graph) {
 	vvb reduced = graph;
-	int r = graph.size(), c = graph[0].size(), match_size = 0;
+	int r = graph.size(), c = graph[0].size();
 	vi row_match(r, -1), col_match(c, -1);
-	bool match_found = false;
 
 	rep(j, 0, c) {
 		queue<int> q;
