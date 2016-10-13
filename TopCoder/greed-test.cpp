@@ -43,7 +43,7 @@ ${<if ReturnsArray}
 template <typename T> string to_string(vector<T> ts) {
     stringstream s;
     s << "[ ";
-    for (int i = 0; i < ts.size(); ++i) {
+    for (int i = 0; i < int(ts.size()); ++i) {
         if (i > 0) s << ", ";
         s << to_string(ts[i]);
     }
