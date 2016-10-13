@@ -363,6 +363,9 @@
     <Filter Include="Euler\100">
       <UniqueIdentifier>{029d592d-7f73-4a85-bf0c-e07646d69aa0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Euler\200">
+      <UniqueIdentifier>{461ec18c-2a21-4cfa-a998-15b5835c2b0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2729,6 +2732,27 @@
     <ClCompile Include="Euler\75\92.cpp">
       <Filter>Euler\75</Filter>
     </ClCompile>
+    <ClCompile Include="Euler\100\113.cpp">
+      <Filter>Euler\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\100\114.cpp">
+      <Filter>Euler\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\100\115.cpp">
+      <Filter>Euler\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\100\116.cpp">
+      <Filter>Euler\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\100\117.cpp">
+      <Filter>Euler\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\200\206.cpp">
+      <Filter>Euler\200</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\100\102.cpp">
+      <Filter>Euler\100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2866,6 +2890,9 @@
       <Filter>Euler\input</Filter>
     </Text>
     <Text Include="Euler\input\13.txt">
+      <Filter>Euler\input</Filter>
+    </Text>
+    <Text Include="Euler\input\102.txt">
       <Filter>Euler\input</Filter>
     </Text>
   </ItemGroup>
