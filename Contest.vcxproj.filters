@@ -390,6 +390,9 @@
     <Filter Include="TopCoder\675-699\687">
       <UniqueIdentifier>{0b024c11-1dc6-41fc-9c0c-a376cae315f0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\686">
+      <UniqueIdentifier>{c36bfbc0-fd57-4927-bdc8-df538be7dd54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2830,6 +2833,12 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 675-699\SRM 687\AlmostFibonacciKnapsack.cpp">
       <Filter>TopCoder\675-699\687</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 686\TreeAndVertex.cpp">
+      <Filter>TopCoder\675-699\686</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 686\SegmentsAndPoints.cpp">
+      <Filter>TopCoder\675-699\686</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
