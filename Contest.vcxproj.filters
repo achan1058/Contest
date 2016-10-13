@@ -384,6 +384,12 @@
     <Filter Include="TopCoder\675-699\689">
       <UniqueIdentifier>{3cca1c5e-2dae-4d0a-8b61-dd8c63327748}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\688">
+      <UniqueIdentifier>{388c17fd-4db6-4304-ac0b-a4e98f2533a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\675-699\687">
+      <UniqueIdentifier>{0b024c11-1dc6-41fc-9c0c-a376cae315f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\105.cpp">
@@ -2812,6 +2818,18 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 675-699\SRM 689\ColorfulGarden.cpp">
       <Filter>TopCoder\675-699\689</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 688\ParenthesesDiv2Easy.cpp">
+      <Filter>TopCoder\675-699\688</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 687\Quacking.cpp">
+      <Filter>TopCoder\675-699\687</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 687\Quorum.cpp">
+      <Filter>TopCoder\675-699\687</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 687\AlmostFibonacciKnapsack.cpp">
+      <Filter>TopCoder\675-699\687</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
