@@ -420,6 +420,12 @@
     <Filter Include="TopCoder\650-674\666">
       <UniqueIdentifier>{b1ac2fb5-e1c5-4caa-a48f-8e977df0d233}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\650-674\662">
+      <UniqueIdentifier>{3c2e7784-6171-40d3-be1a-4afd69949923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\650-674\655">
+      <UniqueIdentifier>{eebe6586-88b5-4206-9768-0855cfa1fbda}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2908,6 +2914,21 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 650-674\SRM 666\GoodString.cpp">
       <Filter>TopCoder\650-674\666</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 650-674\SRM 662\Hexspeak.cpp">
+      <Filter>TopCoder\650-674\662</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 650-674\SRM 662\ExactTreeEasy.cpp">
+      <Filter>TopCoder\650-674\662</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 650-674\SRM 655\BichromeBoard.cpp">
+      <Filter>TopCoder\650-674\655</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 650-674\SRM 655\FoldingPaper2.cpp">
+      <Filter>TopCoder\650-674\655</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 650-674\SRM 655\BichromePainting.cpp">
+      <Filter>TopCoder\650-674\655</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
