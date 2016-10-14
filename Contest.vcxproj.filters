@@ -2858,6 +2858,12 @@
     <ClCompile Include="TopCoder\SRM 675-699\SRM 683\EqualSubstrings2.cpp">
       <Filter>TopCoder\675-699\683</Filter>
     </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 683\MoveStonesEasy.cpp">
+      <Filter>TopCoder\675-699\683</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 683\MoveStones.cpp">
+      <Filter>TopCoder\675-699\683</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
