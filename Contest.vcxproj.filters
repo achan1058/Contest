@@ -399,6 +399,9 @@
     <Filter Include="TopCoder\675-699\684">
       <UniqueIdentifier>{af971624-b10e-4f60-946d-da6955e26941}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\683">
+      <UniqueIdentifier>{3392bc9b-93e5-4039-a9aa-d1d28c255279}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2851,6 +2854,9 @@
     </ClCompile>
     <ClCompile Include="UVa\10000\10003.cpp">
       <Filter>UVa\10000\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 683\EqualSubstrings2.cpp">
+      <Filter>TopCoder\675-699\683</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
