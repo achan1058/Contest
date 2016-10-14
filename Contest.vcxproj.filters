@@ -408,6 +408,12 @@
     <Filter Include="TopCoder\675-699\681">
       <UniqueIdentifier>{0fb7bc3a-73cd-49bb-a77c-73758fe51430}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\680">
+      <UniqueIdentifier>{6cbc85ac-3b52-4d82-b0cb-d23882b16bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\675-699\679">
+      <UniqueIdentifier>{829feb32-0437-46ae-97c2-0087fef8a67f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2881,6 +2887,15 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 675-699\SRM 681\ExplodingRobots.cpp">
       <Filter>TopCoder\675-699\681</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 680\BearPair.cpp">
+      <Filter>TopCoder\675-699\680</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 680\BearFair.cpp">
+      <Filter>TopCoder\675-699\680</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 679\ListeningSongs.cpp">
+      <Filter>TopCoder\675-699\679</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
