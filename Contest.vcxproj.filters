@@ -414,6 +414,12 @@
     <Filter Include="TopCoder\675-699\679">
       <UniqueIdentifier>{829feb32-0437-46ae-97c2-0087fef8a67f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\650-674">
+      <UniqueIdentifier>{14e70e70-7e89-4951-85d7-8387aaba8069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\650-674\666">
+      <UniqueIdentifier>{b1ac2fb5-e1c5-4caa-a48f-8e977df0d233}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2896,6 +2902,12 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 675-699\SRM 679\ListeningSongs.cpp">
       <Filter>TopCoder\675-699\679</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 650-674\SRM 666\DevuAndGame.cpp">
+      <Filter>TopCoder\650-674\666</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 650-674\SRM 666\GoodString.cpp">
+      <Filter>TopCoder\650-674\666</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
