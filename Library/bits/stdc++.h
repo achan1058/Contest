@@ -94,3 +94,7 @@ __gcd(_EuclideanRingElement __m, _EuclideanRingElement __n) {
 	}
 	return __m;
 }
+
+#define debug(a) {for (auto& k : (a)) cout << k << ' '; cout << endl;}
+#define debugvp(a) {for (auto& k : (a)) cout << k.first << ',' << k.second << ' '; cout << endl;}
+#define debugvv(a) {for (auto& k : (a)) debug(k); cout << endl;}
