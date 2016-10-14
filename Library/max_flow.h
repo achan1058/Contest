@@ -1,7 +1,7 @@
 #pragma once
 #include "header.h"
 
-// flow value, flow, cut
+// uses adjacency matrix, returns flow value, flow, cut
 template<class T>
 tuple<T, vector<vector<T>>, vb> pushRelabel(const vector<vector<T>>& graph, int source, int target) {
 	int n = sz(graph);

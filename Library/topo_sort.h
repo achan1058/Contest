@@ -1,7 +1,7 @@
 #pragma once
 #include "graph.h"
 
-// elements are given in lex order
+// uses adjacency list, elements are given in lex order
 vi topoSort(const vvi& graph) {
 	int n = sz(graph);
 	vi in_degree(n), result;
@@ -35,7 +35,7 @@ vi topoSort(const vvi& graph) {
 		return result;
 }
 
-// Path is smallest in reverse lex order.
+// uses adjacency list, path is smallest in reverse lex order
 vi longestDAG(const vvi& graph, int s = -1, int t = -1) {
 	int n = sz(graph), mv = 0;
 	vi topo = topoSort(graph), prev(n, -1), len(n, -1);
@@ -73,7 +73,7 @@ vi longestDAG(const vvi& graph, int s = -1, int t = -1) {
 	return result;
 }
 
-// Path is smallest in reverse lex order.
+// uses adjacency list, path is smallest in reverse lex order
 template<class T>
 pair<T, vi> longestDAG(const AdjList<T>& graph, int s = -1, int t = -1, T infinity = inf) {
 	int n = sz(graph), mv = 0;

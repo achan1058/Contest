@@ -1,6 +1,7 @@
 #pragma once
 #include "graph.h"
 
+// uses adjacency matrix, returns dist matrix and previous node matrix
 template<class T>
 pair<vector<vector<T>>, vvi> floydWarshall(const vector<vector<T>>& graph, T non_edge = inf, bool minweight = false) {
 	int n = sz(graph);
@@ -27,6 +28,7 @@ pair<vector<vector<T>>, vvi> floydWarshall(const vector<vector<T>>& graph, T non
 	return make_pair(mat, prev);
 }
 
+// uses adjacency list, returns dist list and previous node vector
 template<class T>
 pair<vector<T>, vi> dijkstra(const AdjList<T>& graph, int start, T non_edge = inf) {
 	int n = sz(graph);
@@ -54,6 +56,7 @@ pair<vector<T>, vi> dijkstra(const AdjList<T>& graph, int start, T non_edge = in
 	return make_pair(dist, prev);
 }
 
+// uses adjacency list, returns dist list and previous node vector
 template<class T>
 pair<vector<T>, vi> bellmanFord(const AdjList<T>& graph, int start, T non_edge = inf) {
 	int n = sz(graph);
@@ -89,6 +92,7 @@ pair<vector<T>, vi> bellmanFord(const AdjList<T>& graph, int start, T non_edge =
 	return make_pair(dist, prev);
 }
 
+// constructs path from previous node vector
 vi getPath(const vi& prev, int s, int t) {
 	int n = sz(prev);
 	vi result;

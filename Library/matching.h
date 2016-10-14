@@ -41,7 +41,7 @@ vector<pii> matching(const vvb& graph) {
 	return match;
 }
 
-// requires rows <= cols
+// requires rows <= cols, graph is bipartite with r and c vtx in the two components
 template<class T>
 pair<T, vi> hungarian(const vector<vector<T>>& graph) {
 	vector<vector<T>> reduced = graph;

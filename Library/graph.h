@@ -1,6 +1,7 @@
 #pragma once
 #include "header.h"
 
+// delete me
 template<class T>
 class AdjList {
 	vector<vector<pair<int, T>>> edges;
@@ -15,6 +16,7 @@ public:
 	}
 };
 
+// delete me
 template<class T>
 class EdgeList {
 	vector<tuple<int, int, T>> edges;

@@ -1,6 +1,7 @@
 #pragma once
 #include "graph.h"
 
+// change to use ep<T>
 template<class T>
 vector<vector<T>> edgeToMatrix(const EdgeList<T>& edge, T non_edge = inf) {
 	int n = edge.numV();

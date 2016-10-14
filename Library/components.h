@@ -22,7 +22,7 @@ void twoConnectedHelper(const vvi& graph, int n, int u, int& count, vi& num, vi&
 		}
 	}
 }
-// return bridges and strongly connected blocks
+// uses adjacency list, return bridges and strongly connected blocks
 vvi twoConnected(const vvi& graph) {
 	int n = sz(graph), count = 1;
 	vvi blocks;
@@ -35,6 +35,7 @@ vvi twoConnected(const vvi& graph) {
 	return blocks;
 }
 
+// uses adjacency list
 vi getArticulationPoints(const vvi& graph) {
 	vvi blocks = twoConnected(graph);
 	vi count(sz(graph)), pt;
@@ -70,7 +71,7 @@ void stronglyConnectedHelper(const vvi& graph, int n, int u, int& count, int& nu
 		numc++;
 	}
 }
-// returns number of components and component vector
+// uses adjacency list, returns number of components and component vector
 pair<int, vi> stronglyConnected(const vvi& graph) {
 	int n = sz(graph), count = 1, numc = 0;
 	vi num(n, 0), low(n), comps(n, 0);
@@ -82,6 +83,7 @@ pair<int, vi> stronglyConnected(const vvi& graph) {
 	return{ numc, comps };
 }
 
+// uses adjacency list
 vvi stronglyConnectedBlocks(const vvi& graph) {
 	pair<int, vi> comps = stronglyConnected(graph);
 	vvi blocks(comps.x);

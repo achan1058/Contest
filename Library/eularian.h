@@ -1,6 +1,7 @@
 #pragma once
 #include "header.h"
 
+// uses adjacency list
 vi eularianHelper(vvi& graph, int n, int end, bool directed) {
 	vi path, check(n);
 	stack<int> s;
@@ -26,6 +27,7 @@ vi eularianHelper(vvi& graph, int n, int end, bool directed) {
 	return path;
 }
 
+// uses adjacency list
 vi eularianPath(const vvi& graph, bool directed = false) {
 	int n = sz(graph);
 	vi deg(n);
