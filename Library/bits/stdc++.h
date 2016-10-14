@@ -97,6 +97,6 @@ __gcd(_EuclideanRingElement __m, _EuclideanRingElement __n) {
 
 template <typename T> inline void debug(T t) { cout << t << endl; }
 template <typename T, typename... A> inline void debug(T t, A... a) { cout << t << " "; debug(a...); }
-#define debugv(a) {for (auto& k : (a)) cout << k << ' '; cout << endl;}
-#define debugvp(a) {for (auto& k : (a)) cout << k.first << ',' << k.second << ' '; cout << endl;}
-#define debugvv(a) {for (auto& k : (a)) debugv(k); cout << endl;}
+template <typename T> inline void debugv(T a) { for (auto& k : (a)) cout << k << ' '; cout << endl; }
+template <typename T> inline void debugvp(T a) { for (auto& k : (a)) cout << k.first << ',' << k.second << ' '; cout << endl; }
+template <typename T> inline void debugvv(T a) { for (auto& k : (a)) debugv(k); cout << endl; }
