@@ -405,6 +405,9 @@
     <Filter Include="TopCoder\675-699\682">
       <UniqueIdentifier>{81d12518-9f3e-4b6a-bc64-37350097681c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\681">
+      <UniqueIdentifier>{0fb7bc3a-73cd-49bb-a77c-73758fe51430}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2872,6 +2875,12 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 675-699\SRM 682\TopBiologist.cpp">
       <Filter>TopCoder\675-699\682</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 681\CoinFlipsDiv2.cpp">
+      <Filter>TopCoder\675-699\681</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 681\ExplodingRobots.cpp">
+      <Filter>TopCoder\675-699\681</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
