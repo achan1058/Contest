@@ -441,6 +441,27 @@
     <Filter Include="TopCoder\600-624">
       <UniqueIdentifier>{bf3b7032-3fa5-4806-95a6-918fb83a034b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\600-624\609">
+      <UniqueIdentifier>{ecf344cd-c45d-436f-8dac-cfe5943dab16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\600-624\605">
+      <UniqueIdentifier>{92aa4727-6d8d-4cde-afdb-dc9a0fa05c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\600-624\614">
+      <UniqueIdentifier>{ce8e9dbf-9511-48eb-bf1c-326b3cb2833e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\600-624\616">
+      <UniqueIdentifier>{ea6346fb-47be-4108-ac1d-ae2efa747d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\600-624\618">
+      <UniqueIdentifier>{cad942b3-7426-465b-8ab4-08b86930795f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\600-624\621">
+      <UniqueIdentifier>{ab8b3395-c6d8-4fa0-b171-740ac195c168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\600-624\622">
+      <UniqueIdentifier>{8cf97d35-eb9c-4a78-b925-004a717813eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2954,17 +2975,59 @@
     <ClCompile Include="TopCoder\SRM 625-649\SRM 627\HappyLetterDiv1.cpp">
       <Filter>TopCoder\625-649\627</Filter>
     </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 609\MagicalStringDiv1.cpp">
+      <Filter>TopCoder\600-624\609</Filter>
+    </ClCompile>
     <ClCompile Include="TopCoder\SRM 600-624\SRM 609\MagicalStringDiv2.cpp">
-      <Filter>TopCoder\600-624</Filter>
+      <Filter>TopCoder\600-624\609</Filter>
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 600-624\SRM 609\PackingBallsDiv2.cpp">
-      <Filter>TopCoder\600-624</Filter>
+      <Filter>TopCoder\600-624\609</Filter>
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 600-624\SRM 609\VocaloidsAndSongs.cpp">
-      <Filter>TopCoder\600-624</Filter>
+      <Filter>TopCoder\600-624\609</Filter>
     </ClCompile>
-    <ClCompile Include="TopCoder\SRM 600-624\SRM 609\MagicalStringDiv1.cpp">
-      <Filter>TopCoder\600-624</Filter>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 605\AlienAndPassword.cpp">
+      <Filter>TopCoder\600-624\605</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 605\AlienAndHamburgers.cpp">
+      <Filter>TopCoder\600-624\605</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 609\PackingBallsDiv1.cpp">
+      <Filter>TopCoder\600-624\609</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 614\MinimumSquare.cpp">
+      <Filter>TopCoder\600-624\614</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 614\CycleColoring.cpp">
+      <Filter>TopCoder\600-624\614</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 616\WakingUp.cpp">
+      <Filter>TopCoder\600-624\616</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 616\ColorfulCoins.cpp">
+      <Filter>TopCoder\600-624\616</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 616\WakingUpEasy.cpp">
+      <Filter>TopCoder\600-624\616</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 616\ColorfulCoinsEasy.cpp">
+      <Filter>TopCoder\600-624\616</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 618\Family.cpp">
+      <Filter>TopCoder\600-624\618</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 618\LongWordsDiv1.cpp">
+      <Filter>TopCoder\600-624\618</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 621\RadioRange.cpp">
+      <Filter>TopCoder\600-624\621</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 622\BuildingRoutes.cpp">
+      <Filter>TopCoder\600-624\622</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 622\Ethernet.cpp">
+      <Filter>TopCoder\600-624\622</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
