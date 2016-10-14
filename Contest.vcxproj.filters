@@ -402,6 +402,9 @@
     <Filter Include="TopCoder\675-699\683">
       <UniqueIdentifier>{3392bc9b-93e5-4039-a9aa-d1d28c255279}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\675-699\682">
+      <UniqueIdentifier>{81d12518-9f3e-4b6a-bc64-37350097681c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2863,6 +2866,12 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 675-699\SRM 683\MoveStones.cpp">
       <Filter>TopCoder\675-699\683</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 682\DNASequence.cpp">
+      <Filter>TopCoder\675-699\682</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 675-699\SRM 682\TopBiologist.cpp">
+      <Filter>TopCoder\675-699\682</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
