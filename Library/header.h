@@ -14,6 +14,8 @@ typedef vector<vd> vvd;
 typedef vector<vb> vvb;
 typedef vector<vs> vvs;
 typedef vector<vl> vvl;
+template <class T> using vp = vector<vector<pair<int, T>>>;
+template <class T> using ep = vector<tuple<int, int, T>>;
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
