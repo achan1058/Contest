@@ -426,6 +426,15 @@
     <Filter Include="TopCoder\650-674\655">
       <UniqueIdentifier>{eebe6586-88b5-4206-9768-0855cfa1fbda}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\650-674\654">
+      <UniqueIdentifier>{6c0e243c-5278-4150-b9c1-10d9fe4f1fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\625-649">
+      <UniqueIdentifier>{eb4fa0f6-5ba5-4d9b-ad6e-3df09ed4567a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\625-649\647">
+      <UniqueIdentifier>{56be4e14-c7c2-4c33-96d2-008e5d4d4d4f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2929,6 +2938,12 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 650-674\SRM 655\BichromePainting.cpp">
       <Filter>TopCoder\650-674\655</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 650-674\SRM 654\SquareScoresDiv2.cpp">
+      <Filter>TopCoder\650-674\654</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 625-649\SRM 647\PeacefulLine.cpp">
+      <Filter>TopCoder\625-649\647</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
