@@ -435,6 +435,12 @@
     <Filter Include="TopCoder\625-649\647">
       <UniqueIdentifier>{56be4e14-c7c2-4c33-96d2-008e5d4d4d4f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\625-649\627">
+      <UniqueIdentifier>{e4f1ae4a-a0af-40a3-8c2a-cabec6b78163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\600-624">
+      <UniqueIdentifier>{bf3b7032-3fa5-4806-95a6-918fb83a034b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -2944,6 +2950,21 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 625-649\SRM 647\PeacefulLine.cpp">
       <Filter>TopCoder\625-649\647</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 625-649\SRM 627\HappyLetterDiv1.cpp">
+      <Filter>TopCoder\625-649\627</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 609\MagicalStringDiv2.cpp">
+      <Filter>TopCoder\600-624</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 609\PackingBallsDiv2.cpp">
+      <Filter>TopCoder\600-624</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 609\VocaloidsAndSongs.cpp">
+      <Filter>TopCoder\600-624</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 609\MagicalStringDiv1.cpp">
+      <Filter>TopCoder\600-624</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
