@@ -13,13 +13,10 @@ int main() {
 		vl trace;
 		while (cur > 1000000 || cycle[int(cur)] == 0) {
 			trace.pb(cur);
-			if (cur % 2 == 0)
-				cur /= 2;
-			else
-				cur = 3 * cur + 1;
+			cur = (cur % 2 ? 3 * cur + 1 : cur / 2);
 		}
 
-		rrep(i, sz(trace) - 1, 0) {
+		forn(i, sz(trace)) {
 			if (trace[i] <= 1000000)
 				cycle[int(trace[i])] = cycle[int(cur)] + sz(trace) - i;
 		}
