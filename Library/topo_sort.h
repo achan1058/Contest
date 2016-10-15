@@ -1,9 +1,9 @@
 #pragma once
-#include "graph.h"
+#include "header.h"
 
 // uses adjacency list, elements are given in lex order
-template<class T> T topoHelper(const T& t) { return t; }
-template<class T> T topoHelper(const pair<int, T>& p) { return p.x; }
+template<class T> inline T topoHelper(const T& t) { return t; }
+template<class T> inline T topoHelper(const pair<int, T>& p) { return p.x; }
 template<class T>
 vi topoSort(const vector<vector<T>>& graph) {
 	int n = sz(graph);
@@ -39,13 +39,13 @@ vi topoSort(const vector<vector<T>>& graph) {
 }
 
 // uses adjacency list, path is smallest in reverse lex order
-template<class T> T DAGHelper(const T& t) { return T(1); }
-template<class T> T DAGHelper(const pair<int, T>& p) { return p.y; }
-template<class T>
-pair<T, vi> longestDAG(const vector<vector<T>>& graph, int s = -1, int t = -1, T infinity = inf) {
+template<class T> inline T DAGHelper(const T& t) { return T(1); }
+template<class T> inline T DAGHelper(const pair<int, T>& p) { return p.y; }
+template<class T, class U>
+pair<U, vi> longestDAGHelper(const vector<vector<T>>& graph, int s = -1, int t = -1, U infinity = inf) {
 	int n = sz(graph), mv = 0;
 	vi topo = topoSort(graph), prev(n, -1);
-	vector<T> len(n, -infinity);
+	vector<U> len(n, -infinity);
 
 	fori(v, topo) {
 		if (s == v)
@@ -68,7 +68,7 @@ pair<T, vi> longestDAG(const vector<vector<T>>& graph, int s = -1, int t = -1, T
 		}
 	}
 
-	T mx = len[mv];
+	U mx = len[mv];
 	if (mx == -infinity)
 		return make_pair(-infinity, vi());
 	vi result;
@@ -80,3 +80,5 @@ pair<T, vi> longestDAG(const vector<vector<T>>& graph, int s = -1, int t = -1, T
 	reverse(all(result));
 	return make_pair(mx, result);
 }
+template<class T> inline vi longestDAG(const vector<vector<T>>& graph, int s = -1, int t = -1, T infinity = inf) { return longestDAGHelper<T, T>(graph, s, t, infinity).y; }
+template<class T> inline pair<T, vi> weightedDAG(const vector<vector<pair<int, T>>>& graph, int s = -1, int t = -1, T infinity = inf) { return longestDAGHelper<pair<int, T>, T>(graph, s, t, infinity); }

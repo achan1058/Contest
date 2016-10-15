@@ -15,15 +15,15 @@ int main() {
 			blocks[i + 1][1] = blocks[i + 2][1] = blocks[i][2];
 		}
 
-		AdjList<int> graph(3 * n + 1);
+		vp<int> graph(3 * n + 1);
 		rep(i, 0, 3 * n + 1) {
 			rep(j, 0, 3 * n + 1) {
 				if (blocks[i][0] > blocks[j][0] && blocks[i][1] > blocks[j][1])
-					graph.push(i, j, blocks[i][2]);
+					graph[i].pb({ j, blocks[i][2] });
 			}
 		}
 
-		printf("Case %d: maximum height = %d\n", X, longestDAG(graph).x);
+		printf("Case %d: maximum height = %d\n", X, weightedDAG(graph).x);
 		X++;
 	}
 }
