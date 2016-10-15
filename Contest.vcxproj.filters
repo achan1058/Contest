@@ -507,6 +507,12 @@
     <Filter Include="TopCoder\TCO\2016 Round 1B">
       <UniqueIdentifier>{ea49505d-a198-47cd-b392-9b6da7a61a1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\TCO\2016 Round 2A">
+      <UniqueIdentifier>{44e18c59-84e9-461e-97d5-0004b554bb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\575-599">
+      <UniqueIdentifier>{85ba34cd-7e25-4907-81ce-01e0a13652ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -3139,6 +3145,21 @@
     </ClCompile>
     <ClCompile Include="TopCoder\TCO\TCO 2016 Round 1B\ExploringNumbers.cpp">
       <Filter>TopCoder\TCO\2016 Round 1B</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2016 Round 2A\LCMGCD.cpp">
+      <Filter>TopCoder\TCO\2016 Round 2A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 575-599\SRM 599\MiniatureDachshund.cpp">
+      <Filter>TopCoder\575-599</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 575-599\SRM 599\BigFatInteger2.cpp">
+      <Filter>TopCoder\575-599</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 575-599\SRM 599\SimilarNames2.cpp">
+      <Filter>TopCoder\575-599</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 575-599\SRM 599\BigFatInteger.cpp">
+      <Filter>TopCoder\575-599</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
