@@ -43,5 +43,6 @@ ll mod = 1000000007ll;
 #define bits(n) int(__builtin_popcount(n))
 #define gcd(a, b) abs(__gcd(a, b))
 #define forX() int N; string XS; cin >> N; getline(cin, XS); for (int X = 1; X <= N; X++)
+#define whileX(a) int X = 0; while(X++, (a))
 #define printc(...) printf("Case %d: ", X); printf(__VA_ARGS__)
-#define printcp(...) printf("Case #%d: ", X); printf(__VA_ARGS__)
+#define printp(...) printf("Case #%d: ", X); printf(__VA_ARGS__)
