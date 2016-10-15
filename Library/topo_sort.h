@@ -2,8 +2,8 @@
 #include "header.h"
 
 // uses adjacency list, elements are given in lex order
-template<class T> inline T topoHelper(const T& t) { return t; }
-template<class T> inline T topoHelper(const pair<int, T>& p) { return p.x; }
+inline int topoHelper(const int t) { return t; }
+template<class T> inline int topoHelper(const pair<int, T>& p) { return p.x; }
 template<class T>
 vi topoSort(const vector<vector<T>>& graph) {
 	int n = sz(graph);
@@ -39,7 +39,7 @@ vi topoSort(const vector<vector<T>>& graph) {
 }
 
 // uses adjacency list, path is smallest in reverse lex order
-template<class T> inline T DAGHelper(const T& t) { return T(1); }
+inline int DAGHelper(const int t) { return 1; }
 template<class T> inline T DAGHelper(const pair<int, T>& p) { return p.y; }
 template<class T, class U>
 pair<U, vi> longestDAGHelper(const vector<vector<T>>& graph, int s = -1, int t = -1, U infinity = inf) {
@@ -80,5 +80,5 @@ pair<U, vi> longestDAGHelper(const vector<vector<T>>& graph, int s = -1, int t =
 	reverse(all(result));
 	return make_pair(mx, result);
 }
-template<class T> inline vi longestDAG(const vector<vector<T>>& graph, int s = -1, int t = -1, T infinity = inf) { return longestDAGHelper<T, T>(graph, s, t, infinity).y; }
-template<class T> inline pair<T, vi> weightedDAG(const vector<vector<pair<int, T>>>& graph, int s = -1, int t = -1, T infinity = inf) { return longestDAGHelper<pair<int, T>, T>(graph, s, t, infinity); }
+inline vi longestDAG(const vector<vector<int>>& graph, int s = -1, int t = -1, int infinity = inf) { return longestDAGHelper<int, int>(graph, s, t, infinity).y; }
+template<class T> inline pair<T, vi> longestDAG(const vector<vector<pair<int, T>>>& graph, int s = -1, int t = -1, T infinity = inf) { return longestDAGHelper<pair<int, T>, T>(graph, s, t, infinity); }
