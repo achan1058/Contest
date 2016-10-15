@@ -5,7 +5,7 @@ int main() {
 	string s;
 	while (getline(cin, s)) {
 		int count = 0;
-		fori(c, s) {
+		irep(c, s) {
 			if (c == 'b')
 				c = ' ';
 			if (isdigit(c))

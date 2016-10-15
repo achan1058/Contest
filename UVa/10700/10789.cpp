@@ -11,7 +11,7 @@ int main() {
 		cin >> s;
 		printf("Case %d: ", X);
 
-		fori(c, s)
+		irep(c, s)
 			val[c]++;
 		rep(i, 0, 256) {
 			if (isPrime(val[i])) {

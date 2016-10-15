@@ -14,7 +14,7 @@ int main() {
 
 		int n = sz(vtx_map);
 		vvi mat = mi(n, n, 0);
-		fori(vtx, str) {
+		irep(vtx, str) {
 			int v1 = vtx_map.getI(vtx[0]);
 			rep(j, 2, sz(vtx)) {
 				int v2 = vtx_map.getI(vtx[j]);
@@ -45,7 +45,7 @@ int main() {
 				best = perm;
 			}
 		} while (next_permutation(all(perm)));
-		fori(b, best)
+		irep(b, best)
 			printf("%c ", vtx_map.getL(b));
 		printf("-> %d\n", best_band);
 	}

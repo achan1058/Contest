@@ -8,7 +8,7 @@ int main() {
 	rep(i, 1, sz(s))
 		upper &= isupper(s[i]);
 	if (upper) {
-		fori(c, s)
+		irep(c, s)
 			c = isupper(c) ? tolower(c) : toupper(c);
 	}
 	printf("%s\n", s.c_str());

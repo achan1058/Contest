@@ -38,12 +38,12 @@ int main() {
 				blocks[blocks[p2.x][j]].pb(blocks[p2.x][j]);
 			blocks[p2.x].resize(p2.y + 1);
 		}
-		fori(v, temp)
+		irep(v, temp)
 			blocks[p2.x].pb(v);
 	}
 	rep(i, 0, n) {
 		printf("%d:", i);
-		fori(v, blocks[i])
+		irep(v, blocks[i])
 			printf(" %d", v);
 		printf("\n");
 	}

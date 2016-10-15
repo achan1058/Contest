@@ -17,7 +17,7 @@ public:
 
 		rep(i, 0, 1024) {
 			int num = 0;
-			fori(v, bts) {
+			irep(v, bts) {
 				if ((v & i) == i)
 					num++;
 			}

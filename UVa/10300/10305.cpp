@@ -13,7 +13,7 @@ int main() {
 
 		vi result = topoSort(graph);
 		bool fs = true;
-		fori(v, result) {
+		irep(v, result) {
 			printf("%s%d", fs ? "" : " ", v + 1);
 			fs = false;
 		}

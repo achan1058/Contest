@@ -9,7 +9,7 @@ int main() {
 	while (cin >> n && n != 0) {
 		vi terms(110);
 		rep(i, 2, n + 1)
-			fori(v, f[i])
+			irep(v, f[i])
 				terms[v]++;
 
 		printf("%3d! =", n);

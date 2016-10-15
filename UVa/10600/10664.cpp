@@ -25,7 +25,7 @@ int main() {
 			continue;
 		}
 
-		fori(v, weight) {
+		irep(v, weight) {
 			rrep(i, 200, 0) {
 				if (arr[i])
 					arr[i + v] = true;

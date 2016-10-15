@@ -5,7 +5,7 @@ int main() {
 	int n;
 	vi ans(1000001), times(1000001, 1);
 	vi primes = sieve(1000000);
-	fori(p, primes) {
+	irep(p, primes) {
 		times[p] = p % 10;
 		if (p < 1000) {
 			for (int p2 = p * p; p2 <= 1000000; p2 *= p)

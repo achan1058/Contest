@@ -45,11 +45,11 @@ int main() {
 
 		vector<pair<int, char>> sorted;
 		printf("World #%d\n", X);
-		fori(pr, result)
+		irep(pr, result)
 			sorted.pb({ -pr.y, pr.x });
 
 		sort(all(sorted));
-		fori(pr, sorted)
+		irep(pr, sorted)
 			printf("%c: %d\n", pr.y, -pr.x);
 	}
 }

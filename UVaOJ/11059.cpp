@@ -6,7 +6,7 @@ int main() {
 	while (cin >> n) {
 		vl v(n);
 		ll best = 0;
-		fori(l, v)
+		irep(l, v)
 			cin >> l;
 		rep(i, 0, n) {
 			ll result = 1;

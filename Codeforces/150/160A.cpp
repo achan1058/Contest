@@ -5,7 +5,7 @@ int main() {
 	int n, total = 0, ans = 0;
 	cin >> n;
 	vi coins(n);
-	fori(c, coins) {
+	irep(c, coins) {
 		cin >> c;
 		total += c;
 	}

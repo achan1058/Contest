@@ -5,9 +5,9 @@ int main() {
 	int n, d, r;
 	while (cin >> n >> d >> r && (n | d | r) != 0) {
 		vi morn(n), even(n);
-		fori(v, morn)
+		irep(v, morn)
 			cin >> v;
-		fori(v, even)
+		irep(v, even)
 			cin >> v;
 		sort(all(morn));
 		sort(all(even), greater<int>());

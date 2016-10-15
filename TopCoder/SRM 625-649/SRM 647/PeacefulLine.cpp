@@ -5,9 +5,9 @@ class PeacefulLine {
 public:
 	string makeLine(vector<int> x) {
 		vi age(50);
-		fori(v, x)
+		irep(v, x)
 			age[v]++;
-		fori(v, age) {
+		irep(v, age) {
 			if (v > (sz(x) + 1) / 2)
 				return "impossible";
 		}

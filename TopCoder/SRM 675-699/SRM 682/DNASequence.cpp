@@ -5,7 +5,7 @@ class DNASequence {
 public:
 	int longestDNASequence(string sequence) {
 		int ans = 0, cur = 0;
-		fori(v, sequence) {
+		irep(v, sequence) {
 			if (v == 'A' || v == 'C' || v == 'T' || v == 'G') {
 				cur++;
 				ans = max(ans, cur);

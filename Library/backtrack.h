@@ -28,7 +28,7 @@ void backtrack(int d = 0) {
 	if (false)
 		return;
 	if (d == n) {
-		fori(v, ans)
+		irep(v, ans)
 			printf("%d", v);
 		printf("\n");
 		return;

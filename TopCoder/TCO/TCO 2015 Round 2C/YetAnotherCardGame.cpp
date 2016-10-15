@@ -17,7 +17,7 @@ public:
 		vvi grid = mi(2 * n + 1, 101, 0);
 		int longest = 1;
 
-		fori(v, nums) {
+		irep(v, nums) {
 			rep(i, 0, 2 * n + 1) {
 				rep(k, 0, v.x) {
 					if (v.y != i % 2) {

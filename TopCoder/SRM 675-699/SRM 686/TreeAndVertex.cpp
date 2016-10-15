@@ -10,7 +10,7 @@ public:
 			deg[i + 1]++;
 			deg[tree[i]]++;
 		}
-		fori(v, deg)
+		irep(v, deg)
 			mx = max(mx, v);
 		return mx;
 	}

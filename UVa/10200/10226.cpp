@@ -16,7 +16,7 @@ int main() {
 
 		if (X > 0)
 			printf("\n");
-		fori(t, trees)
+		irep(t, trees)
 			printf("%s %.4f\n", t.x.c_str(), t.y * 100. / total);
 
 		total = 0;

@@ -6,14 +6,14 @@ int main() {
 	while (getline(cin, s)) {
 		map<char, int> freq;
 		int mx = 0;
-		fori(c, s) {
+		irep(c, s) {
 			if (isalpha(c)) {
 				freq[c]++;
 				mx = max(mx, freq[c]);
 			}
 		}
 
-		fori(v, freq) {
+		irep(v, freq) {
 			if (v.y == mx)
 				printf("%c", v.x);
 		}

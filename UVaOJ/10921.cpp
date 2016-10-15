@@ -5,7 +5,7 @@ string phone = "22233344455566677778889999";
 int main() {
 	string s;
 	while (cin >> s) {
-		fori(c, s) {
+		irep(c, s) {
 			if (isalpha(c))
 				c = phone[c - 'A'];
 		}

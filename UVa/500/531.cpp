@@ -13,7 +13,7 @@ int main() {
 				vs seq = lcs(strs[0], strs[1]);
 				bool fs = true;
 
-				fori(s, seq) {
+				irep(s, seq) {
 					printf("%s%s", fs ? "" : " ", s.c_str());
 					fs = false;
 				}

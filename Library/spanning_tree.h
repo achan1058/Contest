@@ -30,7 +30,7 @@ tuple<T, int, AdjList<T>> prim(const AdjList<T>& graph, int start = 0, T non_edg
 	priority_queue<pair<T, int>, vector<pair<T, int>>, greater<pair<T, int>>> q;
 	dist[start] = -inf;
 
-	fori(e, graph[start]) {
+	irep(e, graph[start]) {
 		dist[e.x] = e.y;
 		prev[e.x] = start;
 		q.push(make_pair(dist[e.x], e.x));
@@ -49,7 +49,7 @@ tuple<T, int, AdjList<T>> prim(const AdjList<T>& graph, int start = 0, T non_edg
 		dist[v1] = -inf;
 		tree.push(v1, prev[v1], d);
 		tree.push(prev[v1], v1, d);
-		fori(e, graph[v1]) {
+		irep(e, graph[v1]) {
 			if (e.y < dist[e.x]) {
 				dist[e.x] = e.y;
 				prev[e.x] = v1;

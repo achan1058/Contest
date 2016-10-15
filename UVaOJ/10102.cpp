@@ -8,7 +8,7 @@ int main() {
 		vs field(n);
 		vvi dist = mi(n, n, inf);
 		queue<pii> q;
-		fori(s, field)
+		irep(s, field)
 			cin >> s;
 		rep(i, 0, n) {
 			rep(j, 0, n) {

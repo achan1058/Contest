@@ -22,7 +22,7 @@ int main() {
 	int n;
 	while (cin >> n) {
 		vi seq(n);
-		fori(v, seq)
+		irep(v, seq)
 			cin >> v;
 		vi len = lis(seq);
 		reverse(all(seq));

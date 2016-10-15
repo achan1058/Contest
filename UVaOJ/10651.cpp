@@ -4,7 +4,7 @@
 vi dp(1 << 12);
 int toint(const vi& v) {
 	int r = 0;
-	fori(x, v) {
+	irep(x, v) {
 		r *= 2;
 		r += x;
 	}

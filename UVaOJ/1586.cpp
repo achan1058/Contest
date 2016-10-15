@@ -18,7 +18,7 @@ int main() {
 		char cur = ' ';
 		cin >> s;
 
-		fori(c, s) {
+		irep(c, s) {
 			if (c != 'C' && c != 'H' && c != 'O' && c != 'N') {
 				count *= 10;
 				count += c - '0';

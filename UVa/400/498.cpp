@@ -11,7 +11,7 @@ int main() {
 			coeff.pb(stoll(s1));
 		while (ss2 >> s2) {
 			ll result = 0, x = stoll(s2);
-			fori(v, coeff) {
+			irep(v, coeff) {
 				result *= x;
 				result += v;
 			}

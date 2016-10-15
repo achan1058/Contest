@@ -6,14 +6,14 @@ public:
 	int getNumber(vector<int> guesses, vector<int> answers) {
 		vi cand = { guesses[0] - answers[0], guesses[0] + answers[0] };
 
-		fori(i, cand) {
+		irep(i, cand) {
 			if (i <= 0)
 				i = -1;
 			else if (i > 1000000000)
 				i = -1;
 		}
 		rep(i, 0, sz(guesses)) {
-			fori(v, cand) {
+			irep(v, cand) {
 				if (v != guesses[i] - answers[i] && v != guesses[i] + answers[i])
 					v = -1;
 			}

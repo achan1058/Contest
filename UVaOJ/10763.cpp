@@ -14,7 +14,7 @@ int main() {
 		}
 
 		bool good = true;
-		fori(v, m) {
+		irep(v, m) {
 			if (v.y != 0) {
 				good = false;
 				break;

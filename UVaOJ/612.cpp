@@ -23,7 +23,7 @@ int main() {
 		}
 
 		sort(all(strs));
-		fori(t, strs)
+		irep(t, strs)
 			printf("%s\n", get<2>(t).c_str());
 	}
 }

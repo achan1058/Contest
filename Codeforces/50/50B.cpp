@@ -6,9 +6,9 @@ int main() {
 	map<char, ll> m;
 	string s;
 	cin >> s;
-	fori(c, s)
+	irep(c, s)
 		m[c]++;
-	fori(v, m)
+	irep(v, m)
 		ans += v.y * v.y;
 	printf("%lld\n", ans);
 }

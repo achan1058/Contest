@@ -8,7 +8,7 @@ public:
 		ll ans = 0;
 		stored[R + 1] = 1;
 
-		fori(v, m) {
+		irep(v, m) {
 			while (true) {
 				map<ll, int>::reverse_iterator it = stored.rbegin();
 				int t = it->x, l = it->y;
@@ -26,7 +26,7 @@ public:
 			}
 		}
 
-		fori(v, stored) {
+		irep(v, stored) {
 			ans += v.y * v.x * (v.x - 1) / 2;
 		}
 

@@ -10,7 +10,7 @@ int main() {
 		cin >> n;
 		vector<ptd> points(n);
 		AdjList<double> graph;
-		fori(p, points)
+		irep(p, points)
 			cin >> p;
 		rep(i, 0, n) {
 			rep(j, 0, n)

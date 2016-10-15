@@ -6,7 +6,7 @@ int counter;
 
 int recurse(vector<int>& parent, vector<int>& dist, int maxDist, int v = 0) {
 	vector<pii> childnum;
-	fori(c, children[v])
+	irep(c, children[v])
 		childnum.pb({ recurse(parent, dist, maxDist, c) + dist[c - 1], c });
 
 	sort(all(childnum));

@@ -6,9 +6,9 @@ int main() {
 	while (cin >> n >> m && (n | m) != 0) {
 		int total = 0, nhead = 0, mhead = 0;
 		vi ncd(n), mcd(m);
-		fori(v, ncd)
+		irep(v, ncd)
 			cin >> v;
-		fori(v, mcd)
+		irep(v, mcd)
 			cin >> v;
 		while (nhead < n && mhead < m) {
 			if (ncd[nhead] == mcd[mhead]) {

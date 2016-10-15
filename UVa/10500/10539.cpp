@@ -7,7 +7,7 @@ int main() {
 	int N;
 	ll b1, b2;
 	cin >> N;
-	fori(p, primes) {
+	irep(p, primes) {
 		for (ll i = (ll)p * p; i <= 1000000000000ll; i *= p)
 			powers.pb(i);
 	}

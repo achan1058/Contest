@@ -20,7 +20,7 @@ int main() {
 		}
 
 		sort(all(seq));
-		fori(v, seq) {
+		irep(v, seq) {
 			int x = get<1>(v), y = get<2>(v);
 			rep(k, 0, 4) {
 				int nx = x + dx[k], ny = y + dy[k];

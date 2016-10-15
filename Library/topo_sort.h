@@ -11,7 +11,7 @@ vi topoSort(const vector<vector<T>>& graph) {
 	priority_queue<int, vi, greater<int>> q;
 
 	rep(i, 0, n) {
-		fori(edge, graph[i])
+		irep(edge, graph[i])
 			in_degree[topoHelper(edge)]++;
 	}
 
@@ -25,7 +25,7 @@ vi topoSort(const vector<vector<T>>& graph) {
 		q.pop();
 		result.pb(vtx);
 
-		fori(edge, graph[vtx]) {
+		irep(edge, graph[vtx]) {
 			in_degree[topoHelper(edge)]--;
 			if (in_degree[topoHelper(edge)] == 0)
 				q.push(topoHelper(edge));
@@ -47,7 +47,7 @@ pair<U, vi> longestDAGHelper(const vector<vector<T>>& graph, int s = -1, int t =
 	vi topo = topoSort(graph), prev(n, -1);
 	vector<U> len(n, -infinity);
 
-	fori(v, topo) {
+	irep(v, topo) {
 		if (s == v)
 			len[v] = 0;
 		else if (s == -1)
@@ -60,7 +60,7 @@ pair<U, vi> longestDAGHelper(const vector<vector<T>>& graph, int s = -1, int t =
 			continue;
 		if (t == -1 && (len[v] > len[mv] || len[v] == len[mv] && v < mv))
 			mv = v;
-		fori(edge, graph[v]) {
+		irep(edge, graph[v]) {
 			if (len[topoHelper(edge)] < len[v] + DAGHelper(edge) || len[topoHelper(edge)] == len[v] + DAGHelper(edge) && v < prev[topoHelper(edge)]) {
 				len[topoHelper(edge)] = len[v] + DAGHelper(edge);
 				prev[topoHelper(edge)] = v;

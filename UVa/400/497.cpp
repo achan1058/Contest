@@ -16,7 +16,7 @@ int main() {
 		printf("%s", X > 1 ? "\n" : "");
 		vi result = lis(missiles);
 		printf("Max hits: %d\n", sz(result));
-		fori(v, result)
+		irep(v, result)
 			printf("%d\n", v);
 
 		X++;

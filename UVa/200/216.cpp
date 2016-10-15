@@ -5,7 +5,7 @@ int main() {
 	int n, X = 1;
 	while (cin >> n && n != 0) {
 		vector<ptd> points(n), best;
-		fori(p, points)
+		irep(p, points)
 			cin >> p;
 
 		sort(all(points));

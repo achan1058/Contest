@@ -6,13 +6,13 @@ int main() {
 	string s;
 	vi sound(300);
 	rep(i, 0, 6) {
-		fori(c, cons[i])
+		irep(c, cons[i])
 			sound[c] = i + 1;
 	}
 
 	while (cin >> s) {
 		int prev = -1;
-		fori(c, s) {
+		irep(c, s) {
 			int cur = sound[c];
 			if (cur != prev && cur != 0)
 				printf("%d", cur);

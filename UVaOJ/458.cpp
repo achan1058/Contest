@@ -4,7 +4,7 @@
 int main() {
 	string s;
 	while (getline(cin, s)) {
-		fori(c, s)
+		irep(c, s)
 			c -= 7;
 		printf("%s\n", s.c_str());
 	}

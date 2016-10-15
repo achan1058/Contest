@@ -5,7 +5,7 @@ int main() {
 	int n;
 	while (cin >> n && n != 0) {
 		vector<ptd> points(n);
-		fori(p, points)
+		irep(p, points)
 			cin >> p;
 		double max_dist2 = get<0>(closestPair(points));
 		if (max_dist2 >= 10000 * 10000 - eps)

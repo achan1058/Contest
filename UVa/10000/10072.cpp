@@ -2,9 +2,8 @@
 #include "matching.h"
 
 int main() {
-	int n, X = 1;
-	while (cin >> n && n != 0) {
-		printf("%s", X > 1 ? "\n" : "");
+	int n;
+	whileX(cin >> n && n != 0) {
 		vvi graph = mi(10, n, 0);
 		int bt, bl, fl;
 		vi bat(n), bowl(n), rnd(n);
@@ -16,18 +15,12 @@ int main() {
 		}
 
 		cin >> bt >> bl >> fl;
-		rep(i, 0, bt) {
-			rep(j, 0, n)
-				graph[i][j] = -bat[j];
-		}
-		rep(i, 0, bl) {
-			rep(j, 0, n)
-				graph[i + bt][j] = -bowl[j];
-		}
-		rep(i, 0, fl) {
-			rep(j, 0, n)
-				graph[i + bt + bl][j] = -rnd[j];
-		}
+		drep(i, j, bt, n)
+			graph[i][j] = -bat[j];
+		drep(i, j, bl, n)
+			graph[i + bt][j] = -bowl[j];
+		drep(i, j, fl, n)
+			graph[i + bt + bl][j] = -rnd[j];
 
 		pair<int, vi> result = hungarian(graph);
 		vi sort_bat(bt), sort_bowl(bl), sort_round(fl);
@@ -42,18 +35,18 @@ int main() {
 		sort(all(sort_bowl));
 		sort(all(sort_round));
 
-		printf("Team #%d\n", X);
+		printX("Team #%d\n", X);
 		printf("Maximum Effective Score = %d\n", -result.x);
+
 		printf("Batsmen :");
-		rep(i, 0, bt)
-			printf(" %d", sort_bat[i]);
+		irep(v, sort_bat)
+			printf(" %d", v);
 		printf("\nBowlers :");
-		rep(i, 0, bl)
-			printf(" %d", sort_bowl[i]);
+		irep(v, sort_bowl)
+			printf(" %d", v);
 		printf("\nAll-rounders :");
-		rep(i, 0, fl)
-			printf(" %d", sort_round[i]);
+		irep(v, sort_round)
+			printf(" %d", v);
 		printf("\n");
-		X++;
 	}
 }

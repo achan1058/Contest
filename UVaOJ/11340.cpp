@@ -20,7 +20,7 @@ int main() {
 		rep(i, 0, l) {
 			getline(cin, s);
 
-			fori(ch, s)
+			irep(ch, s)
 				total_cost += cost[ch + 200];
 		}
 		printf("%.2f$\n", total_cost / 100. + eps);

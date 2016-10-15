@@ -13,7 +13,7 @@ int main() {
 		string r = s;
 		reverse(all(r));
 		string mir = r;
-		fori(ch, mir)
+		irep(ch, mir)
 			ch = m[ch];
 
 		if (s == r) {

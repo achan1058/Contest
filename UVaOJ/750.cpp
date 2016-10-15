@@ -29,7 +29,7 @@ int main() {
 		c--;
 		printf("SOLN       COLUMN\n");
 		printf(" #      1 2 3 4 5 6 7 8\n\n");
-		fori(sol, solutions) {
+		irep(sol, solutions) {
 			if (sol[c] == r) {
 				sol_num++;
 				printf("%2d     ", sol_num);

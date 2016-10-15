@@ -5,7 +5,7 @@ void twoConnectedHelper(const vvi& graph, int n, int u, int& count, vi& num, vi&
 	num[u] = low[u] = count++;
 	stk.push(u);
 
-	fori(v, graph[u]) {
+	irep(v, graph[u]) {
 		if (num[v] == 0) {
 			twoConnectedHelper(graph, n, v, count, num, low, stk, blocks);
 			low[u] = min(low[u], low[v]);
@@ -39,8 +39,8 @@ vvi twoConnected(const vvi& graph) {
 vi getArticulationPoints(const vvi& graph) {
 	vvi blocks = twoConnected(graph);
 	vi count(sz(graph)), pt;
-	fori(b, blocks) {
-		fori(v, b)
+	irep(b, blocks) {
+		irep(v, b)
 			count[v]++;
 	}
 	rep(i, 0, sz(graph)) {
@@ -55,7 +55,7 @@ void stronglyConnectedHelper(const vvi& graph, int n, int u, int& count, int& nu
 	stk.push(u);
 	comps[u] = -1;
 
-	fori(v, graph[u]) {
+	irep(v, graph[u]) {
 		if (num[v] == 0)
 			stronglyConnectedHelper(graph, n, v, count, numc, num, low, stk, comps);
 		if (comps[v] == -1)

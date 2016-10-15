@@ -21,7 +21,7 @@ int main() {
 			cin >> s1 >> s2;
 			int v1 = s1[0] - 'A', v2 = s2[0] - 'A';
 			vi path = getPath(paths[v1], v1, v2);
-			fori(c, path)
+			irep(c, path)
 				printf("%c", char(c + 'A'));
 			printf("\n");
 		}

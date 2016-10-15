@@ -2,7 +2,7 @@
 #include "header.h"
 
 void mut(string& s) {
-	fori(c, s)
+	irep(c, s)
 		if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
 			c = ' ';
 }

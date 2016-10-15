@@ -9,7 +9,7 @@ int main() {
 		sort(all(s2));
 		m[s2].pb(s);
 	}
-	fori(strs, m)
+	irep(strs, m)
 		sort(all(strs.y));
 	while (cin >> s && s != "XXXXXX") {
 		sort(all(s));
@@ -17,7 +17,7 @@ int main() {
 		if (m[s].empty())
 			printf("NOT A VALID WORD\n");
 		else {
-			fori(str, m[s])
+			irep(str, m[s])
 				printf("%s\n", str.c_str());
 		}
 		printf("******\n");

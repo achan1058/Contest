@@ -23,9 +23,9 @@ int main() {
 
 			if (sz(graph[v]) != 0) {
 				int v2 = graph[v][0];
-				fori(e2, graph[v2]) {
+				irep(e2, graph[v2]) {
 					int v3 = e2;
-					fori(e3, graph[v3]) {
+					irep(e3, graph[v3]) {
 						if (e3 == v2) {
 							swap(e3, graph[v3].back());
 							graph[v3].resize(sz(graph[v3]) - 1);

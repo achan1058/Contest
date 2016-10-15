@@ -43,7 +43,7 @@ public:
 	}
 	vi getComponentSizes() const {
 		vi sizes;
-		fori(v, p) {
+		irep(v, p) {
 			if (v < 0)
 				sizes.pb(-v);
 		}

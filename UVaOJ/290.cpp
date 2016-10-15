@@ -5,7 +5,7 @@ int main() {
 	string s;
 	while (cin >> s) {
 		int m = 0;
-		fori(c, s) {
+		irep(c, s) {
 			if (c > '9')
 				c -= 'A' - '0' - 10;
 			m = max(m, c - '0' + 1);

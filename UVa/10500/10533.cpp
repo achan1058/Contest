@@ -16,7 +16,7 @@ int main() {
 	vi primes = sieve(1000000), digitPrimes;
 	for (int i = 0; primes[i] < 1000; i++)
 		smallPrimes[primes[i]] = true;
-	fori(p, primes) {
+	irep(p, primes) {
 		if (isDigitPrime(p))
 			digitPrimes.pb(p);
 	}

@@ -6,7 +6,7 @@ int main() {
 	int n, X = 1;
 	while (cin >> n && n != 0) {
 		vector<pti> pts(n);
-		fori(p, pts)
+		irep(p, pts)
 			cin >> p;
 
 		int area = abs(Polygon<int>(pts).sa2());

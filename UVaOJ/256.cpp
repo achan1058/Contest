@@ -19,7 +19,7 @@ int main() {
 	rep(i, 1, 5)
 		result[i] = find_quirky(i);
 	while (cin >> n) {
-		fori(r, result[n / 2]) {
+		irep(r, result[n / 2]) {
 			if (n == 2)
 				printf("%02d\n", r);
 			else if (n == 4)

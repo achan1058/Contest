@@ -6,9 +6,9 @@ int main() {
 	int X = 1;
 	while (cin >> s && s != "end") {
 		vs ships;
-		fori(c, s) {
+		irep(c, s) {
 			bool found = false;
-			fori(h, ships) {
+			irep(h, ships) {
 				if (c <= h.back()) {
 					h.pb(c);
 					found = true;

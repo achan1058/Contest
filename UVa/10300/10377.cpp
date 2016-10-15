@@ -8,7 +8,7 @@ int main() {
 		cin >> r >> c;
 		vs grid(r);
 		getline(cin, XS);
-		fori(s, grid)
+		irep(s, grid)
 			getline(cin, s);
 
 		cin >> x >> y;

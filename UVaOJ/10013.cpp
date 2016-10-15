@@ -8,7 +8,7 @@ int main() {
 		printf("%s", X > 0 ? "\n" : "");
 		cin >> M;
 		vi digits(M);
-		fori(d, digits) {
+		irep(d, digits) {
 			cin >> a >> b;
 			d = a + b;
 		}
@@ -18,7 +18,7 @@ int main() {
 				digits[i - 1]++;
 			}
 		}
-		fori(d, digits)
+		irep(d, digits)
 			printf("%d", d);
 		printf("\n");
 	}

@@ -6,9 +6,9 @@ int main() {
 	while(cin >> s && s >= 0) {
 		printf("Case %d:\n", X);
 		vi prob(12), req(12);
-		fori(p, prob)
+		irep(p, prob)
 			cin >> p;
-		fori(p, req)
+		irep(p, req)
 			cin >> p;
 		rep(i, 0, 12) {
 			if (s >= req[i]) {

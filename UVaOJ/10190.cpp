@@ -22,7 +22,7 @@ int main() {
 			printf("Boring!\n");
 		else {
 			bool fs = true;
-			fori(v, l) {
+			irep(v, l) {
 				printf("%s%d", fs ? "" : " ", v);
 				fs = false;
 			}

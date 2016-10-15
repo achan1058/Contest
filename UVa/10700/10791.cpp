@@ -13,7 +13,7 @@ int main() {
 
 		auto primes = tally(factor(n));
 		ll ans = 0;
-		fori(p, primes) {
+		irep(p, primes) {
 			ll add = 1;
 			rep(i, 0, p.y)
 				add *= p.x;

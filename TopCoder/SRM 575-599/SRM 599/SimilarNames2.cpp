@@ -21,8 +21,8 @@ public:
 
 		vi sorted = topoSort(graph);
 		rep(i, 1, L) {
-			fori(v1, sorted) {
-				fori(v2, graph[v1])
+			irep(v1, sorted) {
+				irep(v2, graph[v1])
 					numpath[i][v2] = add(numpath[i][v2], numpath[i - 1][v1]);
 			}
 		}

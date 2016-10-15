@@ -6,7 +6,7 @@ int main() {
 	while (cin >> n) {
 		bool good = true;
 		vi b(n);
-		fori(v, b)
+		irep(v, b)
 			cin >> v;
 		if (b[0] < 1) {
 			good = false;

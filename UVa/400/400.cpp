@@ -7,7 +7,7 @@ int main() {
 	while (cin >> n) {
 		vs names(n);
 		int longest = 0;
-		fori(s, names) {
+		irep(s, names) {
 			cin >> s;
 			longest = max(longest, sz(s));
 		}

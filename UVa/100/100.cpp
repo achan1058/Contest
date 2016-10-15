@@ -16,7 +16,7 @@ int main() {
 			cur = (cur % 2 ? 3 * cur + 1 : cur / 2);
 		}
 
-		forn(i, sz(trace)) {
+		rep(i, 0, sz(trace)) {
 			if (trace[i] <= 1000000)
 				cycle[int(trace[i])] = cycle[int(cur)] + sz(trace) - i;
 		}

@@ -6,7 +6,7 @@ int main() {
 	forX() {
 		int result = 0;
 		cin >> F;
-		forn(i, F) {
+		rep(i, 0, F) {
 			cin >> a >> b >> c;
 			result += a * c;
 		}

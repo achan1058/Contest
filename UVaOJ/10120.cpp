@@ -17,7 +17,7 @@ int main() {
 				goto end;
 			}
 			dist[1 - cur].clear();
-			fori(v, dist[cur]) {
+			irep(v, dist[cur]) {
 				if (v == m) {
 					printf("Let me try!\n");
 					goto end;

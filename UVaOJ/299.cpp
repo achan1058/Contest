@@ -8,7 +8,7 @@ int main() {
 		cin >> L;
 		vi arr(L);
 		int num_swap = 0;
-		fori(v, arr)
+		irep(v, arr)
 			cin >> v;
 		rrep(i, L - 1, 0) {
 			rep(j, 0, i) {

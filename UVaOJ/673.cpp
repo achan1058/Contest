@@ -11,7 +11,7 @@ int main() {
 		stack<char> st;
 		bool good = true;
 
-		fori(c, s) {
+		irep(c, s) {
 			if (c == '(' || c == '[')
 				st.push(c);
 			else if (!st.empty() && ((c == ')' && st.top() == '(') || (c == ']' && st.top() == '[')))

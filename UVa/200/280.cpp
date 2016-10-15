@@ -24,7 +24,7 @@ int main() {
 			}
 
 			printf("%d", sz(unreach));
-			fori(v, unreach)
+			irep(v, unreach)
 				printf(" %d", v + 1);
 			printf("\n");
 		}

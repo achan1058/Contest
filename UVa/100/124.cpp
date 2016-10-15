@@ -11,18 +11,18 @@ void backtrack() {
 		printf("%s\n", ans.c_str());
 		return;
 	}
-	fori(c, vars) {
+	irep(c, vars) {
 		int l = c[0] - 'a';
 		if (in[l] == 0 && !used[l]) {
 			ans.pb(c[0]);
 			used[l] = true;
-			fori(e, graph[l])
+			irep(e, graph[l])
 				in[e]--;
 
 			backtrack();
 			ans.pop_back();
 			used[l] = false;
-			fori(e, graph[l])
+			irep(e, graph[l])
 				in[e]++;
 		}
 	}

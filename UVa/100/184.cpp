@@ -33,12 +33,12 @@ int main() {
 						found = true;
 					}
 
-					fori(p, line_index)
+					irep(p, line_index)
 						printf("(%4d,%4d)", points[p].x, points[p].y);
 					printf("\n");
 
-					fori(p1, line_index) {
-						fori(p2, line_index)
+					irep(p1, line_index) {
+						irep(p2, line_index)
 							proc[p1][p2] = true;
 					}
 				}

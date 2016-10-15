@@ -45,7 +45,7 @@ public:
 	string getWinner(vector<int> sweets) {
 		int filled = 0;
 
-		fori(v, sweets) {
+		irep(v, sweets) {
 			if (v > 0)
 				filled++;
 		}

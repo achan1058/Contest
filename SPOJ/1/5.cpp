@@ -10,7 +10,7 @@ int main() {
 		int n = sz(s);
 		bool all9 = true;
 
-		fori(c, s) {
+		irep(c, s) {
 			if (c != '9') {
 				all9 = false;
 				break;

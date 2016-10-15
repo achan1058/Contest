@@ -5,8 +5,8 @@ class ColorfulGarden {
 public:
 	vector<string> rearrange(vector<string> garden) {
 		string flowers;
-		fori(g, garden) {
-			fori(f, g)
+		irep(g, garden) {
+			irep(f, g)
 				flowers.pb(f);
 		}
 

@@ -9,7 +9,7 @@ int main() {
 			good = false;
 		} else {
 			auto primes = tally(factor(m));
-			fori(p, primes) {
+			irep(p, primes) {
 				int nt = n, deg = 0;
 				while (nt > 0) {
 					nt /= p.x;

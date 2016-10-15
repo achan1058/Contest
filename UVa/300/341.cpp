@@ -17,7 +17,7 @@ int main() {
 		cin >> r >> v;
 		vi path = getPath(dist.y[r - 1], r - 1, v - 1);
 		printf("Case %d: Path =", X);
-		fori(p, path)
+		irep(p, path)
 			printf(" %d", p + 1);
 		printf("; %d second delay\n", dist.x[r - 1][v - 1]);
 		X++;

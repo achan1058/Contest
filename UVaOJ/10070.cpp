@@ -15,7 +15,7 @@ bool leapYear(const string& s) {
 
 bool div3(const string& s) {
 	int r = 0;
-	fori(c, s)
+	irep(c, s)
 		r += c - '0';
 	return r % 3 == 0;
 }
@@ -26,7 +26,7 @@ bool div5(const string& s) {
 
 bool div11(const string& s) {
 	int r = 0, sign = 1;
-	fori(c, s) {
+	irep(c, s) {
 		r += (c - '0') * sign;
 		sign *= -1;
 	}

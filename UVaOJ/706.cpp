@@ -39,7 +39,7 @@ int main() {
 		vs output = vs(2 * n + 3, string(sz(s) * (n + 3) - 1, ' '));
 		rep(i, 0, sz(s))
 			print_digit(n, s[i] - '0', i * (n + 3), output);
-		fori(str, output)
+		irep(str, output)
 			printf("%s\n", str.c_str());
 
 		printf("\n");

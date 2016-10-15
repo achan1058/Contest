@@ -32,7 +32,7 @@ int main() {
 	while (cin >> n && n != 0) {
 		bool white_wins = true;
 		board.resize(n);
-		fori(s, board)
+		irep(s, board)
 			cin >> s;
 		rep(i, 0, n) {
 			if (board[0][i] == 'b' && floodfill(0, i)) {

@@ -8,7 +8,7 @@ int main() {
 		int r, total = 0;
 		cin >> r;
 		vi rel(r);
-		fori(v, rel)
+		irep(v, rel)
 			cin >> v;
 
 		sort(all(rel));

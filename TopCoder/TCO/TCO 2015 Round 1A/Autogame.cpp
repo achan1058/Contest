@@ -13,7 +13,7 @@ public:
 		}
 
 		ll ans = 1;
-		fori(d, dest)
+		irep(d, dest)
 			ans = mul(ans, d + 1);
 		return int(ans);
 	}

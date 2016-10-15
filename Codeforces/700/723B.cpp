@@ -9,7 +9,7 @@ int main() {
 	int ans1 = 0, ans2 = 0;
 	for (int i = 0; i < sz(str); i += 2) {
 		vs tokens = tokenizer(str[i], [](int c) {return c == '_' ? 1 : 0; }, false);
-		fori(v, tokens)
+		irep(v, tokens)
 			ans1 = max(ans1, sz(v));
 	}
 

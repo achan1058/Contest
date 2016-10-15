@@ -9,7 +9,7 @@ int main() {
 		vvi dp = mi(s + 1, s + 1, inf);
 		vector<pii> coins(n);
 		int mn = inf;
-		fori(c, coins)
+		irep(c, coins)
 			cin >> c.x >> c.y;
 
 		dp[0][0] = 0;
@@ -19,7 +19,7 @@ int main() {
 					mn = min(mn, dp[i][j]);
 				if (i * i + j * j >= s * s)
 					continue;
-				fori(c, coins) {
+				irep(c, coins) {
 					if (i + c.x > s || j + c.y > s)
 						continue;
 					dp[i + c.x][j + c.y] = min(dp[i + c.x][j + c.y], dp[i][j] + 1);

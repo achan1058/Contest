@@ -3,7 +3,7 @@
 
 void rotate(vs& grid) {
 	int n = sz(grid);
-	form(i, j, (n + 1) / 2, n / 2) {
+	drep(i, j, (n + 1) / 2, n / 2) {
 		char c = grid[i][j];
 		grid[i][j] = grid[n - j - 1][i];
 		grid[n - j - 1][i] = grid[n - i - 1][n - j - 1];
@@ -14,7 +14,7 @@ void rotate(vs& grid) {
 
 int checkgrid(const vs& biggrid, const vs& smallgrid, int x, int y) {
 	int n = sz(smallgrid);
-	form(i, j, n, n) {
+	drep(i, j, n, n) {
 		if (smallgrid[i][j] != biggrid[i + x][j + y])
 			return 0;
 	}
@@ -29,8 +29,8 @@ int main() {
 		read(biggrid);
 		read(smallgrid);
 
-		forn(k, 4) {
-			form(i, j, x - y + 1, x - y + 1)
+		rep(k, 0, 4) {
+			drep(i, j, x - y + 1, x - y + 1)
 				ans[k] += checkgrid(biggrid, smallgrid, i, j);
 
 			rotate(smallgrid);

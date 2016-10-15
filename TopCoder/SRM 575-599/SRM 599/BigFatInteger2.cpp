@@ -7,9 +7,9 @@ public:
 		ll d = D, b = B;
 		map<int, int> pa = tally(factor(A)), pc = tally(factor(C));
 		bool div = true;
-		fori(p, pc) {
+		irep(p, pc) {
 			bool good = false;
-			fori(r, pa) {
+			irep(r, pa) {
 				if (p.x == r.x) {
 					good = (p.y * d <= r.y * b);
 					break;

@@ -11,7 +11,7 @@ int main() {
 	}
 	cin >> k;
 	priority_queue<pii> q;
-	fori(m, mp)
+	irep(m, mp)
 		q.push({ -m.y, -m.x});
 	rep(i, 0, k) {
 		d = -q.top().y, p = q.top().x;

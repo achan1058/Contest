@@ -10,7 +10,7 @@ int main() {
 		rep(i, 0, n) {
 			int space = 0;
 			getline(cin, s);
-			fori(c, s) {
+			irep(c, s) {
 				if (c == ' ')
 					space++;
 			}

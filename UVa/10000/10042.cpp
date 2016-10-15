@@ -20,7 +20,7 @@ int main() {
 			int fd = 0;
 			if (sz(f) == 1)
 				continue;
-			fori(v, f)
+			irep(v, f)
 				fd += digitSum(v);
 			if (fd == digitSum(i)) {
 				printf("%d\n", i);

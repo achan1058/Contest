@@ -6,7 +6,7 @@ public:
 	int minOperations(int A, int B) {
 		map<int, int> primes = tally(factor(A));
 		int maxdeg = 0;
-		fori(p, primes)
+		irep(p, primes)
 			maxdeg = max(maxdeg, p.y);
 		int pw = 0, d = 1;
 		while (d < maxdeg * B) {

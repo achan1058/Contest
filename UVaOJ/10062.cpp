@@ -8,12 +8,12 @@ int main() {
 		vector<pii> result(300);
 		rep(i, 0, 300)
 			result[i] = { 0, -i };
-		fori(c, s)
+		irep(c, s)
 			result[c].x++;
 
 		printf("%s", X > 0 ? "\n" : "");
 		sort(all(result));
-		fori(v, result) {
+		irep(v, result) {
 			if (v.x == 0)
 				continue;
 			printf("%d %d\n", -v.y, v.x);

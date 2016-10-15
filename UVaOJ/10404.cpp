@@ -6,10 +6,10 @@ int main() {
 	while (cin >> n >> k) {
 		vb arr(n + 1);
 		vi values(k);
-		fori(v, values)
+		irep(v, values)
 			cin >> v;
 		rep(i, 1, n + 1) {
-			fori(v, values) {
+			irep(v, values) {
 				if (i - v >= 0)
 					arr[i] = (arr[i] || !arr[i - v]);
 			}

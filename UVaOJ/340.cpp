@@ -6,11 +6,11 @@ int main() {
 	while (cin >> n && n != 0) {
 		vi ans(n), guess(n);
 		printf("Game %d:\n", X);
-		fori(v, ans)
+		irep(v, ans)
 			cin >> v;
 		while (true) {
 			int non_zero = 0;
-			fori(v, guess) {
+			irep(v, guess) {
 				cin >> v;
 				non_zero |= v;
 			}

@@ -5,7 +5,7 @@ int main() {
 	ll n;
 	while (cin >> n && n != -1) {
 		vl factors = factor(n);
-		fori(v, factors)
+		irep(v, factors)
 			printf("    %lld\n", v);
 		printf("\n");
 	}

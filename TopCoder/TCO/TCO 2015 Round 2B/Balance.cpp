@@ -35,7 +35,7 @@ vector<pii> floodfill(vs& board, int x0, int y0, char c) {
 
 Tree buildTree(vs& board, vector<pii>& check, char c) {
 	Tree result;
-	fori(p, check) {
+	irep(p, check) {
 		if (board[p.x][p.y] == c) {
 			Tree t;
 			vector<pii> todo = floodfill(board, p.x, p.y, c);

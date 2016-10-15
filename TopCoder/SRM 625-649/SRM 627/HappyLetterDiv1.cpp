@@ -6,7 +6,7 @@ public:
 	string getHappyLetters(string letters) {
 		vi freq(26, 0);
 		string result;
-		fori(c, letters)
+		irep(c, letters)
 			freq[c - 'a']++;
 		rep(i, 0, 26) {
 			int rem = sz(letters) - freq[i], f = freq[i], badind = -1;
