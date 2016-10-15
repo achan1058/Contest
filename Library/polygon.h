@@ -8,11 +8,11 @@ struct Polygon {
 	Polygon(const vector<point<T>>& v_) : v(v_) {}
 	//returns number of times inside polygon, 0 on boundary, -1 on non-intersection
 	int inPolygon(point<T> p) {
-		int wind2 = 0, q1 = p.above(v.back());
-		rep(i, 0, sz(v)) {
+		int n = sz(v), wind2 = 0, q1 = p.above(v[0]);
+		forn(i, n) {
 			int q2 = p.above(v[i]);
 			if (q1 != q2) {
-				T c = p.sa2(v[i], v[(i + sz(v) - 1) % sz(v)]);
+				T c = p.sa2(v[i], v[(i + 1) % n]);
 				if (c > T(0)) wind2++;
 				else if (c < T(0)) wind2--;
 				else return 0;
@@ -25,7 +25,7 @@ struct Polygon {
 	T sa2() {
 		int n = sz(v);
 		T result = 0;
-		for (int i = 0; i < n; i++)
+		forn(i, n)
 			result += v[i].x * v[(i + 1) % n].y - v[(i + 1) % n].x * v[i].y;
 
 		return result;
