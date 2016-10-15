@@ -6,10 +6,10 @@ public:
 	int count(string s, int k) {
 		map<char, int> m;
 		int ans = 0;
-		irep(c, s)
+		fori(c, s)
 			m[c]++;
 		vi count;
-		irep(v, m)
+		fori(v, m)
 			count.pb(v.y);
 		sort(all(count));
 
@@ -17,7 +17,7 @@ public:
 			count.back()--;
 			sort(all(count));
 		}
-		irep(v, count)
+		fori(v, count)
 			ans += v * v;
 
 		return ans;

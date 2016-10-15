@@ -17,7 +17,7 @@ int main() {
 			else {
 				vb indeg(sz(el), false);
 				rep(i, 0, sz(el)) {
-					irep(v, el[i]) {
+					fori(v, el[i]) {
 						if (indeg[v.x]) {
 							good = false;
 							goto end;

@@ -19,7 +19,7 @@ int main() {
 	while (recurse(ind)) {
 		bool fs = true;
 		printf("Case %d:\n", X);
-		irep(v, result) {
+		fori(v, result) {
 			printf("%s%d", fs ? "" : " ", v.y);
 			fs = false;
 		}

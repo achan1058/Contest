@@ -21,7 +21,7 @@ int main() {
 		}
 
 		ll value = fact[n];
-		irep(m, mp)
+		fori(m, mp)
 			value /= fact[m.y];
 
 		mul *= total * value / n;

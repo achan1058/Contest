@@ -77,7 +77,7 @@ template <class T>
 bool fastIsPrime(T n, const vi& primes) {
 	if (n < T(2))
 		return false;
-	irep(p, primes) {
+	fori(p, primes) {
 		if (T(p) * T(p) > n)
 			return true;
 		if (n % T(p) == 0)
@@ -93,7 +93,7 @@ vector<T> fastFactor(T n, const vi& primes) {
 		result.pb(T(-1));
 		n *= T(-1);
 	}
-	irep(p, primes) {
+	fori(p, primes) {
 		if (T(p) * T(p) > n)
 			break;
 		while (n % T(p) == 0) {
@@ -110,7 +110,7 @@ template <class T>
 T numFactors(const vector<T>& primes) {
 	T result = 1;
 	map<T, int> primepower = tally(primes);
-	irep(p, primepower)
+	fori(p, primepower)
 		result *= p.y + 1;
 	return result;
 }
@@ -119,7 +119,7 @@ template <class T>
 T sumFactors(const vector<T>& primes) {
 	T result = 1;
 	map<T, int> primepower = tally(primes);
-	irep(p, primepower) {
+	fori(p, primepower) {
 		T v(1);
 		rep(i, 0, p.y) {
 			v *= p.x;
@@ -134,7 +134,7 @@ template <class T>
 T eulerPhi(const vector<T>& primes) {
 	T result = 1;
 	map<T, int> primepower = tally(primes);
-	irep(p, primepower) {
+	fori(p, primepower) {
 		result *= p.x - 1;
 		rep(i, 1, p.y)
 			result *= p.x;

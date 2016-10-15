@@ -20,7 +20,7 @@ int main() {
 				dir = i;
 		}
 
-		irep(in, s) {
+		fori(in, s) {
 			if (in == 'R') {
 				dir = (dir + 1) % 4;
 			} else if (in == 'L') {

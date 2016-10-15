@@ -22,7 +22,7 @@ public:
 template<class T>
 map<T, int> tally(const vector<T>& arr) {
 	map<T, int> result;
-	irep(v, arr)
+	fori(v, arr)
 		result[v]++;
 	return result;
 }

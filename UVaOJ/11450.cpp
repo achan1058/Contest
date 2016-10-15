@@ -12,10 +12,10 @@ int main() {
 		rep(i, 0, c) {
 			cin >> t;
 			vi v(t);
-			irep(r, v)
+			fori(r, v)
 				cin >> r;
 			rep(j, 0, n + 1) {
-				irep(r, v) {
+				fori(r, v) {
 					if (j + r <= n)
 						good[i + 1][j + r] = (good[i + 1][j + r] || good[i][j]);
 				}

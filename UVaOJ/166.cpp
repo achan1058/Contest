@@ -6,7 +6,7 @@ int main() {
 	vi coins(6);
 	while (true) {
 		bool zero = true;
-		irep(v, coins) {
+		fori(v, coins) {
 			cin >> v;
 			zero &= v == 0;
 		}

@@ -6,7 +6,7 @@ public:
 	int getscore(string s) {
 		char last = 0;
 		int total = 0, count = 0;
-		irep(c, s) {
+		fori(c, s) {
 			if (c == last) {
 				count++;
 			} else {

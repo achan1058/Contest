@@ -6,7 +6,7 @@ int main() {
 	string s;
 	while (getline(cin, s) && (sz(s) == 0 || s[0] != '#')) {
 		int r = 0;
-		irep(c, s) {
+		fori(c, s) {
 			r = add(r, c);
 			r = mul(r, 1 << 8);
 		}

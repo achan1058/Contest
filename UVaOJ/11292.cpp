@@ -5,9 +5,9 @@ int main() {
 	int n, m;
 	while (cin >> n >> m && (n | m) != 0) {
 		vi d(n), k(m);
-		irep(v, d)
+		fori(v, d)
 			cin >> v;
-		irep(v, k)
+		fori(v, k)
 			cin >> v;
 		sort(all(d));
 		sort(all(k));

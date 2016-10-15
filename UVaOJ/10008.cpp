@@ -11,13 +11,13 @@ int main() {
 		result[i] = { 0, i + 'A' };
 	rep(i, 0, n) {
 		getline(cin, s);
-		irep(c, s) {
+		fori(c, s) {
 			if (isalpha(c))
 				result[toupper(c) - 'A'].x--;
 		}
 	}
 	sort(all(result));
-	irep(v, result) {
+	fori(v, result) {
 		if (v.x == 0)
 			break;
 		printf("%c %d\n", v.y, -v.x);

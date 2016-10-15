@@ -6,11 +6,11 @@ int main() {
 	set<string> dict;
 	while (getline(cin, s)) {
 		vs str = tokenizer(s, [](int c) {return isalpha(c) ? 0 : 1; });
-		irep(s, str) {
+		fori(s, str) {
 			transform(all(s), s.begin(), (int(*)(int))tolower);
 			dict.insert(s);
 		}
 	}
-	irep(s, dict)
+	fori(s, dict)
 		printf("%s\n", s.c_str());
 }

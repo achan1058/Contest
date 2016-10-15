@@ -4,8 +4,8 @@
 class SimilarUserDetection {
 public:
 	string haveSimilar(vector<string> handles) {
-		irep(handle, handles) {
-			irep(c, handle) {
+		fori(handle, handles) {
+			fori(c, handle) {
 				if (c == '0')
 					c = 'O';
 				else if (c == 'I' || c == '1')

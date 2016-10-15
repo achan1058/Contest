@@ -6,7 +6,7 @@ int main() {
 	while (true) {
 		int total = 0;
 		bool zero = true;
-		irep(n, num) {
+		fori(n, num) {
 			cin >> n;
 			if (n > 0)
 				zero = false;

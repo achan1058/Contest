@@ -6,7 +6,7 @@ int main() {
 	cin >> N;
 	rep(X, 1, N + 1) {
 		vi score(7);
-		irep(s, score)
+		fori(s, score)
 			cin >> s;
 		if (score[4] < score[6])
 			swap(score[4], score[6]);

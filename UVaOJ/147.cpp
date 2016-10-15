@@ -7,7 +7,7 @@ int main() {
 	vl num_ways(10000, 0);
 	num_ways[0] = 1;
 
-	irep(c, coins) {
+	fori(c, coins) {
 		c /= 5;
 		rep(i, 0, 6001)
 			num_ways[i + c] += num_ways[i];

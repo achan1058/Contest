@@ -44,7 +44,7 @@ pair<vector<T>, vi> dijkstra(const AdjList<T>& graph, int start, T non_edge = in
 
 		if (dist[v1] < d)
 			continue;
-		irep(e, graph[v1]) {
+		fori(e, graph[v1]) {
 			if (d + e.y < dist[e.x]) {
 				dist[e.x] = d + e.y;
 				prev[e.x] = v1;
@@ -69,7 +69,7 @@ pair<vector<T>, vi> bellmanFord(const AdjList<T>& graph, int start, T non_edge =
 		q.push(i);
 	rep(i, 1, n) {
 		rep(v, 0, n) {
-			irep(e, graph[v]) {
+			fori(e, graph[v]) {
 				if (dist[v] + e.y < dist[e.x]) {
 					dist[e.x] = dist[v] + e.y;
 					prev[e.x] = v;
@@ -80,7 +80,7 @@ pair<vector<T>, vi> bellmanFord(const AdjList<T>& graph, int start, T non_edge =
 	while (!q.empty()) {
 		int v = q.front();
 		q.pop();
-		irep(e, graph[v]) {
+		fori(e, graph[v]) {
 			if (dist[v] + e.y < dist[e.x] && dist[e.x] != -non_edge) {
 				dist[e.x] = -non_edge;
 				prev[e.x] = v;

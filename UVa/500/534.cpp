@@ -8,7 +8,7 @@ int main() {
 		vector<ptd> vec(n);
 		vvd dist = md(n, n, 0);
 
-		irep(p, vec)
+		fori(p, vec)
 			cin >> p;
 		rep(i, 0, n) {
 			rep(j, 0, n)

@@ -9,7 +9,7 @@ int main() {
 			printf("\n");
 
 		vector<point<Double>> points(n);
-		irep(p, points)
+		fori(p, points)
 			cin >> p;
 		vector<point<Double>> hull = graham(points, true);
 		Double dist = 0;

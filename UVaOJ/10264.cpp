@@ -6,7 +6,7 @@ int main() {
 	while (cin >> n) {
 		vi corner(1 << n);
 		int mx = 0;
-		irep(v, corner)
+		fori(v, corner)
 			cin >> v;
 		rep(c1, 0, 1 << n) {
 			rep(i, 0, n) {

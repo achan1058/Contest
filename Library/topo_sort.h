@@ -8,7 +8,7 @@ vi topoSort(const vvi& graph) {
 	priority_queue<int, vi, greater<int>> q;
 
 	rep(i, 0, n) {
-		irep(edge, graph[i])
+		fori(edge, graph[i])
 			in_degree[edge]++;
 	}
 
@@ -22,7 +22,7 @@ vi topoSort(const vvi& graph) {
 		q.pop();
 		result.pb(vtx);
 
-		irep(edge, graph[vtx]) {
+		fori(edge, graph[vtx]) {
 			in_degree[edge]--;
 			if (in_degree[edge] == 0)
 				q.push(edge);
@@ -40,7 +40,7 @@ vi longestDAG(const vvi& graph, int s = -1, int t = -1) {
 	int n = sz(graph), mv = 0;
 	vi topo = topoSort(graph), prev(n, -1), len(n, -1);
 
-	irep(v, topo) {
+	fori(v, topo) {
 		if (s == v)
 			len[v] = 0;
 		else if (s == -1)
@@ -53,7 +53,7 @@ vi longestDAG(const vvi& graph, int s = -1, int t = -1) {
 			continue;
 		if (t == -1 && (len[v] > len[mv] || len[v] == len[mv] && v < mv))
 			mv = v;
-		irep(edge, graph[v]) {
+		fori(edge, graph[v]) {
 			if (len[edge] <= len[v] || len[edge] == len[v] + 1 && v < prev[edge]) {
 				len[edge] = len[v] + 1;
 				prev[edge] = v;
@@ -79,14 +79,14 @@ pair<T, vi> longestDAG(const AdjList<T>& graph, int s = -1, int t = -1, T infini
 	int n = sz(graph), mv = 0;
 	vvi g(n);
 	rep(i, 0, n) {
-		irep(v, graph[i])
+		fori(v, graph[i])
 			g[i].pb(v.x);
 	}
 
 	vi topo = topoSort(g), prev(n, -1);
 	vector<T> len(n, -infinity);
 
-	irep(v, topo) {
+	fori(v, topo) {
 		if (s == v)
 			len[v] = 0;
 		else if (s == -1)
@@ -99,7 +99,7 @@ pair<T, vi> longestDAG(const AdjList<T>& graph, int s = -1, int t = -1, T infini
 			continue;
 		if (t == -1 && (len[v] > len[mv] || len[v] == len[mv] && v < mv))
 			mv = v;
-		irep(edge, graph[v]) {
+		fori(edge, graph[v]) {
 			if (len[edge.x] < len[v] + edge.y || len[edge.x] == len[v] + edge.y && v < prev[edge.x]) {
 				len[edge.x] = len[v] + edge.y;
 				prev[edge.x] = v;

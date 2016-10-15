@@ -6,14 +6,14 @@ int main() {
 	while (cin >> n >> m) {
 		int mn = 0, mx = inf;
 		vi containers(n);
-		irep(v, containers) {
+		fori(v, containers) {
 			cin >> v;
 			mn = max(mn, v);
 		}
 
 		while (mn < mx) {
 			int mid = (mn + mx) / 2, numc = 1, cur = 0;
-			irep(v, containers) {
+			fori(v, containers) {
 				if (v + cur <= mid)
 					cur += v;
 				else {

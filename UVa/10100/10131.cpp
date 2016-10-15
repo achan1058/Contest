@@ -19,6 +19,6 @@ int main() {
 
 	vi result = longestDAG(graph);
 	printf("%d\n", sz(result));
-	irep(v, result)
+	fori(v, result)
 		printf("%d\n", v + 1);
 }

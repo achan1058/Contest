@@ -8,7 +8,7 @@ int main() {
 	bool bad = false;
 	int count = 1;
 
-	irep(c, s) {
+	fori(c, s) {
 		if (c == last) {
 			count++;
 			if (count >= 7) {

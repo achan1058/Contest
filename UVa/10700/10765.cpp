@@ -14,8 +14,8 @@ int main() {
 		vi count(sz(graph), 0);
 		vector<pii> ans;
 
-		irep(b, blocks) {
-			irep(v, b)
+		fori(b, blocks) {
+			fori(v, b)
 				count[v]++;
 		}
 		rep(i, 0, sz(graph))

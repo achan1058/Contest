@@ -21,7 +21,7 @@ int main() {
 	}
 
 	vi result = topoSort(graph);
-	irep(v, result)
+	fori(v, result)
 		printf("%c", mp.getL(v));
 	printf("\n");
 }

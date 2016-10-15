@@ -7,7 +7,7 @@ int main() {
 	for (int X = 0; X < T; X++) {
 		cin >> k >> n;
 		vi lengths(n);
-		irep(v, lengths)
+		fori(v, lengths)
 			cin >> v;
 
 		reverse(all(lengths));

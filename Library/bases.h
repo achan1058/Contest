@@ -3,7 +3,7 @@
 
 int minBase(const string& s, bool extended = false) {
 	int result = 2;
-	irep(c, s) {
+	fori(c, s) {
 		if (c <= '9')
 			result = max(result, c - '0' + 1);
 		else if (c <= 'Z')

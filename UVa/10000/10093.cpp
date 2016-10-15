@@ -5,7 +5,7 @@ int main() {
 	string s;
 	while (cin >> s) {
 		int base = 2, sum = 0;
-		irep(c, s) {
+		fori(c, s) {
 			if (!isalnum(c) || c == '0')
 				continue;
 			int t = minBase(string(1, c), true);

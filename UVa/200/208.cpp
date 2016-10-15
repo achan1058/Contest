@@ -14,7 +14,7 @@ bool bfs(int s, int t) {
 	while (!q.empty()) {
 		int v = q.top();
 		q.pop();
-		irep(e, graph[v]) {
+		fori(e, graph[v]) {
 			if (used[e] || bfsused[e])
 				continue;
 			if (e == t)
@@ -35,7 +35,7 @@ void backtrack() {
 		return;
 	} else if (!bfs(ans.back(), n))
 		return;
-	irep(v, graph[ans.back()]) {
+	fori(v, graph[ans.back()]) {
 		if (!used[v]) {
 			used[v] = true;
 			ans.pb(v);

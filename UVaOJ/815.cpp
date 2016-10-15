@@ -6,7 +6,7 @@ int main() {
 	double vol;
 	while (cin >> n >> m && (n | m) != 0) {
 		vi grid(n * m);
-		irep(v, grid)
+		fori(v, grid)
 			cin >> v;
 		sort(all(grid));
 		grid.push_back(inf);

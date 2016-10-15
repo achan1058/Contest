@@ -12,6 +12,6 @@ int main() {
 		getline(cin, s);
 		big_map[c].insert(s);
 	}
-	irep(c, big_map)
+	fori(c, big_map)
 		printf("%s %d\n", c.x.c_str(), sz(c.y));
 }

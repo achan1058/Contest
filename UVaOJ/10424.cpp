@@ -3,7 +3,7 @@
 
 int love_score(const string& s) {
 	int n = 0;
-	irep(c, s) {
+	fori(c, s) {
 		if (isalpha(c))
 			n += tolower(c) - 'a' + 1;
 	}

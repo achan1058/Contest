@@ -6,7 +6,7 @@ int main() {
 	while (cin >> n >> q && (n | q) != 0) {
 		vi marble(n);
 		printf("CASE# %d:\n", X);
-		irep(m, marble)
+		fori(m, marble)
 			cin >> m;
 		sort(all(marble));
 		rep(i, 0, q) {

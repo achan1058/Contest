@@ -5,7 +5,7 @@ int main() {
 	int X = 1, n, m, mi;
 	while (cin >> n && n != 0) {
 		vi val(n);
-		irep(v, val)
+		fori(v, val)
 			cin >> v;
 		sort(all(val));
 

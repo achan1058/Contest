@@ -8,7 +8,7 @@ int main() {
 		vi count(26);
 		string s;
 		cin >> s;
-		irep(c, s)
+		fori(c, s)
 			count[c - 'A']++;
 
 		printf("Data set %d: %lld\n", X, multinomial<ll>(count));

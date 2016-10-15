@@ -13,7 +13,7 @@ int main() {
 		if (result.empty())
 			printf("IMPOSSIBLE\n");
 		else {
-			irep(v, result)
+			fori(v, result)
 				printf("%d\n", v + 1);
 		}
 	}

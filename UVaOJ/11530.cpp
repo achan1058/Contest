@@ -7,7 +7,7 @@ int main() {
 	int N;
 	string s;
 	rep(i, 0, 4) {
-		irep(c, pad[i])
+		fori(c, pad[i])
 			hits[c] = i + 1;
 	}
 
@@ -16,7 +16,7 @@ int main() {
 	rep(X, 0, N) {
 		getline(cin, s);
 		int result = 0;
-		irep(c, s)
+		fori(c, s)
 			result += hits[c];
 
 		printf("Case #%d: %d\n", X + 1, result);

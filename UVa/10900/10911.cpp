@@ -39,7 +39,7 @@ int main() {
 		best = inf;
 		used = vb(2 * n);
 
-		irep(p, pts)
+		fori(p, pts)
 			cin >> s >> p;
 		rep(i, 0, 2 * n) {
 			rep(j, 0, 2 * n)

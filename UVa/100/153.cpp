@@ -6,9 +6,9 @@ int main() {
 	while (cin >> s && s != "#") {
 		vi count(26);
 		ll ans = 0;
-		irep(c, s)
+		fori(c, s)
 			count[c - 'a']++;
-		irep(c, s) {
+		fori(c, s) {
 			rep(j, 0, c - 'a') {
 				if (count[j] > 0) {
 					count[j]--;

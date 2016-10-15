@@ -5,7 +5,7 @@ int main() {
 	int n, k;
 	cin >> n >> k;
 	vi arr(n);
-	irep(v, arr)
+	fori(v, arr)
 		cin >> v;
 	while (k > 0 && arr[k - 1] == 0)
 		k--;

@@ -9,7 +9,7 @@ bool bicolor(const vvi& graph) {
 	while (!q.empty()) {
 		int v = q.front();
 		q.pop();
-		irep(e, graph[v]) {
+		fori(e, graph[v]) {
 			if (color[e] == color[v])
 				return false;
 			else if (color[e] == -1) {

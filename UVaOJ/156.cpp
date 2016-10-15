@@ -7,7 +7,7 @@ int main() {
 	string s;
 	while (cin >> s && s != "#") {
 		string s2 = s;
-		irep(c, s2)
+		fori(c, s2)
 			c = tolower(c);
 
 		sort(all(s2));
@@ -15,11 +15,11 @@ int main() {
 		freq[s2].y = s;
 	}
 
-	irep(pr, freq)
+	fori(pr, freq)
 		if (pr.y.x == 1)
 			ananagram.pb(pr.y.y);
 		
 	sort(all(ananagram));
-	irep(a, ananagram)
+	fori(a, ananagram)
 		printf("%s\n", a.c_str());
 }

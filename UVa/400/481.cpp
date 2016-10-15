@@ -8,6 +8,6 @@ int main() {
 		nums.pb(t);
 	vi result = lis(nums);
 	printf("%d\n-\n", sz(result));
-	irep(v, result)
+	fori(v, result)
 		printf("%d\n", v);
 }

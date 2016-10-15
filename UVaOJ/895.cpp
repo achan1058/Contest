@@ -6,7 +6,7 @@ int main() {
 	string s;
 	while (getline(cin, s) && s != "#") {
 		vi arr(26, 0);
-		irep(c, s) {
+		fori(c, s) {
 			if (c >= 'a' && c <= 'z')
 				arr[c - 'a']++;
 		}
@@ -15,12 +15,12 @@ int main() {
 
 	while (getline(cin, s) && s != "#") {
 		vi arr(26, 0);
-		irep(c, s) {
+		fori(c, s) {
 			if (c >= 'a' && c <= 'z')
 				arr[c - 'a']++;
 		}
 		int num = 0;
-		irep(v, dict) {
+		fori(v, dict) {
 			bool good = true;
 			rep(j, 0, 26) {
 				if (arr[j] < v[j]) {

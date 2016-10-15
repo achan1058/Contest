@@ -21,7 +21,7 @@ int main() {
 			if (s == "ENQUEUE") {
 				bool found = false;
 				cin >> v;
-				irep(p, q) {
+				fori(p, q) {
 					if (p.x == mp[v]) {
 						p.y.push(v);
 						found = true;

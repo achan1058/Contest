@@ -16,7 +16,7 @@ int main() {
 			out[stoi(s1)] = s2;
 
 		printf("%s", X > 0 ? "\n" : "");
-		irep(v, out)
+		fori(v, out)
 			printf("%s\n", v.y.c_str());
 	}
 }

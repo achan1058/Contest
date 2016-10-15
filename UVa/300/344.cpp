@@ -10,7 +10,7 @@ int main() {
 		rep(k, 0, 5)
 			arr[k][i] = arr[k][i - 1];
 		rep(j, 0, 3) {
-			irep(c, roman[j][n % 10]) {
+			fori(c, roman[j][n % 10]) {
 				rep(k, 0, 5) {
 					if (c == pos[k]) {
 						arr[k][i]++;

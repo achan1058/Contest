@@ -9,7 +9,7 @@ int main() {
 	for (int X = 0; X < T; X++) {
 		cin >> s >> n;
 		vi count(26);
-		irep(c, s)
+		fori(c, s)
 			count[c - 'a']++;
 		rep(i, 0, sz(s)) {
 			rep(j, 0, 26) {

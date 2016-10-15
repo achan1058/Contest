@@ -9,7 +9,7 @@ int main() {
 		cin >> n;
 		printf("%s", X > 0 ? "-1\n" : "");
 		vector<pti> pts(n);
-		irep(p, pts)
+		fori(p, pts)
 			cin >> p.y >> p.x;
 		vector<pti> hull = graham(pts);
 		printf("%d\n%d %d\n", sz(hull) + 1, hull[0].y, hull[0].x);

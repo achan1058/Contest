@@ -26,7 +26,7 @@ public:
 			remain.pb(durations2[i]);
 
 		sort(all(remain));
-		irep(v, remain) {
+		fori(v, remain) {
 			if (v > minutes)
 				break;
 			minutes -= v;

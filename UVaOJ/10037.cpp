@@ -8,7 +8,7 @@ int main() {
 		cin >> n;
 		vi ppl(n);
 		int total = 0;
-		irep(p, ppl)
+		fori(p, ppl)
 			cin >> p;
 
 		sort(all(ppl));

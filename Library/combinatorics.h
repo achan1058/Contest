@@ -44,7 +44,7 @@ template <class T>
 T multinomial(const vi& r) {
 	T result = 1;
 	int n = 0;
-	irep(v, r) {
+	fori(v, r) {
 		n += v;
 		result *= binomial<T>(n, v);
 	}

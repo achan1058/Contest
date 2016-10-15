@@ -14,7 +14,7 @@ int main() {
 
 		int max_comp = 0;
 		vi comps = un.getComponentSizes();
-		irep(v, comps)
+		fori(v, comps)
 			max_comp = max(max_comp, v);
 
 		printf("%d\n", max_comp);

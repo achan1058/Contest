@@ -35,7 +35,7 @@ int main() {
 		}
 
 		sort(all(output));
-		irep(v, output)
+		fori(v, output)
 			printf("%d %d %d\n", v[2], -v[0], v[1]);
 
 		scoreboard = mi(101, 10, 0);

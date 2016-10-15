@@ -6,7 +6,7 @@ public:
 	string isGood(string s) {
 		bool good = true;
 		int n = 0;
-		irep(c, s) {
+		fori(c, s) {
 			if (c == 'a')
 				n++;
 			else

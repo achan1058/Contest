@@ -8,8 +8,8 @@ int main() {
 	rep(X, 0, N) {
 		vi perm = { 0, 1, 2, 3, 4, 5, 6, 7 };
 		int mx = 0;
-		irep(ai, a) {
-			irep(aij, ai)
+		fori(ai, a) {
+			fori(aij, ai)
 				cin >> aij;
 		}
 

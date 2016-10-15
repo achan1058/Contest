@@ -7,7 +7,7 @@ int main() {
 	while (cin >> n && n != 0) {
 		int total = 0;
 		vi costs(n);
-		irep(c, costs) {
+		fori(c, costs) {
 			cin >> cur;
 			c = (int)(cur * 100 + eps);
 			total += c;

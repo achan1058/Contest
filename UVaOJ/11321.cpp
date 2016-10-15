@@ -21,12 +21,12 @@ int main() {
 	int n;
 	while (cin >> n >> m && (n | m) != 0) {
 		vi num(n);
-		irep(v, num)
+		fori(v, num)
 			cin >> v;
 
 		sort(all(num), comp);
 		printf("%d %d\n", n, m);
-		irep(v, num)
+		fori(v, num)
 			printf("%d\n", v);
 	}
 	printf("0 0\n");

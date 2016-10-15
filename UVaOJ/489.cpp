@@ -11,7 +11,7 @@ int main() {
 
 		int wrong = 0, right = 0;
 		vi todo(30);
-		irep(v, s1) {
+		fori(v, s1) {
 			if (v >= 'a' && v <= 'z') {
 				if (todo[v - 'a'] == 0)
 					right++;
@@ -20,7 +20,7 @@ int main() {
 			}
 		}
 
-		irep(v, s2) {
+		fori(v, s2) {
 			if (v >= 'a' && v <= 'z') {
 				if (todo[v - 'a'] == 0)
 					wrong++;

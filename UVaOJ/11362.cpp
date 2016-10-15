@@ -8,7 +8,7 @@ int main() {
 		cin >> n;
 		vs num(n);
 		bool good = true;
-		irep(s, num)
+		fori(s, num)
 			cin >> s;
 		sort(all(num));
 		rep(i, 1, n) {

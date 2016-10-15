@@ -29,7 +29,7 @@ int main() {
 		}
 
 		bool dup = false;
-		irep(it, numbers) {
+		fori(it, numbers) {
 			if (it.y > 1) {
 				printf("%s-%s %d\n", it.x.substr(0, 3).c_str(), it.x.substr(3).c_str(), it.y);
 				dup = true;

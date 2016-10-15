@@ -6,7 +6,7 @@ int main() {
 	int X = 1;
 	while (getline(cin, s) && s != "END") {
 		double x = 0, y = 0, dx = 0, dy = 0, dist = 0;
-		irep(c, s) {
+		fori(c, s) {
 			if (c >= '0' && c <= '9') {
 				dist *= 10;
 				dist += c - '0';

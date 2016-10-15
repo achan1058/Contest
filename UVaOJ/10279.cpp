@@ -12,9 +12,9 @@ int main() {
 		vs board(n), open(n);
 		vvi count = mi(n + 2, n + 2, 0);
 		bool boom = false;
-		irep(s, board)
+		fori(s, board)
 			cin >> s;
-		irep(s, open)
+		fori(s, open)
 			cin >> s;
 		rep(i, 0, n) {
 			rep(j, 0, n) {

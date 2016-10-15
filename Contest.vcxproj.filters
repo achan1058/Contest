@@ -483,6 +483,12 @@
     <Filter Include="TopCoder\TCO\2014 Round 2B">
       <UniqueIdentifier>{bc08a4bb-1dd9-4dd2-b99b-70b549d07c38}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\TCO\2015 Round 1A">
+      <UniqueIdentifier>{be3395ee-fe0e-4b34-9744-a9db3e9c3088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO\2015 Round 1B">
+      <UniqueIdentifier>{70193bab-26a2-498e-804d-4dac8dc028bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -3079,6 +3085,15 @@
     </ClCompile>
     <ClCompile Include="TopCoder\TCO\TCO 2014 Round 1B\WolvesAndSheep.cpp">
       <Filter>TopCoder\TCO\2014 Round 1B</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2015 Round 1A\Similars.cpp">
+      <Filter>TopCoder\TCO\2015 Round 1A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2015 Round 1A\Autogame.cpp">
+      <Filter>TopCoder\TCO\2015 Round 1A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2015 Round 1A\Revmatching.cpp">
+      <Filter>TopCoder\TCO\2015 Round 1A</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

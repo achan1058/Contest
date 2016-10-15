@@ -10,7 +10,7 @@ void find_word(const string& s) {
 			rep(k, 0, 8) {
 				int nx = x, ny = y;
 				bool found = true;
-				irep(c, s) {
+				fori(c, s) {
 					if (nx < 0 || nx >= r || ny < 0 || ny >= c || c != grid[nx][ny]) {
 						found = false;
 						break;
@@ -43,7 +43,7 @@ int main() {
 		cin >> w;
 		rep(i, 0, w) {
 			cin >> s;
-			irep(c, s)
+			fori(c, s)
 				c = tolower(c);
 			find_word(s);
 		}

@@ -5,7 +5,7 @@ int main() {
 	int n, c;
 	while (cin >> n) {
 		vi books(n);
-		irep(b, books)
+		fori(b, books)
 			cin >> b;
 
 		cin >> c;

@@ -28,7 +28,7 @@ int main() {
 	while (cin >> n) {
 		n -= 4;
 		n /= 2;
-		irep(v, vamp[n])
+		fori(v, vamp[n])
 			printf("%d\n", v);
 		printf("\n");
 	}

@@ -8,7 +8,7 @@ int main() {
 		cin >> t;
 		vi item(t);
 		int total = 0;
-		irep(v, item)
+		fori(v, item)
 			cin >> v;
 		sort(all(item));
 		for (int i = sz(item) - 3; i >= 0; i -= 3)

@@ -8,7 +8,7 @@ int main() {
 		cin >> v >> e;
 		UnionFind u(v);
 		vi cost(v);
-		irep(val, cost)
+		fori(val, cost)
 			cin >> val;
 		rep(i, 0, e) {
 			cin >> e1 >> e2;
@@ -17,9 +17,9 @@ int main() {
 
 		vvi comps = u.getComponents();
 		bool possible = true;
-		irep(comp, comps) {
+		fori(comp, comps) {
 			int c = 0;
-			irep(val, comp)
+			fori(val, comp)
 				c += cost[val];
 			if (c != 0) {
 				possible = false;

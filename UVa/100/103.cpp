@@ -7,7 +7,7 @@ int main() {
 	while (cin >> n >> d) {
 		vvi graph(n), boxes = mi(n, d, 0);
 		rep(i, 0, n) {
-			irep(b, boxes[i])
+			fori(b, boxes[i])
 				cin >> b;
 			sort(all(boxes[i]));
 		}
@@ -30,7 +30,7 @@ int main() {
 		vi result = longestDAG(graph);
 		bool fs = true;
 		printf("%d\n", sz(result));
-		irep(v, result) {
+		fori(v, result) {
 			printf("%s%d", (fs ? "" : " "), v + 1);
 			fs = false;
 		}

@@ -5,7 +5,7 @@ int main() {
 	int n;
 	while (cin >> n) {
 		vi num(n);
-		irep(v, num)
+		fori(v, num)
 			cin >> v;
 		sort(all(num));
 		int mid = (n - 1) / 2, low = num[mid], high = n % 2 ? num[mid] : num[mid + 1], count = 0;

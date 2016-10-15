@@ -33,7 +33,7 @@ int main() {
 	while (cin >> n >> m && (n | m) != 0) {
 		board.resize(n);
 		vector<pair<int, char>> out;
-		irep(s, board)
+		fori(s, board)
 			cin >> s;
 		rep(i, 0, n) {
 			rep(j, 0, m) {
@@ -45,7 +45,7 @@ int main() {
 		}
 		sort(all(out));
 		printf("Problem %d:\n", X);
-		irep(v, out)
+		fori(v, out)
 			printf("%c %d\n", v.y, -v.x);
 		X++;
 	}

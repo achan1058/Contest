@@ -38,8 +38,8 @@ int main() {
 		cin >> r >> c;
 		grid = mi(r, c, 0);
 		board = mi(r, c, inf);
-		irep(b, grid) {
-			irep(v, b)
+		fori(b, grid) {
+			fori(v, b)
 				cin >> v;
 		}
 

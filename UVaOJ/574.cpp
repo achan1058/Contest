@@ -35,7 +35,7 @@ int main() {
 		has_sum = false;
 		v = vi(n);
 		ans = vb(n);
-		irep(r, v)
+		fori(r, v)
 			cin >> r;
 		printf("Sums of %d:\n", t);
 		backtrack();

@@ -4,7 +4,7 @@
 int main() {
 	vi primes = sieve(1000), false_primes = { 1 };
 	int n, c;
-	irep(p, primes)
+	fori(p, primes)
 		false_primes.pb(p);
 	while (cin >> n >> c) {
 		int ind = upper_bound(all(false_primes), n) - false_primes.begin();

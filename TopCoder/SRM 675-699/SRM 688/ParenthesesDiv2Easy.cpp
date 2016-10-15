@@ -5,7 +5,7 @@ class ParenthesesDiv2Easy {
 public:
 	int getDepth(string s) {
 		int depth = 0, maxd = 0;
-		irep(c, s) {
+		fori(c, s) {
 			if (c == '(') {
 				depth++;
 				maxd = max(depth, maxd);

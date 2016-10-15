@@ -36,7 +36,7 @@ int main() {
 	int n;
 	while (cin >> n && n != 0) {
 		vi arr(n);
-		irep(v, arr)
+		fori(v, arr)
 			cin >> v;
 		output = 0;
 		mergesort(arr, 0, sz(arr));

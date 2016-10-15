@@ -6,7 +6,7 @@ int greedy(vector<pii>& switches) {
 	vb hit(sz(switches), false);
 	int result = 0;
 
-	ire(i, switches) {
+	fori(i, switches) {
 		if (hit[i])
 			continue;
 		result++;

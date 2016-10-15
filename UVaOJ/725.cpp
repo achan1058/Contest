@@ -21,7 +21,7 @@ int main() {
 		if (pairs[n].empty())
 			printf("There are no solutions for %d.\n", n);
 		else {
-			irep(p, pairs[n])
+			fori(p, pairs[n])
 				printf("%05d / %05d = %d\n", p.x, p.y, n);
 		}
 		X++;

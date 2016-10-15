@@ -12,7 +12,7 @@ int main() {
 	string s;
 	while (cin >> s) {
 		int sum = 0;
-		irep(c, s)
+		fori(c, s)
 			sum += charToScore(c);
 		printf("It is %sa prime word.\n", sum == 1 || isPrime(sum) ? "" : "not ");
 	}

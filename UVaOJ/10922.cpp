@@ -15,7 +15,7 @@ int main() {
 	while (cin >> s && s != "0") {
 		int sum_digit = 0;
 
-		irep(c, s)
+		fori(c, s)
 			sum_digit += c - '0';
 		if (sum_digit % 9 != 0) {
 			printf("%s is not a multiple of 9.\n", s.c_str());

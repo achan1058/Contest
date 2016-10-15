@@ -24,7 +24,7 @@ int main() {
 		}
 
 		sort(all(jobs), comp);
-		irep(j, jobs) {
+		fori(j, jobs) {
 			printf("%s%d", fs ? "" : " ", get<2>(j));
 			fs = false;
 		}

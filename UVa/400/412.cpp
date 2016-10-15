@@ -6,7 +6,7 @@ int main() {
 	while (cin >> n && n > 0) {
 		vi v(n);
 		int num_gcd = 0;
-		irep(l, v)
+		fori(l, v)
 			cin >> l;
 		rep(i, 0, n) {
 			rep(j, i + 1, n) {

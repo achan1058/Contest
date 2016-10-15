@@ -27,7 +27,7 @@ int main() {
 					lines[{ dx, dy }]++;
 				}
 
-				irep(l, lines)
+				fori(l, lines)
 					best = max(best, l.y);
 			}
 			printf("%d\n", best + 1);

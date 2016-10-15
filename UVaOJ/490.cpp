@@ -8,7 +8,7 @@ int main() {
 
 	while (getline(cin, s))
 		ss.push_back(s);
-	irep(str, ss) {
+	fori(str, ss) {
 		max_len = max(max_len, int(sz(str)));
 		str.resize(max_len, ' ');
 	}

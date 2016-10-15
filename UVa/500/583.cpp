@@ -7,7 +7,7 @@ int main() {
 		printf("%lld = ", n);
 		vl primes = factor(n);
 		bool fs = true;
-		irep(p, primes) {
+		fori(p, primes) {
 			printf("%s%lld", fs ? "" : " x ", p);
 			fs = false;
 		}

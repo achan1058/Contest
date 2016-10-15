@@ -23,7 +23,7 @@ public:
 		}
 		sort(all(maxTaste));
 		int best = 0, curTaste = 0, num = 0;
-		irep(ts, maxTaste) {
+		fori(ts, maxTaste) {
 			curTaste -= ts;
 			num++;
 			best = max(curTaste * num, best);

@@ -6,7 +6,7 @@ int main() {
 	string board(300, 0);
 	char c;
 
-	irep(s, keyboard) {
+	fori(s, keyboard) {
 		rep(j, 0, sz(s))
 			board[s[j]] = s[j - 1];
 	}

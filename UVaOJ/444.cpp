@@ -14,7 +14,7 @@ int main() {
 		if (s[0] >= '0' && s[0] <= '9') {
 			reverse(all(s));
 			int num = 0;
-			irep(c, s) {
+			fori(c, s) {
 				num *= 10;
 				num += c - '0';
 				if (num > 20) {
