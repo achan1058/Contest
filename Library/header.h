@@ -42,4 +42,4 @@ ll mod = 1000000007ll;
 #define mul(i, j) ((i) * (j)) % mod
 #define bits(n) int(__builtin_popcount(n))
 #define gcd(a, b) abs(__gcd(a, b))
-#define forX int N; string XS; cin >> N; getline(cin, XS); for (int X = 1; X <= N; X++)
+#define forX() int N; string XS; cin >> N; getline(cin, XS); for (int X = 1; X <= N; X++)
