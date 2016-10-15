@@ -100,4 +100,4 @@ template <typename T, typename... A> inline void debug(T t, A... a) { cout << t 
 template <typename T> inline void debugv(T a) { for (auto& k : (a)) cout << k << ' '; cout << endl; }
 template <typename T> inline void debugvp(T a) { for (auto& k : (a)) cout << k.first << ',' << k.second << ' '; cout << endl; }
 template <typename T> inline void debugvv(T a) { for (auto& k : (a)) debugv(k); cout << endl; }
-inline void debugvs(std::vector<std::string> a) { for (auto& k : (a)) std::cout << k << std::endl; }
+inline void debugvs(std::vector<std::string> a) { for (auto& k : (a)) std::cout << k << std::endl; std::cout << std::endl; }
