@@ -5,7 +5,6 @@ vvi children;
 int counter;
 
 int recurse(vector<int>& parent, vector<int>& dist, int maxDist, int v = 0) {
-	cout.flush();
 	vector<pii> childnum;
 	fori(c, children[v])
 		childnum.pb({ recurse(parent, dist, maxDist, c) + dist[c - 1], c });
