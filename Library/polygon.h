@@ -10,7 +10,7 @@ struct Polygon {
 	int inPolygon(point<T> p) {
 		int n = sz(v), wind2 = 0, q1 = p.above(v[0]);
 		forn(i, n) {
-			int q2 = p.above(v[i]);
+			int q2 = p.above(v[(i + 1) % n]);
 			if (q1 != q2) {
 				T c = p.sa2(v[i], v[(i + 1) % n]);
 				if (c > T(0)) wind2++;
