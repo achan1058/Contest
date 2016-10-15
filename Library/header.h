@@ -21,6 +21,7 @@ template <class T> inline void read(vector<T>& v, int b = 0, int e = 0) { for (i
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
 ll mod = 1000000007ll;
+vi dx = { -1, 0, 1, 0 }, dy = { 0, 1, 0, -1 }; // NESW
 
 #define forn(k, a) for (int k = 0; k < int(a); k++)
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
@@ -44,5 +45,6 @@ ll mod = 1000000007ll;
 #define gcd(a, b) abs(__gcd(a, b))
 #define forX() int N; string XS; cin >> N; getline(cin, XS); for (int X = 1; X <= N; X++)
 #define whileX(a) int X = 0; while(X++, (a))
+#define printX(...) printf("%s", (X > 1 ? "\n" : "")); printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X); printf(__VA_ARGS__)
 #define printp(...) printf("Case #%d: ", X); printf(__VA_ARGS__)
