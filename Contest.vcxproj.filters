@@ -462,6 +462,27 @@
     <Filter Include="TopCoder\600-624\622">
       <UniqueIdentifier>{8cf97d35-eb9c-4a78-b925-004a717813eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\600-624\606">
+      <UniqueIdentifier>{8665b7b5-b756-4801-898f-fb8dd6ffb327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\600-624\620">
+      <UniqueIdentifier>{5f58dc95-9ff8-4081-b65b-3b474f702900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO">
+      <UniqueIdentifier>{3be02d64-a93f-44e1-a5a5-011972117e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO\2014 Round 1A">
+      <UniqueIdentifier>{41569381-3077-453d-8466-e5146dd806c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO\2014 Round 1B">
+      <UniqueIdentifier>{a858c684-6520-4bd2-84ce-f7f442b2337e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO\2014 Round 2A">
+      <UniqueIdentifier>{450fde97-6132-4ff2-af6a-d13173ac7acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO\2014 Round 2B">
+      <UniqueIdentifier>{bc08a4bb-1dd9-4dd2-b99b-70b549d07c38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -3028,6 +3049,36 @@
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 600-624\SRM 622\Ethernet.cpp">
       <Filter>TopCoder\600-624\622</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 606\EllysSubstringSorter.cpp">
+      <Filter>TopCoder\600-624\606</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 606\EllysNumberGuessing.cpp">
+      <Filter>TopCoder\600-624\606</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 606\EllysCandyGame.cpp">
+      <Filter>TopCoder\600-624\606</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 600-624\SRM 620\PairGame.cpp">
+      <Filter>TopCoder\600-624\620</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2014 Round 1A\EllysSortingTrimmer.cpp">
+      <Filter>TopCoder\TCO\2014 Round 1A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2014 Round 1A\EllysScrabble.cpp">
+      <Filter>TopCoder\TCO\2014 Round 1A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2014 Round 1B\SpamChecker.cpp">
+      <Filter>TopCoder\TCO\2014 Round 1B</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2014 Round 2A\SixteenBricks.cpp">
+      <Filter>TopCoder\TCO\2014 Round 2A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2014 Round 2B\SwitchingGame.cpp">
+      <Filter>TopCoder\TCO\2014 Round 2B</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2014 Round 1B\WolvesAndSheep.cpp">
+      <Filter>TopCoder\TCO\2014 Round 1B</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
