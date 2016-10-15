@@ -489,6 +489,12 @@
     <Filter Include="TopCoder\TCO\2015 Round 1B">
       <UniqueIdentifier>{70193bab-26a2-498e-804d-4dac8dc028bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\TCO\2015 Round 2A">
+      <UniqueIdentifier>{55e12f41-3891-4351-922d-4e955e7db2a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO\2015 Round 2B">
+      <UniqueIdentifier>{20e6f901-2cfc-4729-80ce-a76d8c6d1e3d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -3094,6 +3100,18 @@
     </ClCompile>
     <ClCompile Include="TopCoder\TCO\TCO 2015 Round 1A\Revmatching.cpp">
       <Filter>TopCoder\TCO\2015 Round 1A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2015 Round 1B\TheNicePair.cpp">
+      <Filter>TopCoder\TCO\2015 Round 1B</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2015 Round 2A\ModModMod.cpp">
+      <Filter>TopCoder\TCO\2015 Round 2A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2015 Round 2B\Bitwisdom.cpp">
+      <Filter>TopCoder\TCO\2015 Round 2B</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2015 Round 2B\Balance.cpp">
+      <Filter>TopCoder\TCO\2015 Round 2B</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
