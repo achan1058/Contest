@@ -11,8 +11,7 @@ struct Polygon {
 		int wind2 = 0, q1 = p.above(v.back());
 		rep(i, 0, sz(v)) {
 			int q2 = p.above(v[i]);
-			if (q2 == 0) return 0;
-			else if (q1 != q2) {
+			if (q1 != q2) {
 				T c = p.sa2(v[i], v[(i + sz(v) - 1) % sz(v)]);
 				if (c > T(0)) wind2++;
 				else if (c < T(0)) wind2--;
