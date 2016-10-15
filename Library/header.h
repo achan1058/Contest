@@ -22,7 +22,9 @@ int inf = 0x3f3f3f3f;
 double eps = 1e-8;
 ll mod = 1000000007ll;
 
+#define re(k, a) for (int k = 0; k < int(a); k++)
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
+#define ire(k, a) for (int k = 0; k < sz(a); k++)
 #define irep(k, a) for (auto& k : (a))
 #define sz(a) int(a.size())
 #define all(c) (c).begin(), (c).end()
