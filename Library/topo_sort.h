@@ -80,5 +80,5 @@ pair<U, vi> longestDAGHelper(const vector<vector<T>>& graph, int s = -1, int t =
 	reverse(all(result));
 	return make_pair(mx, result);
 }
-inline vi longestDAG(const vector<vector<int>>& graph, int s = -1, int t = -1, int infinity = inf) { return longestDAGHelper<int, int>(graph, s, t, infinity).y; }
-template<class T> inline pair<T, vi> longestDAG(const vector<vector<pair<int, T>>>& graph, int s = -1, int t = -1, T infinity = inf) { return longestDAGHelper<pair<int, T>, T>(graph, s, t, infinity); }
+inline vi longestDAG(const vector<vector<int>>& graph, int s = -1, int t = -1, int infinity = inf) { return longestDAGHelper(graph, s, t, infinity).y; }
+template<class T> inline pair<T, vi> longestDAG(const vector<vector<pair<int, T>>>& graph, int s = -1, int t = -1, T infinity = inf) { return longestDAGHelper(graph, s, t, infinity); }
