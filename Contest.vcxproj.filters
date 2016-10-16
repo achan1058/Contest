@@ -3188,6 +3188,18 @@
     <ClCompile Include="GCJ\2014\R2-B.cpp">
       <Filter>GCJ\2014</Filter>
     </ClCompile>
+    <ClCompile Include="GCJ\2014\Q-A.cpp">
+      <Filter>GCJ\2014</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2014\Q-B.cpp">
+      <Filter>GCJ\2014</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2014\Q-C.cpp">
+      <Filter>GCJ\2014</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2014\Q-D.cpp">
+      <Filter>GCJ\2014</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
