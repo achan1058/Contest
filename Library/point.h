@@ -24,7 +24,6 @@ struct point {
 	double dist(point p) const { return sqrt(dist2(p)); }
 	int above(point p) const { return p.y > y || (p.y == y && p.x > x) ? 1 : (p.y < y || p.x < x ? -1 : 0); }
 };
-template<class T>
-istream& operator>>(istream& in, point<T>& p) { return in >> p.x >> p.y; }
+template<class T> istream& operator>>(istream& in, point<T>& p) { return in >> p.x >> p.y; }
 typedef point<int> pti;
 typedef point<double> ptd;
