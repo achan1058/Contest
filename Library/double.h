@@ -19,8 +19,10 @@ struct Double {
 	bool operator>(Double d) const { return v > d.v + eps; }
 	bool operator<=(Double d) const { return v <= d.v + eps; }
 	bool operator>=(Double d) const { return v >= d.v - eps; }
+	// actually fine as multiple overloads causes compile error
 	operator int() const { return int(v + eps); }
 	operator ll() const { return ll(v + eps); }
+	operator double() const { return v; }
 };
 istream& operator>>(istream& in, Double& d) { in >> d.v; return in; }
 Double abs(Double d) { return abs(d.v); }
