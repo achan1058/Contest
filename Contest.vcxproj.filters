@@ -522,6 +522,21 @@
     <Filter Include="GCJ\2015">
       <UniqueIdentifier>{ecc2ffa0-17f9-4dc9-965d-f32513e62387}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GCJ\2016">
+      <UniqueIdentifier>{b78beafb-95c4-4285-9b5a-608f6ac959f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archieve">
+      <UniqueIdentifier>{3db999a7-ff5c-4695-878c-2603f474705e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archieve\5100">
+      <UniqueIdentifier>{443ff997-f7f5-4935-b42d-1fbef6ff51c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archieve\5300">
+      <UniqueIdentifier>{969ef003-271c-4b34-99a3-5e83c9cc5347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archieve\5500">
+      <UniqueIdentifier>{038d1c94-6cca-4f72-918f-b73933eb8bab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -3235,6 +3250,42 @@
     </ClCompile>
     <ClCompile Include="GCJ\2015\R3-B.cpp">
       <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\Q-A.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\Q-B.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\Q-C.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\Q-D.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\R1A-A.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\R1A-B.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\R1A-C.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\R2-A.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\R2-B.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5100\5139.cpp">
+      <Filter>Archieve\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5356.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5514.cpp">
+      <Filter>Archieve\5500</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
