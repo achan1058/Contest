@@ -1,14 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-map<ll, int> m;
-ll fxn(ll n) {
-	if (n % 2 == 1)
-		return 3 * n + 1;
-	else
-		return n / 2;
-}
-
+unordered_map<ll, int> m;
 int len(ll n) {
 	if (n == 1)
 		return 3;
@@ -17,9 +10,9 @@ int len(ll n) {
 	vl seq;
 	while (m.find(n) == m.end()) {
 		seq.pb(n);
-		n = fxn(n);
+		n = (n % 2 ? 3 * n + 1 : n / 2);
 	}
-	rrep(i, sz(seq) - 1, 0)
+	rep(i, 0, sz(seq))
 		m[seq[i]] = m[n] + sz(seq) - i;
 
 	return m[seq[0]];
