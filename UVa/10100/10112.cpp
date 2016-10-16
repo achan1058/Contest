@@ -4,7 +4,7 @@
 int main() {
 	int n;
 	while (cin >> n && n != 0) {
-		string s(n, ' '), ans;
+		string s(n, ' '), ans(3, ' ');
 		vector<pti> points(n);
 		int mx = 0;
 
@@ -28,10 +28,9 @@ int main() {
 					}
 
 					if (good) {
-						ans = "";
-						ans += s[i];
-						ans += s[j];
-						ans += s[k];
+						ans[0] = s[i];
+						ans[1] = s[j];
+						ans[2] = s[k];
 						mx = area;
 					}
 				}
