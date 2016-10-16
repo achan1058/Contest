@@ -1,35 +1,26 @@
 #include <bits/stdc++.h>
-#include "header.h"
+#include "binary_search.h"
 
-ll numCustomers(vl& barbers, ll time) {
+int num;
+vl barbers;
+ll numCustomers(ll time) {
 	if (time < 0)
-		return 0;
+		return num;
 	ll served = 0;
 	irep(b, barbers)
 		served += time / b + 1;
-	return served;
-}
-
-ll binary_search(vl& barbers, ll num, ll mn = 0, ll mx = 1000000000000000000ll) {
-	while (mn != mx) {
-		ll mid = (mn + mx) / 2;
-		if (numCustomers(barbers, mid) >= num)
-			mx = mid;
-		else mn = mid + 1;
-	}
-	return mn;
+	return max(0ll, num - served);
 }
 
 int main() {
-	int n, num;
+	int n;
 	forX() {
 		cin >> n >> num;
-		vl barbers(n);
+		barbers.resize(n);
 		read(barbers);
 
-		ll time = binary_search(barbers, num);
-		num -= int(numCustomers(barbers, time - 1));
-
+		ll time = binarySearch(numCustomers, 0ll, 1000000000000000000ll);
+		num = int(numCustomers(time - 1));
 		rep(i, 0, n) {
 			if (time % barbers[i] == 0) {
 				num--;
