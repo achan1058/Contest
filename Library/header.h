@@ -42,7 +42,7 @@ vi dx = { -1, 0, 1, 0 }, dy = { 0, 1, 0, -1 }; // NESW
 #define mul(i, j) ((i) * (j)) % mod
 #define bits(n) int(__builtin_popcount(n))
 #define gcd(a, b) abs(__gcd(a, b))
-#define forX() int N; string XS; cin >> N; getline(cin, XS); for (int X = 1; X <= N; X++)
+#define forX() int T; string XS; cin >> T; getline(cin, XS); for (int X = 1; X <= T; X++)
 #define whileX(a) int X = 0; while(X++, (a))
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")); printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X); printf(__VA_ARGS__)
