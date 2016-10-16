@@ -8,15 +8,11 @@ int main() {
 		vector<ptd> gopher(n), hole(m);
 		vvb graph = mb(n, m, false);
 		double dist = s * v;
-		rep(i, 0, n)
-			cin >> gopher[i];
-		rep(i, 0, m)
-			cin >> hole[i];
-		rep(i, 0, n) {
-			rep(j, 0, m) {
-				if (gopher[i].dist(hole[j]) <= s * v + eps)
-					graph[i][j] = true;
-			}
+		read(gopher);
+		read(hole);
+		drep(i, j, n, m) {
+			if (gopher[i].dist(hole[j]) <= s * v + eps)
+				graph[i][j] = true;
 		}
 		printf("%d\n", n - sz(matching(graph)));
 	}
