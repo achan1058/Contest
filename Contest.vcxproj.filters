@@ -677,9 +677,6 @@
     <ClCompile Include="UVaOJ\357.cpp">
       <Filter>UVa\300</Filter>
     </ClCompile>
-    <ClCompile Include="UVaOJ\371.cpp">
-      <Filter>UVa\300</Filter>
-    </ClCompile>
     <ClCompile Include="UVaOJ\386.cpp">
       <Filter>UVa\300</Filter>
     </ClCompile>
@@ -3169,6 +3166,9 @@
     </ClCompile>
     <ClCompile Include="UVa\800\811.cpp">
       <Filter>UVa\800</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\300\371.cpp">
+      <Filter>UVa\300</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
