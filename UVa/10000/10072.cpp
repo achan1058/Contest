@@ -9,9 +9,9 @@ int main() {
 		vi bat(n), bowl(n), rnd(n);
 		rep(j, 0, n) {
 			cin >> bt >> bl >> fl;
-			bat[j] = int(0.8 * bt + 0.2 * fl + 0.5);
-			bowl[j] = int(0.7 * bl + 0.1 * bt + 0.2 * fl + 0.5);
-			rnd[j] = int(0.4 * bl + 0.4 * bt + 0.2 * fl + 0.5);
+			bat[j] = round(0.8 * bt + 0.2 * fl);
+			bowl[j] = round(0.7 * bl + 0.1 * bt + 0.2 * fl);
+			rnd[j] = round(0.4 * bl + 0.4 * bt + 0.2 * fl);
 		}
 
 		cin >> bt >> bl >> fl;
