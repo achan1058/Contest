@@ -2,22 +2,20 @@
 #include "header.h"
 
 int main() {
-	int T, n;
-	cin >> T;
-	rep(X, 0, T) {
+	int n;
+	forX() {
 		cin >> n;
 		vi pancakes(n);
-		rep(i, 0, n)
-			cin >> pancakes[i];
+		read(pancakes);
 		sort(all(pancakes));
 		int best = pancakes.back();
 		rep(i, 1, pancakes.back()) {
 			int cuts = 0;
-			fori(p, pancakes)
+			irep(p, pancakes)
 				cuts += (p - 1) / i;
 			best = min(best, cuts + i);
 		}
 
-		printf("Case #%d: %d\n", X + 1, best);
+		printp("%d\n", best);
 	}
 }
