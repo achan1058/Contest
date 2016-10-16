@@ -7,8 +7,7 @@ int main() {
 	int n;
 	while (cin >> n && n != -1) {
 		vector<pti> points(n);
-		irep(p, points)
-			cin >> p;
+		read(points);
 		kingdoms.pb(Polygon<int>(graham(points)));
 	}
 
