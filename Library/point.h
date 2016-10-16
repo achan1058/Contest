@@ -21,7 +21,7 @@ struct point {
 	T norm2() const { return x * x + y * y; }
 	T dist2(point p) const { return (*this - p).norm2(); }
 	T sa2(point p1, point p2) const { return (p1 - *this).cross(p2 - *this); }
-	T dist(point p) const { return sqrt(dist2(p)); }
+	double dist(point p) const { return sqrt(dist2(p)); }
 	int above(point p) const { return p.y > y || (p.y == y && p.x > x) ? 1 : (p.y < y || p.x < x ? -1 : 0); }
 };
 template<class T>

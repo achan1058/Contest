@@ -1,6 +1,7 @@
 #pragma once
 #include "point.h"
 
+// CHANGES POINT ORDER
 template<class T>
 vector<point<T>> graham(vector<point<T>>& p, bool allp = false) {
 	int rev;
