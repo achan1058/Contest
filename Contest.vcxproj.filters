@@ -519,6 +519,9 @@
     <Filter Include="GCJ\2014">
       <UniqueIdentifier>{5e985da2-e862-4042-a04b-5340a9358877}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GCJ\2015">
+      <UniqueIdentifier>{ecc2ffa0-17f9-4dc9-965d-f32513e62387}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -3199,6 +3202,39 @@
     </ClCompile>
     <ClCompile Include="GCJ\2014\Q-D.cpp">
       <Filter>GCJ\2014</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\12600\12611.cpp">
+      <Filter>UVa\12600</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\Q-A.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\Q-B.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\Q-C.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\Q-D.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\R1A-A.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\R1A-B.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\R2-A.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\R2-D.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\R3-A.cpp">
+      <Filter>GCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2015\R3-B.cpp">
+      <Filter>GCJ\2015</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
