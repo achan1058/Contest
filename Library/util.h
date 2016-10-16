@@ -1,6 +1,11 @@
 #pragma once
 #include "header.h"
 
+// returns sign of value
+template <class T> int sgn(T val) {
+	return (T(0) < val) - (val < T(0));
+}
+
 // maps elements of a set to [1..n]
 template<class T>
 class Index {
