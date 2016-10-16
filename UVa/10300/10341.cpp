@@ -8,7 +8,7 @@ inline double func(double x) {
 
 int main() {
 	while (cin >> p >> q >> r >> s >> t >> u) {
-		double result = binarySearch<double>(func, 0, 1);
+		double result = binarySearch<double>(func, 0, 1, eps, false);
 		if (result == inf)
 			printf("No solution\n");
 		else
