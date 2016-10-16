@@ -15,9 +15,9 @@ struct Circle {
 		r = p1.dist(c);
 	}
 	//check this
-	static Circle<double> inscribedCircle(ptd p1, ptd p2, ptd p3) {
-		double a = p2.dist(p3), b = p1.dist(p3), c = p1.dist(p2);
-		return Circle<double>((a * p1.x + b * p2.x + c * p3.x) / (a + b + c), (a * p1.y + b * p2.y + c * p3.y) / (a + b + c), sss_area(a, b, c) / (a + b + c));
+	static Circle<T> inscribedCircle(point<T> p1, point<T> p2, point<T> p3) {
+		T a = p2.dist(p3), b = p1.dist(p3), c = p1.dist(p2);
+		return Circle<T>((a * p1.x + b * p2.x + c * p3.x) / (a + b + c), (a * p1.y + b * p2.y + c * p3.y) / (a + b + c), sss_area(a, b, c) / (a + b + c));
 	}
 	//returns 1 on inside, 0 on boundary, -1 on non-intersection
 	int inCircle(point<T> p) const {
