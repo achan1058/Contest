@@ -513,6 +513,12 @@
     <Filter Include="TopCoder\575-599">
       <UniqueIdentifier>{85ba34cd-7e25-4907-81ce-01e0a13652ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GCJ">
+      <UniqueIdentifier>{efaccfe1-609f-4709-91aa-feab6c53e106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GCJ\2014">
+      <UniqueIdentifier>{5e985da2-e862-4042-a04b-5340a9358877}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UVaOJ\118.cpp">
@@ -3169,6 +3175,12 @@
     </ClCompile>
     <ClCompile Include="UVa\300\371.cpp">
       <Filter>UVa\300</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2014\R1A-A.cpp">
+      <Filter>GCJ\2014</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2014\R1A-B.cpp">
+      <Filter>GCJ\2014</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
