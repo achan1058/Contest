@@ -3359,6 +3359,72 @@
     <ClCompile Include="Archieve\5200\5249.cpp">
       <Filter>Archieve\5200</Filter>
     </ClCompile>
+    <ClCompile Include="Archieve\5200\5250.cpp">
+      <Filter>Archieve\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5200\5251.cpp">
+      <Filter>Archieve\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5200\5263.cpp">
+      <Filter>Archieve\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5200\5289.cpp">
+      <Filter>Archieve\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5200\5292.cpp">
+      <Filter>Archieve\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5303.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5317.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5318.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5319.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5320.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5321.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5326.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5328.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5325.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5334.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5330.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5333.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5341.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5343.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5346.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5349.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5355.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
