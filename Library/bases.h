@@ -1,6 +1,33 @@
 #pragma once
 #include "header.h"
 
+// max base is 62
+template <class T>
+string intToString(T n, int base = 10) {
+	string s;
+	bool neg = false;
+	if (n == T(0)) {
+		return "0";
+	} else if (n < T(0)) {
+		neg = true;
+		n *= -1;
+	}
+	while (n > T(0)) {
+		char b = n % T(base);
+		if (b < 10)
+			s.pb(b + '0');
+		else if (b < 36)
+			s.pb(b - 10 + 'A');
+		else
+			s.pb(b - 36 + 'a');
+		n /= base;
+	}
+	if (neg)
+		s.pb('-');
+	reverse(all(s));
+	return s;
+}
+
 int minBase(const string& s, bool extended = false) {
 	int result = 2;
 	irep(c, s) {
@@ -34,31 +61,4 @@ T stringToInt(const string& s, int base = 10) {
 	if (neg)
 		result *= -1;
 	return result;
-}
-
-// max base is 62
-template <class T>
-string intToString(T n, int base = 10) {
-	string s;
-	bool neg = false;
-	if (n == T(0)) {
-		return "0";
-	} else if (n < T(0)) {
-		neg = true;
-		n *= -1;
-	}
-	while (n > T(0)) {
-		char b = n % T(base);
-		if (b < 10)
-			s.pb(b + '0');
-		else if (b < 36)
-			s.pb(b - 10 + 'A');
-		else
-			s.pb(b - 36 + 'a');
-		n /= base;
-	}
-	if (neg)
-		s.pb('-');
-	reverse(all(s));
-	return s;
 }
