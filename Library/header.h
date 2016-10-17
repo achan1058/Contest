@@ -21,7 +21,6 @@ template <class T> inline void read(vector<T>& v, int b = 0, int e = 0) { for (i
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
 ll mod = 1000000007ll;
-vi dx = { -1, 0, 1, 0 }, dy = { 0, 1, 0, -1 }; // NESW
 
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
 #define irep(k, a) for (auto& k : (a))
