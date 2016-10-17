@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
 
 int main() {
-	system("python UVaOJ/10069.py < input.txt");
+	system("python UVa/10000/10069.py < input.txt");
 }
