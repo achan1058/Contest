@@ -3425,6 +3425,57 @@
     <ClCompile Include="Archieve\5300\5355.cpp">
       <Filter>Archieve\5300</Filter>
     </ClCompile>
+    <ClCompile Include="Archieve\5300\5358.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5362.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5366.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5372.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5373.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5380.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5381.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5379.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5384.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5387.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5392.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5389.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5388.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5397.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5398.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5300\5399.cpp">
+      <Filter>Archieve\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10200\10263.cpp">
+      <Filter>UVa\10200</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
