@@ -3569,6 +3569,111 @@
     <ClCompile Include="Archieve\5400\5499.cpp">
       <Filter>Archieve\5400</Filter>
     </ClCompile>
+    <ClCompile Include="Archieve\5500\5520.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5526.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5530.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5533.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5531.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5539.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5572.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5573.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5574.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5570.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5579.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5583.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5586.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5588.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5595.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5500\5598.cpp">
+      <Filter>Archieve\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5601.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5605.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5600.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5603.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5624.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5620.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5632.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5628.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5642.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archieve\5600\5674.cpp">
+      <Filter>Archieve\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\57.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\50\72.cpp">
+      <Filter>Euler\50</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\75.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\77.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\82.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\85.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\75\97.cpp">
+      <Filter>Euler\75</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\100\107.cpp">
+      <Filter>Euler\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\100\112.cpp">
+      <Filter>Euler\100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -3826,6 +3931,12 @@
     </None>
     <None Include="UVa\10300\10334.py">
       <Filter>UVa\10300</Filter>
+    </None>
+    <None Include="Euler\50\57.py">
+      <Filter>Euler\50</Filter>
+    </None>
+    <None Include="Euler\75\97.py">
+      <Filter>Euler\75</Filter>
     </None>
   </ItemGroup>
 </Project>

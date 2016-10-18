@@ -1,5 +1,6 @@
 #pragma once
 #include "header.h"
+#define TRIANGLE
 
 double cosLawSide(double A, double b, double c) { return sqrt(b * b + c * c - 2 * b * c * cos(A)); }
 //test me

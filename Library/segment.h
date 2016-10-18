@@ -5,11 +5,15 @@
 template<class T>
 struct Segment {
 	point<T> p1, p2;
-	Segment(point<T> p1_ = { 0, 0 }, point<T> p2_ = { 0, 0 }) : p1(p1_), p2(p2_) {}
+private:
+	// helper function to check whether the target point is in the bounds of the segment endpoints
+	// does NOT check whether point is actually inside the segment
 	int inside(point<T> p) const {
 		int dx = sgn(p.x - p1.x) * sgn(p.x - p2.x), dy = sgn(p.y - p1.y) * sgn(p.y - p2.y);
 		return dx == -1 || dy == -1 ? 1 : (dx == 1 || dy == 1 ? -1 : 0);
 	}
+public:
+	Segment(point<T> p1_ = { 0, 0 }, point<T> p2_ = { 0, 0 }) : p1(p1_), p2(p2_) {}
 	//returns 1 on intersection, 0 on boundary, -1 on non-intersection
 	int onSegment(point<T> p) const { return p.sa2(p1, p2) == 0 ? inside(p) : -1; }
 	int intersect(Segment l) {
@@ -18,6 +22,7 @@ struct Segment {
 		int i1 = inside(l.p1), i2 = inside(l.p2), i3 = l.inside(p1), i4 = l.inside(p2);
 		return i1 == 1 || i2 == 1 || i3 == 1 || i4 == 1 ? 1 : (i1 == 0 || i2 == 0 || i3 == 0 || i4 == 0 ? 0 : -1);
 	}
+#ifdef LINE
 	point<T> closest(point<T> p) {
 		point<T> perp = Line<T>(p1, p2).closest(p);
 		T d0 = p.dist2(perp), d1 = p.dist2(p1), d2 = p.dist2(p2);
@@ -28,6 +33,7 @@ struct Segment {
 		else
 			return p2;
 	}
+#endif
 	/*
 	Point<T> midpoint() {
 		return (p1 + p2) / 2;

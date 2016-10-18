@@ -14,11 +14,13 @@ struct Circle {
 		c.y = (b.norm2() * a.x - a.norm2() * b.x) / d + p1.y;
 		r = p1.dist(c);
 	}
+#ifdef TRIANGLE
 	//check this
 	static Circle<T> inscribedCircle(point<T> p1, point<T> p2, point<T> p3) {
 		T a = p2.dist(p3), b = p1.dist(p3), c = p1.dist(p2);
 		return Circle<T>((a * p1.x + b * p2.x + c * p3.x) / (a + b + c), (a * p1.y + b * p2.y + c * p3.y) / (a + b + c), sss_area(a, b, c) / (a + b + c));
 	}
+#endif
 	//returns 1 on inside, 0 on boundary, -1 on non-intersection
 	int inCircle(point<T> p) const {
 		T d = r * r - c.dist2(p);

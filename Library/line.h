@@ -1,6 +1,6 @@
 #pragma once
 #include "point.h"
-
+#define LINE
 // records ax + by = c
 template<class T>
 struct Line {
