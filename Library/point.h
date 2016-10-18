@@ -11,8 +11,8 @@ struct point {
 	point& operator/=(T c) { x /= c; y /= c; return *this; }
 	point operator+(point p) const { return point(x + p.x, y + p.y); }
 	point operator-(point p) const { return point(x - p.x, y - p.y); }
-	point operator*(point c) const { return point(x * c, y * c); }
-	point operator/(point c) const { return point(x / c, y / c); }
+	point operator*(T c) const { return point(x * c, y * c); }
+	point operator/(T c) const { return point(x / c, y / c); }
 	bool operator<(point p) const { return x < p.x || (x == p.x && y < p.y); }
 	bool operator==(point p) const { return x == p.x && y == p.y; }
 
