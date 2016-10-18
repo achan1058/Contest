@@ -554,9 +554,6 @@
     <ClCompile Include="Library\stdc++.cpp">
       <Filter>Library</Filter>
     </ClCompile>
-    <ClCompile Include="UVaOJ\10023.cpp">
-      <Filter>UVa\10000\10000</Filter>
-    </ClCompile>
     <ClCompile Include="UVa\10900\10925.cpp">
       <Filter>UVa\10900</Filter>
     </ClCompile>
@@ -801,12 +798,6 @@
       <Filter>UVa\600</Filter>
     </ClCompile>
     <ClCompile Include="UVa\10000\10009.cpp">
-      <Filter>UVa\10000\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10048.cpp">
-      <Filter>UVa\10000\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10099.cpp">
       <Filter>UVa\10000\10000</Filter>
     </ClCompile>
     <ClCompile Include="UVa\10100\10129.cpp">
@@ -3674,6 +3665,15 @@
     <ClCompile Include="Euler\100\112.cpp">
       <Filter>Euler\100</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10048.cpp">
+      <Filter>UVa\10000\10040</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10099.cpp">
+      <Filter>UVa\10000\10090</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10005.cpp">
+      <Filter>UVa\10000\10000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -3821,9 +3821,6 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <None Include="UVaOJ\10023.py">
-      <Filter>UVa\10000\10000</Filter>
-    </None>
     <None Include="UVa\10800\10814.py">
       <Filter>UVa\10800</Filter>
     </None>
