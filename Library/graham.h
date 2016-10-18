@@ -11,10 +11,7 @@ vector<point<T>> graham(vector<point<T>>& p, bool allp = false) {
 		if (p[i] < p[0])
 			swap(p[i], p[0]);
 	}
-	sort(p.begin() + 1, p.end(), [&](point<T> p1, point<T> p2) {
-		T d = p[0].sa2(p1, p2);
-		return d > T(0) ? true : (d < T(0) ? false : p[0].dist2(p1) > p[0].dist2(p2));
-	});
+	p[0].angle_sort(p.begin() + 1, p.end());
 	for (rev = 2; rev < sz(p); rev++) {
 		if (p[0].sa2(p[rev - 1], p[rev]) != T(0))
 			break;

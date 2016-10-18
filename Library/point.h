@@ -23,6 +23,13 @@ struct point {
 	T sa2(point p1, point p2) const { return (p1 - *this).cross(p2 - *this); }
 	double dist(point p) const { return sqrt(dist2(p)); }
 	int above(point p) const { return p.y > y || (p.y == y && p.x > x) ? 1 : (p.y < y || p.x < x ? -1 : 0); }
+
+	void angle_sort(typename vector<point<T>>::iterator begin, typename vector<point<T>>::iterator end) {
+		sort(begin, end, [&](point<T> p1, point<T> p2) {
+			T d = sa2(p1, p2);
+			return d > T(0) ? true : (d < T(0) ? false : dist2(p1) > dist2(p2));
+		});
+	}
 };
 template<class T> istream& operator>>(istream& in, point<T>& p) { return in >> p.x >> p.y; }
 typedef point<int> pti;
