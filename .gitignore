@@ -259,7 +259,9 @@ paket-files/
 .idea/
 *.sln.iml
 /source.cpp
-/DCJ/distsource.cpp
+/DCJ
+!/DCJ/2015
+!/DCJ/2016
 /TopCoder.jnlp
 /output.txt
 /input.txt
