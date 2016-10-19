@@ -10,8 +10,6 @@
 #include <stdlib.h>
 #endif
 
-#pragma warning(disable:4996)
-#define fdopen _fdopen
 #define MAX_MESSAGE_SIZE (8*1024*1024)
 #define MAGIC 1736434764
 #define SEND 3
