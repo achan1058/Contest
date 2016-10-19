@@ -3674,6 +3674,27 @@
     <ClCompile Include="Archive\5600\5603.cpp">
       <Filter>Archive\5600</Filter>
     </ClCompile>
+    <ClCompile Include="Archive\5200\5270.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5280.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5299.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5301.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5540.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5667.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5672.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
