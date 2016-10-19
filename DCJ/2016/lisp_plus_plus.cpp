@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 #include "message.h"
-#include "lisp_plus_plus.h"
+#include "lisp_plus_plus_1.h"
 
 int main() {
 	int nodes = NumberOfNodes(), my_id = MyNodeId(), N = GetLength();

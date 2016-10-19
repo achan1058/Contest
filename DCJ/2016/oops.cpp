@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 #include "message.h"
-#include "oops.h"
+#include "oops_1.h"
 
 int main() {
 	int N = GetN(), nodes = NumberOfNodes(), my_id = MyNodeId();

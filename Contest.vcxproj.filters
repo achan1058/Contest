@@ -3841,21 +3841,6 @@
     <ClInclude Include="Library\fraction.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
-    <ClInclude Include="DCJ\2016\again.h">
-      <Filter>DCJ\2016</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\lisp_plus_plus.h">
-      <Filter>DCJ\2016</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\oops.h">
-      <Filter>DCJ\2016</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\rps.h">
-      <Filter>DCJ\2016</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\crates.h">
-      <Filter>DCJ\2016</Filter>
-    </ClInclude>
     <ClInclude Include="DCJ\2015\almost_sorted_1.h">
       <Filter>DCJ\2015\Headers</Filter>
     </ClInclude>
@@ -3882,6 +3867,51 @@
     </ClInclude>
     <ClInclude Include="DCJ\2015\sandwich_2.h">
       <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\rps_1.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\rps_2.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\rps_3.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\crates_1.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\crates_2.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\crates_3.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\oops_1.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\oops_2.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\oops_3.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\again_2.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\again_3.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\again_1.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\lisp_plus_plus_1.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\lisp_plus_plus_2.h">
+      <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\lisp_plus_plus_3.h">
+      <Filter>DCJ\2016\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

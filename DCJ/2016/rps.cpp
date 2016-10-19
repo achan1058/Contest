@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 #include "message.h"
-#include "rps.h"
+#include "rps_1.h"
 
 pair<char, int> rps(int left, int right) {
 	char lc, rc;

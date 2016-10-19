@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
 
 int main() {
-	system("cd DCJ && dcj.py test --source 2015/almost_sorted.cpp --nodes 4 2>&1");
+	system("cd DCJ && dcj.py test --source 2016/again.cpp --nodes 20 2>&1");
 }

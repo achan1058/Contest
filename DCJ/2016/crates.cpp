@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 #include "message.h"
-#include "crates.h"
+#include "crates_1.h"
 
 int main() {
 	int N = GetNumStacks(), nodes = NumberOfNodes(), my_id = MyNodeId();

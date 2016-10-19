@@ -4346,26 +4346,21 @@
     <ClInclude Include="DCJ\2015\sandwich_1.h" />
     <ClInclude Include="DCJ\2015\sandwich_2.h" />
     <ClInclude Include="DCJ\2015\sandwich_3.h" />
-    <ClInclude Include="DCJ\2016\again.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\crates.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\lisp_plus_plus.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\oops.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\rps.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
+    <ClInclude Include="DCJ\2016\again_1.h" />
+    <ClInclude Include="DCJ\2016\again_2.h" />
+    <ClInclude Include="DCJ\2016\again_3.h" />
+    <ClInclude Include="DCJ\2016\crates_1.h" />
+    <ClInclude Include="DCJ\2016\crates_2.h" />
+    <ClInclude Include="DCJ\2016\crates_3.h" />
+    <ClInclude Include="DCJ\2016\lisp_plus_plus_1.h" />
+    <ClInclude Include="DCJ\2016\lisp_plus_plus_2.h" />
+    <ClInclude Include="DCJ\2016\lisp_plus_plus_3.h" />
+    <ClInclude Include="DCJ\2016\oops_1.h" />
+    <ClInclude Include="DCJ\2016\oops_2.h" />
+    <ClInclude Include="DCJ\2016\oops_3.h" />
+    <ClInclude Include="DCJ\2016\rps_1.h" />
+    <ClInclude Include="DCJ\2016\rps_2.h" />
+    <ClInclude Include="DCJ\2016\rps_3.h" />
     <ClInclude Include="Library\backtrack.h" />
     <ClInclude Include="Library\binary_search.h" />
     <ClInclude Include="Library\bits\stdc++.h" />
