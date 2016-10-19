@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 #include "message.h"
-#include "mutexes.h"
+#include "mutexes_1.h"
 
 int main() {
 	int n = NumberOfOperations(0) - 1, m = NumberOfOperations(1) - 1, numnode = NumberOfNodes(), nodeid = MyNodeId();

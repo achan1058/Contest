@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 #include "message.h"
-#include "sandwich.h"
+#include "sandwich_1.h"
 
 int main() {
 	int n = GetN(), numnode = NumberOfNodes(), nodeid = MyNodeId();

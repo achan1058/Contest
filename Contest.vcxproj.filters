@@ -555,6 +555,12 @@
     <Filter Include="DCJ\2016">
       <UniqueIdentifier>{93766346-45a6-48ac-a425-0000ff10ef35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DCJ\2015\Headers">
+      <UniqueIdentifier>{639962d6-40b1-44bb-b4e8-8048b811737e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DCJ\2016\Headers">
+      <UniqueIdentifier>{12d025fa-5f99-4bba-82c2-06aa1f136ac8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -3719,6 +3725,27 @@
     <ClCompile Include="DCJ\2016\again.cpp">
       <Filter>DCJ\2016</Filter>
     </ClCompile>
+    <ClCompile Include="DCJ\2016\oops.cpp">
+      <Filter>DCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="DCJ\2016\rps.cpp">
+      <Filter>DCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="DCJ\2016\crates.cpp">
+      <Filter>DCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="DCJ\2016\lisp_plus_plus.cpp">
+      <Filter>DCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="DCJ\2015\mutexes.cpp">
+      <Filter>DCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="DCJ\2015\sandwich.cpp">
+      <Filter>DCJ\2015</Filter>
+    </ClCompile>
+    <ClCompile Include="DCJ\2015\almost_sorted.cpp">
+      <Filter>DCJ\2015</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -3816,6 +3843,45 @@
     </ClInclude>
     <ClInclude Include="DCJ\2016\again.h">
       <Filter>DCJ\2016</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\lisp_plus_plus.h">
+      <Filter>DCJ\2016</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\oops.h">
+      <Filter>DCJ\2016</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\rps.h">
+      <Filter>DCJ\2016</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\crates.h">
+      <Filter>DCJ\2016</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\almost_sorted_1.h">
+      <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\almost_sorted_2.h">
+      <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\almost_sorted_3.h">
+      <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\mutexes_1.h">
+      <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\mutexes_2.h">
+      <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\mutexes_3.h">
+      <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\sandwich_3.h">
+      <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\sandwich_1.h">
+      <Filter>DCJ\2015\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2015\sandwich_2.h">
+      <Filter>DCJ\2015\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

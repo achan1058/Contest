@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 #include "message.h"
-#include "almost_sorted.h"
+#include "almost_sorted_1.h"
 
 int main() {
 	int n = NumberOfFiles(), numnode = NumberOfNodes(), nodeid = MyNodeId();
