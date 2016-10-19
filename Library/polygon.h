@@ -31,6 +31,16 @@ struct Polygon {
 		return result;
 	}
 
+	point<T> centroid() const {
+		int n = sz(v);
+		T area = sa2(), x = 0, y = 0;
+		rep(i, 0, n) {
+			x += (v[i].x * v[(i + 1) % n].y - v[(i + 1) % n].x * v[i].y) * (v[i].x + v[(i + 1) % n].x);
+			y += (v[i].x * v[(i + 1) % n].y - v[(i + 1) % n].x * v[i].y) * (v[i].y + v[(i + 1) % n].y);
+		}
+		return point<T>(x / area / 3, y / area / 3);
+	}
+
 	double dist() const {
 		int n = sz(v);
 		double d = 0;
