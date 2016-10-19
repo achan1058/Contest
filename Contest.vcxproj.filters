@@ -3710,6 +3710,15 @@
     <ClCompile Include="UVa\10500\10577.cpp">
       <Filter>UVa\10500</Filter>
     </ClCompile>
+    <ClCompile Include="DCJ\distsource.cpp">
+      <Filter>DCJ</Filter>
+    </ClCompile>
+    <ClCompile Include="DCJ\dcjhelper.cpp">
+      <Filter>DCJ</Filter>
+    </ClCompile>
+    <ClCompile Include="DCJ\2016\again.cpp">
+      <Filter>DCJ\2016</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -3804,6 +3813,9 @@
     </ClInclude>
     <ClInclude Include="Library\fraction.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="DCJ\2016\again.h">
+      <Filter>DCJ\2016</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

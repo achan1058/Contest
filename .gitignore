@@ -259,6 +259,7 @@ paket-files/
 .idea/
 *.sln.iml
 /source.cpp
+/DCJ/distsource.cpp
 /TopCoder.jnlp
 /output.txt
 /input.txt
