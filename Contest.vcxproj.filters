@@ -1922,20 +1922,8 @@
     <ClCompile Include="GCJ\2016\R2-B.cpp">
       <Filter>GCJ\2016</Filter>
     </ClCompile>
-    <ClCompile Include="Archieve\5100\5139.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5356.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5514.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
     <ClCompile Include="UVa\300\320.cpp">
       <Filter>UVa\300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5614.cpp">
-      <Filter>Archive\5600</Filter>
     </ClCompile>
     <ClCompile Include="UVa\100\112.cpp">
       <Filter>UVa\100\110</Filter>
@@ -3293,350 +3281,8 @@
     <ClCompile Include="UVa\12700\12708.cpp">
       <Filter>UVa\12700</Filter>
     </ClCompile>
-    <ClCompile Include="Archieve\5100\5140.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5141.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5147.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5155.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5157.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5166.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5170.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5171.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5186.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5100\5193.cpp">
-      <Filter>Archive\5100</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5220.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5211.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5215.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5221.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5226.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5227.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5244.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5246.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5247.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5249.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5250.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5251.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5263.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5289.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5200\5292.cpp">
-      <Filter>Archive\5200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5303.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5317.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5318.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5319.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5320.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5321.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5326.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5328.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5325.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5334.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5330.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5333.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5341.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5343.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5346.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5349.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5355.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5358.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5362.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5366.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5372.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5373.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5380.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5381.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5379.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5384.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5387.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5392.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5389.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5388.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5397.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5398.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5300\5399.cpp">
-      <Filter>Archive\5300</Filter>
-    </ClCompile>
     <ClCompile Include="UVa\10200\10263.cpp">
       <Filter>UVa\10200</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5402.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5406.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5403.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5410.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5414.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5420.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5425.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5429.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5432.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5434.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5439.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5440.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5444.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5451.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5448.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5449.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5461.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5452.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5456.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5458.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5466.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5485.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5468.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5471.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5479.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5484.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5492.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5490.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5498.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5400\5499.cpp">
-      <Filter>Archive\5400</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5520.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5526.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5530.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5533.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5531.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5539.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5572.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5573.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5574.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5570.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5579.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5583.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5586.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5588.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5595.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5500\5598.cpp">
-      <Filter>Archive\5500</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5601.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5605.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5600.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5603.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5624.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5620.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5632.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5628.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5642.cpp">
-      <Filter>Archive\5600</Filter>
-    </ClCompile>
-    <ClCompile Include="Archieve\5600\5674.cpp">
-      <Filter>Archive\5600</Filter>
     </ClCompile>
     <ClCompile Include="Euler\50\57.cpp">
       <Filter>Euler\50</Filter>
@@ -3673,6 +3319,360 @@
     </ClCompile>
     <ClCompile Include="UVa\10000\10005.cpp">
       <Filter>UVa\10000\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5157.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5166.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5170.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5171.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5186.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5193.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5139.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5140.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5141.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5147.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5100\5155.cpp">
+      <Filter>Archive\5100</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5215.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5220.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5221.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5226.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5227.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5244.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5246.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5247.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5249.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5250.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5251.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5263.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5289.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5292.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5200\5211.cpp">
+      <Filter>Archive\5200</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5328.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5330.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5333.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5334.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5341.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5343.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5346.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5349.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5355.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5356.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5358.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5362.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5366.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5372.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5373.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5379.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5380.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5381.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5384.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5387.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5388.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5389.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5392.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5397.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5398.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5399.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5303.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5317.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5318.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5319.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5320.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5321.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5325.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5300\5326.cpp">
+      <Filter>Archive\5300</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5444.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5448.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5449.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5451.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5452.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5456.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5458.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5461.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5466.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5468.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5471.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5479.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5484.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5485.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5490.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5492.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5498.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5499.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5402.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5403.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5406.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5410.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5414.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5420.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5425.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5429.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5432.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5434.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5439.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5400\5440.cpp">
+      <Filter>Archive\5400</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5533.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5539.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5570.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5572.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5573.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5574.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5579.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5583.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5586.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5588.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5595.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5598.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5514.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5520.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5526.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5530.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5500\5531.cpp">
+      <Filter>Archive\5500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5605.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5614.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5620.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5624.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5628.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5632.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5642.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5674.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5600.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5601.cpp">
+      <Filter>Archive\5600</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\5600\5603.cpp">
+      <Filter>Archive\5600</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
