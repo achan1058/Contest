@@ -144,12 +144,10 @@ T eulerPhi(const vector<T>& primes) {
 }
 
 bool millerRabin(ll n) {
-	const vi a = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37 };
-	irep(p, a) {
-		if (n % p == 0)
-			return n == p;
-	}
-	if (n < a.back())
+	vl a = { 2, 325, 9375, 28178, 450775, 9780504, 1795265022 };
+	if (n == 2)
+		return true;
+	else if (n < 2 || n % 2 == 0)
 		return false;
 	ll d = n - 1;
 	int r = 0;
@@ -159,7 +157,7 @@ bool millerRabin(ll n) {
 	}
 	irep(p, a) {
 		ll x = powmod(p, d, n);
-		if (x == 1 || x == n - 1)
+		if (x <= 1 || x == n - 1)
 			continue;
 		rep(i, 1, r) {
 			x = mulmod(x, x, n);
