@@ -75,16 +75,16 @@ vi sieve(int n) {
 }
 
 template <class T>
-bool fastIsPrime(T n, const vi& primes) {
+int fastIsPrime(T n, const vi& primes) {
 	if (n < T(2))
-		return false;
+		return 0;
 	irep(p, primes) {
 		if (T(p) * T(p) > n)
-			return true;
+			return 1;
 		if (n % T(p) == 0)
-			return false;
+			return 0;
 	}
-	return true;
+	return -1;
 }
 
 template <class T>
