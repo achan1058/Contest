@@ -1,5 +1,6 @@
 #pragma once
 #include "util.h"
+#include "number_theory.h"
 
 template <class T>
 bool isPrime(T n) {
@@ -140,4 +141,35 @@ T eulerPhi(const vector<T>& primes) {
 			result *= p.x;
 	}
 	return result;
+}
+
+bool millerRabin(ll n) {
+	const vi a = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37 };
+	irep(p, a) {
+		if (n % p == 0)
+			return n == p;
+	}
+	if (n < a.back())
+		return false;
+	ll d = n - 1;
+	int r = 0;
+	while (d % 2 == 0) {
+		d /= 2;
+		r++;
+	}
+	irep(p, a) {
+		ll x = powmod(p, d, n);
+		if (x == 1 || x == n - 1)
+			continue;
+		rep(i, 1, r) {
+			x = mulmod(x, x, n);
+			if (x == 1)
+				return false;
+			else if (x == n - 1)
+				goto end;
+		}
+		return false;
+	end:;
+	}
+	return true;
 }

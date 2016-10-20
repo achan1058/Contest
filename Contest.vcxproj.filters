@@ -561,6 +561,9 @@
     <Filter Include="DCJ\2016\Headers">
       <UniqueIdentifier>{12d025fa-5f99-4bba-82c2-06aa1f136ac8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Euler\125">
+      <UniqueIdentifier>{0f088078-6f7b-41f2-8546-fd6fd65bebf7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -3769,6 +3772,12 @@
     </ClCompile>
     <ClCompile Include="UVa\10900\10994.cpp">
       <Filter>UVa\10900</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\25\47.cpp">
+      <Filter>Euler\25</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\125\146.cpp">
+      <Filter>Euler\125</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
