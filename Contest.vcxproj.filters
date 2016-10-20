@@ -3746,6 +3746,9 @@
     <ClCompile Include="DCJ\2015\almost_sorted.cpp">
       <Filter>DCJ\2015</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10900\10927.cpp">
+      <Filter>UVa\10900</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">

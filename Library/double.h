@@ -27,3 +27,5 @@ struct Double {
 istream& operator>>(istream& in, Double& d) { in >> d.v; return in; }
 Double abs(Double d) { return abs(d.v); }
 Double sqrt(Double d) { return sqrt(d.v); }
+Double sin(Double d) { return sin(d.v); }
+Double cos(Double d) { return cos(d.v); }
