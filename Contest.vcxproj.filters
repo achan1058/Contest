@@ -564,6 +564,12 @@
     <Filter Include="Euler\125">
       <UniqueIdentifier>{0f088078-6f7b-41f2-8546-fd6fd65bebf7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVa\12800">
+      <UniqueIdentifier>{49177749-1c29-4f26-a7da-100b4e9447ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\12900">
+      <UniqueIdentifier>{ce4b4aea-044e-4472-91f7-4571678f8bce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -3781,6 +3787,9 @@
     </ClCompile>
     <ClCompile Include="UVa\100\188.cpp">
       <Filter>UVa\100\180</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\12900\12952.cpp">
+      <Filter>UVa\12900</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
