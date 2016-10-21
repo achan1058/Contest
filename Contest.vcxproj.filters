@@ -3779,6 +3779,9 @@
     <ClCompile Include="Euler\125\146.cpp">
       <Filter>Euler\125</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\100\188.cpp">
+      <Filter>UVa\100\180</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
