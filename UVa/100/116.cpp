@@ -3,14 +3,9 @@
 
 int main() {
 	int m, n;
-
 	while (cin >> m >> n) {
 		vvi arr = mi(m, n, 0), total = mi(m, n + 1, 0), prev = mi(m, n, 0);
-
-		rep(i, 0, m) {
-			rep(j, 0, n)
-				cin >> arr[i][j];
-		}
+		read(arr);
 
 		rrep(j, n - 1, 0) {
 			rep(i, 0, m) {
