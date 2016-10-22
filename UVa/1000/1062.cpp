@@ -3,8 +3,7 @@
 
 int main() {
 	string s;
-	int X = 1;
-	while (cin >> s && s != "end") {
+	whileX(cin >> s && s != "end") {
 		vs ships;
 		irep(c, s) {
 			bool found = false;
@@ -19,6 +18,5 @@ int main() {
 				ships.pb(string(1, c));
 		}
 		printc("%d\n", sz(ships));
-		X++;
 	}
 }

@@ -31,14 +31,12 @@ void backtrack() {
 int main() {
 	string s1, s2;
 	char c1, c2;
-	int X = 1;
-	while (getline(cin, s1)) {
+	whileX (getline(cin, s1)) {
 		getline(cin, s2);
 		graph = vvi(26);
 		in = vi(26);
 		vars = tokenizer(s1);
-		if (X > 1)
-			printf("\n");
+		printX("");
 
 		stringstream ss2(s2);
 		sort(all(vars));
@@ -49,6 +47,5 @@ int main() {
 		}
 
 		backtrack();
-		X++;
 	}
 }

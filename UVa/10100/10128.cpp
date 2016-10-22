@@ -2,7 +2,7 @@
 #include "combinatorics.h"
 
 int main() {
-	int T, n, p, r;
+	int n, p, r;
 	vl fact = factTable<ll>(13);
 	vvl inc = ml(14, 14, 0);
 	vvl binom = binomialTable<ll>(13);
@@ -15,8 +15,7 @@ int main() {
 		}
 	}
 
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	forX() {
 		cin >> n >> p >> r;
 		if (p <= 0 || p > n || r <= 0 || r > n) {
 			printf("0\n");

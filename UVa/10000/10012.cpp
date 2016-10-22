@@ -17,9 +17,8 @@ double dist(vd& radii) {
 }
 
 int main() {
-	int T, n;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int n;
+	forX() {
 		cin >> n;
 		vd radii(n);
 		for (double& r : radii)

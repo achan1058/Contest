@@ -2,9 +2,9 @@
 #include "util.h"
 
 int main() {
-	int n, v, p, X = 0;
+	int n, v, p;
 	string s;
-	while (cin >> n) {
+	whileX(cin >> n) {
 		Index<string> mp;
 		vs names(n);
 		vi balance(n);
@@ -23,9 +23,8 @@ int main() {
 				balance[mp.getI(s)] += v;
 			}
 		}
-		printf("%s", X > 0 ? "\n" : "");
+		printX("");
 		rep(i, 0, n)
 			printf("%s %d\n", names[i].c_str(), balance[mp.getI(names[i])]);
-		X++;
 	}
 }

@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T, n;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int n;
+	forX() {
 		cin >> n;
 		vs source(n), target(n);
 		getline(cin, source[0]);

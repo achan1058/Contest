@@ -24,11 +24,9 @@ void floodfill(int x0, int y0) {
 }
 
 int main() {
-	int T;
 	char ch;
 	string good = "IEHOVA";
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	forX() {
 		cin >> r >> c;
 		int x0, y0, x1, y1;
 		board = mi(r, c, -1);

@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T, m, l, r;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int m, l, r;
+	forX() {
 		cin >> m;
 		vector<pii> blocks, cover;
 		while (cin >> l >> r && (l | r) != 0)
@@ -28,12 +27,10 @@ int main() {
 				break;
 		}
 
-		if (X > 0)
-			printf("\n");
 		if (sz(cover) == 0)
-			printf("0\n");
+			printX("0\n");
 		else {
-			printf("%d\n", sz(cover) - 2);
+			printX("%d\n", sz(cover) - 2);
 			for (int i = 2; i < cover.size(); i++)
 				printf("%d %d\n", cover[i].x, cover[i].y);
 		}

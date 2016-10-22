@@ -3,9 +3,8 @@
 
 vi dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
 int main() {
-	int T, r, c, n;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int r, c, n;
+	forX() {
 		cin >> r >> c >> n;
 		vvs grid = ms(2, r, string(c, ' '));
 		for (string& s : grid[0])

@@ -2,9 +2,8 @@
 #include "dp_algs.h"
 
 int main() {
-	int T, n, p, q, v;
-	cin >> T;
-	for (int X = 1; X <= T; X++) {
+	int n, p, q, v;
+	forX() {
 		cin >> n >> p >> q;
 		map<int, int> m;
 		vector<int> seq;

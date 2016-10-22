@@ -2,11 +2,10 @@
 #include "header.h"
 
 int main() {
-	int T, v;
+	int v;
 	char c;
 	string s;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	forX() {
 		cin >> s;
 		stringstream ss(s);
 		vi nums;

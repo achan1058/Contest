@@ -3,9 +3,9 @@
 #include "shortest_path.h"
 
 int main() {
-	int n, e, v1, v2, X = 1;
+	int n, e, v1, v2;
 	string s1, s2;
-	while (cin >> n >> e && (n | e) != 0) {
+	whileX(cin >> n >> e && (n | e) != 0) {
 		Index<string> m;
 		vvi graph = mi(n, n, inf);
 		rep(i, 0, e) {
@@ -27,6 +27,5 @@ int main() {
 			printf("Network %d: DISCONNECTED\n\n", X);
 		else
 			printf("Network %d: %d\n\n", X, maxdist);
-		X++;
 	}
 }

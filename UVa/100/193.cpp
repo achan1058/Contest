@@ -27,9 +27,8 @@ void backtrack(int d = 0) {
 }
 
 int main() {
-	int T, e, v1, v2;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int e, v1, v2;
+	forX() {
 		cin >> n >> e;
 		graph = vvi(n);
 		used = vb(n, false);
