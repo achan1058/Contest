@@ -1,7 +1,7 @@
 #pragma once
 #include "header.h"
 
-// uses adjacency list
+// uses adjacency matrix, count loop edge twice for undirected graph
 vi eularianHelper(vvi& graph, int n, int end, bool directed) {
 	vi path, check(n);
 	stack<int> s;
@@ -12,7 +12,7 @@ vi eularianHelper(vvi& graph, int n, int end, bool directed) {
 		bool found = false;
 		for (; check[v] < n; check[v]++) {
 			if (graph[check[v]][v] > 0) {
-				if (!directed && v != check[v])
+				if (!directed)
 					graph[v][check[v]]--;
 
 				graph[check[v]][v]--;
@@ -27,7 +27,7 @@ vi eularianHelper(vvi& graph, int n, int end, bool directed) {
 	return path;
 }
 
-// uses adjacency list
+// uses adjacency matrix
 vi eularianPath(const vvi& graph, bool directed = false) {
 	int n = sz(graph);
 	vi deg(n);
