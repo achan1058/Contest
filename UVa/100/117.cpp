@@ -2,7 +2,7 @@
 #include "shortest_path.h"
 
 int main() {
-	AdjList<int> graph(26);
+	vvp<int> graph(26);
 	int total = 0;
 	string s;
 
@@ -20,12 +20,12 @@ int main() {
 			}
 
 			printf("%d\n", total);
-			graph = AdjList<int>(26);
+			graph = vvp<int>(26);
 			total = 0;
 		} else {
 			int v1 = s[0] - 'a', v2 = s.back() - 'a';
-			graph.push(v1, v2, sz(s));
-			graph.push(v2, v1, sz(s));
+			graph[v1].pb({ v2, sz(s) });
+			graph[v2].pb({ v1, sz(s) });
 			total += sz(s);
 		}
 	}
