@@ -3,7 +3,7 @@
 
 int main() {
 	vi v1(5), v2(5);
-	while (read(v1) && read(v2)) {
+	while (read(v1), read(v2), cin) {
 		bool good = true;
 		rep(i, 0, 5)
 			good &= v1[i] + v2[i] == 1;
