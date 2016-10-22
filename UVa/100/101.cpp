@@ -2,11 +2,9 @@
 #include "header.h"
 
 pii findPos(int v, vvi& blocks) {
-	rep(i, 0, sz(blocks)) {
-		rep(j, 0, sz(blocks[i])) {
-			if (blocks[i][j] == v)
-				return{ i, j };
-		}
+	drep(i, j, sz(blocks), sz(blocks[i])) {
+		if (blocks[i][j] == v)
+			return{ i, j };
 	}
 }
 
