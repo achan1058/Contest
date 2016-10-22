@@ -3,7 +3,6 @@
 
 int main() {
 	int n, d;
-
 	while (cin >> n >> d) {
 		vvi graph(n), boxes = mi(n, d, 0);
 		rep(i, 0, n) {
