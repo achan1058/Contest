@@ -3,9 +3,8 @@
 #include "polygon.h"
 
 int main() {
-	int N, xs, ys, xe, ye, x1, x2, y1, y2;
-	cin >> N;
-	rep(X, 0, N) {
+	int xs, ys, xe, ye, x1, x2, y1, y2;
+	forX() {
 		cin >> x1 >> y1 >> x2 >> y2 >> xs >> ys >> xe >> ye;
 		pti p1(x1, y1), p2(x2, y2);
 

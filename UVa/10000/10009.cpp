@@ -2,11 +2,10 @@
 #include "shortest_path.h"
 
 int main() {
-	int N, e, q;
+	int e, q;
 	string s1, s2;
-	cin >> N;
-	rep(X, 0, N) {
-		printf("%s", X > 0 ? "\n" : "");
+	forX() {
+		printX("");
 		vs name(26);
 		vvi graph = mi(26, 26, inf);
 		cin >> e >> q;

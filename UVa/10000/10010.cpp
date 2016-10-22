@@ -28,11 +28,10 @@ void find_word(const string& s) {
 }
 
 int main() {
-	int N, w;
+	int w;
 	string s;
-	cin >> N;
-	rep(X, 0, N) {
-		printf("%s", X > 0 ? "\n" : "");
+	forX() {
+		printX("");
 		cin >> r >> c;
 		grid.resize(r);
 		rep(i, 0, r) {

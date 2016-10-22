@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N, M, a, b;
-	cin >> N;
-	rep(X, 0, N) {
-		printf("%s", X > 0 ? "\n" : "");
+	int M, a, b;
+	forX() {
+		printX("");
 		cin >> M;
 		vi digits(M);
 		irep(d, digits) {

@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n;
-	cin >> N;
-	rep(X, 0, N) {
-		printf("%s", X > 0 ? "\n" : "");
+	int n;
+	forX() {
 		double v, a1;
 		cin >> n >> v;
 		a1 = n * v / (n + 1);
@@ -15,6 +13,6 @@ int main() {
 			cin >> v;
 			a1 -= 2 * (n - i) * v / (n + 1);
 		}
-		printf("%.2f\n", a1);
+		printX("%.2f\n", a1);
 	}
 }

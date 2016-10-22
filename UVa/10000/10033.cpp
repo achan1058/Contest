@@ -2,13 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N;
 	string s;
-	cin >> N;
 	getline(cin, s);
-	getline(cin, s);
-
-	rep(X, 0, N) {
+	forX() {
 		int ans = 0, ind = 0;
 		vi reg(10);
 		vs ram(1000, "000");
@@ -61,6 +57,6 @@ int main() {
 			ind = (ind + 1) % 1000;
 		}
 	end:;
-		printf("%s%d\n", X > 0 ? "\n" : "", ans);
+		printX("%d\n", ans);
 	}
 }

@@ -2,9 +2,7 @@
 #include "header.h"
 
 int main() {
-	int N;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		ll num, count = 0;
 		cin >> num;
 

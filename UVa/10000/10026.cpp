@@ -11,11 +11,10 @@ bool comp(const tuple<int, int, int>& job1, const tuple<int, int, int>& job2) {
 }
 
 int main() {
-	int N, n;
-	cin >> N;
-	rep(X, 0, N) {
-		printf("%s", X > 0 ? "\n" : "");
+	forX() {
+		int n;
 		cin >> n;
+		printX("");
 		vector<tuple<int, int, int>> jobs(n);
 		bool fs = true;
 		rep(i, 0, n) {

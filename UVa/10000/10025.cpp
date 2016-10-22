@@ -2,13 +2,11 @@
 #include "header.h"
 
 int main() {
-	int k, X = 1, N;
-	cin >> N;
-	rep(X, 0, N) {
-		printf("%s", X > 0 ? "\n" : "");
+	forX() {
+		int k;
 		cin >> k;
 		if (k == 0) {
-			printf("3\n");
+			printX("3\n");
 			continue;
 		} else if (k < 0) {
 			k *= -1;
@@ -19,6 +17,6 @@ int main() {
 			n++;
 		while (k % 2 != ((n + 1) / 2) % 2)
 			n++;
-		printf("%d\n", n);
+		printX("%d\n", n);
 	}
 }
