@@ -16,7 +16,12 @@ typedef vector<vs> vvs;
 typedef vector<vl> vvl;
 template <class T> using vp = vector<vector<pair<int, T>>>;
 template <class T> using ep = vector<tuple<int, int, T>>;
-template <class T> inline void read(vector<T>& v, int b = 0, int e = 0) { for (int k = b; k < int(v.size()) - e; k++) cin >> v[k]; }
+template <class T> inline bool read(vector<T>& v, int b = 0, int e = 0) {
+	for (int k = b; k < int(v.size()) - e; k++)
+		if (!cin >> v[k])
+			return false;
+	return true;
+}
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
