@@ -3,7 +3,6 @@
 
 int main() {
 	int N;
-
 	while (cin >> N) {
 		vb triple_free(N + 1, true);
 		int rel_prime = 0, free = 0;
