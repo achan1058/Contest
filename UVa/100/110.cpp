@@ -30,8 +30,7 @@ int main() {
 		int n;
 		cin >> n;
 		string vars(n, 'a');
-		rep(i, 0, n)
-			vars[i] += i;
+		iota(all(vars), 'a');
 
 		printX("program sort(input,output);\n");
 		printf("var\n");
