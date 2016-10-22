@@ -13,16 +13,14 @@ int main() {
 		}
 	}
 
-	rep(j1, 0, n) {
-		rep(j2, j1, n) {
-			int sum = 0;
-			rep(i, 0, n) {
-				sum += arr[i][j2 + 1] - arr[i][j1];
-				mx = max(mx, sum);
+	drep(j2, j1, n, j2) {
+		int sum = 0;
+		rep(i, 0, n) {
+			sum += arr[i][j2 + 1] - arr[i][j1];
+			mx = max(mx, sum);
 
-				if (sum < 0)
-					sum = 0;
-			}
+			if (sum < 0)
+				sum = 0;
 		}
 	}
 	printf("%d\n", mx);
