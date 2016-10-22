@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-#include "polygon.h"
 #include "graham.h"
+#include "polygon.h"
 
 int main() {
 	vector<Polygon<int>> kingdoms;
