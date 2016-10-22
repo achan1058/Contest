@@ -7,13 +7,11 @@ pair<vector<vector<T>>, vvi> floydWarshall(const vector<vector<T>>& graph, T non
 	int n = sz(graph);
 	vector<vector<T>> mat = graph;
 	vvi prev = mi(n, n, -1);
-	rep(i, 0, n)
-		rep(j, 0, n)
+	drep(i, j, n, n)
 		if (mat[i][j] != non_edge)
 			prev[i][j] = i;
 	rep(k, 0, n)
-		rep(i, 0, n)
-		rep(j, 0, n)
+		drep(i, j, n, n)
 		if (minweight) {
 			if (max(mat[i][k], mat[k][j]) < mat[i][j]) {
 				mat[i][j] = max(mat[i][k], mat[k][j]);
