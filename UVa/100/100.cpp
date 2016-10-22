@@ -27,8 +27,7 @@ int main() {
 		int i2 = i, j2 = j, maxcycle = 0;
 		if (i2 > j2)
 			swap(i2, j2);
-		rep(k, i2, j2 + 1)
-			maxcycle = max(maxcycle, cycle[k]);
-		printf("%d %d %d\n", i, j, maxcycle);
+
+		printf("%d %d %d\n", i, j, *max_element(cycle.begin() + i2, cycle.begin() + j2 + 1));
 	}
 }
