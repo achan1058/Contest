@@ -15,6 +15,6 @@ int main() {
 			rep(j, 0, n - i + 1)
 				best[i][j] = min(min(best[i - 1][j], best[i - 1][j + 1]) + 1, best[i - 2][j + 1] + (s[j] == s[i + j - 1] ? 0 : 1));
 		}
-		printf("Case %d: %d\n", X, best[n][0]);
+		printc("%d\n", best[n][0]);
 	}
 }

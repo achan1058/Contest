@@ -9,7 +9,7 @@ int main() {
 		while (s * (s - 3) / 2 < n)
 			s++;
 
-		printf("Case %d: %lld\n", X, s);
+		printc("%lld\n", s);
 		X++;
 	}
 }

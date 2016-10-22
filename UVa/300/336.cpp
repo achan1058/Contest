@@ -22,7 +22,7 @@ int main() {
 				if (i != node && dist[node][i] > d)
 					no_reach++;
 
-			printf("Case %d: %d nodes not reachable from node %d with TTL = %d.\n", X, no_reach, q, d);
+			printc("%d nodes not reachable from node %d with TTL = %d.\n", no_reach, q, d);
 			X++;
 		}
 	}

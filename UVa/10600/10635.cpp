@@ -17,6 +17,6 @@ int main() {
 			if (m[v] != 0)
 				seq.push_back(m[v]);
 		}
-		printf("Case %d: %d\n", X, lis(seq).size());
+		printc("%d\n", lis(seq).size());
 	}
 }

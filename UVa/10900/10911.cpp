@@ -32,8 +32,7 @@ void backtrack(int d = 0) {
 
 int main() {
 	string s;
-	int X = 1;
-	while (cin >> n && n != 0) {
+	whileX(cin >> n && n != 0) {
 		vector<ptd> pts(2 * n);
 		graph = md(2 * n, 2 * n, 0);
 		best = inf;
@@ -46,7 +45,6 @@ int main() {
 				graph[i][j] = pts[i].dist(pts[j]);
 		}
 		backtrack();
-		printf("Case %d: %.2f\n", X, best);
-		X++;
+		printc("%.2f\n", best);
 	}
 }

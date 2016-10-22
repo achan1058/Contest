@@ -3,9 +3,6 @@
 
 int main() {
 	ll n, m;
-	int X = 1;
-	while (cin >> n >> m && (n | m) != 0) {
-		printf("Case %d: %lld\n", X, n * (n - 1) * m * (m - 1) / 4);
-		X++;
-	}
+	whileX(cin >> n >> m && (n | m) != 0)
+		printc("%lld\n", n * (n - 1) * m * (m - 1) / 4);
 }

@@ -23,7 +23,7 @@ int main() {
 			}
 		}
 
-		printf("Case %d: maximum height = %d\n", X, longestDAG(graph).x);
+		printc("maximum height = %d\n", longestDAG(graph).x);
 		X++;
 	}
 }

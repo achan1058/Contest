@@ -9,7 +9,7 @@ int main() {
 		bool empty = true;
 		vi val(256);
 		cin >> s;
-		printf("Case %d: ", X);
+		printc("");
 
 		irep(c, s)
 			val[c]++;

@@ -31,10 +31,10 @@ int main() {
 		int cur = n;
 		while (true) {
 			if (cur == 1) {
-				printf("Case #%d: %d is a Happy number.\n", X, n);
+				printp("%d is a Happy number.\n", n);
 				break;
 			} else if (chain.find(cur) != chain.end()) {
-				printf("Case #%d: %d is an Unhappy number.\n", X, n);
+				printp("%d is an Unhappy number.\n", n);
 				break;
 			}
 			chain.insert(cur);

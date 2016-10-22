@@ -9,7 +9,7 @@ int main() {
 			cin >> t;
 			count += (t == 0 ? -1 : 1);
 		}
-		printf("Case %d: %d\n", X, count);
+		printc("%d\n", count);
 		X++;
 	}
 }

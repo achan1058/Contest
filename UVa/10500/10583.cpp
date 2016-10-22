@@ -14,7 +14,7 @@ int main() {
 			if (u.join(e1, e2))
 				num_comp--;
 		}
-		printf("Case %d: %d\n", X, num_comp);
+		printc("%d\n", num_comp);
 		X++;
 	}
 }

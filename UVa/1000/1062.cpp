@@ -18,7 +18,7 @@ int main() {
 			if (!found)
 				ships.pb(string(1, c));
 		}
-		printf("Case %d: %d\n", X, sz(ships));
+		printc("%d\n", sz(ships));
 		X++;
 	}
 }

@@ -5,7 +5,7 @@ int main() {
 	string s;
 	int X = 1;
 	while (cin >> s && s != "#") {
-		printf("Case %d: ", X);
+		printc("");
 		if (s == "HELLO") {
 			printf("ENGLISH\n", X);
 		} else if (s == "HOLA") {

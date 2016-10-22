@@ -25,7 +25,7 @@ int main() {
 				}
 			}
 		}
-		printf("Case %d: %s\n", X, output[0][N - 1].c_str());
+		printc("%s\n", output[0][N - 1].c_str());
 		X++;
 	}
 }

@@ -15,6 +15,6 @@ int main() {
 				total += 1;
 			}
 		}
-		printf("Case %d: %d\n", X, total);
+		printc("%d\n", total);
 	}
 }

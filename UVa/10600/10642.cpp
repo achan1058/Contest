@@ -19,6 +19,6 @@ int main() {
 			x2 = 0;
 		}
 		len += (x1 + y1 < x2 + y2 ? (y2 - y1) * (y2 + y1 + 1) / 2 : x2 - x1);
-		printf("Case %d: %d\n", X, len);
+		printc(" %d\n", len);
 	}
 }

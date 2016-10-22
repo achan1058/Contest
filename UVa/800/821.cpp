@@ -21,7 +21,7 @@ int main() {
 				if (i != j)
 					total_cost += dist[i][j];
 
-		printf("Case %d: average length between pages = %.3f clicks\n", X, double(total_cost) / n / (n - 1));
+		printc("average length between pages = %.3f clicks\n", double(total_cost) / n / (n - 1));
 		X++;
 	}
 }

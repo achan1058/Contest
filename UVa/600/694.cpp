@@ -20,7 +20,7 @@ int main() {
 		}
 		if (t > b)
 			len--;
-		printf("Case %d: A = %lld, limit = %lld, number of terms = %d\n", X, n, b, len);
+		printc("A = %lld, limit = %lld, number of terms = %d\n", n, b, len);
 		X++;
 	}
 }

@@ -8,10 +8,10 @@ int main() {
 	rep(X, 1, N + 1) {
 		cin >> d >> v >> u;
 		if (u <= v + eps || v == 0) {
-			printf("Case %d: can't determine\n", X);
+			printc("can't determine\n");
 			continue;
 		}
 		double t1 = d / u, t2 = d / sqrt(u * u - v * v);
-		printf("Case %d: %.3lf\n", X, t2 - t1);
+		printc("%.3lf\n", t2 - t1);
 	}
 }

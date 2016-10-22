@@ -2,11 +2,10 @@
 #include "primes.h"
 
 int main() {
-	int X = 1;
 	ll n;
-	while (cin >> n && n != 0) {
+	whileX(cin >> n && n != 0) {
 		if (n == 1) {
-			printf("Case %d: 2\n", X);
+			printc("2\n");
 			X++;
 			continue;
 		}
@@ -19,7 +18,6 @@ int main() {
 				add *= p.x;
 			ans += add;
 		}
-		printf("Case %d: %lld\n", X, ans + (sz(primes) == 1 ? 1 : 0));
-		X++;
+		printc("%lld\n", ans + (sz(primes) == 1 ? 1 : 0));
 	}
 }

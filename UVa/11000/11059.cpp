@@ -2,8 +2,8 @@
 #include "header.h"
 
 int main() {
-	int n, X = 1;
-	while (cin >> n) {
+	int n;
+	whileX(cin >> n) {
 		vl v(n);
 		ll best = 0;
 		irep(l, v)
@@ -15,7 +15,6 @@ int main() {
 				best = max(best, result);
 			}
 		}
-		printf("Case #%d: The maximum product is %lld.\n\n", X, best);
-		X++;
+		printp("The maximum product is %lld.\n\n", best);
 	}
 }

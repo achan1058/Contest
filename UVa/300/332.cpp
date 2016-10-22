@@ -29,7 +29,7 @@ int main() {
 			denom = 1;
 			g = 1;
 		}
-		printf("Case %d: %lld/%lld\n", X, numer / g, denom / g);
+		printc("%lld/%lld\n", numer / g, denom / g);
 		X++;
 	}
 }

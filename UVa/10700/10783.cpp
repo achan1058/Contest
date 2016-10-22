@@ -2,14 +2,13 @@
 #include "header.h"
 
 int main() {
-	int T, a, b;
-	cin >> T;
-	rep(n, 1, T + 1) {
+	int a, b;
+	forX() {
 		cin >> a >> b;
 		if (a % 2 == 0)
 			a++;
 		if (b % 2 == 0)
 			b--;
-		printf("Case %d: %d\n", n, (a + b) * (b - a + 2) / 4);
+		printc("%d\n", (a + b) * (b - a + 2) / 4);
 	}
 }

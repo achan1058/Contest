@@ -7,7 +7,7 @@ int main() {
 		vi remain(m, 0);
 		rep(j, 1, m + 1) {
 			if (remain[l] != 0) {
-				printf("Case %d: %d\n", X, j - remain[l]);
+				printc("%d\n", j - remain[l]);
 				break;
 			}
 
