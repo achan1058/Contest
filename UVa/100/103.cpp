@@ -7,24 +7,20 @@ int main() {
 	while (cin >> n >> d) {
 		vvi graph(n), boxes = mi(n, d, 0);
 		rep(i, 0, n) {
-			irep(b, boxes[i])
-				cin >> b;
+			read(boxes[i]);
 			sort(all(boxes[i]));
 		}
 
-		rep(i, 0, n) {
-			rep(j, 0, n) {
-				bool ls = true;
-				rep(k, 0, d) {
-					if (boxes[i][k] >= boxes[j][k]) {
-						ls = false;
-						break;
-					}
+		drep(i, j, n, n) {
+			bool ls = true;
+			rep(k, 0, d) {
+				if (boxes[i][k] >= boxes[j][k]) {
+					ls = false;
+					break;
 				}
-
-				if (ls)
-					graph[i].pb(j);
 			}
+			if (ls)
+				graph[i].pb(j);
 		}
 
 		vi result = longestDAG(graph);
