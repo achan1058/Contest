@@ -28,7 +28,7 @@ pair<vector<vector<T>>, vvi> floydWarshall(const vector<vector<T>>& graph, T non
 
 // uses adjacency list, returns dist list and previous node vector
 template<class T>
-pair<vector<T>, vi> dijkstra(const AdjList<T>& graph, int start, T non_edge = inf) {
+pair<vector<T>, vi> dijkstra(const vvp<T>& graph, int start, T non_edge = inf) {
 	int n = sz(graph);
 	vector<T> dist(n, non_edge);
 	vi prev(n, -1);
@@ -46,12 +46,12 @@ pair<vector<T>, vi> dijkstra(const AdjList<T>& graph, int start, T non_edge = in
 			if (d + e.y < dist[e.x]) {
 				dist[e.x] = d + e.y;
 				prev[e.x] = v1;
-				q.push(make_pair(dist[e.x], e.x));
+				q.push({ dist[e.x], e.x });
 			}
 		}
 	}
 
-	return make_pair(dist, prev);
+	return{ dist, prev };
 }
 
 // uses adjacency list, returns dist list and previous node vector
