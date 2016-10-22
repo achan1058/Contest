@@ -5,7 +5,7 @@ int main() {
 	int N;
 	while (cin >> N) {
 		vb triple_free(N + 1, true);
-		int rel_prime = 0, free = 0;
+		int rel_prime = 0;
 
 		for (int n = 1; n * n <= N / 2; n++) {
 			for (int m = n + 1; m * m + n * n <= N; m++) {
@@ -28,10 +28,6 @@ int main() {
 			}
 		}
 
-		rep(i, 1, N + 1) {
-			if (triple_free[i])
-				free++;
-		}
-		printf("%d %d\n", rel_prime, free);
+		printf("%d %d\n", rel_prime, accumulate(triple_free.begin(), triple_free.end(), 0) - 1);
 	}
 }
