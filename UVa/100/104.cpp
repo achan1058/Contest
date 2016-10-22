@@ -6,19 +6,15 @@ vi floydWarshall(const vvd& graph) {
 	vector<vvd> mat = vector<vvd>(n, graph);
 	vector<vvi> prev = vector<vvi>(n, mi(n, n, -1));
 	rep(x, 0, n) {
-		rep(i, 0, n) {
-			rep(j, 0, n)
-				prev[0][i][j] = i;
-		}
+		drep(i, j, n, n)
+			prev[0][i][j] = i;
 	}
 	rep(x, 1, n) {
 		rep(k, 0, n) {
-			rep(i, 0, n) {
-				rep(j, 0, n) {
-					if (mat[0][i][k] * mat[x - 1][k][j] > mat[x][i][j] + eps) {
-						mat[x][i][j] = mat[0][i][k] * mat[x - 1][k][j];
-						prev[x][i][j] = prev[x - 1][k][j];
-					}
+			drep(i, j, n, n) {
+				if (mat[0][i][k] * mat[x - 1][k][j] > mat[x][i][j] + eps) {
+					mat[x][i][j] = mat[0][i][k] * mat[x - 1][k][j];
+					prev[x][i][j] = prev[x - 1][k][j];
 				}
 			}
 		}
@@ -41,13 +37,11 @@ int main() {
 	int n;
 	while (cin >> n) {
 		vvd graph = md(n, n, 0);
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < n; j++) {
-				if (i == j)
-					graph[i][j] = 1;
-				else
-					cin >> graph[i][j];
-			}
+		drep(i, j, n, n) {
+			if (i == j)
+				graph[i][j] = 1;
+			else
+				cin >> graph[i][j];
 		}
 
 		vi ans = floydWarshall(graph);
