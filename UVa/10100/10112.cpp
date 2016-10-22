@@ -10,29 +10,27 @@ int main() {
 
 		rep(i, 0, n)
 			cin >> s[i] >> points[i];
-		rep(i, 0, n) {
-			rep(j, i + 1, n) {
-				rep(k, j + 1, n) {
-					vector<pti> pt = { points[i], points[j], points[k] };
-					Polygon<int> poly(pt);
-					int area = abs(poly.sa2());
+		drep(i, j, n, i) {
+			rep(k, 0, j) {
+				vector<pti> pt = { points[i], points[j], points[k] };
+				Polygon<int> poly(pt);
+				int area = abs(poly.sa2());
 
-					if (area <= mx)
-						continue;
-					bool good = true;
-					rep(l, 0, n) {
-						if (l != i && l != j && l != k && poly.inPolygon(points[l]) != -1) {
-							good = false;
-							break;
-						}
+				if (area <= mx)
+					continue;
+				bool good = true;
+				rep(l, 0, n) {
+					if (l != i && l != j && l != k && poly.inPolygon(points[l]) != -1) {
+						good = false;
+						break;
 					}
+				}
 
-					if (good) {
-						ans[0] = s[i];
-						ans[1] = s[j];
-						ans[2] = s[k];
-						mx = area;
-					}
+				if (good) {
+					ans[0] = s[i];
+					ans[1] = s[j];
+					ans[2] = s[k];
+					mx = area;
 				}
 			}
 		}
