@@ -4118,9 +4118,6 @@
     <None Include="Euler\50\56.py">
       <Filter>Euler\50</Filter>
     </None>
-    <None Include="..\My Records\Contest.xlsx">
-      <Filter>Current Files</Filter>
-    </None>
     <None Include="UVa\300\324.py">
       <Filter>UVa\300</Filter>
     </None>

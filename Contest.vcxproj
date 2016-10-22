@@ -4501,7 +4501,6 @@
     <Text Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\My Records\Contest.xlsx" />
     <None Include="Euler\1\13.py" />
     <None Include="Euler\1\16.py" />
     <None Include="Euler\1\20.py" />
