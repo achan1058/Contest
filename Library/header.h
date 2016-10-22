@@ -22,6 +22,12 @@ template <class T> inline bool read(vector<T>& v, int b = 0, int e = 0) {
 			return false;
 	return true;
 }
+template <class T> inline bool read(vector<vector<T>>& v) {
+	irep(p, v)
+		if (!read(p))
+			return false;
+	return true;
+}
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
