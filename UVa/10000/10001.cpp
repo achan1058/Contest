@@ -1,10 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-int state, n;
-bool good;
-unsigned int cur, target;
-
+int state, n, cur, target;
 bool check(int pos) {
 	int flag;
 	if (pos == 0)
@@ -17,6 +14,7 @@ bool check(int pos) {
 	return ((state >> flag) & 1) == ((target >> pos) & 1);
 }
 
+bool good;
 void backtrack(int pos = 2) {
 	if (good)
 		return;
