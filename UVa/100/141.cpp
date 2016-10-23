@@ -4,19 +4,15 @@
 vvb rotateRight(const vvb& grid) {
 	int n = sz(grid);
 	vvb ans = mb(n, n, false);
-	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++)
-			ans[i][j] = grid[j][n - i - 1];
-	}
+	drep(i, j, n, n)
+		ans[i][j] = grid[j][n - i - 1];
 	return ans;
 }
 vvb reflect(const vvb& grid) {
 	int n = sz(grid);
 	vvb ans = mb(n, n, false);
-	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++)
-			ans[i][j] = grid[i][n - j - 1];
-	}
+	drep(i, j, n, n)
+		ans[i][j] = grid[i][n - j - 1];
 	return ans;
 }
 
