@@ -4485,7 +4485,6 @@
     <ClInclude Include="Library\eularian.h" />
     <ClInclude Include="Library\fraction.h" />
     <ClInclude Include="Library\graham.h" />
-    <ClInclude Include="Library\graph.h" />
     <ClInclude Include="Library\graph_util.h" />
     <ClInclude Include="Library\header.h" />
     <ClInclude Include="Library\line.h" />

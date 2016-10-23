@@ -3877,9 +3877,6 @@
     <ClInclude Include="Library\shortest_path.h">
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
-    <ClInclude Include="Library\graph.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
     <ClInclude Include="Library\eularian.h">
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
