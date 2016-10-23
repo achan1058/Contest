@@ -25,9 +25,7 @@ int main() {
 
 		vi perm(n), best;
 		int best_band = inf;
-
-		rep(i, 0, n)
-			perm[i] = i;
+		iota(all(perm), 0);
 		do {
 			int band = 0;
 			rrep(j, n - 1, 0) {
