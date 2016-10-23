@@ -576,6 +576,9 @@
     <Filter Include="UVa\13100">
       <UniqueIdentifier>{ffc01b84-afc6-4186-a96b-c099d42a0465}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archive\3200">
+      <UniqueIdentifier>{cc7f9f86-ddcb-43a4-ac9e-eec817d1760f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -3847,6 +3850,24 @@
     </ClCompile>
     <ClCompile Include="UVa\10800\10895.cpp">
       <Filter>UVa\10800</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\1500\1584.cpp">
+      <Filter>UVa\1500</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\3200\3225.cpp">
+      <Filter>Archive\3200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\1500\1583.cpp">
+      <Filter>UVa\1500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\1500\1587.cpp">
+      <Filter>UVa\1500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\1500\1588.cpp">
+      <Filter>UVa\1500</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\1500\1594.cpp">
+      <Filter>UVa\1500</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
