@@ -28,6 +28,17 @@ string intToString(T n, int base = 10) {
 	return s;
 }
 
+template <class T>
+vi intToDigits(T n, int base = 10) {
+	vi ans;
+	while (n > T(0)) {
+		ans.pb(n % T(base));
+		n /= base;
+	}
+	reverse(all(ans));
+	return ans;
+}
+
 int minBase(const string& s, bool extended = false) {
 	int result = 2;
 	irep(c, s) {
