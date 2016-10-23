@@ -3,18 +3,19 @@
 
 int main() {
 	forX() {
-		int k, tax = 0;
+		int k;
+		ll tax = 0;
 		cin >> k;
 
 		vi deduct = { 180000, 300000, 400000, 300000, inf };
-		vd rate = { 0, .1, .15, .2, .25 };
+		vl rate = { 0, 10, 15, 20, 25 };
 
 		rep(i, 0, 5) {
 			int d = min(k, deduct[i]);
-			tax += ceil(d * rate[i] - eps);
+			tax += d * rate[i];
 			k -= d;
 		}
 
-		printc("%d\n", tax == 0 ? 0 : max(tax, 2000));
+		printc("%lld\n", tax == 0 ? 0 : max((tax + 99) / 100, 2000ll));
 	}
 }
