@@ -3,10 +3,7 @@
 
 int main() {
 	string s;
-	int T;
-	cin >> T;
-	getline(cin, s);
-	for (int X = 0; X < T; X++) {
+	forX() {
 		getline(cin, s);
 		vi count(26);
 		int mx = 0;

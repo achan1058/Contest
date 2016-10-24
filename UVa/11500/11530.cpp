@@ -4,21 +4,18 @@
 int main() {
 	vi hits(200, 0);
 	vs pad = { "adgjmptw ", "behknqux", "cfilorvy", "sz" };
-	int N;
 	string s;
 	rep(i, 0, 4) {
 		irep(c, pad[i])
 			hits[c] = i + 1;
 	}
 
-	cin >> N;
-	getline(cin, s);
-	rep(X, 0, N) {
+	forX() {
 		getline(cin, s);
 		int result = 0;
 		irep(c, s)
 			result += hits[c];
 
-		printf("Case #%d: %d\n", X + 1, result);
+		printp("%d\n", result);
 	}
 }

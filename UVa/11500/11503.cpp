@@ -3,9 +3,7 @@
 #include "union_find.h"
 
 int main() {
-	int N;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		Index<string> m;
 		UnionFind u;
 		string s1, s2;

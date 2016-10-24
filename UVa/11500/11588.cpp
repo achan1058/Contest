@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N, r, c, m, n;
+	int r, c, m, n;
 	char ch;
-	cin >> N;
-	for (int X = 1; X <= N; X++) {
+	forX() {
 		vi freq(26);
 		int mx = 0;
 		cin >> r >> c >> m >> n;
@@ -23,6 +22,6 @@ int main() {
 				b += freq[i];
 		}
 
-		printf("Case %d: %d\n", X, a * m + b * n);
+		printc("%d\n", a * m + b * n);
 	}
 }

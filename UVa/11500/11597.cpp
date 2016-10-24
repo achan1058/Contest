@@ -2,9 +2,7 @@
 #include "header.h"
 
 int main() {
-	int n, X = 1;
-	while (cin >> n && n != 0) {
-		printf("Case %d: %d\n", X, n / 2);
-		X++;
-	}
+	int n;
+	whileX(cin >> n && n != 0)
+		printc("%d\n", n / 2);
 }

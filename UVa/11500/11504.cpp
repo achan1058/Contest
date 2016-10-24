@@ -2,9 +2,8 @@
 #include "components.h"
 
 int main() {
-	int n, v1, v2, m, N;
-	cin >> N;
-	for (int X = 0; X < N; X++) {
+	int n, v1, v2, m;
+	forX() {
 		cin >> n >> m;
 		vvi graph(n);
 		for (int i = 0; i < m; i++) {

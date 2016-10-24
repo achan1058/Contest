@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T;
 	ll n;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	forX() {
 		cin >> n;
 		if (n <= 0) {
 			printf("0\n");

@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T, n, v;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int n, v;
+	forX() {
 		cin >> n;
 		unordered_map<int, int> occur;
 		int last = 0, best = 0;

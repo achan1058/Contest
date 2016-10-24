@@ -2,16 +2,14 @@
 #include "header.h"
 
 int main() {
-	int N;
 	string s;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	forX() {
 		cin >> s;
 		stringstream ss;
 		ss << s;
 		char c;
 		int n;
-		printf("Case %d: ", X);
+		printc("");
 		while (ss >> c) {
 			ss >> n;
 			rep(i, 0, n)

@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int a, b, c, T;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int a, b, c;
+	forX() {
 		vi factors;
 		cin >> a >> b >> c;
 		for (int i = 1; i <= b; i++) {
