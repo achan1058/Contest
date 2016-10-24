@@ -34,8 +34,8 @@ int floodfill(vector<T>& grid, int x0, int y0, U target = 0, vi dx = { 1, 0, -1,
 			count++;
 
 			if (x1 != -1 && y1 != -1 && nx == x1 && ny == y1)
-				return count;
+				return grid[x1][y1];
 		}
 	}
-	return x1 != -1 && y1 != -1 ? -1 : count;
+	return x1 != -1 && y1 != -1 ? grid[x1][y1] : count;
 }
