@@ -2,13 +2,12 @@
 #include "header.h"
 
 int main() {
-	int n, X = 1, a[10][10];
-	while (cin >> n && n != 0) {
+	int n;
+	whileX(cin >> n && n != 0) {
+		vvi a = mi(n, n, 0);
+		read(a);
 		printf("Case %d:", X);
-		rep(i, 0, n) {
-			rep(j, 0, n)
-				cin >> a[i][j];
-		}
+
 		rep(m, 0, (n + 1) / 2) {
 			int M = n - 1 - m;
 			ll sum = 0;
@@ -28,6 +27,5 @@ int main() {
 			printf(" %d", sum);
 		}
 		printf("\n");
-		X++;
 	}
 }

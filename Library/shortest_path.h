@@ -1,5 +1,5 @@
 #pragma once
-#include "graph.h"
+#include "header.h"
 
 // uses adjacency matrix, returns dist matrix and previous node matrix
 template<class T>

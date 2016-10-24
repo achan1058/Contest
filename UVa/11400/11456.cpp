@@ -2,14 +2,11 @@
 #include "header.h"
 
 int main() {
-	int T, n;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int n;
+	forX() {
 		cin >> n;
 		vi trains(n);
-		for (int& t : trains)
-			cin >> t;
-
+		read(trains);
 		vi lis(n, 1), lds(n, 1);
 		int mx = 0;
 		for (int i = n - 1; i >= 0; i--) {

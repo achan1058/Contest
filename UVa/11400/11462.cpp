@@ -11,11 +11,9 @@ int main() {
 			ages[a]++;
 		}
 		bool fs = true;
-		rep(i, 0, 101) {
-			rep(j, 0, ages[i]) {
-				printf("%s%d", fs ? "" : " ", i);
-				fs = false;
-			}
+		drep(i, j, 101, ages[i]) {
+			printf("%s%d", fs ? "" : " ", i);
+			fs = false;
 		}
 		printf("\n");
 	}

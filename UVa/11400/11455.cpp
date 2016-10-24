@@ -2,11 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N;
-	vi v(4);
-	cin >> N;
-	rep(X, 0, N) {
-		cin >> v[0] >> v[1] >> v[2] >> v[3];
+	forX() {
+		vi v(4);
+		read(v);
 		sort(all(v));
 		if (v[0] + v[1] <= v[3] - v[2] || v[0] < 0)
 			printf("banana\n");

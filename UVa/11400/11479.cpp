@@ -2,19 +2,17 @@
 #include "header.h"
 
 int main() {
-	int N;
-	cin >> N;
-	rep(X, 1, N+1) {
+	forX() {
 		vl a(3);
-		cin >> a[0] >> a[1] >> a[2];
+		read(a);
 		sort(all(a));
 		if (a[0] <= 0 || a[0] + a[1] <= a[2])
-			printf("Case %d: Invalid\n", X);
+			printc("Invalid\n");
 		else if (a[0] == a[2])
-			printf("Case %d: Equilateral\n", X);
+			printc("Equilateral\n");
 		else if (a[0] == a[1] || a[1] == a[2])
-			printf("Case %d: Isosceles\n", X);
+			printc("Isosceles\n");
 		else
-			printf("Case %d: Scalene\n", X);
+			printc("Scalene\n");
 	}
 }

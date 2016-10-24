@@ -3,7 +3,7 @@
 
 // returns LCS that has lexicographically minimal index w.r.t. s1
 template<class T>
-vector<T> lcs(const vector<T>& s1, const vector<T>& s2) {
+T lcs(const T& s1, const T& s2) {
 	int n = sz(s1), m = sz(s2);
 	vvi table = mi(n + 1, m + 1, 0);
 	rep(i, 0, n) {
@@ -18,7 +18,7 @@ vector<T> lcs(const vector<T>& s1, const vector<T>& s2) {
 	}
 
 	int len = table[n][m];
-	vector<T> s(len);
+	T s(len, 0);
 	while (len > 0) {
 		if (table[n][m] == table[n - 1][m])
 			n--;
@@ -36,8 +36,8 @@ vector<T> lcs(const vector<T>& s1, const vector<T>& s2) {
 
 // returns the lexicographically minimal LIS
 template<class T>
-vector<T> lis(const vector<T>& s, bool nondecrease = false) {
-	if (sz(s) == 0) return vector<T>();
+T lis(const T& s, bool nondecrease = false) {
+	if (sz(s) == 0) return T();
 	vi index = { 0 };
 	vi prev(sz(s), -1);
 	rep(i, 1, sz(s)) {
@@ -53,7 +53,7 @@ vector<T> lis(const vector<T>& s, bool nondecrease = false) {
 				prev[i] = index[pos - 1];
 		}
 	}
-	vector<T> result(sz(index));
+	T result(sz(index));
 	int cur = index.back();
 	rrep(i, sz(index) - 1, 0) {
 		result[i] = s[cur];
@@ -62,7 +62,8 @@ vector<T> lis(const vector<T>& s, bool nondecrease = false) {
 	return result;
 }
 
-vi kmp_pre(const string& p) {
+template<class T>
+vi kmp_pre(const T& p) {
 	int n = sz(p), start = 0;
 	vi match(n);
 	rep(i, 1, n) {
@@ -74,7 +75,8 @@ vi kmp_pre(const string& p) {
 	}
 	return match;
 }
-vi kmp_match(const string& s, const string& p, const vi& match, bool fs = false) {
+template<class T>
+vi kmp_match(const T& s, const T& p, const vi& match, bool fs = false) {
 	int n = sz(p), m = sz(s), start = 0;
 	vi result;
 	rep(i, 0, m) {
@@ -91,7 +93,8 @@ vi kmp_match(const string& s, const string& p, const vi& match, bool fs = false)
 	}
 	return result;
 }
-vi kmp(const string& s, const string& p, bool fs = false) {
+template<class T>
+vi kmp(const T& s, const T& p, bool fs = false) {
 	return kmp_match(s, p, kmp_pre(p), fs);
 }
 
