@@ -1,54 +1,35 @@
 #include <bits/stdc++.h>
-#include "header.h"
+#include "floodfill.h"
 
-int r, c;
-vs board(50);
-vi dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
-void floodfill(int x0, int y0, char s1, char t1, char s2 = 'A', char t2 = 'a') {
-	queue<pii> q;
-	q.push({ x0, y0 });
-	if (board[x0][y0] == s1)
-		board[x0][y0] = t1;
-	else if (board[x0][y0] == s2)
-		board[x0][y0] = t2;
-	while (!q.empty()) {
-		int x1 = q.front().x, y1 = q.front().y;
-		q.pop();
-		rep(i, 0, sz(dx)) {
-			int nx = x1 + dx[i], ny = y1 + dy[i];
-			if (nx < 0 || nx >= r || ny < 0 || ny >= c || (board[nx][ny] != s1 && board[nx][ny] != s2))
-				continue;
-
-			if (board[nx][ny] == s1)
-				board[nx][ny] = t1;
-			else if (board[nx][ny] == s2)
-				board[nx][ny] = t2;
-			q.push({ nx, ny });
-		}
+bool rule(char& curg, char& newg, char source, char target, int& curv, int& newv, bool first) {
+	if (newg == '*') {
+		newg = '.';
+		return true;
+	} else if (newg == 'X' || (newg == 'x' && target != 'x')) {
+		newg = target;
+		return true;
 	}
+	return false;
 }
 
 int main() {
-	int X = 1;
-	while (cin >> c >> r && (r | c) != 0) {
+	int r, c;
+	whileX(cin >> c >> r && (r | c) != 0) {
 		vi rolls;
-		rep(i, 0, r)
-			cin >> board[i];
-		rep(i, 0, r) {
-			rep(j, 0, c) {
-				if (board[i][j] != '.') {
-					int roll = 0;
-					floodfill(i, j, '*', '.', 'X', 'x');
-					rep(i2, 0, r) {
-						rep(j2, 0, c) {
-							if (board[i2][j2] == 'x') {
-								floodfill(i2, j2, 'x', '.');
-								roll++;
-							}
-						}
+		vs board(r);
+		read(board);
+
+		drep(i, j, r, c) {
+			if (board[i][j] != '.') {
+				int roll = 0;
+				floodfill(board, i, j, 'x', vi({ 1, 0, -1, 0 }), vi({ 0, 1, 0, -1 }), -1, -1, rule);
+				drep(i2, j2, r, c) {
+					if (board[i2][j2] == 'x') {
+						floodfill(board, i2, j2, '.', vi({ 1, 0, -1, 0 }), vi({ 0, 1, 0, -1 }), -1, -1, rule);
+						roll++;
 					}
-					rolls.pb(roll);
 				}
+				rolls.pb(roll);
 			}
 		}
 
@@ -57,7 +38,6 @@ int main() {
 		rep(i, 0, sz(rolls))
 			printf("%s%d", i > 0 ? " " : "", rolls[i]);
 
-		printf("\n\n", X);
-		X++;
+		printf("\n\n");
 	}
 }
