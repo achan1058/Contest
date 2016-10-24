@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N, d, n;
+	int d, n;
 	string s;
-	cin >> N;
-	for (int X = 1; X <= N; X++) {
+	forX() {
 		cin >> n;
 		map<string, int> days;
 		for (int i = 0; i < n; i++) {
@@ -14,10 +13,10 @@ int main() {
 		}
 		cin >> d >> s;
 		if (days.find(s) == days.end() || days[s] > d + 5)
-			printf("Case %d: Do your own homework!\n", X);
+			printc("Do your own homework!\n");
 		else if (days[s] <= d)
-			printf("Case %d: Yesss\n", X);
+			printc("Yesss\n");
 		else
-			printf("Case %d: Late\n", X);
+			printc("Late\n");
 	}
 }
