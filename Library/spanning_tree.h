@@ -1,19 +1,21 @@
 #pragma once
-#include "graph.h"
 #include "union_find.h"
 
-// change to use ep<T>, determine n
 // CHANGES EDGE ORDER! uses edge list, returns forest cost, num components, edges in forest
 template<class T>
-tuple<T, int, EdgeList<T>> kruskal(EdgeList<T>& edges) {
-	UnionFind un(edges.numV());
+tuple<T, int, vt<T>> kruskal(vt<T>& edges) {
+	int n = 0;
+	irep(e, edges)
+		n = max(n, max(get<0>(e), get<1>(e)) + 1);
+
+	UnionFind un(n);
 	T result = 0;
-	EdgeList<T> tree;
-	edges.sortEdges();
-	rep(i, 0, edges.numE()) {
-		if (un.join(get<0>(edges[i]), get<1>(edges[i]))) {
-			result += get<2>(edges[i]);
-			tree.push(get<0>(edges[i]), get<1>(edges[i]), get<2>(edges[i]));
+	vt<T> tree;
+	sort(all(edges), [](const tuple<int, int, T>& v1, const tuple<int, int, T>& v2) { return get<2>(v1) < get<2>(v2); });
+	irep(e, edges) {
+		if (un.join(get<0>(e), get<1>(e))) {
+			result += get<2>(e);
+			tree.pb({ get<0>(e), get<1>(e), get<2>(e) });
 		}
 	}
 	return make_tuple(result, sz(un.getComponentSizes()), tree);
@@ -21,11 +23,11 @@ tuple<T, int, EdgeList<T>> kruskal(EdgeList<T>& edges) {
 
 // uses adjacency list, returns tree cost, component num vertex, edges in tree
 template<class T>
-tuple<T, int, AdjList<T>> prim(const AdjList<T>& graph, int start = 0, T non_edge = inf) {
+tuple<T, int, vvp<T>> prim(const vvp<T>& graph, int start = 0, T non_edge = inf) {
 	int n = sz(graph), num = 1;
 	T result = 0;
 	vector<T> dist(n, non_edge);
-	AdjList<T> tree(n);
+	vvp<T> tree(n);
 	vi prev(n, -1);
 	priority_queue<pair<T, int>, vector<pair<T, int>>, greater<pair<T, int>>> q;
 	dist[start] = -inf;
@@ -47,8 +49,8 @@ tuple<T, int, AdjList<T>> prim(const AdjList<T>& graph, int start = 0, T non_edg
 		num++;
 		result += d;
 		dist[v1] = -inf;
-		tree.push(v1, prev[v1], d);
-		tree.push(prev[v1], v1, d);
+		tree[v1].pb({ prev[v1], d });
+		tree[prev[v1]].pb({ v1, d });
 		irep(e, graph[v1]) {
 			if (e.y < dist[e.x]) {
 				dist[e.x] = e.y;
