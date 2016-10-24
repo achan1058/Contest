@@ -3,9 +3,9 @@
 
 int main() {
 	double a, b, c, d, e;
-	int n, X = 1;
+	int n;
 
-	while (cin >> n >> a >> b >> c && n != 0) {
+	whileX(cin >> n >> a >> b >> c && n != 0) {
 		if (n == 1) {
 			e = (b - a) / c;
 			d = (a + b) * c / 2;
@@ -20,7 +20,6 @@ int main() {
 			d = a - b * e;
 		}
 
-		printf("Case %d: %.3f %.3f\n", X, d, e);
-		X++;
+		printc("%.3f %.3f\n", d, e);
 	}
 }

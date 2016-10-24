@@ -8,10 +8,8 @@ void mut(string& s) {
 }
 
 int main() {
-	int n;
-	cin >> n;
 	string s1, s2;
-	rep(i, 0, n) {
+	forX() {
 		cin >> s1 >> s2;
 		mut(s1);
 		mut(s2);

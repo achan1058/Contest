@@ -7,7 +7,6 @@ int main() {
 	seq[0] = 1;
 	rep(i, 1, 1000001)
 		seq[i] = (seq[int(i - sqrt(i) + eps)] + seq[int(log(i) + eps)] + seq[int(i*sin(i)*sin(i) + eps)]) % 1000000;
-	while (cin >> n && n != -1) {
+	while (cin >> n && n != -1)
 		printf("%d\n", seq[n]);
-	}
 }
