@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N;
 	double d, ans1, ans2;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> d;
 		ans1 = d * d / 25 * M_PI;
 		ans2 = d * d / 5 * 3 - ans1;

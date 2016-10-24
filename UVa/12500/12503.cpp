@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N, n, cur, pos;
+	int n, cur, pos;
 	string s;
-	cin >> N;
-	for (int X = 0; X < N; X++) {
+	forX() {
 		cin >> n;
 		cur = 0;
 		vector<int> dir(n, 0);

@@ -3,9 +3,6 @@
 
 int main() {
 	string s;
-	int X = 1;
-	while (cin >> s && s != "*") {
+	whileX (cin >> s && s != "*")
 		printc("Hajj-e-%s\n", s == "Hajj" ? "Akbar" : "Asghar");
-		X++;
-	}
 }
