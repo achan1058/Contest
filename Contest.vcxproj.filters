@@ -3979,9 +3979,6 @@
     <ClInclude Include="Library\sweep_line.h">
       <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
-    <ClInclude Include="Library\backtrack.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
     <ClInclude Include="Library\binary_search.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
@@ -4062,6 +4059,9 @@
     </ClInclude>
     <ClInclude Include="DCJ\2016\lisp_plus_plus_3.h">
       <Filter>DCJ\2016\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\floodfill.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

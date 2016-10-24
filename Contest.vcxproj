@@ -2917,8 +2917,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="UVa\10900\10946.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="UVa\10900\10948.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -4526,7 +4526,7 @@
     <ClInclude Include="DCJ\2016\rps_1.h" />
     <ClInclude Include="DCJ\2016\rps_2.h" />
     <ClInclude Include="DCJ\2016\rps_3.h" />
-    <ClInclude Include="Library\backtrack.h" />
+    <ClInclude Include="Library\floodfill.h" />
     <ClInclude Include="Library\binary_search.h" />
     <ClInclude Include="Library\bits\stdc++.h" />
     <ClInclude Include="Library\circle.h" />
