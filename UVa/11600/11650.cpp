@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int n, h, m;
+	int h, m;
 	char c;
-	cin >> n;
-	rep(i, 0, n) {
+	forX() {
 		cin >> h >> c >> m;
 		h = 12 - h;
 		if (m != 0) {

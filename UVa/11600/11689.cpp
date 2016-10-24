@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, e, f, c;
-	cin >> N;
-	rep(X, 0, N) {
+	int e, f, c;
+	forX() {
 		cin >> e >> f >> c;
 		int result = 0, bottle = e + f;
 		while (bottle >= c) {

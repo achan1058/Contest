@@ -2,14 +2,12 @@
 #include "header.h"
 
 int main() {
-	int X = 1, s;
-	while(cin >> s && s >= 0) {
+	int s;
+	whileX(cin >> s && s >= 0) {
 		printf("Case %d:\n", X);
 		vi prob(12), req(12);
-		irep(p, prob)
-			cin >> p;
-		irep(p, req)
-			cin >> p;
+		read(prob);
+		read(req);
 		rep(i, 0, 12) {
 			if (s >= req[i]) {
 				printf("No problem! :D\n");
@@ -19,6 +17,5 @@ int main() {
 			}
 			s += prob[i];
 		}
-		X++;
 	}
 }

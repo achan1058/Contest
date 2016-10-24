@@ -4,9 +4,8 @@
 int main() {
 	int b, n, v1, v2, d;
 	while (cin >> b >> n && (b | n) != 0) {
-		vi cash(b, 0);
-		for (int i = 0; i < b; i++)
-			cin >> cash[i];
+		vi cash(b);
+		read(cash);
 		for (int i = 0; i < n; i++) {
 			cin >> v1 >> v2 >> d;
 			cash[v1 - 1] -= d;
