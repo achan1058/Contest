@@ -9,15 +9,12 @@ int main() {
 	rep(i, 0, n) {
 		int best = 0, v;
 		getline(cin, s);
-		stringstream ss;
-		ss << s;
+		stringstream ss(s);
 		vi ints;
 		while (ss >> v)
 			ints.pb(v);
-		rep(i, 0, sz(ints)) {
-			rep(j, i + 1, sz(ints))
-				best = max(best, gcd(ints[i], ints[j]));
-		}
+		drep(i, j, sz(ints), i)
+			best = max(best, gcd(ints[i], ints[j]));
 		printf("%d\n", best);
 	}
 }

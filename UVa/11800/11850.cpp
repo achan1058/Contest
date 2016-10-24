@@ -6,8 +6,7 @@ int main() {
 	while (cin >> n && n != 0) {
 		bool good = true;
 		vi dist(n);
-		rep(i, 0, n)
-			cin >> dist[i];
+		read(dist);
 		sort(all(dist));
 		rep(i, 0, n - 1) {
 			if (dist[i + 1] - dist[i] > 200) {

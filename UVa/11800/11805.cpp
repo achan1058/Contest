@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N, n, k, p;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	int n, k, p;
+	forX() {
 		cin >> n >> k >> p;
-		printf("Case %d: %d\n", X, (k + p + n - 1) % n + 1);
+		printc("%d\n", (k + p + n - 1) % n + 1);
 	}
 }
