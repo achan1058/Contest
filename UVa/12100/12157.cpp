@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int t, n, v;
-	cin >> t;
-	rep(X, 1, t + 1) {
+	int n, v;
+	forX() {
 		cin >> n;
 		int mile = 0, juice = 0;
 		rep(i, 0, n) {
@@ -14,10 +13,10 @@ int main() {
 		}
 
 		if (mile < juice)
-			printf("Case %d: Mile %d\n", X, mile);
+			printc("Mile %d\n", mile);
 		else if (mile > juice)
-			printf("Case %d: Juice %d\n", X, juice);
+			printc("Juice %d\n", juice);
 		else
-			printf("Case %d: Mile Juice %d\n", X, juice);
+			printc("Mile Juice %d\n", juice);
 	}
 }
