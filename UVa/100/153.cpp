@@ -12,7 +12,7 @@ int main() {
 			rep(j, 0, c - 'a') {
 				if (count[j] > 0) {
 					count[j]--;
-					ans += multinomial<ll>(count);
+					ans += multinomial(count);
 					count[j]++;
 				}
 			}
