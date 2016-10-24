@@ -3,24 +3,22 @@
 
 int main() {
 	string s;
-	int X = 1;
-	while (cin >> s && s != "#") {
+	whileX(cin >> s && s != "#") {
 		printc("");
 		if (s == "HELLO") {
-			printf("ENGLISH\n", X);
+			printf("ENGLISH\n");
 		} else if (s == "HOLA") {
-			printf("SPANISH\n", X);
+			printf("SPANISH\n");
 		} else if (s == "HALLO") {
-			printf("GERMAN\n", X);
+			printf("GERMAN\n");
 		} else if (s == "BONJOUR") {
-			printf("FRENCH\n", X);
+			printf("FRENCH\n");
 		} else if (s == "CIAO") {
-			printf("ITALIAN\n", X);
+			printf("ITALIAN\n");
 		} else if (s == "ZDRAVSTVUJTE") {
-			printf("RUSSIAN\n", X);
+			printf("RUSSIAN\n");
 		} else {
-			printf("UNKNOWN\n", X);
+			printf("UNKNOWN\n");
 		}
-		X++;
 	}
 }
