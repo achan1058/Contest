@@ -3,10 +3,8 @@
 
 bool isSquare(int i) {
 	int ans = 0, j;
-	while (i > 0) {
-		ans += i % 10;
-		i /= 10;
-	}
+	irep(c, to_string(i))
+		ans += c - '0';
 	for (j = 0; j * j < ans; j++);
 	return j * j == ans;
 }
