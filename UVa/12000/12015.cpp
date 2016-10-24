@@ -2,9 +2,7 @@
 #include "header.h"
 
 int main() {
-	int N;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	forX() {
 		vector<pair<int, string>> ranking(10);
 		int rank;
 		string s;
