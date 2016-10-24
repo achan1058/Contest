@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, c, n, t;
-	cin >> N;
-	rep(X, 0, N) {
+	int c, n, t;
+	forX() {
 		cin >> n >> c;
 		vvb good = mb(c + 1, n + 1, false);
 		good[0][0] = true;
@@ -12,8 +11,7 @@ int main() {
 		rep(i, 0, c) {
 			cin >> t;
 			vi v(t);
-			irep(r, v)
-				cin >> r;
+			read(v);
 			rep(j, 0, n + 1) {
 				irep(r, v) {
 					if (j + r <= n)
