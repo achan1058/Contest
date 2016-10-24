@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n, cur, prev;
-	cin >> N;
-	rep(X, 1, N+1) {
+	int n, cur, prev;
+	forX() {
 		cin >> n >> prev;
 		int up = 0, down = 0;
 		rep(i, 0, n - 1) {
@@ -15,6 +14,6 @@ int main() {
 				down++;
 			prev = cur;
 		}
-		printf("Case %d: %d %d\n", X, up, down);
+		printc("%d %d\n", up, down);
 	}
 }

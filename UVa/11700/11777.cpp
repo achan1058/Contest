@@ -2,12 +2,10 @@
 #include "header.h"
 
 int main() {
-	int N;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	forX() {
 		vi score(7);
-		irep(s, score)
-			cin >> s;
+		read(score);
+
 		if (score[4] < score[6])
 			swap(score[4], score[6]);
 		if (score[5] < score[6])
@@ -25,6 +23,6 @@ int main() {
 			grade = 'C';
 		else if (total >= 120)
 			grade = 'D';
-		printf("Case %d: %c\n", X, grade);
+		printc("%c\n", grade);
 	}
 }

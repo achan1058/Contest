@@ -3,9 +3,8 @@
 
 vi two = { 0, 2, 4, 6, 8, 1, 3, 5, 7, 9 };
 int main() {
-	int N, n, t;
-	cin >> N;
-	rep(X, 0, N) {
+	int  n, t;
+	forX() {
 		t = 0;
 		rep(i, 0, 4) {
 			cin >> n;
