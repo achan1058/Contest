@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int n, total = 0, v;
+	int total = 0, v;
 	string s;
-	cin >> n;
-	rep(i, 0, n) {
+	forX() {
 		cin >> s;
 		if (s == "donate") {
 			cin >> v;

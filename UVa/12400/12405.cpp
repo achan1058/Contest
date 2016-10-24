@@ -2,11 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N, n;
+	int n;
 	string s;
-	cin >> N;
-
-	rep(X, 1, N + 1) {
+	forX() {
 		int total = 0;
 		cin >> n >> s;
 		rep(i, 0, n) {
