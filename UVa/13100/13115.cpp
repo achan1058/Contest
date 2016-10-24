@@ -29,16 +29,12 @@ int main() {
 			}
 		}
 
-		rep(i1, 0, t) {
-			rep(j1, 0, t) {
-				vb used(n);
-				rep(i2, 0, t) {
-					rep(j2, 0, t) {
-						if (!used[grid[i1 * t + i2][j1 * t + j2]]) {
-							distinct++;
-							used[grid[i1 * t + i2][j1 * t + j2]] = true;
-						}
-					}
+		drep(i1, j1, t, t) {
+			vb used(n);
+			drep(i2, j2, t, t) {
+				if (!used[grid[i1 * t + i2][j1 * t + j2]]) {
+					distinct++;
+					used[grid[i1 * t + i2][j1 * t + j2]] = true;
 				}
 			}
 		}
