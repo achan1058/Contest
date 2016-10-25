@@ -5,15 +5,12 @@ int main() {
 	int n;
 	while (cin >> n) {
 		vi v(n);
+		read(v);
 		int count = 0;
-		rep(i, 0, n)
-			cin >> v[i];
-		rep(i, 0, n) {
-			rep(j, 0, n - 1 - i) {
-				if (v[j] > v[j + 1]) {
-					swap(v[j], v[j + 1]);
-					count++;
-				}
+		drep(i, j, n, n - i - 1) {
+			if (v[j] > v[j + 1]) {
+				swap(v[j], v[j + 1]);
+				count++;
 			}
 		}
 		printf("Minimum exchange operations : %d\n", count);

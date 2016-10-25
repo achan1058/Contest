@@ -2,16 +2,15 @@
 #include "header.h"
 
 int main() {
-	int n, i, j, m, M, X = 1;
+	int n, i, j, m, M;
 	string s;
 
-	while (cin >> s) {
+	whileX(cin >> s) {
 		vi arr(sz(s) + 1);
 		rep(k, 0, sz(s))
 			arr[k + 1] = arr[k] + s[k] - '0';
 
 		printf("Case %d:\n", X);
-		X++;
 		cin >> n;
 		rep(k, 0, n) {
 			cin >> i >> j;

@@ -3,7 +3,7 @@
 
 int main() {
 	ll N;
-	vl fact = factTable<ll>(13);
+	vl fact = factTable(13);
 	while (cin >> N) {
 		if (N < 0 && N % 2 == 0)
 			printf("Underflow!\n");
@@ -14,6 +14,6 @@ int main() {
 		else if (N > 13)
 			printf("Overflow!\n");
 		else
-			printf("%lld\n", fact[N]);
+			printf("%lld\n", fact[int(N)]);
 	}
 }

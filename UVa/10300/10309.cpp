@@ -20,12 +20,10 @@ int brute_force(vvb a, int b) {
 		b /= 2;
 	}
 
-	rep(i, 1, 10) {
-		rep(j, 0, 10) {
-			if (a[i - 1][j]) {
-				press(a, i, j);
-				num++;
-			}
+	drep(i, j, 9, 10) {
+		if (a[i][j]) {
+			press(a, i + 1, j);
+			num++;
 		}
 	}
 
