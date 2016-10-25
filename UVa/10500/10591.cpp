@@ -23,9 +23,8 @@ int findHappy(int n, int depth = 0) {
 }
 
 int main() {
-	int N, n;
-	cin >> N;
-	rep(X, 1, N+1) {
+	int n;
+	forX() {
 		cin >> n;
 		unordered_set<int> chain;
 		int cur = n;

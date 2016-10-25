@@ -22,8 +22,7 @@ int main() {
 	int n;
 	while (cin >> n) {
 		vi seq(n);
-		irep(v, seq)
-			cin >> v;
+		read(seq);
 		vi len = lis(seq);
 		reverse(all(seq));
 		vi rlen = lis(seq);

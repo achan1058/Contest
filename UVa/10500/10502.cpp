@@ -28,14 +28,12 @@ int main() {
 	while (cin >> n >> m && n != 0 && m != 0) {
 		vvi arr = mi(n, m, 0);
 		char c;
-		rep(i, 0, n) {
-			rep(j, 0, m) {
-				cin >> c;
-				if (c == '1')
-					arr[i][j] = 1 + (i > 0 ? arr[i - 1][j] : 0);
-				else
-					arr[i][j] = 0;
-			}
+		drep(i, j, n, m) {
+			cin >> c;
+			if (c == '1')
+				arr[i][j] = 1 + (i > 0 ? arr[i - 1][j] : 0);
+			else
+				arr[i][j] = 0;
 		}
 		int total = 0;
 		rep(i, 0, n)

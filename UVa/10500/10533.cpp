@@ -12,7 +12,7 @@ bool isDigitPrime(int n) {
 }
 
 int main() {
-	int N, t1, t2;
+	int t1, t2;
 	vi primes = sieve(1000000), digitPrimes;
 	for (int i = 0; primes[i] < 1000; i++)
 		smallPrimes[primes[i]] = true;
@@ -21,8 +21,7 @@ int main() {
 			digitPrimes.pb(p);
 	}
 
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> t1 >> t2;
 		auto i1 = lower_bound(all(digitPrimes), t1);
 		auto i2 = upper_bound(all(digitPrimes), t2);
