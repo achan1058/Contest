@@ -12,9 +12,8 @@ int main() {
 		}
 	}
 
-	int T, n;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int n;
+	forX() {
 		cin >> n;
 		if (ans.find(n) != ans.end()) {
 			printf("%d %d %d\n", get<0>(ans[n]), get<1>(ans[n]), get<2>(ans[n]));

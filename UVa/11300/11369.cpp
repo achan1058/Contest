@@ -2,14 +2,12 @@
 #include "header.h"
 
 int main() {
-	int N, t;
-	cin >> N;
-	rep(X, 0, N) {
+	int t;
+	forX() {
+		int total = 0;
 		cin >> t;
 		vi item(t);
-		int total = 0;
-		irep(v, item)
-			cin >> v;
+		read(item);
 		sort(all(item));
 		for (int i = sz(item) - 3; i >= 0; i -= 3)
 			total += item[i];

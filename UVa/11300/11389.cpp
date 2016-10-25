@@ -5,10 +5,8 @@ int main() {
 	int n, d, r;
 	while (cin >> n >> d >> r && (n | d | r) != 0) {
 		vi morn(n), even(n);
-		irep(v, morn)
-			cin >> v;
-		irep(v, even)
-			cin >> v;
+		read(morn);
+		read(even);
 		sort(all(morn));
 		sort(all(even), greater<int>());
 		int over = 0;
