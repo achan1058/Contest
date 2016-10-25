@@ -2,12 +2,9 @@
 #include "header.h"
 
 int main() {
-	int n;
 	string s, c;
-	cin >> n;
-	getline(cin, s);
 	map<string, set<string>> big_map;
-	rep(i, 0, n) {
+	forX() {
 		cin >> c;
 		getline(cin, s);
 		big_map[c].insert(s);
