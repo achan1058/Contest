@@ -3,9 +3,9 @@
 #include "topo_sort.h"
 
 int main() {
-	int n, m, X = 1;
+	int n, m;
 	string s1, s2;
-	while (cin >> n) {
+	whileX(cin >> n) {
 		vvi graph(n);
 		Index<string> ind;
 		for (int i = 0; i < n; i++) {
@@ -19,10 +19,9 @@ int main() {
 			graph[i1].pb(i2);
 		}
 		vector<int> order = topoSort(graph);
-		printf("Case #%d: Dilbert should drink beverages in this order:", X);
+		printp("Dilbert should drink beverages in this order:");
 		for (int i : order)
 			printf(" %s", ind.getL(i).c_str());
 		printf(".\n\n");
-		X++;
 	}
 }

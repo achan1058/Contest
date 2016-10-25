@@ -5,8 +5,7 @@ int main() {
 	int n, c;
 	while (cin >> n) {
 		vi books(n);
-		irep(b, books)
-			cin >> b;
+		read(books);
 
 		cin >> c;
 		sort(all(books));

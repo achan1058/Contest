@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T, n, e, v1, v2;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int n, e, v1, v2;
+	forX() {
 		cin >> n >> e;
 		vvi graph(n);
 		vi used(n, -1);

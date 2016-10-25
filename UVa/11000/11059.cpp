@@ -4,10 +4,9 @@
 int main() {
 	int n;
 	whileX(cin >> n) {
-		vl v(n);
 		ll best = 0;
-		irep(l, v)
-			cin >> l;
+		vl v(n);
+		read(v);
 		rep(i, 0, n) {
 			ll result = 1;
 			rep(j, i, n) {

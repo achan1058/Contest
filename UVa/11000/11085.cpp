@@ -21,13 +21,10 @@ void backtrack(int d = 0) {
 }
 
 int main() {
-	int X = 1;
 	vi test(8);
 	backtrack();
-	while (cin >> test[0]) {
+	whileX((read(test), cin)) {
 		int best = 0;
-		for (int i = 1; i < 8; i++)
-			cin >> test[i];
 		for (auto& v : solutions) {
 			int same = 0;
 			for (int i = 0; i < 8; i++) {
@@ -37,7 +34,6 @@ int main() {
 			best = max(same, best);
 		}
 
-		printf("Case %d: %d\n", X, 8 - best);
-		X++;
+		printc("%d\n", 8 - best);
 	}
 }

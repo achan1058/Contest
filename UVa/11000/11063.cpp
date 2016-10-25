@@ -2,12 +2,11 @@
 #include "header.h"
 
 int main() {
-	int X = 1, n;
-	while (cin >> n) {
+	int n;
+	whileX(cin >> n) {
 		bool good = true;
 		vi b(n);
-		irep(v, b)
-			cin >> v;
+		read(b);
 		if (b[0] < 1) {
 			good = false;
 		} else {
@@ -20,14 +19,11 @@ int main() {
 		}
 		if (good) {
 			set<int> s;
-			rep(i, 0, n) {
-				rep(j, i, n)
-					s.insert(b[i] + b[j]);
-			}
+			drep(i, j, n, i + 1)
+				s.insert(b[i] + b[j]);
 			if (sz(s) < n * (n + 1) / 2)
 				good = false;
 		}
-		printf("Case #%d: It is %sa B2-Sequence.\n\n", X, good ? "" : "not ");
-		X++;
+		printp("It is %sa B2-Sequence.\n\n", good ? "" : "not ");
 	}
 }

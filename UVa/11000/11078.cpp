@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int n, v, N;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, v;
+	forX() {
 		cin >> n;
 		int diff = -inf, big = -inf;
 		rep(i, 0, n) {

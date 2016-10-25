@@ -3,7 +3,7 @@
 
 int main() {
 	int n, v;
-	vl fact = factTable<ll>(12);
+	vl fact = factTable(12);
 
 	while (cin >> n && n != 0) {
 		map<int, int> mp;
