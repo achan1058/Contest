@@ -7,15 +7,13 @@ int main() {
 	vi dx = { 1, 2, 2, 1, -1, -2, -2, -1 }, dy = { 2, 1, -1, -2, -2, -1, 1, 2 };
 	vvi graph = mi(64, 64, inf);
 	string s1, s2;
-	rep(i, 0, 8) {
-		rep(j, 0, 8) {
-			graph[serial(i, j)][serial(i, j)] = 0;
-			rep(k, 0, 8) {
-				int nx = i + dx[k], ny = j + dy[k];
+	drep(i, j, 8, 8) {
+		graph[serial(i, j)][serial(i, j)] = 0;
+		rep(k, 0, sz(dx)) {
+			int nx = i + dx[k], ny = j + dy[k];
 
-				if (nx >= 0 && nx < 8 && ny >= 0 && ny < 8)
-					graph[serial(i, j)][serial(nx, ny)] = 1;
-			}
+			if (nx >= 0 && nx < 8 && ny >= 0 && ny < 8)
+				graph[serial(i, j)][serial(nx, ny)] = 1;
 		}
 	}
 	vvi dist = floydWarshall(graph).x;

@@ -2,11 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N;
 	string s1, s2;
 	char sign;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> s1 >> sign >> s2;
 		int i1 = stoi(s1, 0, 16), i2 = stoi(s2, 0, 16), result;
 		if (sign == '+')

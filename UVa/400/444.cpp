@@ -1,13 +1,6 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-void rev(int n) {
-	while (n > 0) {
-		printf("%d", n % 10);
-		n /= 10;
-	}
-}
-
 int main() {
 	string s;
 	while (getline(cin, s)) {
@@ -24,8 +17,11 @@ int main() {
 			}
 			printf("\n");
 		} else {
-			rrep(i, sz(s) - 1, 0)
-				rev(s[i]);
+			rrep(i, sz(s) - 1, 0) {
+				string ch = to_string(s[i]);
+				reverse(all(ch));
+				printf("%s", ch.c_str());
+			}
 			printf("\n");
 		}
 	}

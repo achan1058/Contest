@@ -4,5 +4,5 @@
 int main() {
 	ptd a, b, c;
 	while (cin >> a >> b >> c)
-		printf("%.2f\n", Circle<double>(a, b, c).r * 2 * M_PI);
+		printf("%.2f\n", Circle<double>(a, b, c).radius() * 2 * M_PI);
 }

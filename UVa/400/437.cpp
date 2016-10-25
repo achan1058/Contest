@@ -2,8 +2,8 @@
 #include "topo_sort.h"
 
 int main() {
-	int n, X = 1;
-	while (cin >> n && n != 0) {
+	int n;
+	whileX(cin >> n && n != 0) {
 		vvi blocks = mi(3 * n + 1, 3, 0);
 		blocks[3 * n][0] = blocks[3 * n][1] = blocks[3 * n][2] = 0;
 
@@ -15,7 +15,7 @@ int main() {
 			blocks[i + 1][1] = blocks[i + 2][1] = blocks[i][2];
 		}
 
-		vp<int> graph(3 * n + 1);
+		vvp<int> graph(3 * n + 1);
 		rep(i, 0, 3 * n + 1) {
 			rep(j, 0, 3 * n + 1) {
 				if (blocks[i][0] > blocks[j][0] && blocks[i][1] > blocks[j][1])
@@ -24,6 +24,5 @@ int main() {
 		}
 
 		printc("maximum height = %d\n", longestDAG(graph).x);
-		X++;
 	}
 }
