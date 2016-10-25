@@ -1,16 +1,18 @@
 #include <bits/stdc++.h>
 #include "point.h"
-#include "graph.h"
 #include "union_find.h"
 
-int kruskal(EdgeList<int>& edges, int min_comps) {
-	UnionFind un(edges.numV());
-	int num = edges.numV();
-	edges.sortEdges();
-	rep(i, 0, edges.numE()) {
+int kruskal(vt<int>& edges, int min_comps) {
+	int n = 0;
+	irep(e, edges)
+		n = max(n, max(get<0>(e), get<1>(e)) + 1);
+
+	UnionFind un(n);
+	sort(all(edges), [](const tuple<int, int, int>& v1, const tuple<int, int, int>& v2) { return get<2>(v1) < get<2>(v2); });
+	rep(i, 0, sz(edges)) {
 		if (un.join(get<0>(edges[i]), get<1>(edges[i]))) {
-			num--;
-			if (num == min_comps)
+			n--;
+			if (n == min_comps)
 				return get<2>(edges[i]);
 		}
 	}
@@ -24,11 +26,11 @@ int main() {
 	rep(X, 0, N) {
 		cin >> min_comps >> p;
 		vector<pti> points(p);
-		EdgeList<int> edges;
+		vt<int> edges;
 		rep(i, 0, p) {
 			cin >> points[i];
 			rep(j, 0, i)
-				edges.push(i, j, points[i].dist2(points[j]));
+				edges.pb({ i, j, points[i].dist2(points[j]) });
 		}
 		printf("%.2lf\n", sqrt(kruskal(edges, min_comps)));
 	}

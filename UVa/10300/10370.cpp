@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int C, N;
-	cin >> C;
-	rep(i, 0, C) {
+	int N;
+	forX() {
 		int sum = 0;
 		cin >> N;
 		vi arr(N);

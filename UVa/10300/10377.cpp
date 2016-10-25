@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
+vi dx = { -1, 0, 1, 0 }, dy = { 0, 1, 0, -1 };
 int main() {
 	int r, c, x, y, dir;
 	char ch;

@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, d, n;
-	cin >> N;
-	rep(X, 0, N) {
+	int d, n;
+	forX() {
 		int mx = 0, my = 0, x, y, v;
 		vvi grid = mi(1025, 1025, 0);
 		cin >> d >> n;
@@ -16,13 +15,10 @@ int main() {
 			}
 		}
 
-
-		rep(i, 0, 1025) {
-			rep(j, 0, 1025) {
-				if (grid[i][j] > grid[mx][my]) {
-					mx = i;
-					my = j;
-				}
+		drep(i, j, 1025, 1025) {
+			if (grid[i][j] > grid[mx][my]) {
+				mx = i;
+				my = j;
 			}
 		}
 		printf("%d %d %d\n", mx, my, grid[mx][my]);

@@ -2,12 +2,8 @@
 #include "util.h"
 
 int main() {
-	int N;
-	cin >> N;
 	string s1, s2;
-	getline(cin, s1);
-
-	rep(X, 0, N) {
+	forX() {
 		getline(cin, s1);
 		getline(cin, s2);
 		vs t = tokenizer(s1, [](int c) {return (c == '>' || c == '<' ? 1 : 0); }, true);

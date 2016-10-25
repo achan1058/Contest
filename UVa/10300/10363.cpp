@@ -3,11 +3,9 @@
 
 int serialize(vvi& game) {
 	int r = 0;
-	rep(i, 0, 3) {
-		rep(j, 0, 3) {
-			r *= 3;
-			r += game[i][j];
-		}
+	drep(i, j, 3, 3) {
+		r *= 3;
+		r += game[i][j];
 	}
 	return r;
 }
@@ -42,35 +40,29 @@ int main() {
 
 		if (isWon(game))
 			continue;
-		rep(i, 0, 3) {
-			rep(j, 0, 3) {
-				if (game[i][j] == 0) {
-					game[i][j] = player;
-					int next = serialize(game);
-					if (!isValid[next]) {
-						isValid[next] = true;
-						q.push({ game, 3 - player });
-					}
-					game[i][j] = 0;
+		drep(i, j, 3, 3) {
+			if (game[i][j] == 0) {
+				game[i][j] = player;
+				int next = serialize(game);
+				if (!isValid[next]) {
+					isValid[next] = true;
+					q.push({ game, 3 - player });
 				}
+				game[i][j] = 0;
 			}
 		}
 	}
 
-	int N;
-	cin >> N;
 	char c;
-	rep(X, 0, N) {
-		rep(i, 0, 3) {
-			rep(j, 0, 3) {
-				cin >> c;
-				if (c == '.')
-					game[i][j] = 0;
-				else if (c == 'X')
-					game[i][j] = 1;
-				else if (c == 'O')
-					game[i][j] = 2;
-			}
+	forX() {
+		drep(i, j, 3, 3) {
+			cin >> c;
+			if (c == '.')
+				game[i][j] = 0;
+			else if (c == 'X')
+				game[i][j] = 1;
+			else if (c == 'O')
+				game[i][j] = 2;
 		}
 		printf("%s\n", isValid[serialize(game)] ? "yes" : "no");
 	}
