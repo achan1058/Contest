@@ -5,8 +5,7 @@ int main() {
 	string s;
 	forX() {
 		cin >> s;
-		stringstream ss;
-		ss << s;
+		stringstream ss(s);
 		char c;
 		int n;
 		printc("");

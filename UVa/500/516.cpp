@@ -5,8 +5,7 @@ int main() {
 	string s;
 	while (getline(cin, s) && s != "0") {
 		int p, e;
-		stringstream ss;
-		ss << s;
+		stringstream ss(s);
 
 		int result = 1;
 		while (ss >> p >> e) {

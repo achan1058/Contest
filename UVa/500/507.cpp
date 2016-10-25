@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n, p;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	int n, p;
+	forX() {
 		cin >> n;
 		int start, dest, best = 0, cur_start = 0, cur_dest = 0, cur_val = 0;
 
