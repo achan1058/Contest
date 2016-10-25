@@ -12,10 +12,9 @@ void parse(const string& prefix, const string& infix) {
 }
 
 int main() {
-	int N, n;
+	int n;
 	string s1, s2;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> n >> s1 >> s2;
 		parse(s1, s2);
 		printf("\n");

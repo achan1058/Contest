@@ -2,10 +2,8 @@
 #include "primes.h"
 
 int main() {
-	int N;
 	string s;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	forX() {
 		bool empty = true;
 		vi val(256);
 		cin >> s;

@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N;
 	string s;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	forX() {
 		cin >> s;
 		int n = sz(s);
 		vvi best(n + 1);

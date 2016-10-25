@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N;
 	double d, v, u;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	forX() {
 		cin >> d >> v >> u;
 		if (u <= v + eps || v == 0) {
 			printc("can't determine\n");

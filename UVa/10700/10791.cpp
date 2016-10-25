@@ -6,7 +6,6 @@ int main() {
 	whileX(cin >> n && n != 0) {
 		if (n == 1) {
 			printc("2\n");
-			X++;
 			continue;
 		}
 

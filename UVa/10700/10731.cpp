@@ -2,9 +2,9 @@
 #include "components.h"
 
 int main() {
-	int N, X = 0;
+	int N;
 	char x;
-	while (cin >> N && N != 0) {
+	whileX(cin >> N && N != 0) {
 		vvi graph(26);
 		vector<char> ans(5);
 		vector<bool> used(26, false);
@@ -18,8 +18,7 @@ int main() {
 			}
 		}
 
-		if (X > 0)
-			printf("\n");
+		printX("");
 		vector<vector<int>> comps = stronglyConnectedBlocks(graph);
 		sort(comps.begin(), comps.end());
 		for (auto& block : comps) {
@@ -29,6 +28,5 @@ int main() {
 				printf("%c\n", block.back() + 'A');
 			}
 		}
-		X++;
 	}
 }
