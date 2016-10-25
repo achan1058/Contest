@@ -2,11 +2,10 @@
 #include "header.h"
 
 int main() {
-	int N, a, f;
-	cin >> N;
-	rep(X, 0, N) {
+	int a, f;
+	forX() {
 		cin >> a >> f;
-		printf("%s", X > 0 ? "\n" : "");
+		printX("");
 		rep(i, 0, f) {
 			printf("%s", i > 0 ? "\n" : "");
 			rep(j, 1, a) {
