@@ -6,9 +6,8 @@ int main() {
 	while (cin >> s1) {
 		string s2 = s1;
 		reverse(all(s2));
-		vector<char> s = lcs(vector<char>(all(s1)), vector<char>(all(s2)));
+		string s = lcs(s1, s2), ans;
 
-		string ans;
 		int i1 = 0, i2 = 0;
 		while (s1[i1] != s[0]) {
 			ans.pb(s1[i1]);

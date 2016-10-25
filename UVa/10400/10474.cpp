@@ -2,12 +2,11 @@
 #include "header.h"
 
 int main() {
-	int n, q, X = 1, target;
-	while (cin >> n >> q && (n | q) != 0) {
-		vi marble(n);
+	int n, q, target;
+	whileX(cin >> n >> q && (n | q) != 0) {
 		printf("CASE# %d:\n", X);
-		irep(m, marble)
-			cin >> m;
+		vi marble(n);
+		read(marble);
 		sort(all(marble));
 		rep(i, 0, q) {
 			cin >> target;
@@ -18,6 +17,5 @@ int main() {
 			else
 				printf("%d found at %d\n", target, (it - marble.begin()) + 1);
 		}
-		X++;
 	}
 }

@@ -2,11 +2,10 @@
 #include "header.h"
 
 int main() {
-	int X = 1, n, m, mi;
-	while (cin >> n && n != 0) {
+	int n, m, mi;
+	whileX(cin >> n && n != 0) {
 		vi val(n);
-		irep(v, val)
-			cin >> v;
+		read(val);
 		sort(all(val));
 
 		cin >> m;
@@ -35,6 +34,5 @@ int main() {
 			}
 			printf("Closest sum to %d is %d.\n", mi, best);
 		}
-		X++;
 	}
 }

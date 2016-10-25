@@ -3,16 +3,14 @@
 
 int getDist(pii v0, pii v1) { return abs(v0.x - v1.x) + abs(v0.y - v1.y); }
 int main() {
-	int N, x, y, n;
-	cin >> N;
-	rep(X, 0, N) {
+	int x, y, n;
+	forX() {
 		pii st;
 		cin >> x >> y >> st.x >> st.y >> n;
 		vector<pii> pt(n);
 		vi perm(n);
+		iota(all(perm), 0);
 		int minDist = inf;
-		rep(i, 0, n)
-			perm[i] = i;
 		rep(i, 0, n)
 			cin >> pt[i].x >> pt[i].y;
 		do {

@@ -1,35 +1,26 @@
 #include <bits/stdc++.h>
-#include "header.h"
+#include "floodfill.h"
 
-int r, c;
-vvi board;
-vi dx = { 1, 0, 0 }, dy = { 0, 1, -1 };
-vs dir = { "forth", "left", "right" };
-void floodfill(int x0, int y0) {
-	queue<pii> q;
-	q.push({ x0, y0 });
-	board[x0][y0] = 0;
-	while (!q.empty()) {
-		int x1 = q.front().x, y1 = q.front().y;
-		q.pop();
-		rep(i, 0, sz(dx)) {
-			int nx = x1 + dx[i], ny = y1 + dy[i];
-			if (nx < 0 || nx >= r || ny < 0 || ny >= c || board[nx][ny] <= board[x1][y1] + 1)
-				continue;
-
-			board[nx][ny] = board[x1][y1] + 1;
-			q.push({ nx, ny });
-		}
-	}
+bool rule(int& curg, int& newg, int source, int target, int& curv, int& newv, bool first) {
+	if (first)
+		curg = -1;
+	else if (newg < inf)
+		return false;
+	newg = curg + 1;
+	return true;
 }
 
 int main() {
 	char ch;
+	int r, c;
 	string good = "IEHOVA";
+	vi dx({ 1, 0, 0 }), dy({ 0, 1, -1 });
+	vs dir = { "forth", "left", "right" };
+
 	forX() {
 		cin >> r >> c;
 		int x0, y0, x1, y1;
-		board = mi(r, c, -1);
+		vvi board = mi(r, c, -1);
 		for (int i = 0; i < r; i++) {
 			for (int j = 0; j < c; j++) {
 				cin >> ch;
@@ -50,9 +41,9 @@ int main() {
 			}
 		}
 
-		floodfill(x0, y0);
+		floodfill(board, x0, y0, 0, dx, dy, x1, y1, rule);
 		while (x0 != x1 || y0 != y1) {
-			for (int i = 0; i < 3; i++) {
+			for (int i = 0; i < sz(dx); i++) {
 				int nx = x1 - dx[i], ny = y1 - dy[i];
 				if (nx >= 0 && nx < r && ny >= 0 && ny < c && board[nx][ny] == board[x1][y1] - 1) {
 					x1 = nx;
