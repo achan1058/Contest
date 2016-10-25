@@ -42,7 +42,7 @@ ll mod = 1000000007ll;
 #define mul(i, j) ((i) * (j)) % mod
 #define bits(n) int(__builtin_popcount(n))
 #define gcd(a, b) abs(__gcd(a, b))
-#define forX() int T; string XS; cin >> T; getline(cin, XS); for (int X = 1; X <= T; X++)
+#define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
 #define whileX(a) int X = 0; while(X++, (a))
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X), printf(__VA_ARGS__)
