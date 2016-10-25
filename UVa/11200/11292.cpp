@@ -5,10 +5,8 @@ int main() {
 	int n, m;
 	while (cin >> n >> m && (n | m) != 0) {
 		vi d(n), k(m);
-		irep(v, d)
-			cin >> v;
-		irep(v, k)
-			cin >> v;
+		read(d);
+		read(k);
 		sort(all(d));
 		sort(all(k));
 		int gold = 0, head = 0;

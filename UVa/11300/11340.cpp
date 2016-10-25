@@ -2,11 +2,10 @@
 #include "header.h"
 
 int main() {
-	int N, n, l, t;
+	int n, l, t;
 	char c;
 	string s;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> n;
 		vi cost(500, 0);
 		int total_cost = 0;

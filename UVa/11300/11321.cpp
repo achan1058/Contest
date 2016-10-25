@@ -21,9 +21,7 @@ int main() {
 	int n;
 	while (cin >> n >> m && (n | m) != 0) {
 		vi num(n);
-		irep(v, num)
-			cin >> v;
-
+		read(num);
 		sort(all(num), comp);
 		printf("%d %d\n", n, m);
 		irep(v, num)
