@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-int n;
-vs board;
-vi dx = { -1, 0, 1, -1, 0, 1 }, dy = { -1, -1, 0, 0, 1, 1 };
-bool floodfill(int x0, int y0) {
+bool floodfill(vs& board, int x0, int y0) {
+	vi dx = { -1, 0, 1, -1, 0, 1 }, dy = { -1, -1, 0, 0, 1, 1 };
+	int n = sz(board);
 	queue<pii> q;
 	q.push({ x0, y0 });
 	board[x0][y0] = ' ';
@@ -28,19 +27,17 @@ bool floodfill(int x0, int y0) {
 }
 
 int main() {
-	int X = 1;
-	while (cin >> n && n != 0) {
+	int n;
+	whileX(cin >> n && n != 0) {
 		bool white_wins = true;
-		board.resize(n);
-		irep(s, board)
-			cin >> s;
+		vs board(n);
+		read(board);
 		rep(i, 0, n) {
-			if (board[0][i] == 'b' && floodfill(0, i)) {
+			if (board[0][i] == 'b' && floodfill(board, 0, i)) {
 				white_wins = false;
 				break;
 			}
 		}
 		printf("%d %c\n", X, white_wins ? 'W' : 'B');
-		X++;
 	}
 }

@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N, n, m;
+	int n, m;
 	char c;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> c >> n >> m;
 		if (c == 'k')
 			printf("%d\n", (n * m + 1) / 2);

@@ -23,10 +23,9 @@ void process(const string& s1, const string& s2, int& i1, int& i2, int& r, int s
 }
 
 int main() {
-	int N, i1, i2, r;
+	int i1, i2, r;
 	string s1, s2;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> s1 >> s2;
 		i1 = i2 = r = 0;
 		process(s1, s2, i1, i2, r);

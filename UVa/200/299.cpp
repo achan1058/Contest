@@ -2,14 +2,12 @@
 #include "header.h"
 
 int main() {
-	int N, L;
-	cin >> N;
-	rep(X, 0, N) {
+	int L;
+	forX() {
+		int num_swap = 0;
 		cin >> L;
 		vi arr(L);
-		int num_swap = 0;
-		irep(v, arr)
-			cin >> v;
+		read(arr);
 		rrep(i, L - 1, 0) {
 			rep(j, 0, i) {
 				if (arr[j] > arr[j + 1]) {

@@ -2,9 +2,8 @@
 #include "primes.h"
 
 int main() {
-	int N, L, U;
-	cin >> N;
-	rep(X, 0, N) {
+	int L, U;
+	forX() {
 		cin >> L >> U;
 		int max_factor = 0, factor_index = 0;
 		rep(n, L, U + 1) {
