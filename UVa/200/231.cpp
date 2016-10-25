@@ -2,20 +2,15 @@
 #include "dp_algs.h"
 
 int main() {
-	int X = 1, t;
+	int t;
 	vi v;
-	while (cin >> t) {
-		if (t != -1) {
+	whileX(cin >> t && t != -1) {
+		vi v = { -t };
+		while(cin >> t && t != -1)
 			v.pb(-t);
-			continue;
-		}
-
-		if (v.empty())
-			return 0;
 
 		printX("Test #%d:\n", X);
 		printf("  maximum possible interceptions: %d\n", sz(lis(v, true)));
 		v.clear();
-		X++;
 	}
 }
