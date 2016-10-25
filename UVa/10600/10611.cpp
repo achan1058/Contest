@@ -2,13 +2,11 @@
 #include "header.h"
 
 int main() {
-	int N, Q, q;
+	int N, q;
 	cin >> N;
 	vi v(N);
-	rep(i, 0, N)
-		cin >> v[i];
-	cin >> Q;
-	rep(i, 0, Q) {
+	read(v);
+	forX() {
 		cin >> q;
 		auto uit = upper_bound(all(v), q), lit = lower_bound(all(v), q);
 		if (lit == v.begin())

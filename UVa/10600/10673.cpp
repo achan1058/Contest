@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, x, k;
-	cin >> N;
-	rep(X, 0, N) {
+	int x, k;
+	forX() {
 		cin >> x >> k;
 		int q = x % k, p = k - q;
 		printf("%d %d\n", p, q);

@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N;
 	ll x1, y1, x2, y2;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	forX() {
 		cin >> x1 >> y1 >> x2 >> y2;
 		ll len = 0;
 		if (x1 + y1 < x2 + y2) {
@@ -19,6 +17,6 @@ int main() {
 			x2 = 0;
 		}
 		len += (x1 + y1 < x2 + y2 ? (y2 - y1) * (y2 + y1 + 1) / 2 : x2 - x1);
-		printc(" %d\n", len);
+		printc("%d\n", len);
 	}
 }

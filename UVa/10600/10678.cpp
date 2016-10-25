@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N;
 	double L, D;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> D >> L;
 		printf("%.3f\n", M_PI * L *sqrt(L * L - D * D) / 4);
 	}

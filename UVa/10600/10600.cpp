@@ -2,24 +2,23 @@
 #include "spanning_tree.h"
 
 int main() {
-	int N, n, e, e1, e2, v;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, e, e1, e2, v;
+	forX() {
 		cin >> n >> e;
 
-		EdgeList<int> edges(n);
+		vt<int> edges;
 		rep(i, 0, e) {
 			cin >> e1 >> e2 >> v;
-			edges.push(e1, e2, v);
+			edges.pb({ e1, e2, v });
 		}
-		tuple<int, int, EdgeList<int>> result = kruskal(edges);
+		tuple<int, int, vt<int>> result = kruskal(edges);
 		int best = inf;
-		rep(i, 0, get<2>(result).numE()) {
-			rep(j, 0, edges.numE()) {
+		rep(i, 0, sz(get<2>(result))) {
+			rep(j, 0, sz(edges)) {
 				if (get<2>(result)[i] == edges[j]) {
 					get<2>(edges[j]) = inf;
 					best = min(best, get<0>(kruskal(edges)));
-					edges[edges.numE() - 1] = get<2>(result)[i];
+					edges[sz(edges) - 1] = get<2>(result)[i];
 					break;
 				}
 			}

@@ -2,13 +2,12 @@
 #include "header.h"
 
 int main() {
-	int n, q, X = 1, d, m;
-	while (cin >> n >> q && (n | q) != 0) {
+	int n, q, d, m;
+	whileX(cin >> n >> q && (n | q) != 0) {
 		int Y = 1;
 		printf("SET %d:\n", X);
 		vector<int> nums(n);
-		for (int& v : nums)
-			cin >> v;
+		read(nums);
 		for (int x = 0; x < q; x++) {
 			cin >> d >> m;
 			vvl dp = ml(m + 1, d, 0);
@@ -24,6 +23,5 @@ int main() {
 			printf("QUERY %d: %lld\n", Y, dp[m][0]);
 			Y++;
 		}
-		X++;
 	}
 }

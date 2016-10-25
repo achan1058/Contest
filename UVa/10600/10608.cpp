@@ -2,9 +2,8 @@
 #include "union_find.h"
 
 int main() {
-	int N, n, e, e1, e2;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, e, e1, e2;
+	forX() {
 		cin >> n >> e;
 		UnionFind un(n);
 		rep(i, 0, e) {

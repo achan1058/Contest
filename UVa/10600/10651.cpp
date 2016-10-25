@@ -45,9 +45,7 @@ int main() {
 		} while (next_permutation(all(b)));
 	}
 
-	int n;
-	cin >> n;
-	rep(X, 0, n) {
+	forX() {
 		char c;
 		rep(i, 0, 12) {
 			cin >> c;

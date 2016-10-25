@@ -2,9 +2,8 @@
 #include "dp_algs.h"
 
 int main() {
-	int N, n, b, r1, c1, r2, c2;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, b, r1, c1, r2, c2;
+	forX() {
 		cin >> n >> b;
 		vvi grid = mi(n, n, 1);
 
@@ -16,11 +15,9 @@ int main() {
 			}
 		}
 
-		rep(i, 0, n) {
-			rep(j, 0, n) {
-				if (i != 0 && grid[i][j] != 0)
-					grid[i][j] += grid[i - 1][j];
-			}
+		drep(i, j, n, n) {
+			if (i != 0 && grid[i][j] != 0)
+				grid[i][j] += grid[i - 1][j];
 		}
 		int mx = 0;
 		rep(i, 0, n)

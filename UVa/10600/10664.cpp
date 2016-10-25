@@ -2,12 +2,9 @@
 #include "header.h"
 
 int main() {
-	int N, n;
+	int n;
 	string s;
-	cin >> N;
-	getline(cin, s);
-
-	rep(X, 0, N) {
+	forX() {
 		getline(cin, s);
 		stringstream ss(s);
 		vi weight;
