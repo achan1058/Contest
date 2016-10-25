@@ -19,10 +19,9 @@ inline ll nC2(ll n) { return n * (n - 1) / 2; }
 inline ll nC3(ll n) { return n * (n - 1) * (n - 2) / 6; }
 
 int main() {
-	int N, n;
+	int n;
 	ll t;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> n;
 		int num_zero = 0;
 		vl arr(1 << 11);

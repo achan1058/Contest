@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, a, b;
-	cin >> N;
-	rep(X, 0, N) {
+	int a, b;
+	forX() {
 		cin >> a >> b;
 		if (a < b)
 			printf("<\n");

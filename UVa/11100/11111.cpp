@@ -32,9 +32,8 @@ int main() {
 	int v;
 	string s;
 	while (getline(cin, s)) {
-		stringstream ss;
+		stringstream ss(s);
 		dolls.clear();
-		ss << s;
 		while (ss >> v)
 			dolls.push_back(v);
 

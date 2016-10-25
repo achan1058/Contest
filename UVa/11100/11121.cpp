@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	int n;
+	forX() {
 		string out;
 		int sign = 1;
 		cin >> n;
@@ -21,6 +20,6 @@ int main() {
 		if (out == "")
 			out = "0";
 		reverse(all(out));
-		printf("Case #%d: %s\n", X, out.c_str());
+		printp("%s\n", out.c_str());
 	}
 }

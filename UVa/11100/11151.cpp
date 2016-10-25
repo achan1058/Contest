@@ -2,15 +2,11 @@
 #include "dp_algs.h"
 
 int main() {
-	int N;
-	string s;
-	cin >> N;
-	getline(cin, s);
-
-	rep(X, 0, N) {
-		getline(cin, s);
-		vector<char> v1(all(s)), v2 = v1;
-		reverse(all(v2));
-		printf("%d\n", sz(lcs(v1, v2)));
+	string s1;
+	forX() {
+		getline(cin, s1);
+		string s2 = s1;
+		reverse(all(s2));
+		printf("%d\n", sz(lcs(s1, s2)));
 	}
 }
