@@ -6,9 +6,8 @@ int main() {
 	string s;
 	while (cin >> n >> c && n != 0) {
 		vector<string> courses(n);
+		read(courses);
 		bool good = true;
-		for (string& cr : courses)
-			cin >> cr;
 		for (int i = 0; i < c; i++) {
 			int numc, req;
 			cin >> numc >> req;

@@ -2,14 +2,11 @@
 #include "header.h"
 
 int main() {
-	int n, k, X = 0;
-	while (cin >> n >> k && n != 0) {
+	int n, k;
+	whileX(cin >> n >> k && n != 0) {
 		vi wins(n), loses(n);
 		int p1, p2;
 		string s1, s2;
-
-		if (X > 0)
-			printf("\n");
 		rep(i, 0, k * n * (n - 1) / 2) {
 			cin >> p1 >> s1 >> p2 >> s2;
 			p1--;
@@ -24,12 +21,12 @@ int main() {
 			}
 		}
 
+		printX("");
 		rep(i, 0, n) {
 			if (wins[i] + loses[i] == 0)
 				printf("-\n");
 			else
 				printf("%.3f\n", double(wins[i]) / (wins[i] + loses[i]));
 		}
-		X++;
 	}
 }

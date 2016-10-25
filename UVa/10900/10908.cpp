@@ -2,13 +2,11 @@
 #include "header.h"
 
 int main() {
-	int r, c, q, T, x, y;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int r, c, q, x, y;
+	forX() {
 		cin >> r >> c >> q;
 		vector<string> grid(r);
-		for (int i = 0; i < r; i++)
-			cin >> grid[i];
+		read(grid);
 		printf("%d %d %d\n", r, c, q);
 		for (int i = 0; i < q; i++) {
 			cin >> x >> y;

@@ -5,16 +5,16 @@ int main() {
 	int n, m, s, t, v1, v2, w;
 	forX() {
 		cin >> n >> m >> s >> t;
-		AdjList<int> graph(n);
+		vvp<int> graph(n);
 		for (int i = 0; i < m; i++) {
 			cin >> v1 >> v2 >> w;
-			graph.push(v1, v2, w);
-			graph.push(v2, v1, w);
+			graph[v1].pb({ v2, w });
+			graph[v2].pb({ v1, w });
 		}
 		vector<int> dist = dijkstra(graph, s, 2 * inf).first;
 		if (dist[t] == 2 * inf)
-			printc("unreachable\n");
+			printp("unreachable\n");
 		else
-			printc("%d\n", dist[t]);
+			printp("%d\n", dist[t]);
 	}
 }

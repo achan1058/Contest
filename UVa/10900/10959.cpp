@@ -2,20 +2,18 @@
 #include "shortest_path.h"
 
 int main() {
-	int T, n, e, v1, v2;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int n, e, v1, v2;
+	forX() {
 		cin >> n >> e;
-		AdjList<int> graph(n);
+		vvp<int> graph(n);
 		for (int i = 0; i < e; i++) {
 			cin >> v1 >> v2;
-			graph.push(v1, v2);
-			graph.push(v2, v1);
+			graph[v1].pb({ v2, 1 });
+			graph[v2].pb({ v1, 1 });
 		}
 
 		vi path = dijkstra(graph, 0).first;
-		if (X > 0)
-			printf("\n");
+		printX("");
 		for (int i = 1; i < n; i++)
 			printf("%d\n", path[i]);
 	}

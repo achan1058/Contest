@@ -56,7 +56,7 @@ pair<vector<T>, vi> dijkstra(const vvp<T>& graph, int start, T non_edge = inf) {
 
 // uses adjacency list, returns dist list and previous node vector
 template<class T>
-pair<vector<T>, vi> bellmanFord(const AdjList<T>& graph, int start, T non_edge = inf) {
+pair<vector<T>, vi> bellmanFord(const vvp<T>& graph, int start, T non_edge = inf) {
 	int n = sz(graph);
 	vector<T> dist(n, non_edge);
 	vi prev(n, -1);

@@ -40,10 +40,8 @@ int main() {
 
 		irep(p, pts)
 			cin >> s >> p;
-		rep(i, 0, 2 * n) {
-			rep(j, 0, 2 * n)
-				graph[i][j] = pts[i].dist(pts[j]);
-		}
+		drep(i, j, 2 * n, 2 * n)
+			graph[i][j] = pts[i].dist(pts[j]);
 		backtrack();
 		printc("%.2f\n", best);
 	}
