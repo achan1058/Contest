@@ -18,14 +18,12 @@ void backtrack(int d = 0) {
 }
 
 int main() {
-	int X = 1, n;
-	while (cin >> n && n != 0) {
+	int n;
+	whileX(cin >> n && n != 0) {
 		nums = vi(n);
+		read(nums);
 		cnt = 0;
-		for (int i = 0; i < n; i++)
-			cin >> nums[i];
 		backtrack();
 		printf("There are %d swap maps for input data set %d.\n", cnt, X);
-		X++;
 	}
 }

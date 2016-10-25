@@ -6,8 +6,7 @@ int main() {
 	while (cin >> n && n != 0) {
 		vvl table(n);
 		table[n - 1].resize(n);
-		for (ll& v : table[n - 1])
-			cin >> v;
+		read(table[n - 1]);
 		for (int i = n - 2; i >= 0; i--) {
 			table[i].resize(i + 1);
 			for (int j = 0; j <= i; j++)

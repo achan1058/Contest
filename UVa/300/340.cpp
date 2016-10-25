@@ -2,8 +2,8 @@
 #include "header.h"
 
 int main() {
-	int n, X = 1;
-	while (cin >> n && n != 0) {
+	int n;
+	whileX(cin >> n && n != 0) {
 		vi ans(n), guess(n);
 		printf("Game %d:\n", X);
 		irep(v, ans)
@@ -38,6 +38,5 @@ int main() {
 			}
 			printf("    (%d,%d)\n", strong, weak);
 		}
-		X++;
 	}
 }

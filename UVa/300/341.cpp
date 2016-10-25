@@ -2,8 +2,8 @@
 #include "shortest_path.h"
 
 int main() {
-	int n, r, v, d, X = 1;
-	while (cin >> n && n != 0) {
+	int n, r, v, d;
+	whileX(cin >> n && n != 0) {
 		vvi grid = mi(n, n, inf);
 		rep(i, 0, n) {
 			cin >> r;
@@ -20,6 +20,5 @@ int main() {
 		irep(p, path)
 			printf(" %d", p + 1);
 		printf("; %d second delay\n", dist.x[r - 1][v - 1]);
-		X++;
 	}
 }

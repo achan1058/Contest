@@ -4,15 +4,15 @@
 #include "shortest_path.h"
 
 int main() {
-	int n, X = 1, v1, v2, q, d;
+	int X = 1, n, v1, v2, q, d;
 	while (cin >> n && n != 0) {
 		Index<int> label_map;
-		EdgeList<int> edges;
+		vt<int> edges;
 		rep(i, 0, n) {
 			cin >> v1 >> v2;
 			int t1 = label_map.getI(v1), t2 = label_map.getI(v2);
-			edges.push(t1, t2, 1);
-			edges.push(t2, t1, 1);
+			edges.pb({ t1, t2, 1 });
+			edges.pb({ t2, t1, 1 });
 		}
 
 		vvi dist = floydWarshall(edgeToMatrix(edges)).x;

@@ -2,11 +2,11 @@
 #include "header.h"
 
 int main() {
-	int n, X = 1;
+	int n;
 	ll numer;
 	char c;
 	string s;
-	while (cin >> n && n != -1) {
+	whileX(cin >> n && n != -1) {
 		cin >> numer >> c >> s;
 		int power = sz(s);
 		ll v = numer = stoll(s), denom = 1;
@@ -30,6 +30,5 @@ int main() {
 			g = 1;
 		}
 		printc("%lld/%lld\n", numer / g, denom / g);
-		X++;
 	}
 }

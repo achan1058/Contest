@@ -3,8 +3,8 @@
 
 //[i,j] [j..j+i]
 int main() {
-	int N, X = 1;
-	while (cin >> N && N != 0) {
+	int N;
+	whileX(cin >> N && N != 0) {
 		vl dim(N + 1);
 		vvs output = ms(N, N, "");
 		vvl best = ml(N, N, 0);
@@ -26,6 +26,5 @@ int main() {
 			}
 		}
 		printc("%s\n", output[0][N - 1].c_str());
-		X++;
 	}
 }
