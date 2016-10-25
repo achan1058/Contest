@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n, v;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, v;
+	forX() {
 		cin >> n;
 		vi p, m;
 		rep(i, 0, n) {

@@ -3,9 +3,9 @@
 #include "shortest_path.h"
 
 int main() {
-	int X = 1, n, e, v1, v2, d;
+	int n, e, v1, v2, d;
 	string s;
-	while (cin >> n >> e && n != 0) {
+	whileX(cin >> n >> e && n != 0) {
 		vvi graph = mi(n, n, inf);
 		Index<string> ind;
 		for (int i = 0; i < n; i++) {
@@ -31,6 +31,5 @@ int main() {
 			}
 		}
 		printf("Case #%d : %s\n", X, ind.getL(pos).c_str());
-		X++;
 	}
 }
