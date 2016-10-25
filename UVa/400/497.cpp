@@ -2,24 +2,17 @@
 #include "dp_algs.h"
 
 int main() {
-	int N, X = 1;
 	string s;
-	cin >> N;
-	getline(cin, s);
-	getline(cin, s);
-	vi missiles;
-	while (X <= N) {
-		if (getline(cin, s) && s != "") {
+	forX() {
+		vi missiles;
+		if (X == 1)
+			getline(cin, s);
+		while (getline(cin, s) && s != "")
 			missiles.pb(stoi(s));
-			continue;
-		}
-		printf("%s", X > 1 ? "\n" : "");
+
 		vi result = lis(missiles);
-		printf("Max hits: %d\n", sz(result));
+		printX("Max hits: %d\n", sz(result));
 		irep(v, result)
 			printf("%d\n", v);
-
-		X++;
-		missiles.clear();
 	}
 }
