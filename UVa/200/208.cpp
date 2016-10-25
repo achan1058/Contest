@@ -47,9 +47,8 @@ void backtrack() {
 }
 
 int main() {
-	int X = 1;
 	ans = vi(1);
-	while (cin >> n) {
+	whileX(cin >> n) {
 		int v1, v2;
 		graph = vvi(20);
 		ct = 0;
@@ -68,6 +67,5 @@ int main() {
 		used[0] = true;
 		backtrack();
 		printf("There are %d routes from the firestation to streetcorner %d.\n", ct, n + 1);
-		X++;
 	}
 }

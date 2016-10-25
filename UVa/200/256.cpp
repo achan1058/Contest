@@ -4,11 +4,9 @@
 vi digits = { 1, 10, 100, 1000, 10000 };
 vi find_quirky(int n) {
 	vi result;
-	rep(i, 0, digits[n]) {
-		rep(j, 0, digits[n]) {
-			if (i * digits[n] + j == (i + j) * (i + j))
-				result.pb(i * digits[n] + j);
-		}
+	drep(i, j, digits[n], digits[n]) {
+		if (i * digits[n] + j == (i + j) * (i + j))
+			result.pb(i * digits[n] + j);
 	}
 	return result;
 }

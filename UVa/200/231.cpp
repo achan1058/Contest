@@ -13,7 +13,7 @@ int main() {
 		if (v.empty())
 			return 0;
 
-		printf("%sTest #%d:\n", X > 1 ? "\n" : "", X);
+		printX("Test #%d:\n", X);
 		printf("  maximum possible interceptions: %d\n", sz(lis(v, true)));
 		v.clear();
 		X++;

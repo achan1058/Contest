@@ -2,7 +2,7 @@
 #include "header.h"
 
 int main() {
-	int n, d, X = 0;
+	int n, d;
 	while (cin >> n >> d) {
 		printf("%d/%d = %d.", n, d, n / d);
 		vi digits(d, -1);

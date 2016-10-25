@@ -3,9 +3,9 @@
 #include "components.h"
 
 int main() {
-	int n, m, X = 1;
+	int n, m;
 	string s1, s2;
-	while (cin >> n >> m && (n | m) != 0) {
+	whileX(cin >> n >> m && (n | m) != 0) {
 		Index<string> ind;
 		vvi graph;
 		for (int i = 0; i < m; i++) {
@@ -16,7 +16,7 @@ int main() {
 		}
 
 		vvi comp = stronglyConnectedBlocks(graph);
-		printf("%sCalling circles for data set %d:\n", X == 1 ? "" : "\n", X);
+		printX("Calling circles for data set %d:\n", X);
 		for (auto& block : comp) {
 			bool first = true;
 			for (auto& i : block) {
@@ -25,6 +25,5 @@ int main() {
 			}
 			printf("\n");
 		}
-		X++;
 	}
 }

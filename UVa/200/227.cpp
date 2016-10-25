@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int X = 1;
 	vector<string> grid(5);
 	string moves;
-	while (getline(cin, grid[0]) && grid[0] != "Z") {
+	whileX(getline(cin, grid[0]) && grid[0] != "Z") {
 		int x, y;
 		for (int i = 1; i < 5; i++)
 			getline(cin, grid[i]);
@@ -48,6 +47,5 @@ int main() {
 				printf("%c %c %c %c %c\n", grid[i][0], grid[i][1], grid[i][2], grid[i][3], grid[i][4]);
 		} else
 			printf("This puzzle has no final configuration.\n");
-		X++;
 	}
 }
