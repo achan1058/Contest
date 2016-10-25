@@ -5,17 +5,17 @@ int main() {
 	int n, m, u, v, c;
 	forX() {
 		cin >> n >> m;
-		EdgeList<int> edges(n);
+		vt<int> edges(n);
 		rep(i, 0, m) {
 			cin >> u >> v >> c;
-			edges.push(u, v, -c);
+			edges.pb({ u, v, -c });
 		}
 
-		EdgeList<int> tree = get<2>(kruskal(edges));
+		vt<int> tree = get<2>(kruskal(edges));
 
 		if (n == 1)
 			printp("0\n");
 		else
-			printp("%d\n", -get<2>(tree[tree.numE() - 1]));
+			printp("%d\n", -get<2>(tree[sz(tree) - 1]));
 	}
 }

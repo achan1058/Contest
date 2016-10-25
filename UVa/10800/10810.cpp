@@ -36,8 +36,7 @@ int main() {
 	int n;
 	while (cin >> n && n != 0) {
 		vi arr(n);
-		irep(v, arr)
-			cin >> v;
+		read(arr);
 		output = 0;
 		mergesort(arr, 0, sz(arr));
 		printf("%lld\n", output);

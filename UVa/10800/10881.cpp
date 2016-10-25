@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, l, t, n;
-	cin >> N;
-	rep(X, 1, N + 1) {
+	int l, t, n;
+	forX() {
 		int mint = 0, maxt = 0;
 		cin >> l >> t >> n;
 		vector<tuple<int, char, int> > ants(n);

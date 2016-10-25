@@ -2,9 +2,8 @@
 #include "shortest_path.h"
 
 int main() {
-	int T, n;
-	cin >> T;
-	for (int X = 1; X <= T; X++) {
+	int n;
+	forX() {
 		cin >> n;
 		vector<pii> pts(n);
 		vvd graph = md(n, n, inf);
@@ -22,16 +21,13 @@ int main() {
 
 		vvd dist = floydWarshall(graph).first;
 		double longest = 0;
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < i; j++)
-				longest = max(longest, dist[i][j]);
-		}
+		drep(i, j, n, i)
+			longest = max(longest, dist[i][j]);
 
 		printf("Case #%d:\n", X);
 		if (longest >= inf - eps)
 			printf("Send Kurdy\n\n");
 		else
 			printf("%.4lf\n\n", longest);
-
 	}
 }

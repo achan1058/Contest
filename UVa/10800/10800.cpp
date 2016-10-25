@@ -10,9 +10,7 @@ void putchar(map<int, string>& out, char c, int row, int col) {
 }
 
 int main() {
-	int T;
-	cin >> T;
-	for (int X = 1; X <= T; X++) {
+	forX() {
 		string s;
 		cin >> s;
 		int cur = 0;

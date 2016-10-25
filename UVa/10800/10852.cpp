@@ -2,9 +2,8 @@
 #include "primes.h"
 
 int main() {
-	int N, m;
-	cin >> N;
-	rep(X, 0, N) {
+	int m;
+	forX() {
 		cin >> m;
 		rep(i, m / 2 + 1, m) {
 			if (isPrime(i)) {
