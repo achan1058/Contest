@@ -5,14 +5,12 @@ int main() {
 	int n;
 	string s;
 	while (cin >> n) {
-		AdjList<int> graph(n);
-		for (int i = 1; i < n; i++) {
-			for (int j = 0; j < i; j++) {
-				cin >> s;
-				if (s != "x") {
-					graph.push(i, j, stoi(s));
-					graph.push(j, i, stoi(s));
-				}
+		vvp<int> graph(n);
+		drep(i, j, n, i) {
+			cin >> s;
+			if (s != "x") {
+				graph[i].pb({ j, stoi(s) });
+				graph[j].pb({ i, stoi(s) });
 			}
 		}
 

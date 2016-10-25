@@ -5,14 +5,11 @@ int main() {
 	int n;
 	while (cin >> n && n > 0) {
 		vi v(n);
+		read(v);
 		int num_gcd = 0;
-		irep(l, v)
-			cin >> l;
-		rep(i, 0, n) {
-			rep(j, i + 1, n) {
-				if (gcd(v[i], v[j]) == 1)
-					num_gcd++;
-			}
+		drep(i, j, n, i) {
+			if (gcd(v[i], v[j]) == 1)
+				num_gcd++;
 		}
 
 		if (num_gcd == 0)

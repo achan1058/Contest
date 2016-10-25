@@ -16,16 +16,15 @@ bool dist1(const string& s1, const string& s2) {
 }
 
 int main() {
-	int N, X = 0;
 	string s, s1, s2;
-	cin >> N;
-
-	while (X < N) {
+	forX() {
+		if (X == 1)
+			getline(cin, s);
 		vs strs;
 		while (cin >> s && s != "*")
 			strs.pb(s);
 
-		printf("%s", X > 0 ? "\n" : "");
+		printX("");
 		getline(cin, s);
 		int n = sz(strs);
 		vvi mat = mi(n, n, inf);
@@ -40,8 +39,7 @@ int main() {
 
 		vvi distmat = floydWarshall(mat).x;
 		while (getline(cin, s) && s != "") {
-			stringstream ss;
-			ss << s;
+			stringstream ss(s);
 			ss >> s1 >> s2;
 			int v1, v2;
 
@@ -59,6 +57,5 @@ int main() {
 			}
 			printf("%s %s %d\n", s1.c_str(), s2.c_str(), distmat[v1][v2]);
 		}
-		X++;
 	}
 }
