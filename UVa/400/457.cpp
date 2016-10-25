@@ -4,13 +4,9 @@
 string output = " .xW";
 vi nextrow(10);
 int main() {
-	int N;
-	cin >> N;
-
-	rep(X, 0, N) {
-		printf(X > 0 ? "\n" : "");
-		rep(i, 0, 10)
-			cin >> nextrow[i];
+	forX() {
+		printX("");
+		read(nextrow);
 
 		vvi arr = mi(2, 42, 0);
 		arr[0][20] = 1;
