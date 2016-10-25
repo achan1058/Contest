@@ -6,10 +6,8 @@ int main() {
 	while (cin >> f >> r && f != 0) {
 		vi fw(f), rw(r);
 		vd ratio;
-		for (int& v : fw)
-			cin >> v;
-		for (int& v : rw)
-			cin >> v;
+		read(fw);
+		read(rw);
 		for (int& vf : fw) {
 			for (int& vr : rw)
 				ratio.push_back(double(vr) / vf);

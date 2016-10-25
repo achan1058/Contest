@@ -3,12 +3,10 @@
 
 int main() {
 	string s;
-	int N;
-	cin >> N;
-	getline(cin, s);
-	getline(cin, s);
-	rep(X, 1, N + 1) {
-		printf("%sCase #%d:\n", X > 1 ? "\n" : "", X);
+	forX() {
+		printX("Case #%d:\n", X);
+		if (X == 1)
+			getline(cin, s);
 		while (getline(cin, s) && s != "") {
 			stringstream ss(s);
 			for (int t = 0; ss >> s; t++) {
