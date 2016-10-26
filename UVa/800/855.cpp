@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T, x, y, s, a, f;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int x, y, s, a, f;
+	forX() {
 		vi vx, vy;
 		cin >> s >> a >> f;
 		for (int i = 0; i < f; i++) {

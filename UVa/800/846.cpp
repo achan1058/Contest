@@ -2,8 +2,7 @@
 #include "header.h"
 
 int main() {
-	int N, l, r;
-	cin >> N;
+	int l, r;
 	vl mx;
 
 	rep(i, 0, 100000) {
@@ -13,7 +12,7 @@ int main() {
 			mx.pb((i + 1) * ll(i + 1) / 4);
 	}
 
-	rep(X, 0, N) {
+	forX() {
 		cin >> l >> r;
 		printf("%d\n", int(lower_bound(all(mx), r - l) - mx.begin()));
 	}

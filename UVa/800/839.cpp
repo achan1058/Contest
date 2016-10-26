@@ -15,18 +15,12 @@ ll checkMobile() {
 }
 
 int main() {
-	int N;
-	cin >> N;
-
-	rep(X, 0, N) {
+	forX() {
 		good = true;
 		checkMobile();
-
-		if (X > 0)
-			printf("\n");
 		if (good)
-			printf("YES\n");
+			printX("YES\n");
 		else
-			printf("NO\n");
+			printX("NO\n");
 	}
 }

@@ -2,8 +2,8 @@
 #include "max_flow.h"
 
 int main() {
-	int n, s, t, e, v1, v2, c, X = 1;
-	while (cin >> n && n != 0) {
+	int n, s, t, e, v1, v2, c;
+	whileX(cin >> n && n != 0) {
 		vvi graph = mi(n, n, 0);
 		cin >> s >> t >> e;
 		s--;
@@ -15,6 +15,5 @@ int main() {
 		}
 		printf("Network %d\n", X);
 		printf("The bandwidth is %d.\n\n", get<0>(pushRelabel(graph, s, t)));
-		X++;
 	}
 }

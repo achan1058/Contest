@@ -2,12 +2,11 @@
 #include "header.h"
 
 int main() {
-	int n, m, X = 1;
+	int n, m;
 	double vol;
-	while (cin >> n >> m && (n | m) != 0) {
+	whileX(cin >> n >> m && (n | m) != 0) {
 		vi grid(n * m);
-		irep(v, grid)
-			cin >> v;
+		read(grid);
 		sort(all(grid));
 		grid.push_back(inf);
 		cin >> vol;
@@ -23,6 +22,5 @@ int main() {
 				vol -= i * d * 100;
 			}
 		}
-		X++;
 	}
 }
