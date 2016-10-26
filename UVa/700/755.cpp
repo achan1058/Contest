@@ -3,11 +3,9 @@
 
 string alpha = "22233344455566677778889999";
 int main() {
-	int N, n;
-	cin >> N;
-
-	rep(X, 0, N) {
-		printf("%s", X > 0 ? "\n" : "");
+	int n;
+	forX() {
+		printX("");
 		map<string, int> numbers;
 		string s;
 		cin >> n;

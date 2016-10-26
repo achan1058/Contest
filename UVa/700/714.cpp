@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T, k, n;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int k, n;
+	forX() {
 		cin >> n >> k;
 		vl lengths(n);
 		vl sumlen(n + 1);

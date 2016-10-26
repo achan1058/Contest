@@ -19,15 +19,11 @@ int main() {
 			solutions.pb(queens);
 	} while (next_permutation(all(queens)));
 
-	int N;
-	cin >> N;
-	rep(X, 0, N) {
-		if (X > 0)
-			printf("\n");
+	forX() {
 		int r, c, sol_num = 0;
 		cin >> r >> c;
 		c--;
-		printf("SOLN       COLUMN\n");
+		printX("SOLN       COLUMN\n");
 		printf(" #      1 2 3 4 5 6 7 8\n\n");
 		irep(sol, solutions) {
 			if (sol[c] == r) {

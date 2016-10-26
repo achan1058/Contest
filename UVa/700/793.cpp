@@ -2,12 +2,10 @@
 #include "union_find.h"
 
 int main() {
-	int N, n, v1, v2;
+	int n, v1, v2;
 	char c;
-	cin >> N;
 	string s;
-	rep(X, 0, N) {
-		printf("%s", X > 0 ? "\n" : "");
+	forX() {
 		cin >> n;
 		getline(cin, s);
 		UnionFind un(n + 1);
@@ -21,6 +19,6 @@ int main() {
 			else
 				no++;
 		}
-		printf("%d,%d\n", yes, no);
+		printX("%d,%d\n", yes, no);
 	}
 }
