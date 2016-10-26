@@ -20,10 +20,8 @@ int kruskal(vt<int>& edges, int min_comps) {
 }
 
 int main() {
-	int N, p, min_comps;
-	cin >> N;
-
-	rep(X, 0, N) {
+	int p, min_comps;
+	forX() {
 		cin >> min_comps >> p;
 		vector<pti> points(p);
 		vt<int> edges;
