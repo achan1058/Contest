@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int n;
 	string s;
-	cin >> n;
-	rep(i, 0, n) {
+	forX() {
 		cin >> s;
 		if (sz(s) <= 10)
 			printf("%s\n", s.c_str());

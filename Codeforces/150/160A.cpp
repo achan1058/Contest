@@ -2,13 +2,11 @@
 #include "header.h"
 
 int main() {
-	int n, total = 0, ans = 0;
+	int n, ans = 0;
 	cin >> n;
 	vi coins(n);
-	irep(c, coins) {
-		cin >> c;
-		total += c;
-	}
+	read(coins);
+	int total = accumulate(all(coins), 0);
 	total /= 2;
 	sort(all(coins));
 	rrep(i, n - 1, 0) {

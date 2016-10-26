@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int n, ans = 0;
+	int ans = 0;
 	string s;
-	cin >> n;
-	rep(i, 0, n) {
+	forX() {
 		cin >> s;
 		if (s == "++X" || s == "X++")
 			ans++;

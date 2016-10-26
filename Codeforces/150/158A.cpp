@@ -5,8 +5,7 @@ int main() {
 	int n, k;
 	cin >> n >> k;
 	vi arr(n);
-	irep(v, arr)
-		cin >> v;
+	read(arr);
 	while (k > 0 && arr[k - 1] == 0)
 		k--;
 	while (k < n && arr[k - 1] == arr[k])

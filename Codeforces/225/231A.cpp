@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int n, ans = 0, a, b, c;
-	cin >> n;
-	rep(i, 0, n) {
+	int ans = 0, a, b, c;
+	forX() {
 		cin >> a >> b >> c;
 		if (a + b + c >= 2)
 			ans++;
