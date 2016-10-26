@@ -15,8 +15,8 @@ bool recurse(int pos = 0) {
 }
 
 int main() {
-	int X = 1, n, ind = 0;
-	while (recurse(ind)) {
+	int n, ind = 0;
+	whileX(recurse(ind)) {
 		bool fs = true;
 		printf("Case %d:\n", X);
 		irep(v, result) {
@@ -24,7 +24,6 @@ int main() {
 			fs = false;
 		}
 		printf("\n\n");
-		X++;
 		result.clear();
 	}
 }

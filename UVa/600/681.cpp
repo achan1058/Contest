@@ -2,12 +2,10 @@
 #include "graham.h"
 
 int main() {
-	int N, n;
-	cin >> N;
-	printf("%d\n", N);
-	rep(X, 0, N) {
+	int n;
+	forX() {
+		printf("%d\n", X == 1 ? XT : -1);
 		cin >> n;
-		printf("%s", X > 0 ? "-1\n" : "");
 		vector<pti> pts(n);
 		irep(p, pts)
 			cin >> p.y >> p.x;

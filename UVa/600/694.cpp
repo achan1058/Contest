@@ -10,8 +10,7 @@ ll collatz(ll n) {
 
 int main() {
 	ll n, b;
-	int X = 1;
-	while (cin >> n >> b && (n >= 0 || b >= 0)) {
+	whileX(cin >> n >> b && (n >= 0 || b >= 0)) {
 		ll t = n;
 		int len = 1;
 		while (t != 1 && t <= b) {
@@ -21,6 +20,5 @@ int main() {
 		if (t > b)
 			len--;
 		printc("A = %lld, limit = %lld, number of terms = %d\n", n, b, len);
-		X++;
 	}
 }

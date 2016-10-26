@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, d, k, total;
-	cin >> N;
-	rep(X, 0, N) {
+	int d, k, total;
+	forX() {
 		cin >> d >> k;
 		total = 0;
 		k--;
