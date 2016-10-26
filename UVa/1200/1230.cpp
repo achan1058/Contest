@@ -2,9 +2,8 @@
 #include "number_theory.h"
 
 int main() {
-	int x, y, n, N;
-	cin >> N;
-	rep(X, 0, N) {
+	int x, y, n;
+	forX() {
 		cin >> x >> y >> n;
 		printf("%d\n", power(x, y, n));
 	}

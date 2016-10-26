@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T, n;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int n;
+	forX() {
 		cin >> n;
 		int count = 0;
 		vi sales(n);

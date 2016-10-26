@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T, d, q, v;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	int d, q, v;
+	forX() {
 		cin >> d;
 		vs names(d);
 		vector<pii> bounds(d);
@@ -12,8 +11,7 @@ int main() {
 			cin >> names[i] >> bounds[i].x >> bounds[i].y;
 
 		cin >> q;
-		if (X > 0)
-			printf("\n");
+		printX("");
 		for (int i = 0; i < q; i++) {
 			int num = -1;
 			cin >> v;
