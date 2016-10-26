@@ -2,6 +2,8 @@
 #include "header.h"
 
 // returns LCS that has lexicographically minimal index w.r.t. s1
+inline string lcsHelper(const string& s, int len) { return string(len, 0); }
+template<class T> inline vector<T> lcsHelper(const vector<T>&, int len) { return vector<T>(len); }
 template<class T>
 T lcs(const T& s1, const T& s2) {
 	int n = sz(s1), m = sz(s2);
@@ -18,7 +20,7 @@ T lcs(const T& s1, const T& s2) {
 	}
 
 	int len = table[n][m];
-	T s(len, 0);
+	T s = lcsHelper(s1, len);
 	while (len > 0) {
 		if (table[n][m] == table[n - 1][m])
 			n--;
