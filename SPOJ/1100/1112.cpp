@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, x, y;
-	cin >> N;
-	rep(X, 0, N) {
+	int x, y;
+	forX() {
 		cin >> x >> y;
 		if (x == y) {
 			if (x % 2 == 0)

@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n;
-	cin >> N;
-	rep(X, 0, N) {
+	int n;
+	forX() {
 		int total = 0;
 		cin >> n;
 		while (n > 0) {
