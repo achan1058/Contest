@@ -2,9 +2,7 @@
 #include "header.h"
 
 int main() {
-	int N;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		double n, k, p, q;
 		cin >> n >> p >> k;
 		q = 1 - p;

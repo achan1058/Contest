@@ -31,8 +31,7 @@ void floodfill(int x0, int y0) {
 
 int main() {
 	char ch;
-	int X = 1;
-	while (cin >> r >> c && (r | c) != 0) {
+	whileX(cin >> r >> c && (r | c) != 0) {
 		int x0, y0, x1, y1;
 		board = vector<vector<vvi>>(r, vector<vvi>(c, mi(5, 4, inf)));
 		for (int i = 0; i < r; i++) {
@@ -57,11 +56,10 @@ int main() {
 		int best = inf;
 		for (int l = 0; l < 4; l++)
 			best = min(best, board[x1][y1][0][l]);
-		printf("%sCase #%d\n", X == 1 ? "" : "\n", X);
+		printX("Case #%d\n", X);
 		if (best == inf)
 			printf("destination not reachable\n");
 		else
 			printf("minimum time = %d sec\n", best);
-		X++;
 	}
 }

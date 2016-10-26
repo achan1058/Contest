@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n, p, h;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, p, h;
+	forX() {
 		cin >> n >> p;
 		vi days(n + 1);
 		rep(i, 0, p) {

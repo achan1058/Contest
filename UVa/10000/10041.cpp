@@ -2,14 +2,11 @@
 #include "header.h"
 
 int main() {
-	int N;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		int r, total = 0;
 		cin >> r;
 		vi rel(r);
-		irep(v, rel)
-			cin >> v;
+		read(rel);
 
 		sort(all(rel));
 		rep(i, 0, r / 2)
@@ -19,5 +16,4 @@ int main() {
 
 		printf("%d\n", total);
 	}
-	return 0;
 }

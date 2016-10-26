@@ -11,9 +11,8 @@ int digitSum(int n) {
 }
 
 int main() {
-	int N, n;
-	cin >> N;
-	rep(X, 0, N) {
+	int n;
+	forX() {
 		cin >> n;
 		rep(i, n + 1, inf) {
 			vi f = factor(i);
