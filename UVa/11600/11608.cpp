@@ -4,7 +4,7 @@
 int main() {
 	int s;
 	whileX(cin >> s && s >= 0) {
-		printf("Case %d:\n", X);
+		printcn();
 		vi prob(12), req(12);
 		read(prob);
 		read(req);

@@ -10,7 +10,7 @@ int main() {
 		rep(k, 0, sz(s))
 			arr[k + 1] = arr[k] + s[k] - '0';
 
-		printf("Case %d:\n", X);
+		printcn();
 		cin >> n;
 		rep(k, 0, n) {
 			cin >> i >> j;

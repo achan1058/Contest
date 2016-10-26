@@ -6,7 +6,7 @@ int main() {
 	forX() {
 		eatX();
 		printX("");
-		printpn("");
+		printpn();
 		while (getline(cin, s) && s != "") {
 			stringstream ss(s);
 			for (int t = 0; ss >> s; t++) {

@@ -9,7 +9,7 @@ int main() {
 		sort(all(val));
 
 		cin >> m;
-		printf("Case %d:\n", X);
+		printcn();
 		rep(i, 0, m) {
 			int low = 0, high = n - 1, close = inf, best = 0;
 			cin >> mi;

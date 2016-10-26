@@ -17,7 +17,7 @@ int main() {
 					grid[i][j]++;
 			}
 		}
-		printf("Case %d:\n", X);
+		printcn();
 		for (int i = 0; i < n; i++)
 			printf("%s\n", grid[i].c_str());
 	}

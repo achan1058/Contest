@@ -48,5 +48,5 @@ ll mod = 1000000007ll;
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X), printf(__VA_ARGS__)
 #define printp(...) printf("Case #%d: ", X), printf(__VA_ARGS__)
-#define printcn(...) printf("Case %d:\n", X), printf(__VA_ARGS__)
-#define printpn(...) printf("Case #%d:\n", X), printf(__VA_ARGS__)
+#define printcn() printf("Case %d:\n", X)
+#define printpn() printf("Case #%d:\n", X)
