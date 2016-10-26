@@ -31,7 +31,8 @@ int main() {
 	irep(p, primes)
 		isPrime[p] = true;
 	whileX(cin >> n) {
-		printX("Case %d:\n", X);
+		printX("");
+		printcn();
 		backtrack();
 	}
 }

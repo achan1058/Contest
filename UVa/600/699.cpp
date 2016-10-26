@@ -18,7 +18,7 @@ int main() {
 	int n, ind = 0;
 	whileX(recurse(ind)) {
 		bool fs = true;
-		printf("Case %d:\n", X);
+		printcn();
 		irep(v, result) {
 			printf("%s%d", fs ? "" : " ", v.y);
 			fs = false;
