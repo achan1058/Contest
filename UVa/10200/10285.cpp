@@ -3,20 +3,16 @@
 
 vi dx = { 0, 1, 0, -1 }, dy = { 1, 0, -1, 0 };
 int main() {
-	int N, r, c;
+	int r, c;
 	string s;
-	cin >> N;
-
-	rep(X, 0, N) {
+	forX() {
 		int max_len = 0;
 		vector<tuple<int, int, int>> seq;
 		cin >> s >> r >> c;
 		vvi height = mi(r, c, 0), length = mi(r, c, 0);
-		rep(i, 0, r) {
-			rep(j, 0, c) {
-				cin >> height[i][j];
-				seq.pb(make_tuple(-height[i][j], i, j));
-			}
+		drep(i, j, r, c) {
+			cin >> height[i][j];
+			seq.pb(make_tuple(-height[i][j], i, j));
 		}
 
 		sort(all(seq));

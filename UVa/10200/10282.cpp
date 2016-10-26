@@ -5,8 +5,7 @@ int main() {
 	string s, s1, s2;
 	map<string, string> dict;
 	while (getline(cin, s) && s != "") {
-		stringstream ss;
-		ss << s;
+		stringstream ss(s);
 		ss >> s1 >> s2;
 		dict[s2] = s1;
 	}
