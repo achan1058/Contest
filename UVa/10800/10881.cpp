@@ -24,7 +24,7 @@ int main() {
 		}
 
 		sort(all(ants));
-		printf("Case #%d:\n", X);
+		printpn();
 		rep(i, 1, n) {
 			if (get<0>(ants[i]) == get<0>(ants[i - 1]))
 				get<1>(ants[i]) = get<1>(ants[i - 1]) = 'T';

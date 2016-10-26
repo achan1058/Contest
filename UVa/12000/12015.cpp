@@ -11,7 +11,7 @@ int main() {
 			ranking[i] = { -rank, char(i + '0') + s };
 		}
 		sort(all(ranking));
-		printf("Case #%d:\n", X);
+		printpn();
 		rep(i, 0, 10) {
 			if (i > 0 && ranking[i].x != ranking[i - 1].x)
 				break;

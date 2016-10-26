@@ -26,7 +26,7 @@ int main() {
 			}
 		}
 	end:;
-		printf("Case #%d:\n", X);
+		printpn();
 		if (n == -1)
 			printf("No magic :(\n");
 		else

@@ -28,7 +28,7 @@ int main() {
 		}
 
 		int maxlen = 0;
-		printf("Case #%d:\n", X);
+		printpn();
 		for (auto& line : out) {
 			printf("%s\n", line.second.c_str());
 			maxlen = max(maxlen, sz(line.second));

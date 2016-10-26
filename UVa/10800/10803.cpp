@@ -24,7 +24,7 @@ int main() {
 		drep(i, j, n, i)
 			longest = max(longest, dist[i][j]);
 
-		printf("Case #%d:\n", X);
+		printpn();
 		if (longest >= inf - eps)
 			printf("Send Kurdy\n\n");
 		else
