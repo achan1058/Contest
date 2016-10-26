@@ -6,8 +6,7 @@ int main() {
 	int n, r;
 	while (cin >> n) {
 		vs words(n);
-		for (string& s : words)
-			cin >> s;
+		read(words);
 		cin >> r;
 		printf("--\n");
 		for (int i = 0; i < r; i++) {

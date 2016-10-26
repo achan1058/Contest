@@ -3,57 +3,56 @@
 #include "shortest_path.h"
 
 int main() {
-	int v1, v2, X = 1, numE = 0;
-	Index<int> mp;
-	AdjList<int> el;
-	while (cin >> v1 >> v2 && (v1 != -1 || v2 != -1)) {
-		if ((v1 | v2) == 0) {
-			bool good = true;
-
-			if (numE == 0)
-				good = true;
-			else if (sz(el) != numE + 1)
-				good = false;
-			else {
-				vb indeg(sz(el), false);
-				rep(i, 0, sz(el)) {
-					irep(v, el[i]) {
-						if (indeg[v.x]) {
-							good = false;
-							goto end;
-						}
-						indeg[v.x] = true;
-					}
-				}
-
-				int root = 0;
-				rep(i, 0, sz(el)) {
-					if (!indeg[i]) {
-						root = i;
-						break;
-					}
-				}
-
-				vi dist = dijkstra(el, root).x;
-				rep(i, 0, sz(el)) {
-					if (i != root && dist[i] == inf) {
-						good = false;
-						break;
-					}
-				}
-			}
-		end:;
-
-			printf("Case %d is %sa tree.\n", X, good ? "" : "not ");
-			mp = Index<int>();
-			el = AdjList<int>();
-			numE = 0;
-			X++;
-		} else {
+	int v1, v2;
+	whileX(cin >> v1 >> v2 && (v1 != -1 || v2 != -1)) {
+		Index<int> mp;
+		vvp<int> edges;
+		int numE = 0;
+		while ((v1 | v2) != 0) {
 			v1 = mp.getI(v1);
 			v2 = mp.getI(v2);
-			el.push(v1, v2);
+			edges.resize(sz(mp));
+			edges[v1].pb({ v2, 1 });
 			numE++;
+			cin >> v1 >> v2;
 		}
+
+		bool good = true;
+
+		if (numE == 0)
+			good = true;
+		else if (sz(edges) != numE + 1)
+			good = false;
+		else {
+			vb indeg(sz(edges), false);
+			irep(v, edges) {
+				irep(e, v) {
+					if (indeg[e.x]) {
+						good = false;
+						goto end;
+					}
+					indeg[e.x] = true;
+				}
+			}
+
+			int root = 0;
+			rep(i, 0, sz(edges)) {
+				if (!indeg[i]) {
+					root = i;
+					break;
+				}
+			}
+
+			vi dist = dijkstra(edges, root).x;
+			rep(i, 0, sz(edges)) {
+				if (i != root && dist[i] == inf) {
+					good = false;
+					break;
+				}
+			}
+		}
+	end:;
+
+		printf("Case %d is %sa tree.\n", X, good ? "" : "not ");
 	}
 }

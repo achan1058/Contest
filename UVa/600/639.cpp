@@ -5,27 +5,27 @@ vs grid;
 int n, max_rook;
 vi dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
 bool check(int x0, int y0) {
-	rep(k, 0, 4) {
+	rep(k, 0, sz(dx)) {
 		int nx = x0, ny = y0;
 		rep(i, 1, inf) {
 			nx += dx[k];
 			ny += dy[k];
-			if (grid[nx][ny] == 'R')
-				return false;
-			else if (grid[nx][ny] == 'X')
+			if (nx < 0 || nx >= n || ny < 0 || ny >= n || grid[nx][ny] == 'X')
 				break;
+			else if (grid[nx][ny] == 'R')
+				return false;
 		}
 	}
 
 	return true;
 }
 
-void search(int x0 = 1, int y0 = 1, int cur_rook = 0) {
-	if (y0 > n) {
-		y0 = 1;
+void search(int x0 = 0, int y0 = 0, int cur_rook = 0) {
+	if (y0 >= n) {
+		y0 = 0;
 		x0++;
 	}
-	if (x0 > n) {
+	if (x0 >= n) {
 		max_rook = max(cur_rook, max_rook);
 		return;
 	}
@@ -40,12 +40,9 @@ void search(int x0 = 1, int y0 = 1, int cur_rook = 0) {
 
 int main() {
 	while (cin >> n && n != 0) {
-		grid = mc(n + 2, n + 2, 'X');
+		grid.resize(n);
+		read(grid);
 		max_rook = 0;
-		rep(i, 1, n + 1) {
-			rep(j, 1, n + 1)
-				cin >> grid[i][j];
-		}
 		search();
 		printf("%d\n", max_rook);
 	}

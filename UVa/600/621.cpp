@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N;
 	string s;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> s;
 		if (s == "1" || s == "4" || s == "78")
 			printf("+\n");

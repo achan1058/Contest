@@ -12,9 +12,7 @@ bool match(char c, bool lighter, string& left, string& right, string& ans) {
 
 int main() {
 	vs left(3), right(3), ans(3);
-	int T;
-	cin >> T;
-	for (int X = 0; X < T; X++) {
+	forX() {
 		for (int i = 0; i < 3; i++)
 			cin >> left[i] >> right[i] >> ans[i];
 		for (char c = 'A'; c <= 'L'; c++) {

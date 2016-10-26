@@ -2,22 +2,19 @@
 #include "header.h"
 
 int main() {
-	int N, c, n;
+	int c, n;
 	string s;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		vector<tuple<int, int, string>> strs;
 		cin >> c >> n;
-		printf("%s", X > 0 ? "\n" : "");
+		printX("");
 		rep(k, 0, n) {
 			int invert = 0;
 			cin >> s;
 
-			rep(i, 0, sz(s)) {
-				rep(j, 0, i) {
-					if (s[i] < s[j])
-						invert++;
-				}
+			drep(i, j, sz(s), i) {
+				if (s[i] < s[j])
+					invert++;
 			}
 			strs.pb(make_tuple(invert, k, s));
 		}
