@@ -4,9 +4,7 @@
 int main() {
 	string s;
 	forX() {
-		if (X == 1)
-			getline(cin, s);
-
+		eatX();
 		int ans = 0, ind = 0;
 		vi reg(10);
 		vs ram(1000, "000");

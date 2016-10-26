@@ -6,8 +6,7 @@ int main() {
 	forX() {
 		int total = 0;
 		map<string, int> trees;
-		if (X == 1)
-			getline(cin, s);
+		eatX();
 		while (getline(cin, s) && s != "") {
 			trees[s]++;
 			total++;

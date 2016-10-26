@@ -4,9 +4,9 @@
 int main() {
 	string s;
 	forX() {
-		printX("Case #%d:\n", X);
-		if (X == 1)
-			getline(cin, s);
+		eatX();
+		printX("");
+		printpn("");
 		while (getline(cin, s) && s != "") {
 			stringstream ss(s);
 			for (int t = 0; ss >> s; t++) {

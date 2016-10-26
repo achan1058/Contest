@@ -7,8 +7,7 @@ int main() {
 		vvi scoreboard = mi(101, 10, 0);
 		vi time(101), score(101);
 		vb tried(101);
-		if (X == 1)
-			getline(cin, s);
+		eatX();
 		while (getline(cin, s) && s != "") {
 			int team, prob, t;
 			char code;
