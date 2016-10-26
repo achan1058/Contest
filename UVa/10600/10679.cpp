@@ -2,10 +2,9 @@
 #include "dp_algs.h"
 
 int main() {
-	int N, n;
-	cin >> N;
+	int n;
 	string s, p;
-	rep(X, 0, N) {
+	forX() {
 		cin >> s >> n;
 		rep(i, 0, n) {
 			cin >> p;

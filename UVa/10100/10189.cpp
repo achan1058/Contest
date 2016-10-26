@@ -7,7 +7,7 @@ int main() {
 	char c;
 	whileX(cin >> m >> n && (m | n) != 0) {
 		vvi field = mi(m + 2, n + 2, 0);
-		printf("%sField #%d:\n", X > 1 ? "\n" : "", X);
+		printX("Field #%d:\n", X);
 
 		rep(i, 1, m + 1) {
 			rep(j, 1, n + 1) {

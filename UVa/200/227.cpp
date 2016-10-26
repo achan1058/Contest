@@ -41,7 +41,7 @@ int main() {
 		}
 	end:;
 
-		printf("%sPuzzle #%d:\n", X > 1 ? "\n" : "", X);
+		printX("Puzzle #%d:\n", X);
 		if (good) {
 			for (int i = 0; i < 5; i++)
 				printf("%c %c %c %c %c\n", grid[i][0], grid[i][1], grid[i][2], grid[i][3], grid[i][4]);
