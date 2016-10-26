@@ -7,9 +7,8 @@ int main() {
 	while (cin >> k) {
 		getline(cin, s);
 		getline(cin, s);
-		stringstream ss;
+		stringstream ss(s);
 		printf("q(x):");
-		ss << s;
 		ss >> r;
 		while (ss >> v) {
 			printf(" %d", r);
