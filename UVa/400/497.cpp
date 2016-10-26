@@ -5,8 +5,7 @@ int main() {
 	string s;
 	forX() {
 		vi missiles;
-		if (X == 1)
-			getline(cin, s);
+		eatX();
 		while (getline(cin, s) && s != "")
 			missiles.pb(stoi(s));
 

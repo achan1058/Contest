@@ -15,8 +15,7 @@ int main() {
 	string s;
 	forX() {
 		vs board;
-		if (X == 1)
-			getline(cin, s);
+		eatX();
 		while (getline(cin, s) && (s[0] == 'W' || s[0] == 'L'))
 			board.pb(s);
 
