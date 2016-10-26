@@ -29,15 +29,11 @@ int floodfill(const vi& src, const vi& tar) {
 }
 
 int main() {
-	int N, a, b, c, d, e;
+	int a, b, c, d, e;
 	vi src(4), tar(4);
-	cin >> N;
-	rep(X, 0, N) {
-		rep(k, 0, 4)
-			cin >> src[k];
-		rep(k, 0, 4)
-			cin >> tar[k];
-
+	forX() {
+		read(src);
+		read(tar);
 		cin >> e;
 		arr = vector<vector<vvi>>(10, vector<vvi>(10, mi(10, 10, inf)));
 		rep(k, 0, e) {

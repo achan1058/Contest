@@ -2,8 +2,8 @@
 #include "shortest_path.h"
 
 int main() {
-	int X = 1, n, e, v1, v2, cost;
-	while (cin >> n >> e && (n | e) != 0) {
+	int n, e, v1, v2, cost;
+	whileX(cin >> n >> e && (n | e) != 0) {
 		vvi graph = mi(n, n, 0);
 		rep(i, 0, e) {
 			cin >> v1 >> v2 >> cost;
@@ -14,6 +14,5 @@ int main() {
 		cin >> v1 >> v2 >> cost;
 		printf("Scenario #%d\n", X);
 		printf("Minimum Number of Trips = %d\n\n", (cost - 1) / (-result[v1 - 1][v2 - 1] - 1) + 1);
-		X++;
 	}
 }

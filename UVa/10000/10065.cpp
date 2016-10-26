@@ -4,7 +4,7 @@
 
 int main() {
 	int n;
-	whileX (cin >> n && n != 0) {
+	whileX(cin >> n && n != 0) {
 		vector<pti> pts(n);
 		read(pts);
 		int area = abs(Polygon<int>(pts).sa2());

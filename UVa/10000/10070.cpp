@@ -35,9 +35,8 @@ bool div11(const string& s) {
 
 int main() {
 	string s;
-	int X = 1;
-	while (cin >> s) {
-		printf("%s", X > 1 ? "\n" : "");
+	whileX(cin >> s) {
+		printX("");
 		if (leapYear(s))
 			printf("This is leap year.\n");
 		if (div3(s) && div5(s))
@@ -46,6 +45,5 @@ int main() {
 			printf("This is bulukulu festival year.\n");
 		if (!leapYear(s) && !(div3(s) && div5(s)))
 			printf("This is an ordinary year.\n");
-		X++;
 	}
 }

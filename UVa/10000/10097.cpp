@@ -27,16 +27,11 @@ int floodfill(int x0, int y0) {
 }
 
 int main() {
-	int n, X = 1, n1, n2;
-	while (cin >> n && n != 0) {
+	int n, n1, n2;
+	whileX(cin >> n && n != 0) {
 		board = mi(n, n, inf);
 		grid = mi(n, n, inf);
-
-		rep(i, 0, n) {
-			rep(j, 0, n)
-				cin >> grid[i][j];
-		}
-
+		read(grid);
 		cin >> n1 >> n2 >> n3;
 		int ans = floodfill(n1 - 1, n2 - 1);
 		printf("Game #%d\n", X);
@@ -44,6 +39,5 @@ int main() {
 			printf("Destination is Not Reachable !\n\n");
 		else
 			printf("Minimum Number of Moves = %d\n\n", ans);
-		X++;
 	}
 }
