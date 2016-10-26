@@ -3,9 +3,6 @@
 
 int main() {
 	int n;
-	bool fs = true;
-	while (cin >> n) {
-		printf("%s%d\n", fs ? "" : "\n", binomial<int>(2 * n, n) / (n + 1));
-		fs = false;
-	}
+	whileX(cin >> n)
+		printX("%lld\n", binomial(2 * n, n) / (n + 1));
 }

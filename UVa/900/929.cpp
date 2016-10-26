@@ -4,7 +4,6 @@
 int r, c;
 vvi grid, board;
 vi dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
-
 void floodfill(int x0, int y0) {
 	vector<queue<tuple<int, int>>> q(10);
 	q[grid[x0][y0] % 10].push(make_tuple(x0, y0));
@@ -32,17 +31,11 @@ void floodfill(int x0, int y0) {
 }
 
 int main() {
-	int N;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> r >> c;
 		grid = mi(r, c, 0);
 		board = mi(r, c, inf);
-		irep(b, grid) {
-			irep(v, b)
-				cin >> v;
-		}
-
+		read(grid);
 		floodfill(0, 0);
 		printf("%d\n", board[r - 1][c - 1]);
 	}

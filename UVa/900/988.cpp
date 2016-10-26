@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int n, X = 1;
-	while (cin >> n && n != 0) {
-		printf("%s", X > 1 ? "\n" : "");
+	int n;
+	whileX(cin >> n && n != 0) {
 		int result = 0;
 		vi v(n, 0);
 		v[0] = 1;
@@ -19,7 +18,6 @@ int main() {
 				v[t] += v[i];
 			}
 		}
-		printf("%d\n", result);
-		X++;
+		printX("%d\n", result);
 	}
 }
