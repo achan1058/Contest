@@ -29,20 +29,14 @@ vi eularianHelper(vvi& graph, int n, int end, bool directed) {
 
 // uses adjacency matrix
 vi eularianPath(const vvi& graph, bool directed = false) {
-	int n = sz(graph);
+	int n = sz(graph), end = -1;
 	vi deg(n);
-	rep(i, 0, n) {
-		rep(j, 0, n)
-			deg[i] += graph[i][j];
-	}
-
-	int end = -1;
+	drep(i, j, n, n)
+		deg[i] += graph[i][j];
 	if (directed) {
 		int indeg = 0;
-		rep(i, 0, n) {
-			rep(j, 0, n)
-				deg[i] -= graph[j][i];
-		}
+		drep(i, j, n, n)
+			deg[i] -= graph[j][i];
 		rep(i, 0, n) {
 			if (deg[i] < 0) {
 				indeg -= deg[i];
@@ -64,12 +58,10 @@ vi eularianPath(const vvi& graph, bool directed = false) {
 	}
 
 	if (end == -1) {
-		rep(i, 0, n) {
-			rep(j, 0, n) {
-				if (graph[i][j] != 0) {
-					end = i;
-					goto found_end;
-				}
+		drep(i, j, n, n) {
+			if (graph[i][j] != 0) {
+				end = i;
+				goto found_end;
 			}
 		}
 	}
