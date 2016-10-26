@@ -3,9 +3,9 @@
 
 vi dx = { -1, -1, -1, 0, 1, 1, 1, 0 }, dy = { -1, 0, 1, 1, 1, 0, -1, -1 };
 int main() {
-	int m, n, X = 1;
+	int m, n;
 	char c;
-	while (cin >> m >> n && (m | n) != 0) {
+	whileX(cin >> m >> n && (m | n) != 0) {
 		vvi field = mi(m + 2, n + 2, 0);
 		printf("%sField #%d:\n", X > 1 ? "\n" : "", X);
 
@@ -29,6 +29,5 @@ int main() {
 			}
 			printf("\n");
 		}
-		X++;
 	}
 }

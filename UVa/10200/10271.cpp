@@ -6,9 +6,7 @@ int main() {
 	forX() {
 		cin >> k >> n;
 		vi lengths(n);
-		irep(v, lengths)
-			cin >> v;
-
+		read(lengths);
 		reverse(all(lengths));
 		vvi dp = mi(k + 9, n + 1, inf);
 		dp[0] = vi(n + 1, 0);

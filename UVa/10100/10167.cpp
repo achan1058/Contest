@@ -5,8 +5,7 @@ int main() {
 	int n;
 	while (cin >> n && n != 0) {
 		vector<pti> p(2 * n);
-		rep(i, 0, 2 * n)
-			cin >> p[i];
+		read(p);
 		pti p1, p2;
 
 		for (p2.x = 0; p2.x <= 500; p2.x++) {

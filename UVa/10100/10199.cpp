@@ -3,9 +3,9 @@
 #include "util.h"
 
 int main() {
-	int n, m, X = 1;
+	int n, m;
 	string s1, s2;
-	while (cin >> n && n != 0) {
+	whileX(cin >> n && n != 0) {
 		vvi graph(n);
 		Index<string> ind;
 		for (int i = 0; i < n; i++) {
@@ -22,12 +22,11 @@ int main() {
 
 		vector<int> pt = getArticulationPoints(graph);
 		vector<string> ans;
-		printf("%sCity map #%d: %d camera(s) found\n", X > 1 ? "\n" : "", X, pt.size());
+		printX("City map #%d: %d camera(s) found\n", X, sz(pt));
 		for (auto& i : pt)
 			ans.push_back(ind.getL(i));
 		sort(ans.begin(), ans.end());
 		for (auto& s : ans)
 			printf("%s\n", s.c_str());
-		X++;
 	}
 }

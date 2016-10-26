@@ -2,24 +2,19 @@
 #include "header.h"
 
 int main() {
-	int N, total = 0;
-	cin >> N;
 	string s;
-	getline(cin, s);
-	getline(cin, s);
-	map<string, int> trees;
-	rep(X, 0, N) {
+	forX() {
+		int total = 0;
+		map<string, int> trees;
+		if (X == 1)
+			getline(cin, s);
 		while (getline(cin, s) && s != "") {
 			trees[s]++;
 			total++;
 		}
 
-		if (X > 0)
-			printf("\n");
+		printX("");
 		irep(t, trees)
 			printf("%s %.4f\n", t.x.c_str(), t.y * 100. / total);
-
-		total = 0;
-		trees.clear();
 	}
 }
