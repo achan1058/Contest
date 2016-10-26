@@ -13,3 +13,28 @@ vector<vector<T>> edgeToMatrix(const vt<T>& edges, T non_edge = inf) {
 		graph[get<0>(e)][get<1>(e)] = get<2>(e);
 	return graph;
 }
+
+bool isBipartite(const vvi& graph) {
+	int n = sz(graph);
+	vi color(n);
+	rep(i, 0, n) {
+		if (color[i] != 0)
+			continue;
+		queue<int> q;
+		q.push(i);
+		color[i] = 1;
+		while (!q.empty()) {
+			int v = q.front();
+			q.pop();
+			irep(e, graph[v]) {
+				if (color[e] == color[v])
+					return false;
+				else if (color[e] == 0) {
+					color[e] = 3 - color[v];
+					q.push(e);
+				}
+			}
+		}
+	}
+	return true;
+}
