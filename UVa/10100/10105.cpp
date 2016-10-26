@@ -4,12 +4,12 @@
 int main() {
 	int n, k, t;
 	while (cin >> n >> k) {
-		int result = 1;
+		ll result = 1;
 		rep(i, 0, k) {
 			cin >> t;
-			result *= binomial<int>(n, t);
+			result *= binomial(n, t);
 			n -= t;
 		}
-		printf("%d\n", result);
+		printf("%lld\n", result);
 	}
 }

@@ -174,9 +174,6 @@
     <Filter Include="UVa\10100\10120">
       <UniqueIdentifier>{ef77f476-1d6e-482e-bdc1-e02eec8b4b5e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="UVa\10100\10130">
-      <UniqueIdentifier>{43040490-2ca6-4bea-9ee9-2cad6cfc9353}</UniqueIdentifier>
-    </Filter>
     <Filter Include="UVa\10100\10140">
       <UniqueIdentifier>{c79e6b02-1ca6-466e-8c22-775ccbfd5676}</UniqueIdentifier>
     </Filter>
@@ -590,6 +587,9 @@
     </Filter>
     <Filter Include="Archive\4700">
       <UniqueIdentifier>{e389fd8f-698c-43ae-98af-0e58d26cf086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\10100\10130">
+      <UniqueIdentifier>{43040490-2ca6-4bea-9ee9-2cad6cfc9353}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

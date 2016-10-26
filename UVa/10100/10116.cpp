@@ -5,9 +5,8 @@ int main() {
 	int r, c, n;
 	while (cin >> r >> c >> n && r > 0) {
 		vs grid(r);
+		read(grid);
 		vvi arr = mi(r, c, 0);
-		rep(i, 0, r)
-			cin >> grid[i];
 
 		int curv = 1, curx = n - 1, cury = 0;
 		bool exit = false;

@@ -3,11 +3,10 @@
 
 int main() {
 	vi arr;
-	int n, t = 0;
-	while (cin >> n) {
+	int n;
+	whileX(cin >> n) {
 		arr.pb(n);
 		sort(all(arr));
-		t++;
-		printf("%d\n", t % 2 == 0 ? (arr[t / 2 - 1] + arr[t / 2]) / 2 : arr[t / 2]);
+		printf("%d\n", X % 2 == 0 ? (arr[X / 2 - 1] + arr[X / 2]) / 2 : arr[X / 2]);
 	}
 }

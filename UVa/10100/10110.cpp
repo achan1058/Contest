@@ -4,7 +4,7 @@
 int main() {
 	ll n;
 	while (cin >> n && n != 0) {
-		ll s = ll(sqrt(n) + eps);
+		ll s = ll(sqrt(n));
 		printf("%s\n", s * s == n ? "yes" : "no");
 	}
 }

@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n, w, p, g, mw;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, w, p, g, mw;
+	forX() {
 		cin >> n;
 		vvi arr = mi(n + 1, 61, 0);
 		rep(i, 0, n) {

@@ -3,9 +3,9 @@
 
 int main() {
 	int n, p, r;
-	vl fact = factTable<ll>(13);
+	vl fact = factTable(13);
 	vvl inc = ml(14, 14, 0);
-	vvl binom = binomialTable<ll>(13);
+	vvl binom = binomialTable(13);
 	inc[0][0] = 1;
 
 	for (int i = 1; i <= 13; i++) {

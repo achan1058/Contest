@@ -10,11 +10,9 @@ int main() {
 	}
 
 	vvi graph(sz(w));
-	rep(i, 0, sz(w)) {
-		rep(j, 0, sz(w)) {
-			if (w[i] < w[j] && s[i] > s[j])
-				graph[i].pb(j);
-		}
+	drep(i, j, sz(w), sz(w)) {
+		if (w[i] < w[j] && s[i] > s[j])
+			graph[i].pb(j);
 	}
 
 	vi result = longestDAG(graph);

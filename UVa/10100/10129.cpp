@@ -2,10 +2,9 @@
 #include "eularian.h"
 
 int main() {
-	int N, n;
+	int n;
 	string s;
-	cin >> N;
-	rep(X, 0, N) {
+	forX() {
 		cin >> n;
 		vvi graph = mi(26, 26, 0);
 		rep(i, 0, n) {

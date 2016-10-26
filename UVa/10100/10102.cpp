@@ -6,16 +6,13 @@ int main() {
 	int n;
 	while (cin >> n) {
 		vs field(n);
+		read(field);
 		vvi dist = mi(n, n, inf);
 		queue<pii> q;
-		irep(s, field)
-			cin >> s;
-		rep(i, 0, n) {
-			rep(j, 0, n) {
-				if (field[i][j] == '3') {
-					dist[i][j] = 0;
-					q.push({ i, j });
-				}
+		drep(i, j, n, n) {
+			if (field[i][j] == '3') {
+				dist[i][j] = 0;
+				q.push({ i, j });
 			}
 		}
 
