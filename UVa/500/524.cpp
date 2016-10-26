@@ -26,14 +26,12 @@ void backtrack() {
 }
 
 int main() {
-	int X = 1;
 	ans.pb(1);
 	used[1] = true;
 	irep(p, primes)
 		isPrime[p] = true;
-	while (cin >> n) {
-		printf("%sCase %d:\n", X > 1 ? "\n" : "", X);
+	whileX(cin >> n) {
+		printX("Case %d:\n", X);
 		backtrack();
-		X++;
 	}
 }

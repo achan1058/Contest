@@ -3,8 +3,7 @@
 
 int main() {
 	string s;
-	int X = 1;
-	while (getline(cin, s) && s != "END") {
+	whileX(getline(cin, s) && s != "END") {
 		double x = 0, y = 0, dx = 0, dy = 0, dist = 0;
 		irep(c, s) {
 			if (c >= '0' && c <= '9') {
@@ -33,6 +32,5 @@ int main() {
 		printf("Map #%d\n", X);
 		printf("The treasure is located at (%.3f,%.3f).\n", x, y);
 		printf("The distance to the treasure is %.3f.\n\n", sqrt(x * x + y * y));
-		X++;
 	}
 }

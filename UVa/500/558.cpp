@@ -2,15 +2,13 @@
 #include "shortest_path.h"
 
 int main() {
-	int N, n, e, e1, e2, v;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, e, e1, e2, v;
+	forX() {
 		cin >> n >> e;
-
-		AdjList<int> edges(n);
+		vvp<int> edges(n);
 		rep(i, 0, e) {
 			cin >> e1 >> e2 >> v;
-			edges.push(e1, e2, v);
+			edges[e1].pb({ e2, v });
 		}
 
 		vi result = bellmanFord(edges, 0).x;

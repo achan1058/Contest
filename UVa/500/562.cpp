@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int n, N, c;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, c;
+	forX() {
 		cin >> n;
 		vb values(51000);
 		int total = 0;

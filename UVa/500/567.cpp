@@ -2,8 +2,7 @@
 #include "shortest_path.h"
 
 int main() {
-	int X = 1;
-	while (true) {
+	whileX(true) {
 		vvi graph = mi(21, 21, inf);
 		int num = 0, t, q, c1, c2;
 		rep(i, 1, 20) {
@@ -23,6 +22,5 @@ int main() {
 			printf("%2d to %2d: %d\n", c1, c2, result[c1][c2]);
 		}
 		printf("\n");
-		X++;
 	}
 }

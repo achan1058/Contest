@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int n, X = 0;
-	while (cin >> n && n != 0) {
-		X++;
+	int n;
+	whileX(cin >> n && n != 0) {
 		printf("Set #%d\n", X);
 
 		vi bricks(n);

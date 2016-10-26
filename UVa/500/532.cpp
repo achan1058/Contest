@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-int x, y, z;
-vector<vvi> board;
 vi dx = { 1, -1, 0, 0, 0, 0 }, dy = { 0, 0, 1, -1, 0, 0 }, dz = { 0, 0, 0, 0, 1, -1 };
-int floodfill(int x0, int y0, int z0) {
+int floodfill(vector<vvi>& board, int x0, int y0, int z0) {
+	int x = sz(board), y = sz(board[0]), z = sz(board[0][0]);
 	queue<tuple<int, int, int>> q;
 	q.push(make_tuple(x0, y0, z0));
 	board[x0][y0][z0] = 0;
@@ -28,29 +27,27 @@ int floodfill(int x0, int y0, int z0) {
 }
 
 int main() {
-	int x0, y0, z0;
+	int x0, y0, z0, x, y, z;
 	char c;
 	while (cin >> x >> y >> z && (x != 0 || y != 0 || z != 0)) {
-		board = vector<vvi>(x, mi(y, z, 0));
-		rep(i, 0, x) {
-			rep(j, 0, y) {
-				rep(k, 0, z) {
-					cin >> c;
-					if (c == 'S') {
-						board[i][j][k] = 1;
-						x0 = i;
-						y0 = j;
-						z0 = k;
-					} else if (c == 'E') {
-						board[i][j][k] = -1;
-					} else if (c == '.') {
-						board[i][j][k] = inf;
-					}
+		vector<vvi> board = vector<vvi>(x, mi(y, z, 0));
+		drep(i, j, x, y) {
+			rep(k, 0, z) {
+				cin >> c;
+				if (c == 'S') {
+					board[i][j][k] = 1;
+					x0 = i;
+					y0 = j;
+					z0 = k;
+				} else if (c == 'E') {
+					board[i][j][k] = -1;
+				} else if (c == '.') {
+					board[i][j][k] = inf;
 				}
 			}
 		}
 
-		int ans = floodfill(x0, y0, z0);
+		int ans = floodfill(board, x0, y0, z0);
 		if (ans == inf)
 			printf("Trapped!\n");
 		else

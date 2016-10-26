@@ -2,9 +2,9 @@
 #include "header.h"
 
 int main() {
-	int n, m, v, X = 1;
+	int n, m, v;
 	string s;
-	while (cin >> n && n != 0) {
+	whileX(cin >> n && n != 0) {
 		map<int, int> mp;
 
 		rep(i, 0, n) {
@@ -43,6 +43,5 @@ int main() {
 			}
 		}
 		printf("\n");
-		X++;
 	}
 }

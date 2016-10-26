@@ -6,9 +6,7 @@ int main() {
 	while (cin >> n && n != 0) {
 		vi r, c;
 		vvi arr = mi(n, n, 0);
-		rep(i, 0, n)
-			rep(j, 0, n)
-				cin >> arr[i][j];
+		read(arr);
 		rep(i, 0, n) {
 			int sum = 0;
 			rep(j, 0, n)

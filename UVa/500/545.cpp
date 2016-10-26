@@ -17,9 +17,8 @@ int main() {
 		}
 	}
 
-	int n0, N;
-	cin >> N;
-	rep(X, 0, N) {
+	int n0;
+	forX() {
 		cin >> n0;
 		int cur_expo = 0, e = 0, n = n0;
 		double cur_num = 1;
