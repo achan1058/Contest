@@ -2,11 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N;
 	string s;
-	cin >> N;
-	getline(cin, s);
-	rep(X, 0, N) {
+	forX() {
 		getline(cin, s);
 		stack<char> st;
 		bool good = true;

@@ -2,13 +2,12 @@
 #include "header.h"
 
 int main() {
-	int n, m, c, X = 1;
-	while (cin >> n >> m >> c && (n | m | c) != 0) {
+	int n, m, c;
+	whileX(cin >> n >> m >> c && (n | m | c) != 0) {
 		int maxv = 0, curv = 0, ci;
 		vi dev(n);
 		vb on(n);
-		rep(i, 0, n)
-			cin >> dev[i];
+		read(dev);
 		rep(i, 0, m) {
 			cin >> ci;
 			ci--;
@@ -27,7 +26,5 @@ int main() {
 			printf("Fuse was blown.\n\n");
 		else
 			printf("Fuse was not blown.\nMaximal power consumption was %d amperes.\n\n", maxv);
-
-		X++;
 	}
 }
