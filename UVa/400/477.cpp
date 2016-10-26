@@ -31,8 +31,7 @@ int main() {
 	}
 
 	Double x, y;
-	int X = 1;
-	while (cin >> x >> y && (x != Double(9999.9) || y != Double(9999.9))) {
+	whileX(cin >> x >> y && (x != Double(9999.9) || y != Double(9999.9))) {
 		point<Double> p(x, y);
 		bool in_figure = false;
 		rep(i, 0, sz(is_circle)) {
@@ -49,7 +48,5 @@ int main() {
 
 		if (!in_figure)
 			printf("Point %d is not contained in any figure\n", X);
-
-		X++;
 	}
 }
