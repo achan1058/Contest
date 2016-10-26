@@ -8,11 +8,8 @@ int main() {
 	weight['O'] = 16.00;
 	weight['N'] = 14.01;
 
-	int n;
 	string s;
-	cin >> n;
-	int count = 0;
-	rep(X, 0, n) {
+	forX() {
 		double total = 0;
 		int count = 0;
 		char cur = ' ';

@@ -2,20 +2,16 @@
 #include "header.h"
 
 int main() {
-	int N, n;
-	cin >> N;
-	rep(X, 0, N) {
+	int n;
+	forX() {
+		int total = 0;
 		cin >> n;
 		vi ppl(n);
-		int total = 0;
-		irep(p, ppl)
-			cin >> p;
-
+		read(ppl);
 		sort(all(ppl));
-		printf("%s", X > 0 ? "\n" : "");
 
 		if (n == 1) {
-			printf("%d\n%d\n", ppl[0], ppl[0]);
+			printX("%d\n%d\n", ppl[0], ppl[0]);
 			continue;
 		}
 
@@ -47,6 +43,6 @@ int main() {
 
 		total += ppl[1];
 		ss << ppl[0] << ' ' << ppl[1] << endl;
-		printf("%d\n%s", total, ss.str().c_str());
+		printX("%d\n%s", total, ss.str().c_str());
 	}
 }

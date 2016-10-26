@@ -21,9 +21,7 @@ int main() {
 	forX() {
 		cin >> n;
 		vd radii(n);
-		for (double& r : radii)
-			cin >> r;
-
+		read(radii);
 		sort(all(radii));
 		double mn = inf;
 		do {

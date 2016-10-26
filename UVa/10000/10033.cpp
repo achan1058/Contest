@@ -3,8 +3,10 @@
 
 int main() {
 	string s;
-	getline(cin, s);
 	forX() {
+		if (X == 1)
+			getline(cin, s);
+
 		int ans = 0, ind = 0;
 		vi reg(10);
 		vs ram(1000, "000");

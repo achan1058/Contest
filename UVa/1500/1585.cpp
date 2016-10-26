@@ -2,10 +2,8 @@
 #include "header.h"
 
 int main() {
-	int T;
-	cin >> T;
 	string s;
-	for (int X = 0; X < T; X++) {
+	forX() {
 		int ans = 0, cnt = 0;
 		cin >> s;
 		for (char c : s) {

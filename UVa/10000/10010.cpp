@@ -5,23 +5,21 @@ vs grid;
 int r, c;
 vi dx = { 1, 0, -1, -1, -1, 0, 1, 1 }, dy = { 1, 1, 1, 0, -1, -1, -1, 0 };
 void find_word(const string& s) {
-	rep(x, 0, r) {
-		rep(y, 0, c) {
-			rep(k, 0, 8) {
-				int nx = x, ny = y;
-				bool found = true;
-				irep(c, s) {
-					if (nx < 0 || nx >= r || ny < 0 || ny >= c || c != grid[nx][ny]) {
-						found = false;
-						break;
-					}
-					nx += dx[k];
-					ny += dy[k];
+	drep(x, y, r, c) {
+		rep(k, 0, sz(dx)) {
+			int nx = x, ny = y;
+			bool found = true;
+			irep(c, s) {
+				if (nx < 0 || nx >= r || ny < 0 || ny >= c || c != grid[nx][ny]) {
+					found = false;
+					break;
 				}
-				if (found) {
-					printf("%d %d\n", x + 1, y + 1);
-					return;
-				}
+				nx += dx[k];
+				ny += dy[k];
+			}
+			if (found) {
+				printf("%d %d\n", x + 1, y + 1);
+				return;
 			}
 		}
 	}

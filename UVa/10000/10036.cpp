@@ -2,9 +2,8 @@
 #include "header.h"
 
 int main() {
-	int N, n, k, t;
-	cin >> N;
-	rep(X, 0, N) {
+	int n, k, t;
+	forX() {
 		cin >> n >> k;
 		vvi arr = mi(2, k, false);
 		arr[0][0] = true;
