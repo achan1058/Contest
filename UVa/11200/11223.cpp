@@ -66,6 +66,8 @@ int main() {
 		getline(cin, s);
 		vs tokens = tokenizer(s, isspace, true);
 		printX("Message #%d\n", X);
+		while (tokens.back() == "")
+			tokens.pop_back();
 		irep(t, tokens) {
 			if (t == "")
 				printf(" ");
