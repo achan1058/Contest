@@ -3971,6 +3971,9 @@
     <ClCompile Include="UVa\11200\11231.cpp">
       <Filter>UVa\11200</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\12000\12086.cpp">
+      <Filter>UVa\12000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -4133,6 +4136,9 @@
       <Filter>DCJ\2016\Headers</Filter>
     </ClInclude>
     <ClInclude Include="Library\floodfill.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\segment_tree.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
