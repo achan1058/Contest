@@ -6,18 +6,6 @@ class SegmentTree {
 	int n;
 	bool issum;
 	vector<T> tree;
-
-	// Target query is [L, R), against a range of [lrange, rrange)
-	T query(int L, int R, int p, int lrange, int rrange) {
-		if (L <= lrange && R >= rrange)
-			return tree[p];
-		int mrange = (lrange + rrange) / 2;
-		if (L >= mrange) return query(L, R, 2 * p + 1, mrange, rrange);
-		else if (R <= mrange) return query(L, R, 2 * p, lrange, mrange);
-		else if (issum) return query(L, R, 2 * p, lrange, mrange) + query(L, R, 2 * p + 1, mrange, rrange);
-		else return min(query(L, R, 2 * p, lrange, mrange), query(L, R, 2 * p + 1, mrange, rrange));
-	}
-
 public:
 	SegmentTree(int t, bool sum = false, T def = inf) : issum(sum) {
 		n = 1;
@@ -37,9 +25,20 @@ public:
 			tree[i] = (issum ? (tree[2 * i] + tree[2 * i + 1]) : min(tree[2 * i], tree[2 * i + 1]));
 	}
 
-	// Target query is [L, R], against a range of [lrange, rrange]
+	// Target query is [L, R]
 	T inline query(int L, int R) {
-		return query(L, R + 1, 1, 0, n);
+		T ans = (issum ? 0 : tree[L + n]);
+		for (L += n, R += n + 1; L < R; L >>= 1, R >>= 1) {
+			if (L & 1) {
+				ans = (issum ? (ans + tree[L]) : min(ans, tree[L]));
+				L++;
+			}
+			if (R & 1) {
+				R--;
+				ans = (issum ? (ans + tree[R]) : min(ans, tree[R]));
+			}
+		}
+		return ans;
 	}
 
 	void inline update(int p, T v) {
