@@ -11,13 +11,13 @@ int main() {
 			cin >> e1 >> e2 >> v;
 			edges.pb({ e1, e2, v });
 		}
-		tuple<int, int, vt<int>> result = kruskal(edges);
+		tuple<int, int, vt<int>> result = kruskal(edges, n);
 		int best = inf;
 		rep(i, 0, sz(get<2>(result))) {
 			rep(j, 0, sz(edges)) {
 				if (get<2>(result)[i] == edges[j]) {
 					get<2>(edges[j]) = inf;
-					best = min(best, get<0>(kruskal(edges)));
+					best = min(best, get<0>(kruskal(edges, n)));
 					edges[sz(edges) - 1] = get<2>(result)[i];
 					break;
 				}

@@ -20,7 +20,7 @@ int main() {
 			edges.pb({ v1 - 1, v2 - 1, 0 });
 		}
 
-		double result = get<0>(kruskal(edges));
+		double result = get<0>(kruskal(edges, n));
 		printf("%.2f\n", result);
 	}
 }

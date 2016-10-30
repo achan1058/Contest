@@ -5,13 +5,13 @@ int main() {
 	int n, m, u, v, c;
 	forX() {
 		cin >> n >> m;
-		vt<int> edges(n);
+		vt<int> edges;
 		rep(i, 0, m) {
 			cin >> u >> v >> c;
 			edges.pb({ u, v, -c });
 		}
 
-		vt<int> tree = get<2>(kruskal(edges));
+		vt<int> tree = get<2>(kruskal(edges, n));
 
 		if (n == 1)
 			printp("0\n");

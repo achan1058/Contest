@@ -2,11 +2,7 @@
 #include "point.h"
 #include "union_find.h"
 
-int kruskal(vt<int>& edges, int min_comps) {
-	int n = 0;
-	irep(e, edges)
-		n = max(n, max(get<0>(e), get<1>(e)) + 1);
-
+int kruskal(vt<int>& edges, int min_comps, int n) {
 	UnionFind un(n);
 	sort(all(edges), [](const tuple<int, int, int>& v1, const tuple<int, int, int>& v2) { return get<2>(v1) < get<2>(v2); });
 	rep(i, 0, sz(edges)) {
@@ -30,6 +26,6 @@ int main() {
 			rep(j, 0, i)
 				edges.pb({ i, j, points[i].dist2(points[j]) });
 		}
-		printf("%.2lf\n", sqrt(kruskal(edges, min_comps)));
+		printf("%.2lf\n", sqrt(kruskal(edges, min_comps, p)));
 	}
 }
