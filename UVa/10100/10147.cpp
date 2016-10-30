@@ -20,7 +20,7 @@ int main() {
 			edges.pb({ v1 - 1, v2 - 1, 0 });
 		}
 
-		auto result = kruskal(edges);
+		auto result = kruskal(edges, n);
 		vt<int> tree = get<2>(result);
 		printX("");
 		if (get<0>(result) == 0)
