@@ -3,11 +3,11 @@
 
 // CHANGES EDGE ORDER! uses edge list, returns forest cost, num components, edges in forest
 template<class T>
-tuple<T, int, vt<T>> kruskal(vt<T>& edges) {
-	int n = 0;
-	irep(e, edges)
-		n = max(n, max(get<0>(e), get<1>(e)) + 1);
-
+tuple<T, int, vt<T>> kruskal(vt<T>& edges, int n = 0) {
+	if (n == 0) {
+		irep(e, edges)
+			n = max(n, max(get<0>(e), get<1>(e)) + 1);
+	}
 	UnionFind un(n);
 	T result = 0;
 	vt<T> tree;
