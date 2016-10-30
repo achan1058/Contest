@@ -5,7 +5,7 @@ int main() {
 	int n, e, v1, v2, c;
 	while (cin >> n >> e && (n | e) != 0) {
 		set<long long> edges;
-		vt<ll> graph(n);
+		vt<ll> graph;
 
 		for (int i = 0; i < e; i++) {
 			cin >> v1 >> v2 >> c;
@@ -13,7 +13,7 @@ int main() {
 			edges.insert(c);
 		}
 
-		vt<ll> result = get<2>(kruskal(graph));
+		vt<ll> result = get<2>(kruskal(graph, n));
 		for (int i = 0; i < sz(result); i++)
 			edges.erase(get<2>(result[i]));
 		if (edges.empty())
