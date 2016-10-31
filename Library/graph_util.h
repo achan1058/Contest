@@ -38,3 +38,29 @@ bool isBipartite(const vvi& graph) {
 	}
 	return true;
 }
+
+vvi getComponents(const vvi& graph) {
+	int n = sz(graph);
+	vb used(n);
+	vvi comps;
+	rep(i, 0, n) {
+		if (used[i])
+			continue;
+		queue<int> q;
+		q.push(i);
+		comps.pb({ i });
+		used[i] = true;
+		while (!q.empty()) {
+			int v = q.front();
+			q.pop();
+			irep(e, graph[v]) {
+				if (!used[e]) {
+					used[e] = true;
+					q.push(e);
+					comps.back().pb(e);
+				}
+			}
+		}
+	}
+	return comps;
+}
