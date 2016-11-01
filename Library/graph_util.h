@@ -39,6 +39,7 @@ bool isBipartite(const vvi& graph) {
 	return true;
 }
 
+// delete me?
 vvi getComponents(const vvi& graph) {
 	int n = sz(graph);
 	vb used(n);
