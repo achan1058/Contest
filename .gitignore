@@ -1,7 +1,3 @@
-# Ignore Project Euler files since they don't like solutions being posted.
-
-Euler/
-
 # Ignore old library files from other people
 
 Library/old
