@@ -12,6 +12,7 @@
 
 # Ignore Git files for Contest-Library
 /Library/.gitignore
+/Library/LICENSE
 
 # Ignore DCJ files except my solutions and files I have changed.
 /DCJ/*
