@@ -54,7 +54,7 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Aaron\Dropbox\Contest\DCJ\2016;C:\Users\Aaron\Dropbox\Contest\DCJ\2015;C:\Users\Aaron\Dropbox\Contest\DCJ\includes;C:\Users\Aaron\Dropbox\Contest\Library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)DCJ\2016;$(SolutionDir)DCJ\2015;$(SolutionDir)DCJ\includes;$(SolutionDir)Library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>bits/stdc++.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
@@ -78,7 +78,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <PrecompiledHeaderFile>bits/stdc++.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>C:\Users\Aaron\Dropbox\Contest\DCJ\2016;C:\Users\Aaron\Dropbox\Contest\DCJ\2015;C:\Users\Aaron\Dropbox\Contest\DCJ\includes;C:\Users\Aaron\Dropbox\Contest\Library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)DCJ\2016;$(SolutionDir)DCJ\2015;$(SolutionDir)DCJ\includes;$(SolutionDir)Library;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
