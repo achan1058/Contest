@@ -88,6 +88,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Dropbox\Contest\source.cpp" />
     <ClCompile Include="Archive\3200\3214.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -4687,6 +4688,8 @@
     <ClInclude Include="Library\util.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="..\Dropbox\Contest\input.txt" />
+    <Text Include="..\Dropbox\Contest\output.txt" />
     <Text Include="Euler\input\102.txt" />
     <Text Include="Euler\input\107.txt" />
     <Text Include="Euler\input\11.txt" />
@@ -4705,6 +4708,7 @@
     <Text Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
     <None Include="Euler\1\13.py" />
     <None Include="Euler\1\16.py" />
     <None Include="Euler\1\20.py" />
@@ -4715,7 +4719,9 @@
     <None Include="Euler\50\56.py" />
     <None Include="Euler\50\57.py" />
     <None Include="Euler\75\97.py" />
+    <None Include="Greed-2.0-RC-7.1.0.jar" />
     <None Include="SPOJ\1\24.py" />
+    <None Include="TopCoder.jnlp" />
     <None Include="TopCoder\greed.conf" />
     <None Include="UVa\10000\10007.py">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>

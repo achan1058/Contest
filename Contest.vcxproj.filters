@@ -3998,6 +3998,7 @@
     <ClCompile Include="UVa\10500\10566.cpp">
       <Filter>UVa\10500</Filter>
     </ClCompile>
+    <ClCompile Include="..\Dropbox\Contest\source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -4215,6 +4216,8 @@
     <Text Include="Euler\input\345.txt">
       <Filter>Euler\input</Filter>
     </Text>
+    <Text Include="..\Dropbox\Contest\input.txt" />
+    <Text Include="..\Dropbox\Contest\output.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="UVa\10800\10814.py">
@@ -4328,5 +4331,8 @@
     <None Include="Euler\75\97.py">
       <Filter>Euler\75</Filter>
     </None>
+    <None Include="TopCoder.jnlp" />
+    <None Include="Greed-2.0-RC-7.1.0.jar" />
+    <None Include=".gitignore" />
   </ItemGroup>
 </Project>
