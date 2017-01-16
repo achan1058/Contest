@@ -7,8 +7,8 @@
 /input.txt
 
 # Ignore TopCoder client
-/Greed-2.0-RC-7.1.0.jar
-/TopCoder.jnlp
+TopCoder/Greed-2.0-RC-7.1.0.jar
+TopCoder/TopCoder.jnlp
 
 # Ignore Git files for Contest-Library
 /Library/.gitignore
