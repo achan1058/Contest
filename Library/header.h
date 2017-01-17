@@ -48,4 +48,4 @@ ll mod = 1000000007ll;
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X), printf(__VA_ARGS__)
 #define printp(...) printf("Case #%d: ", X), printf(__VA_ARGS__)
-struct FastIO { FastIO() { cin.sync_with_stdio(0); } }; FastIO fio;
+struct FastIO { FastIO() { cin.sync_with_stdio(0); cin.tie(0); } }; FastIO fio;

@@ -97,9 +97,9 @@ __gcd(_EuclideanRingElement __m, _EuclideanRingElement __n) {
 	return __m;
 }
 
-template <typename T> inline void debug(T t) { std::cout << t << std::endl; }
-template <typename T, typename... A> inline void debug(T t, A... a) { std::cout << t << " "; debug(a...); }
-template <typename T> inline void debugv(T a) { for (auto& k : (a)) std::cout << k << ' '; std::cout << std::endl; }
-template <typename T> inline void debugvp(T a) { for (auto& k : (a)) std::cout << k.first << ',' << k.second << ' '; std::cout << std::endl; }
+template <typename T> inline void debug(T t) { std::cin.sync_with_stdio(1); std::cout << t << std::endl; }
+template <typename T, typename... A> inline void debug(T t, A... a) { std::cin.sync_with_stdio(1); std::cout << t << " "; debug(a...); }
+template <typename T> inline void debugv(T a) { std::cin.sync_with_stdio(1); for (auto& k : (a)) std::cout << k << ' '; std::cout << std::endl; }
+template <typename T> inline void debugvp(T a) { std::cin.sync_with_stdio(1); for (auto& k : (a)) std::cout << k.first << ',' << k.second << ' '; std::cout << std::endl; }
 template <typename T> inline void debugvv(T a) { for (auto& k : (a)) debugv(k); std::cout << std::endl; }
-inline void debugvs(std::vector<std::string> a) { for (auto& k : (a)) std::cout << k << std::endl; std::cout << std::endl; }
+inline void debugvs(std::vector<std::string> a) { std::cin.sync_with_stdio(1); for (auto& k : (a)) std::cout << k << std::endl; std::cout << std::endl; }
