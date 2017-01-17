@@ -18,7 +18,7 @@ bool dist1(const string& s1, const string& s2) {
 int main() {
 	string s, s1, s2;
 	forX() {
-		eatX();
+		lineX();
 		vs strs;
 		while (cin >> s && s != "*")
 			strs.pb(s);

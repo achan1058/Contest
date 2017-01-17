@@ -5,7 +5,7 @@ int main() {
 	string s;
 	forX() {
 		vector<pii> points;
-		eatX();
+		lineX();
 		while (getline(cin, s) && s != "") {
 			int x0, y0;
 			stringstream ss(s);

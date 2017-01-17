@@ -5,7 +5,7 @@ int main() {
 	forX() {
 		vs board(30);
 		int ans = 0, r = 0;
-		eatX();
+		lineX();
 		while (getline(cin, board[r]) && board[r] != "")
 			r++;
 

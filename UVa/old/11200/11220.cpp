@@ -4,7 +4,7 @@
 int main() {
 	string s;
 	forX() {
-		eatX();
+		lineX();
 		printX("");
 		printpn();
 		while (getline(cin, s) && s != "") {

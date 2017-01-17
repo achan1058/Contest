@@ -43,11 +43,9 @@ ll mod = 1000000007ll;
 #define bits(n) int(__builtin_popcount(n))
 #define gcd(a, b) abs(__gcd(a, b))
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
-#define eatX() string XE; if (X == 1) getline(cin, XE)
+#define lineX() string XE; if (X == 1) getline(cin, XE)
 #define whileX(a) int X = 0; while(X++, (a))
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X), printf(__VA_ARGS__)
 #define printp(...) printf("Case #%d: ", X), printf(__VA_ARGS__)
-#define printcn() printf("Case %d:\n", X)
-#define printpn() printf("Case #%d:\n", X)
 struct FastIO { FastIO() { cin.sync_with_stdio(0); } }; FastIO fio;

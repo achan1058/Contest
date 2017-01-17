@@ -4,7 +4,7 @@
 int main() {
 	string s;
 	forX() {
-		eatX();
+		lineX();
 		int ans = 0, ind = 0;
 		vi reg(10);
 		vs ram(1000, "000");

@@ -5,7 +5,7 @@ int main() {
 	string s;
 	forX() {
 		vs mat;
-		eatX();
+		lineX();
 		while (getline(cin, s) && s != "")
 			mat.pb(s);
 
