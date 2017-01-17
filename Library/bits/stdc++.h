@@ -25,6 +25,7 @@
 #include <cstdbool>
 #include <cstdint>
 #include <ctgmath>
+#include <cuchar>
 #include <cwchar>
 #include <cwctype>
 
@@ -65,6 +66,7 @@
 #include <array>
 #include <atomic>
 #include <chrono>
+#include <codecvt>
 #include <condition_variable>
 #include <forward_list>
 #include <future>
