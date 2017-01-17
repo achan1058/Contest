@@ -172,7 +172,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="TopCoder\SRM 700-724\SRM 705\SuperUserDo.cpp" />
+    <ClCompile Include="TopCoder\SRM 700-724\SRM 705\SuperUserDo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10055.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DCJ\2015\almost_sorted_1.h" />

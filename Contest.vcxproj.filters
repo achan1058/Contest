@@ -66,6 +66,15 @@
     <Filter Include="DCJ\2016\Headers">
       <UniqueIdentifier>{12d025fa-5f99-4bba-82c2-06aa1f136ac8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\700">
+      <UniqueIdentifier>{517b98cd-19d4-486e-8713-640291f36209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\700\SRM 705">
+      <UniqueIdentifier>{c18744b7-39a5-4406-8435-fd1a2c6c4bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\10000">
+      <UniqueIdentifier>{c0fa3d7f-b86e-4745-8fdd-4b1a7c3d9cc3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -132,7 +141,10 @@
       <Filter>DCJ\2015</Filter>
     </ClCompile>
     <ClCompile Include="TopCoder\SRM 700-724\SRM 705\SuperUserDo.cpp">
-      <Filter>TopCoder</Filter>
+      <Filter>TopCoder\700\SRM 705</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10055.cpp">
+      <Filter>UVa\10000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
