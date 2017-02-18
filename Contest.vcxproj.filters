@@ -105,6 +105,12 @@
     <Filter Include="UVa\100">
       <UniqueIdentifier>{03881419-6773-49f6-b303-2542a544a737}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\1-25">
+      <UniqueIdentifier>{b6424905-b886-40b6-9867-bae016299616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\151-175">
+      <UniqueIdentifier>{b9266a78-fad2-4448-ae44-c730dfaa007a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -229,6 +235,15 @@
     </ClCompile>
     <ClCompile Include="UVa\100\108.cpp">
       <Filter>UVa\100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\100\147.cpp">
+      <Filter>UVa\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\1-25\4A.cpp">
+      <Filter>Codeforces\1-25</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\151-175\158B.cpp">
+      <Filter>Codeforces\151-175</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
