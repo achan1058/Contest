@@ -1,15 +1,16 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 // returns LCS that has lexicographically minimal index w.r.t. s1
 inline string lcsHelper(const string& s, int len) { return string(len, 0); }
 template<class T> inline vector<T> lcsHelper(const vector<T>&, int len) { return vector<T>(len); }
 template<class T>
 T lcs(const T& s1, const T& s2) {
-	int n = sz(s1), m = sz(s2);
-	vvi table = mi(n + 1, m + 1, 0);
-	rep(i, 0, n) {
-		rep(j, 0, m) {
+	int n = s1.size(), m = s2.size();
+	vector<vector<int>> table = vector<vector<int>>(n + 1, vector<int>(m + 1, 0));
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < m; j++) {
 			if (s1[i] == s2[j])
 				table[i + 1][j + 1] = table[i][j] + 1;
 			else if (table[i + 1][j] > table[i][j + 1])
@@ -36,6 +37,7 @@ T lcs(const T& s1, const T& s2) {
 	return s;
 }
 
+/*
 // returns the lexicographically minimal LIS
 template<class T>
 T lis(const T& s, bool nondecrease = false) {
@@ -127,3 +129,4 @@ tuple<T, int, int> largestRectangle(vector<T>& s) {
 	s.pop_back();
 	return make_tuple(best, left, right);
 }
+*/
