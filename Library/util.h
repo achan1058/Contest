@@ -1,5 +1,6 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 // returns sign of value
 template <class T> int sgn(T val) {
@@ -33,13 +34,13 @@ map<T, int> tally(const vector<T>& arr) {
 }
 
 // test include_empty = true
-vs tokenizer(const string& s, int(tokenFunc)(int) = isspace, bool include_empty = false) {
-	vs result;
+vector<string> tokenizer(const string& s, int(tokenFunc)(int) = isspace, bool include_empty = false) {
+	vector<string> result;
 	int front = 0;
-	rep(i, 0, sz(s) + 1) {
-		if (i == sz(s) || tokenFunc(s[i])) {
+	for (int i = 0; i <= int(s.size()); i++) {
+		if (i == s.size() || tokenFunc(s[i])) {
 			if (include_empty || i != front)
-				result.pb(s.substr(front, i - front));
+				result.push_back(s.substr(front, i - front));
 			front = i + 1;
 		}
 	}
