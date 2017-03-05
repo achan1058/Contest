@@ -4,7 +4,6 @@
 
 int main() {
 	string s;
-	while (getline(cin, s)) {
-		printf("%d\n", tokenizer(s, isalpha).size());
-	}
+	while (getline(cin, s))
+		printf("%d\n", sz(tokenizer(s, [](int c) {return isalpha(c) ? 0 : 1; })));
 }
