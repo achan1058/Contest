@@ -1,6 +1,6 @@
 #pragma once
-#include "util.h"
-#include "number_theory.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 template <class T>
 bool isPrime(T n) {
@@ -14,6 +14,7 @@ bool isPrime(T n) {
 	return true;
 }
 
+/*
 template <class T>
 vector<T> factor(T n) {
 	vector<T> result;
@@ -171,3 +172,4 @@ bool millerRabin(ll n) {
 	}
 	return true;
 }
+*/
