@@ -114,6 +114,9 @@
     <Filter Include="UVa\10900">
       <UniqueIdentifier>{aa5379f7-3013-4375-9a87-667c54448820}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVa\10700">
+      <UniqueIdentifier>{4695ad81-3484-4b46-9ad9-7a88e2175998}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -265,6 +268,30 @@
     </ClCompile>
     <ClCompile Include="UVa\10900\10922.cpp">
       <Filter>UVa\10900</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10900\10925.cpp">
+      <Filter>UVa\10900</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10066.cpp">
+      <Filter>UVa\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10013.cpp">
+      <Filter>UVa\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10081.cpp">
+      <Filter>UVa\10000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\12600\12646.cpp">
+      <Filter>UVa\12600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\12600\12696.cpp">
+      <Filter>UVa\12600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\12600\12614.cpp">
+      <Filter>UVa\12600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10700\10721.cpp">
+      <Filter>UVa\10700</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -493,6 +520,9 @@
     </None>
     <None Include=".gitignore">
       <Filter>Current Files</Filter>
+    </None>
+    <None Include="UVa\10900\10925.py">
+      <Filter>UVa\10900</Filter>
     </None>
   </ItemGroup>
 </Project>
