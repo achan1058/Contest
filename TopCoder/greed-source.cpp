@@ -42,9 +42,9 @@ ll mod = 1000000007ll;
 
 class ${ClassName} {
 public:
-    ${Method.ReturnType} ${Method.Name}(${Method.Params}) {
-        return ${Method.ReturnType;zeroval};
-    }
+	${Method.ReturnType} ${Method.Name}(${Method.Params}) {
+		return ${Method.ReturnType;zeroval};
+	}
 };
 
 ${CutBegin}

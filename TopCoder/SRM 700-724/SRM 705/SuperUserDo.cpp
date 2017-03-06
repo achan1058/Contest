@@ -3,7 +3,7 @@
 
 class SuperUserDo {
 public:
-    int install(vector<int> A, vector<int> B) {
+	int install(vector<int> A, vector<int> B) {
 		int ans = 0;
 		vb need(1000);
 		rep(i, 0, sz(A)) {
@@ -13,6 +13,6 @@ public:
 		rep(j, 0, 1000)
 			if (need[j])
 				ans++;
-        return ans;
-    }
+		return ans;
+	}
 };
