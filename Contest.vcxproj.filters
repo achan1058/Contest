@@ -27,9 +27,6 @@
     <Filter Include="SPOJ">
       <UniqueIdentifier>{11e1fd3b-9d98-4e09-aebb-32a1783be53a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="SPOJ\1">
-      <UniqueIdentifier>{84c8a3da-9841-49ce-a15f-98d9631e30ce}</UniqueIdentifier>
-    </Filter>
     <Filter Include="SPOJ\1100">
       <UniqueIdentifier>{8465f33e-caf7-4199-a486-7663cd815d5b}</UniqueIdentifier>
     </Filter>
@@ -116,6 +113,42 @@
     </Filter>
     <Filter Include="UVa\10700">
       <UniqueIdentifier>{4695ad81-3484-4b46-9ad9-7a88e2175998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400">
+      <UniqueIdentifier>{868f6d37-2c8d-4831-a895-4980995fcb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\490">
+      <UniqueIdentifier>{8bd5c2dd-7979-4f0c-9599-80593b5dea13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\450">
+      <UniqueIdentifier>{d610df70-e872-4617-8dbf-21eb7ccf442c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\480">
+      <UniqueIdentifier>{1ad69d74-8d71-48c8-be21-ce51ae17757d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\400">
+      <UniqueIdentifier>{4cfe53e8-8450-43b9-91c6-ba27bb8c7186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\420">
+      <UniqueIdentifier>{52c93c69-52d4-4520-a224-abf5dfb959e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\700\SRM 709">
+      <UniqueIdentifier>{37e93a44-af6e-472f-891a-0c3ee17aa370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\700\SRM 708">
+      <UniqueIdentifier>{dbcfde7c-a1ae-4670-8ca4-a67caf376f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SPOJ\1">
+      <UniqueIdentifier>{84c8a3da-9841-49ce-a15f-98d9631e30ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\410">
+      <UniqueIdentifier>{b5dd8457-dadf-4115-a05e-68e4b9fa6a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\13000">
+      <UniqueIdentifier>{f1a73ce3-1721-4023-a182-587785929c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\13100">
+      <UniqueIdentifier>{afef5bd2-1791-4ee1-8e80-6ee1a4b0074f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -292,6 +325,78 @@
     </ClCompile>
     <ClCompile Include="UVa\10700\10721.cpp">
       <Filter>UVa\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10700\10714.cpp">
+      <Filter>UVa\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10700\10783.cpp">
+      <Filter>UVa\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10700\10789.cpp">
+      <Filter>UVa\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10700\10784.cpp">
+      <Filter>UVa\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10700\10763.cpp">
+      <Filter>UVa\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10700\10703.cpp">
+      <Filter>UVa\10700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\400\494.cpp">
+      <Filter>UVa\400\490</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\400\458.cpp">
+      <Filter>UVa\400\450</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\400\488.cpp">
+      <Filter>UVa\400\480</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\400\401.cpp">
+      <Filter>UVa\400\400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\400\424.cpp">
+      <Filter>UVa\400\420</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\400\499.cpp">
+      <Filter>UVa\400\420</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 700-724\SRM 709\Robofactory.cpp">
+      <Filter>TopCoder\700\SRM 709</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 700-724\SRM 708\SafeBetting.cpp">
+      <Filter>TopCoder\700\SRM 708</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 700-724\SRM 708\BuildingStrings.cpp">
+      <Filter>TopCoder\700\SRM 708</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\400\414.cpp">
+      <Filter>UVa\400\410</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13000\13012.cpp">
+      <Filter>UVa\13000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13000\13025.cpp">
+      <Filter>UVa\13000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13000\13034.cpp">
+      <Filter>UVa\13000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13000\13026.cpp">
+      <Filter>UVa\13000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13000\13055.cpp">
+      <Filter>UVa\13000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13100\13109.cpp">
+      <Filter>UVa\13100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13100\13130.cpp">
+      <Filter>UVa\13100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13100\13148.cpp">
+      <Filter>UVa\13100</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -523,6 +628,9 @@
     </None>
     <None Include="UVa\10900\10925.py">
       <Filter>UVa\10900</Filter>
+    </None>
+    <None Include="UVa\400\424.py">
+      <Filter>UVa\400\420</Filter>
     </None>
   </ItemGroup>
 </Project>
