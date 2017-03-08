@@ -1,6 +1,5 @@
 #pragma once
-#include <bits/stdc++.h>
-using namespace std;
+#include "util.h"
 
 template <class T>
 bool isPrime(T n) {
@@ -14,7 +13,6 @@ bool isPrime(T n) {
 	return true;
 }
 
-/*
 template <class T>
 vector<T> factor(T n) {
 	vector<T> result;
@@ -45,6 +43,7 @@ vector<T> factor(T n) {
 	return result;
 }
 
+/*
 vb sieveVector(int n) {
 	n = (n - 1) / 2;
 	vb arr(n + 1, true);
@@ -107,7 +106,7 @@ vector<T> fastFactor(T n, const vi& primes) {
 		result.pb(T(n));
 	return result;
 }
-
+*/
 template <class T>
 T numFactors(const vector<T>& primes) {
 	T result = 1;
@@ -143,7 +142,7 @@ T eulerPhi(const vector<T>& primes) {
 	}
 	return result;
 }
-
+/*
 bool millerRabin(ll n) {
 	vl a = { 2, 325, 9375, 28178, 450775, 9780504, 1795265022 };
 	if (n == 2)
