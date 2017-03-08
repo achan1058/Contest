@@ -17,29 +17,29 @@ template <class T>
 vector<T> factor(T n) {
 	vector<T> result;
 	if (n < 0) {
-		result.pb(-1);
+		result.push_back(-1);
 		n *= -1;
 	}
 	while (n % 2 == 0) {
-		result.pb(2);
+		result.push_back(2);
 		n /= 2;
 	}
 	while (n % 3 == 0) {
-		result.pb(3);
+		result.push_back(3);
 		n /= 3;
 	}
 	for (T p = 5; p * p <= n; p += 6) {
 		while (n % p == 0) {
-			result.pb(p);
+			result.push_back(p);
 			n /= p;
 		}
 		while (n % (p + 2) == 0) {
-			result.pb(p + 2);
+			result.push_back(p + 2);
 			n /= p + 2;
 		}
 	}
 	if (n > 1)
-		result.pb(n);
+		result.push_back(n);
 	return result;
 }
 
@@ -106,7 +106,7 @@ vector<T> fastFactor(T n, const vi& primes) {
 		result.pb(T(n));
 	return result;
 }
-*/
+
 template <class T>
 T numFactors(const vector<T>& primes) {
 	T result = 1;
@@ -115,22 +115,22 @@ T numFactors(const vector<T>& primes) {
 		result *= p.y + 1;
 	return result;
 }
-
+*/
 template <class T>
 T sumFactors(const vector<T>& primes) {
 	T result = 1;
 	map<T, int> primepower = tally(primes);
-	irep(p, primepower) {
+	for(auto& p : primepower) {
 		T v(1);
-		rep(i, 0, p.y) {
-			v *= p.x;
+		for (int i = 0; i < p.second; i++) {
+			v *= p.first;
 			v++;
 		}
 		result *= v;
 	}
 	return result;
 }
-
+/*
 template <class T>
 T eulerPhi(const vector<T>& primes) {
 	T result = 1;
@@ -142,7 +142,7 @@ T eulerPhi(const vector<T>& primes) {
 	}
 	return result;
 }
-/*
+
 bool millerRabin(ll n) {
 	vl a = { 2, 325, 9375, 28178, 450775, 9780504, 1795265022 };
 	if (n == 2)

@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-#include "header.h"
 #include "primes.h"
+#include "header.h"
 
 int main() {
 	forX() {

@@ -28,7 +28,7 @@ public:
 template<class T>
 map<T, int> tally(const vector<T>& arr) {
 	map<T, int> result;
-	irep(v, arr)
+	for (auto& v : arr)
 		result[v]++;
 	return result;
 }
