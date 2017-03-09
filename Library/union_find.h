@@ -1,13 +1,14 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 class UnionFind {
 	//if p >= 0, then it points to parent, if < 0, it is number of children
-	mutable vi p;
+	mutable vector<int> p;
 public:
-	UnionFind(int n = 0) : p(vi(n, -1)) {}
+	UnionFind(int n = 0) : p(vector<int>(n, -1)) {}
 	int find(int n) const {
-		if (n >= sz(p)) p.resize(n + 1, -1);
+		if (n >= int(p.size())) p.resize(n + 1, -1);
 		if (p[n] < 0) return n;
 		p[n] = find(p[n]);
 		return p[n];
@@ -26,26 +27,26 @@ public:
 		}
 		return true;
 	}
-	vvi getComponents() const {
-		vvi comps;
+	vector<vector<int>> getComponents() const {
+		vector<vector<int>> comps;
 		unordered_map<int, int> pos;
-		rep(i, 0, sz(p)) {
+		for (int i = 0; i < int(p.size()); i++) {
 			int head = find(i);
 			auto it = pos.find(head);
 			if (it == pos.end()) {
-				pos[head] = sz(comps);
-				comps.pb(vi(1, i));
+				pos[head] = comps.size();
+				comps.push_back(vector<int>(1, i));
 			} else {
-				comps[it->y].pb(i);
+				comps[it->second].push_back(i);
 			}
 		}
 		return comps;
 	}
-	vi getComponentSizes() const {
-		vi sizes;
-		irep(v, p) {
+	vector<int> getComponentSizes() const {
+		vector<int> sizes;
+		for (auto& v : p) {
 			if (v < 0)
-				sizes.pb(-v);
+				sizes.push_back(-v);
 		}
 		return sizes;
 	}

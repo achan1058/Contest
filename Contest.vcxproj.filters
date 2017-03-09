@@ -398,6 +398,18 @@
     <ClCompile Include="UVa\13100\13148.cpp">
       <Filter>UVa\13100</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\13100\13131.cpp">
+      <Filter>UVa\13100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13100\13107.cpp">
+      <Filter>UVa\13100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13100\13115.cpp">
+      <Filter>UVa\13100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10034.cpp">
+      <Filter>UVa\10000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -564,6 +576,9 @@
     </ClInclude>
     <ClInclude Include="Library\segment_tree.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\graph.h">
+      <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
