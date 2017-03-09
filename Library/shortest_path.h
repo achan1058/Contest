@@ -1,52 +1,59 @@
 #pragma once
-#include "header.h"
+#include "graph.h"
 
-// uses adjacency matrix, returns dist matrix and previous node matrix
+// returns dist matrix and previous node matrix
 template<class T>
-pair<vector<vector<T>>, vvi> floydWarshall(const vector<vector<T>>& graph, T non_edge = inf, bool minweight = false) {
-	int n = sz(graph);
+pair<vector<vector<T>>, vector<vector<int>>> floydWarshall(const vector<vector<T>>& graph, bool minweight = false, T non_edge = inf) {
+	int n = graph.size();
 	vector<vector<T>> mat = graph;
-	vvi prev = mi(n, n, -1);
-	drep(i, j, n, n)
-		if (mat[i][j] != non_edge)
-			prev[i][j] = i;
-	rep(k, 0, n)
-		drep(i, j, n, n)
-		if (minweight) {
-			if (max(mat[i][k], mat[k][j]) < mat[i][j]) {
-				mat[i][j] = max(mat[i][k], mat[k][j]);
-				prev[i][j] = prev[k][j];
-			}
-		} else {
-			if (mat[i][k] + mat[k][j] < mat[i][j]) {
-				mat[i][j] = mat[i][k] + mat[k][j];
-				prev[i][j] = prev[k][j];
+	vector<vector<int>> prev = vector<vector<int>>(n, vector<int>(n, -1));
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			if (mat[i][j] != non_edge)
+				prev[i][j] = i;
+		}
+	}
+	for (int k = 0; k < n; k++) {
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				if (minweight) {
+					if (max(mat[i][k], mat[k][j]) < mat[i][j]) {
+						mat[i][j] = max(mat[i][k], mat[k][j]);
+						prev[i][j] = prev[k][j];
+					}
+				} else {
+					if (mat[i][k] + mat[k][j] < mat[i][j]) {
+						mat[i][j] = mat[i][k] + mat[k][j];
+						prev[i][j] = prev[k][j];
+					}
+				}
 			}
 		}
+	}
 	return make_pair(mat, prev);
 }
 
-// uses adjacency list, returns dist list and previous node vector
+// returns dist list and previous node vector
 template<class T>
-pair<vector<T>, vi> dijkstra(const vvp<T>& graph, int start, T non_edge = inf) {
-	int n = sz(graph);
+pair<vector<T>, vector<int>> dijkstra(const AdjList<T>& graph, int start, T non_edge = inf) {
+	int n = graph.size();
 	vector<T> dist(n, non_edge);
-	vi prev(n, -1);
+	vector<int> prev(n, -1);
 	priority_queue<pair<T, int>, vector<pair<T, int>>, greater<pair<T, int>>> q;
 	q.push({ 0, start });
 
 	while (!q.empty()) {
-		T d = q.top().x;
-		int v1 = q.top().y;
+		T d = q.top().first;
+		int v1 = q.top().second;
 		q.pop();
 
 		if (dist[v1] < d)
 			continue;
 		irep(e, graph[v1]) {
-			if (d + e.y < dist[e.x]) {
-				dist[e.x] = d + e.y;
-				prev[e.x] = v1;
-				q.push({ dist[e.x], e.x });
+			if (d + e.second < dist[e.first]) {
+				dist[e.first] = d + e.second;
+				prev[e.first] = v1;
+				q.push({ dist[e.first], e.first });
 			}
 		}
 	}
@@ -54,34 +61,34 @@ pair<vector<T>, vi> dijkstra(const vvp<T>& graph, int start, T non_edge = inf) {
 	return{ dist, prev };
 }
 
-// uses adjacency list, returns dist list and previous node vector
+// returns dist list and previous node vector, returns -inf for nodes in cycle
 template<class T>
-pair<vector<T>, vi> bellmanFord(const vvp<T>& graph, int start, T non_edge = inf) {
-	int n = sz(graph);
+pair<vector<T>, vector<int>> bellmanFord(const AdjList<T>& graph, int start, T non_edge = inf) {
+	int n = graph.size();
 	vector<T> dist(n, non_edge);
-	vi prev(n, -1);
+	vector<int> prev(n, -1);
 	queue<int> q;
 	dist[start] = 0;
 
-	rep(i, 0, n)
-		q.push(i);
-	rep(i, 1, n) {
-		rep(v, 0, n) {
-			irep(e, graph[v]) {
-				if (dist[v] + e.y < dist[e.x]) {
-					dist[e.x] = dist[v] + e.y;
-					prev[e.x] = v;
+	for (int i = 1; i < n; i++) {
+		for (int v = 0; v < n; v++) {
+			for (auto& e : graph[v]) {
+				if (dist[v] + e.second < dist[e.first]) {
+					dist[e.first] = dist[v] + e.second;
+					prev[e.first] = v;
 				}
 			}
 		}
 	}
+	for (int i = 0; i < n; i++)
+		q.push(i);
 	while (!q.empty()) {
 		int v = q.front();
 		q.pop();
 		irep(e, graph[v]) {
-			if (dist[v] + e.y < dist[e.x] && dist[e.x] != -non_edge) {
-				dist[e.x] = -non_edge;
-				prev[e.x] = v;
+			if (dist[v] + e.second < dist[e.first] && dist[e.first] != -non_edge) {
+				dist[e.first] = -non_edge;
+				prev[e.first] = v;
 				q.push(v);
 			}
 		}
@@ -91,21 +98,21 @@ pair<vector<T>, vi> bellmanFord(const vvp<T>& graph, int start, T non_edge = inf
 }
 
 // constructs path from previous node vector
-vi getPath(const vi& prev, int s, int t) {
-	int n = sz(prev);
-	vi result;
-	vb visited(n);
+vector<int> getPath(const vector<int>& prev, int s, int t) {
+	int n = prev.size();
+	vector<int> result;
+	vector<bool> visited(n);
 
 	while (t != s) {
 		if (t == -1 || visited[t])
-			return vi();
+			return vector<int>();
 
-		result.pb(t);
+		result.push_back(t);
 		visited[t] = true;
 		t = prev[t];
 	}
 
-	result.pb(s);
-	reverse(all(result));
+	result.push_back(s);
+	reverse(result.begin(), result.end());
 	return result;
 }
