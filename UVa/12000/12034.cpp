@@ -15,6 +15,5 @@ int main() {
 		int n;
 		cin >> n;
 		printc("%d\n", ways[n][0]);
-
 	}
 }
