@@ -1,21 +1,22 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 // uses adjacency matrix, returns flow value, flow, cut
 template<class T>
-tuple<T, vector<vector<T>>, vb> pushRelabel(const vector<vector<T>>& graph, int source, int target) {
-	int n = sz(graph);
+tuple<T, vector<vector<T>>, vector<bool>> pushRelabel(const vector<vector<T>>& graph, int source, int target) {
+	int n = graph.size();
 	vector<vector<T>> flow(n, vector<T>(n, 0));
 	vector<T> excess(n);
-	vi height(n), height_count(2 * n);
-	vb cut(n);
+	vector<int> height(n), height_count(2 * n);
+	vector<bool> cut(n);
 	queue<int> q;
 
 	height[source] = n;
 	height_count[0] = n - 1;
 	height_count[n] = 1;
 
-	rep(i, 0, n) {
+	for (int i = 0; i < n; i++) {
 		flow[source][i] = graph[source][i];
 		flow[i][source] = -graph[source][i];
 		excess[i] += graph[source][i];
@@ -48,7 +49,7 @@ tuple<T, vector<vector<T>>, vb> pushRelabel(const vector<vector<T>>& graph, int 
 		if (excess[u] > 0) {
 			int old_height = height[u];
 			if (height_count[old_height] == 1 && old_height < n) {
-				rep(i, 0, n) {
+				for (int i = 0; i < n; i++) {
 					if (height[i] >= old_height) {
 						height_count[height[i]]--;
 						height[i] = max(height[i], n + 1);
@@ -65,7 +66,7 @@ tuple<T, vector<vector<T>>, vb> pushRelabel(const vector<vector<T>>& graph, int 
 		}
 	}
 
-	rep(i, 0, n) {
+	for (int i = 0; i < n; i++) {
 		if (height[i] >= n)
 			cut[i] = true;
 	}

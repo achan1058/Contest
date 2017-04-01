@@ -106,16 +106,16 @@ vector<T> fastFactor(T n, const vi& primes) {
 		result.pb(T(n));
 	return result;
 }
-
+*/
 template <class T>
 T numFactors(const vector<T>& primes) {
 	T result = 1;
 	map<T, int> primepower = tally(primes);
-	irep(p, primepower)
-		result *= p.y + 1;
+	for(auto& p : primepower)
+		result *= p.second + 1;
 	return result;
 }
-*/
+
 template <class T>
 T sumFactors(const vector<T>& primes) {
 	T result = 1;

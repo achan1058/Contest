@@ -1,20 +1,21 @@
 #pragma once
-#include "header.h"
-
+#include <bits/stdc++.h>
+using namespace std;
+/*
 // graph is bipartite with r and c vtx in the two components
 vector<pii> matching(const vvb& graph) {
 	vvb reduced = graph;
 	int r = graph.size(), c = graph[0].size();
 	vi row_match(r, -1), col_match(c, -1);
 
-	rep(j, 0, c) {
+	for (int j = 0; j < c; j++) {
 		queue<int> q;
 		vi col_prev(c, -1);
 		q.push(j);
 		while (!q.empty()) {
 			int v = q.front();
 			q.pop();
-			rep(i, 0, r) {
+			for (int i = 0; i < r; i++) {
 				if (graph[i][v]) {
 					if (row_match[i] == -1) {
 						while (v != -1) {
@@ -40,27 +41,28 @@ vector<pii> matching(const vvb& graph) {
 	}
 	return match;
 }
+*/
 
 // requires rows <= cols, graph is bipartite with r and c vtx in the two components
 template<class T>
-pair<T, vi> hungarian(const vector<vector<T>>& graph) {
+pair<T, vector<int>> hungarian(const vector<vector<T>>& graph) {
 	vector<vector<T>> reduced = graph;
 	int r = graph.size(), c = graph[0].size(), match_size = 0;
-	vb row_covered(r), col_covered(c);
-	vi row_match(r, -1), col_match(c, -1);
-	rep(i, 0, r) {
+	vector<bool> row_covered(r), col_covered(c);
+	vector<int> row_match(r, -1), col_match(c, -1);
+	for (int i = 0; i < r; i++) {
 		T small = inf;
-		rep(j, 0, c)
+		for (int j = 0; j < c; j++)
 			small = min(small, reduced[i][j]);
-		rep(j, 0, c)
+		for (int j = 0; j < c; j++)
 			reduced[i][j] -= small;
 	}
 
 	while (match_size < r) {
 		queue<int> q;
-		vi row_prev(r, -1);
+		vector<int> row_prev(r, -1);
 		while (true) {
-			rep(i, 0, r) {
+			for (int i = 0; i < r; i++) {
 				if (!row_covered[i])
 					q.push(i);
 			}
@@ -68,7 +70,7 @@ pair<T, vi> hungarian(const vector<vector<T>>& graph) {
 			while (!q.empty()) {
 				int i = q.front();
 				q.pop();
-				rep(j, 0, c) {
+				for (int j = 0; j < c; j++) {
 					if (!col_covered[j] && reduced[i][j] == 0) {
 						if (col_match[j] == -1) {
 							while (i != -1) {
@@ -77,9 +79,9 @@ pair<T, vi> hungarian(const vector<vector<T>>& graph) {
 								i = row_prev[i];
 							}
 
-							rep(j, 0, c)
+							for (int j = 0; j < c; j++)
 								col_covered[j] = false;
-							rep(i, 0, r) {
+							for (int i = 0; i < r; i++) {
 								if (row_match[i] != -1)
 									row_covered[i] = true;
 								else
@@ -98,22 +100,22 @@ pair<T, vi> hungarian(const vector<vector<T>>& graph) {
 			}
 
 			T small = inf;
-			rep(i, 0, r) {
+			for (int i = 0; i < r; i++) {
 				if (!row_covered[i]) {
-					rep(j, 0, c) {
+					for (int j = 0; j < c; j++) {
 						if (!col_covered[j])
 							small = min(small, reduced[i][j]);
 					}
 				}
 			}
-			rep(i, 0, r) {
+		for (int i = 0; i < r; i++) {
 				if (row_covered[i]) {
-					rep(j, 0, c) {
+					for (int j = 0; j < c; j++) {
 						if (col_covered[j])
 							reduced[i][j] += small;
 					}
 				} else {
-					rep(j, 0, c) {
+					for (int j = 0; j < c; j++) {
 						if (!col_covered[j])
 							reduced[i][j] -= small;
 					}
@@ -125,7 +127,7 @@ pair<T, vi> hungarian(const vector<vector<T>>& graph) {
 	}
 
 	T result = 0;
-	rep(i, 0, r) {
+	for (int i = 0; i < r; i++) {
 		if (row_match[i] != -1)
 			result += graph[i][row_match[i]];
 	}

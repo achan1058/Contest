@@ -1,5 +1,6 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 // uses adjacency list, elements are given in lex order
 inline int topoHelper(const int t) { return t; }

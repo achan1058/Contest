@@ -1,5 +1,6 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 template <class T>
 T power(T b, T e, T m = 0) {
