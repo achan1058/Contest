@@ -14,8 +14,6 @@ typedef vector<vd> vvd;
 typedef vector<vb> vvb;
 typedef vector<vs> vvs;
 typedef vector<vl> vvl;
-template <class T> using vvp = vector<vector<pair<int, T>>>;
-template <class T> using vt = vector<tuple<int, int, T>>;
 template <class T> inline void read(vector<T>& v, int b = 0, int e = 0) { for (int k = b; k < int(v.size()) - e; k++) cin >> v[k]; }
 template <class T> inline void read(vector<vector<T>>& v) { for (auto& p : v) read(p); }
 

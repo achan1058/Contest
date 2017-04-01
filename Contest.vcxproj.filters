@@ -192,6 +192,9 @@
     <Filter Include="TopCoder\TCO 2017">
       <UniqueIdentifier>{f6d1e66a-38f2-4ae9-971e-0849b35e5a2e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\TCO 2017\Round 1A">
+      <UniqueIdentifier>{89b06cab-d1f9-4c3e-9a38-748ec20d5dd0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -511,6 +514,15 @@
     </ClCompile>
     <ClCompile Include="TopCoder\TCO\TCO 2016 Round 1C\SumFullSet.cpp">
       <Filter>TopCoder\TCO 2016\Round 1C</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1A\PingPongQueue.cpp">
+      <Filter>TopCoder\TCO 2017\Round 1A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1A\PolygonRotation.cpp">
+      <Filter>TopCoder\TCO 2017\Round 1A</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1A\CheeseSlicing.cpp">
+      <Filter>TopCoder\TCO 2017\Round 1A</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

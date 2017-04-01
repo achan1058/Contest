@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// change to use ep<T>
 template<class T>
 vector<vector<T>> edgeToMatrix(const vt<T>& edges, T non_edge = inf) {
 	int n = 0;
