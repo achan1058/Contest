@@ -1,5 +1,6 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 vl factTable(int n, ll m = 0) {
 	vl result(1, 1);

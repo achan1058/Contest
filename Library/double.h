@@ -1,5 +1,6 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 struct Double {
 	double v;

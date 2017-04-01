@@ -183,6 +183,15 @@
     <Filter Include="UVa\12100">
       <UniqueIdentifier>{c3b1d8e8-f9e2-4063-8e22-5aaaab733a37}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\TCO 2016">
+      <UniqueIdentifier>{09b4a0f5-1b3f-483d-ad24-9ec7ae94cf15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO 2016\Round 1C">
+      <UniqueIdentifier>{f6375c63-c204-4ef8-bc9e-e038ab9da5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO 2017">
+      <UniqueIdentifier>{f6d1e66a-38f2-4ae9-971e-0849b35e5a2e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -499,6 +508,9 @@
     </ClCompile>
     <ClCompile Include="UVa\12100\12146.cpp">
       <Filter>UVa\12100</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2016 Round 1C\SumFullSet.cpp">
+      <Filter>TopCoder\TCO 2016\Round 1C</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

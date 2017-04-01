@@ -1,5 +1,6 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 template<class U, class W> bool floodfillRule(U& curg, U& newg, U source, U target, W& curv, W& newv, bool first) {
 	if (newg == source) {

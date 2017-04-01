@@ -1,5 +1,6 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 void twoConnectedHelper(const vvi& graph, int n, int u, int& count, vi& num, vi& low, stack<int>& stk, vvi& blocks) {
 	num[u] = low[u] = count++;

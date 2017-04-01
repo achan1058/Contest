@@ -1,5 +1,6 @@
 #pragma once
-#include "header.h"
+#include <bits/stdc++.h>
+using namespace std;
 
 // uses adjacency matrix, count loop edge twice for undirected graph
 vi eularianHelper(vvi& graph, int n, int end, bool directed) {
