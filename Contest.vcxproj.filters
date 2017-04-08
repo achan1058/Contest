@@ -533,6 +533,9 @@
     <ClCompile Include="GCJ\2016\Q-A.cpp">
       <Filter>GCJ\2016</Filter>
     </ClCompile>
+    <ClCompile Include="GCJ\2016\Q-B.cpp">
+      <Filter>GCJ\2016</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
