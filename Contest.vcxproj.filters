@@ -195,6 +195,12 @@
     <Filter Include="TopCoder\TCO 2017\Round 1A">
       <UniqueIdentifier>{89b06cab-d1f9-4c3e-9a38-748ec20d5dd0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GCJ\2016">
+      <UniqueIdentifier>{6b71d6db-88df-473b-aab3-7bd8c4807c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GCJ\2017">
+      <UniqueIdentifier>{56164e9e-3589-4ab4-8345-16892b4e02e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -523,6 +529,9 @@
     </ClCompile>
     <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1A\CheeseSlicing.cpp">
       <Filter>TopCoder\TCO 2017\Round 1A</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2016\Q-A.cpp">
+      <Filter>GCJ\2016</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
