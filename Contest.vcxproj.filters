@@ -201,6 +201,9 @@
     <Filter Include="GCJ\2017">
       <UniqueIdentifier>{56164e9e-3589-4ab4-8345-16892b4e02e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GCJ\2015">
+      <UniqueIdentifier>{f7f9edbb-a91d-46cc-8a3f-34593d1a712d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -535,6 +538,15 @@
     </ClCompile>
     <ClCompile Include="GCJ\2016\Q-B.cpp">
       <Filter>GCJ\2016</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2017\Q-A.cpp">
+      <Filter>GCJ\2017</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2017\Q-C.cpp">
+      <Filter>GCJ\2017</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\2017\Q-B.cpp">
+      <Filter>GCJ\2017</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
