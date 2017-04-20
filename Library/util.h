@@ -14,12 +14,12 @@ class Index {
 	vector<T> label;
 public:
 	inline T getL(int ind) const { return label[ind]; }
-	inline int size() const { return sz(label); }
+	inline int size() const { return label.size(); }
 	inline int getI(const T& e) {
 		if (index.find(e) == index.end()) {
-			int t = sz(index);
+			int t = index.size();
 			index[e] = t;
-			label.pb(e);
+			label.push_back(e);
 		}
 		return index[e];
 	}
