@@ -554,6 +554,9 @@
     <ClCompile Include="GCJ\2017\R1A-A.cpp">
       <Filter>GCJ\2017</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\100\152.cpp">
+      <Filter>UVa\100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
