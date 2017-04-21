@@ -101,21 +101,21 @@ template<class T>
 vi kmp(const T& s, const T& p, bool fs = false) {
 	return kmp_match(s, p, kmp_pre(p), fs);
 }
-
+*/
 // returns maximum rectangle under histogram, given by the range [left, right)
 template<class T>
 tuple<T, int, int> largestRectangle(vector<T>& s) {
-	int n = sz(s), left = 0, right = 0;
+	int n = s.size(), left = 0, right = 0;
 	stack<pair<int, T>> st;
 	T best = 0;
 	st.push({ -1, -1 });
-	s.pb(0);
+	s.push_back(0);
 
-	rep(i, 0, n + 1) {
+	for (int i = 0; i <= n; i++) {
 		int l = i;
-		while (st.top().y >= s[i]) {
-			l = st.top().x;
-			T h = st.top().y;
+		while (st.top().second >= s[i]) {
+			l = st.top().first;
+			T h = st.top().second;
 			int w = i - l;
 			st.pop();
 			if (w * h > best) {
@@ -124,9 +124,8 @@ tuple<T, int, int> largestRectangle(vector<T>& s) {
 				right = i;
 			}
 		}
-		st.push(make_pair(l, s[i]));
+		st.push({ l, s[i] });
 	}
 	s.pop_back();
-	return make_tuple(best, left, right);
+	return{ best, left, right };
 }
-*/
