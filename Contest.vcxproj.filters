@@ -204,6 +204,12 @@
     <Filter Include="GCJ\2015">
       <UniqueIdentifier>{f7f9edbb-a91d-46cc-8a3f-34593d1a712d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVa\12200">
+      <UniqueIdentifier>{d1a98db5-efd2-405a-8be2-415cbca74efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\12500">
+      <UniqueIdentifier>{b3e6bf96-08ec-4d0a-ab54-beece7ee22a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -575,6 +581,9 @@
     <ClCompile Include="UVa\10000\10074.cpp">
       <Filter>UVa\10000</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\12600\12692.cpp">
+      <Filter>UVa\12600</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -744,6 +753,9 @@
     </ClInclude>
     <ClInclude Include="Library\graph.h">
       <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\sorting.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
