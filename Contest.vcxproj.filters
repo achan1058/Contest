@@ -210,6 +210,18 @@
     <Filter Include="UVa\12500">
       <UniqueIdentifier>{b3e6bf96-08ec-4d0a-ab54-beece7ee22a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVa\1100">
+      <UniqueIdentifier>{aec68e80-cff4-4a8b-adac-31361e083b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\1200">
+      <UniqueIdentifier>{17ff5e22-f145-4e22-907e-75b08374b01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\1300">
+      <UniqueIdentifier>{2ae285db-fe3e-4a56-bd1e-50e91b6e11b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\1400">
+      <UniqueIdentifier>{5d3c30ad-55a9-42e1-b27e-46de06c7e81f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -583,6 +595,9 @@
     </ClCompile>
     <ClCompile Include="UVa\12600\12692.cpp">
       <Filter>UVa\12600</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\500\540.cpp">
+      <Filter>UVa\500</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
