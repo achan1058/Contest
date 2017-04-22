@@ -338,6 +338,9 @@
     <ClCompile Include="UVa\100\156.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\10100\10106.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="UVa\10100\10107.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -658,6 +661,7 @@
     <None Include=".gitignore" />
     <None Include="SPOJ\1\24.py" />
     <None Include="TopCoder\greed.conf" />
+    <None Include="UVa\10100\10106.py" />
     <None Include="UVa\10900\10925.py" />
     <None Include="UVa\400\424.py" />
   </ItemGroup>
