@@ -47,7 +47,7 @@ void flooddist(vector<T>& grid, int x0, int y0) {
 		}
 	}
 }
-
+/*
 template<class U, class W> bool floodfillRule(U& curg, U& newg, U source, U target, W& curv, W& newv, bool first) {
 	if (newg == source) {
 		newg = target;
@@ -87,3 +87,4 @@ int floodfill(vector<T>& grid, int x0, int y0, U target = 0, vi dx = { 1, 0, -1,
 	}
 	return x1 != -1 && y1 != -1 ? grid[x1][y1] : count;
 }
+*/
