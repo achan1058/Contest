@@ -65,12 +65,12 @@ T lis(const T& s, bool nondecrease = false) {
 	}
 	return result;
 }
-
+*/
 template<class T>
-vi kmp_pre(const T& p) {
-	int n = sz(p), start = 0;
-	vi match(n);
-	rep(i, 1, n) {
+vector<int> kmp_pre(const T& p) {
+	int n = p.size(), start = 0;
+	vector<int> match(n);
+	for (int i = 1; i < n; i++) {
 		while (start > 0 && p[i] != p[start])
 			start = match[start - 1];
 		if (p[i] == p[start])
@@ -80,16 +80,16 @@ vi kmp_pre(const T& p) {
 	return match;
 }
 template<class T>
-vi kmp_match(const T& s, const T& p, const vi& match, bool fs = false) {
-	int n = sz(p), m = sz(s), start = 0;
-	vi result;
-	rep(i, 0, m) {
+vector<int> kmp_match(const T& s, const T& p, const vector<int>& match, bool fs = false) {
+	int n = p.size(), m = s.size(), start = 0;
+	vector<int> result;
+	for (int i = 0; i < m; i++) {
 		while (start > 0 && s[i] != p[start])
 			start = match[start - 1];
 		if (s[i] == p[start])
 			start++;
 		if (start == n) {
-			result.pb(i - n + 1);
+			result.push_back(i - n + 1);
 			if (fs)
 				return result;
 			start = match[start - 1];
@@ -98,10 +98,10 @@ vi kmp_match(const T& s, const T& p, const vi& match, bool fs = false) {
 	return result;
 }
 template<class T>
-vi kmp(const T& s, const T& p, bool fs = false) {
+vector<int> kmp(const T& s, const T& p, bool fs = false) {
 	return kmp_match(s, p, kmp_pre(p), fs);
 }
-*/
+
 // returns maximum rectangle under histogram, given by the range [left, right)
 template<class T>
 tuple<T, int, int> largestRectangle(vector<T>& s) {
