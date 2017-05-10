@@ -222,6 +222,45 @@
     <Filter Include="UVa\1400">
       <UniqueIdentifier>{5d3c30ad-55a9-42e1-b27e-46de06c7e81f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVa\10400">
+      <UniqueIdentifier>{a3c32ddd-06c5-4fcc-ba10-ddc91c54dbfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\10500">
+      <UniqueIdentifier>{300e19f5-d0f7-4034-a6b3-81f181f57533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\10600">
+      <UniqueIdentifier>{cda07c66-7792-4773-b386-9a0985709b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\11200">
+      <UniqueIdentifier>{86dc27a1-2b89-49ef-b401-a2161a94f2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\11100">
+      <UniqueIdentifier>{1de8d669-4912-477e-96ad-90d8368c7ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\11300">
+      <UniqueIdentifier>{bf147e9d-6d6d-49a2-a811-b3cf8443b17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\11400">
+      <UniqueIdentifier>{77fb3cc9-17ab-424a-8a0b-8376044c6dc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\11600">
+      <UniqueIdentifier>{f96eca31-1e4c-413b-8d2d-97143ae87b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\11700">
+      <UniqueIdentifier>{02a0dbdd-a185-414d-b668-e79b0c63dfa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\11800">
+      <UniqueIdentifier>{7d063707-4087-42a1-8bff-562c3e3979b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\12700">
+      <UniqueIdentifier>{935e1963-9219-4d03-b778-bad32dcfda0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\12800">
+      <UniqueIdentifier>{5b4daec0-1045-44a2-84f1-abc3be8e94cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\12900">
+      <UniqueIdentifier>{448cf295-ce99-4a8b-a372-ec1a9bba7b9d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -643,6 +682,9 @@
     </ClCompile>
     <ClCompile Include="UVa\300\352.cpp">
       <Filter>UVa\300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10600\10653.cpp">
+      <Filter>UVa\10600</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
