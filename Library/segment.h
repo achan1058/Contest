@@ -13,7 +13,8 @@ private:
 		return dx == -1 || dy == -1 ? 1 : (dx == 1 || dy == 1 ? -1 : 0);
 	}
 public:
-	Segment(point<T> p1_ = { 0, 0 }, point<T> p2_ = { 0, 0 }) : p1(p1_), p2(p2_) {}
+	Segment(T x1 = 0, T y1 = 0, T x2 = 0, T y2 = 0) : p1({ x1, y1 }), p2({ x2, y2 }) {}
+	Segment(point<T> p1_, point<T> p2_ = { 0, 0 }) : p1(p1_), p2(p2_) {}
 	//returns 1 on intersection, 0 on boundary, -1 on non-intersection
 	int onSegment(point<T> p) const { return p.sa2(p1, p2) == 0 ? inside(p) : -1; }
 	int intersect(Segment l) {
