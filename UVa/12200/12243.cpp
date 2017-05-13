@@ -2,19 +2,19 @@
 #include "header.h"
 
 int main() {
-	string s, p;
+	string s;
 	while (getline(cin, s) && s != "*") {
 		stringstream ss(s);
+		char c;
 		bool good = true;
-		ss >> p;
+		ss >> s;
+		c = tolower(s[0]);
 		while (ss >> s) {
-			if (tolower(s[0]) != tolower(p[0])) {
+			if (c != tolower(s[0])) {
 				good = false;
 				break;
 			}
-			p = s;
 		}
-
 		printf("%c\n", good ? 'Y' : 'N');
 	}
 }

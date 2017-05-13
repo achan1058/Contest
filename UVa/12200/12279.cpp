@@ -2,13 +2,16 @@
 #include "header.h"
 
 int main() {
-	int n, t;
+	int n;
 	whileX(cin >> n && n != 0) {
-		int count = 0;
+		int ans = 0, v;
 		rep(i, 0, n) {
-			cin >> t;
-			count += (t == 0 ? -1 : 1);
+			cin >> v;
+			if (v > 0)
+				ans++;
+			else
+				ans--;
 		}
-		printc("%d\n", count);
+		printc("%d\n", ans);
 	}
 }
