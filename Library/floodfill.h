@@ -28,7 +28,7 @@ int floodfill(vector<T>& grid, int x0, int y0, U target = 0) {
 }
 
 template<class T>
-void flooddist(vector<T>& grid, int x0, int y0) {
+T flooddist(vector<vector<T>>& grid, int x0, int y0, int x1 = -1, int y1 = -1) {
 	int r = grid.size(), c = grid[0].size(), d = dx.size(), count = 1;
 	queue<pair<int, int>> q;
 	grid[x0][y0] = 0;
@@ -41,9 +41,12 @@ void flooddist(vector<T>& grid, int x0, int y0) {
 			int nx = x + dx[k], ny = y + dy[k];
 			if (nx < 0 || nx >= r || ny < 0 || ny >= c || grid[x][y] + 1 >= grid[nx][ny])
 				continue;
+			if (nx == x1 && ny == y1)
+				return grid[x][y] + 1;
 
 			grid[nx][ny] = grid[x][y] + 1;
 			q.push({ nx, ny });
 		}
 	}
+	return inf;
 }
