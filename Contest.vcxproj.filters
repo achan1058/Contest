@@ -261,6 +261,9 @@
     <Filter Include="UVa\12900">
       <UniqueIdentifier>{448cf295-ce99-4a8b-a372-ec1a9bba7b9d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="GCJ\Kickstart 2017">
+      <UniqueIdentifier>{3b4afde5-ada1-4d65-a6c4-08c2775f8584}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -751,6 +754,9 @@
     </ClCompile>
     <ClCompile Include="UVa\12200\12243.cpp">
       <Filter>UVa\12200</Filter>
+    </ClCompile>
+    <ClCompile Include="GCJ\Kickstart 2017\P1-A.cpp">
+      <Filter>GCJ\Kickstart 2017</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
