@@ -758,6 +758,9 @@
     <ClCompile Include="GCJ\Kickstart 2017\P1-A.cpp">
       <Filter>GCJ\Kickstart 2017</Filter>
     </ClCompile>
+    <ClCompile Include="GCJ\Kickstart 2017\P1-B.cpp">
+      <Filter>GCJ\Kickstart 2017</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
