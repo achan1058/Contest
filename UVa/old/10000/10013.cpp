@@ -2,23 +2,23 @@
 #include "header.h"
 
 int main() {
-	int M, a, b;
 	forX() {
-		printX("");
-		cin >> M;
-		vi digits(M);
-		irep(d, digits) {
-			cin >> a >> b;
-			d = a + b;
+		int n, v1, v2;
+		cin >> n;
+		string ans(n, ' ');
+
+		irep(c, ans) {
+			cin >> v1 >> v2;
+			c = v1 + v2 + '0';
 		}
-		rrep(i, M - 1, 0) {
-			if (digits[i] >= 10) {
-				digits[i] -= 10;
-				digits[i - 1]++;
+
+		rrep(i, n - 1, 0) {
+			if (ans[i] > '9') {
+				ans[i] -= 10;
+				ans[i - 1]++;
 			}
 		}
-		irep(d, digits)
-			printf("%d", d);
-		printf("\n");
+
+		printX("%s\n", ans.c_str());
 	}
 }

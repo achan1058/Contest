@@ -1,37 +1,46 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-vi dx = { 1, 0, -1, 0 }, dy = { 0, -1, 0, 1 };
+vi dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
+vvi flooddist(const vs& strs) {
+	int r = strs.size(), c = strs[0].size(), d = dx.size(), count = 1;
+	vvi grid = mi(r, c, inf);
+	queue<pair<int, int>> q;
+	drep(i, j, r, c) {
+		if (strs[i][j] == '3') {
+			grid[i][j] = 0;
+			q.push({ i, j });
+		}
+	}
+
+	while (!q.empty()) {
+		int x = q.front().first, y = q.front().second;
+		q.pop();
+		for (int k = 0; k < d; k++) {
+			int nx = x + dx[k], ny = y + dy[k];
+			if (nx < 0 || nx >= r || ny < 0 || ny >= c || grid[x][y] + 1 >= grid[nx][ny])
+				continue;
+
+			grid[nx][ny] = grid[x][y] + 1;
+			q.push({ nx, ny });
+		}
+	}
+
+	return grid;
+}
+
 int main() {
 	int n;
-	while (cin >> n) {
-		vs field(n);
-		read(field);
-		vvi dist = mi(n, n, inf);
-		queue<pii> q;
+	while(cin >> n) {
+		vs strs(n);
+		read(strs);
+		vvi grid = flooddist(strs);
+		int ans = 0;
+
 		drep(i, j, n, n) {
-			if (field[i][j] == '3') {
-				dist[i][j] = 0;
-				q.push({ i, j });
-			}
+			if (strs[i][j] == '1')
+				ans = max(ans, grid[i][j]);
 		}
-
-		int best = 0;
-		while (!q.empty()) {
-			int x = q.front().x, y = q.front().y;
-			q.pop();
-
-			if (field[x][y] == '1')
-				best = max(best, dist[x][y]);
-			rep(i, 0, 4) {
-				int nx = x + dx[i], ny = y + dy[i];
-				if (nx < 0 || nx >= n || ny < 0 || ny >= n || dist[nx][ny] <= dist[x][y] + 1)
-					continue;
-
-				dist[nx][ny] = dist[x][y] + 1;
-				q.push({ nx, ny });
-			}
-		}
-		printf("%d\n", best);
+		printf("%d\n", ans);
 	}
 }

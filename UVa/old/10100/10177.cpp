@@ -2,18 +2,18 @@
 #include "header.h"
 
 int main() {
-	ll n;
-	while (cin >> n) {
-		ll s2 = 0, r2 = 0, s3 = 0, r3 = 0, s4 = 0, r4 = 0;
-		rep(i, 1, n + 1) {
-			s2 += i * i;
-			s3 += i * i * i;
-			s4 += i * i * i * i;
-		}
+	vl s2(101), s3(101), s4(101), r2(101), r3(101), r4(101);
+	rep(i, 1, 101) {
+		s2[i] = s2[i - 1] + i * i;
+		s3[i] = s3[i - 1] + i * i * i;
+		s4[i] = s4[i - 1] + i * i * i * i;
 
-		r2 = n * n * (n + 1) * (n + 1) / 4;
-		r3 = r2 * n * (n + 1) / 2;
-		r4 = r3 * n * (n + 1) / 2;
-		printf("%lld %lld %lld %lld %lld %lld\n", s2, r2 - s2, s3, r3 - s3, s4, r4 - s4);
+		ll s = i * (i + 1) / 2;
+		r2[i] = s * s;
+		r3[i] = s * s * s;
+		r4[i] = s * s * s * s;
 	}
+	int n;
+	while (cin >> n)
+		printf("%lld %lld %lld %lld %lld %lld\n", s2[n], r2[n] - s2[n], s3[n], r3[n] - s3[n], s4[n], r4[n] - s4[n]);
 }

@@ -2,11 +2,18 @@
 #include "header.h"
 
 int main() {
-	vi arr;
-	int n;
-	whileX(cin >> n) {
-		arr.pb(n);
-		sort(all(arr));
-		printf("%d\n", X % 2 == 0 ? (arr[X / 2 - 1] + arr[X / 2]) / 2 : arr[X / 2]);
+	priority_queue<ll> small, big;
+	ll n;
+	while (cin >> n) {
+		big.push(-n);
+		small.push(-big.top());
+		big.pop();
+		if (sz(small) >= sz(big) + 2) {
+			big.push(-small.top());
+			small.pop();
+			printf("%lld\n", (small.top() - big.top()) / 2);
+		} else {
+			printf("%lld\n", small.top());
+		}
 	}
 }

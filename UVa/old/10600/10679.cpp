@@ -1,14 +1,15 @@
 #include <bits/stdc++.h>
 #include "dp_algs.h"
+#include "header.h"
 
 int main() {
-	int n;
-	string s, p;
 	forX() {
+		string s, p;
+		int n;
 		cin >> s >> n;
 		rep(i, 0, n) {
 			cin >> p;
-			printf("%c\n", sz(kmp(s, p, true)) == 1 ? 'y' : 'n');
+			printf("%c\n", sz(kmp(s, p, true)) ? 'y' : 'n');
 		}
 	}
 }

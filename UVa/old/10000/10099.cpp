@@ -1,18 +1,21 @@
 #include <bits/stdc++.h>
 #include "shortest_path.h"
+#include "header.h"
 
 int main() {
-	int n, e, v1, v2, cost;
+	int n, e;
 	whileX(cin >> n >> e && (n | e) != 0) {
-		vvi graph = mi(n, n, 0);
+		int u, v, c;
+		vvi graph = mi(n, n, inf);
 		rep(i, 0, e) {
-			cin >> v1 >> v2 >> cost;
-			graph[v1 - 1][v2 - 1] = -cost;
-			graph[v2 - 1][v1 - 1] = -cost;
+			cin >> u >> v >> c;
+			graph[u - 1][v - 1] = -c + 1;
+			graph[v - 1][u - 1] = -c + 1;
 		}
-		vvi result = floydWarshall(graph, 0, true).x;
-		cin >> v1 >> v2 >> cost;
+		
+		cin >> u >> v >> c;
+		int cap = -floydWarshall(graph, true).first[u - 1][v - 1];
 		printf("Scenario #%d\n", X);
-		printf("Minimum Number of Trips = %d\n\n", (cost - 1) / (-result[v1 - 1][v2 - 1] - 1) + 1);
+		printf("Minimum Number of Trips = %d\n\n", (c + cap - 1) / cap);
 	}
 }

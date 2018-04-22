@@ -2,33 +2,19 @@
 #include "header.h"
 
 int main() {
-	int n;
-	string s;
 	forX() {
+		string s;
 		getline(cin, s);
 		stringstream ss(s);
-		vi weight;
-		vb arr(201);
-		arr[0] = true;
-
-		int total = 0;
-		while (ss >> n) {
-			weight.pb(n);
-			total += n;
+		int total = 0, v;
+		vb possible(201);
+		possible[0] = true;
+		while (ss >> v) {
+			total += v;
+			rrep(i, 200, v)
+				possible[i] = possible[i] || possible[i - v];
 		}
 
-		if (total % 2 == 1) {
-			printf("NO\n");
-			continue;
-		}
-
-		irep(v, weight) {
-			rrep(i, 200, 0) {
-				if (arr[i])
-					arr[i + v] = true;
-			}
-		}
-
-		printf("%s\n", arr[total / 2] ? "YES" : "NO");
+		printf("%s\n", total % 2 == 0 && possible[total / 2] ? "YES" : "NO");
 	}
 }

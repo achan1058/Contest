@@ -3,12 +3,11 @@
 
 int main() {
 	forX() {
-		int sum, diff;
-		cin >> sum >> diff;
-
-		if (diff > sum || (diff + sum) % 2 == 1)
+		int a, b;
+		cin >> a >> b;
+		if ((a + b) % 2 == 1 || b > a)
 			printf("impossible\n");
 		else
-			printf("%d %d\n", (diff + sum) / 2, (sum - diff) / 2);
+			printf("%d %d\n", (a + b) / 2, (a - b) / 2);
 	}
 }

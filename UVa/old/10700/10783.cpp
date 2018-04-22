@@ -2,13 +2,14 @@
 #include "header.h"
 
 int main() {
-	int a, b;
 	forX() {
+		int a, b;
 		cin >> a >> b;
-		if (a % 2 == 0)
+		if (!(a % 2))
 			a++;
-		if (b % 2 == 0)
+		if (!(b % 2))
 			b--;
-		printc("%d\n", (a + b) * (b - a + 2) / 4);
+		int avg = (a + b) / 2, num = (b - a) / 2 + 1;
+		printc("%d\n", avg * num);
 	}
 }

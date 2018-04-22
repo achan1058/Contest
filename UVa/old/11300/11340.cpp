@@ -2,26 +2,24 @@
 #include "header.h"
 
 int main() {
-	int n, l, t;
-	char c;
-	string s;
 	forX() {
+		int n, v;
+		char c;
 		cin >> n;
-		vi cost(500, 0);
-		int total_cost = 0;
+		vi cost(256);
 		rep(i, 0, n) {
-			cin >> c >> t;
-			cost[c + 200] = t;
+			cin >> c >> v;
+			cost[c] = v;
 		}
-
-		cin >> l;
+		cin >> n;
+		string s;
 		getline(cin, s);
-		rep(i, 0, l) {
+		int total = 0;
+		rep(i, 0, n) {
 			getline(cin, s);
-
 			irep(ch, s)
-				total_cost += cost[ch + 200];
+				total += cost[ch];
 		}
-		printf("%.2f$\n", total_cost / 100. + eps);
+		printf("%.2f$\n", total / 100.);
 	}
 }

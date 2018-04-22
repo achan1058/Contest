@@ -4,10 +4,9 @@
 int main() {
 	ll n;
 	whileX(cin >> n && n != 0) {
-		ll s = ll(sqrt(n * 2));
-		while (s * (s - 3) / 2 < n)
-			s++;
-
-		printc("%lld\n", s);
+		ll t = sqrt(2 * n);
+		while (t * (t - 3) / 2 < n)
+			t++;
+		printc("%lld\n", t);
 	}
 }

@@ -4,13 +4,20 @@
 int main() {
 	int n, k, m;
 	while (cin >> n >> k >> m) {
-		vvl ans = ml(k + 1, n + m + 1, 0);
-		ans[0][0] = 1;
-		drep(i, j, k, n) {
-			rep(t, 1, m + 1)
-				ans[i + 1][j + t] += ans[i][j];
+		vector<vvl> dp = vector<vvl>(n, ml(k, m, 0));
+		dp[0][0][0] = 1;
+		rep(i, 0, n - 1) {
+			drep(j, l, k, m) {
+				if (l + 1 < m)
+					dp[i + 1][j][l + 1] += dp[i][j][l];
+				if (j + 1 < k)
+					dp[i + 1][j + 1][0] += dp[i][j][l];
+			}
 		}
 
-		printf("%lld\n", ans[k][n]);
+		ll ans = 0;
+		rep(l, 0, m)
+			ans += dp[n - 1][k - 1][l];
+		printf("%lld\n", ans);
 	}
 }

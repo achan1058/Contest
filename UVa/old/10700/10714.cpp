@@ -2,15 +2,15 @@
 #include "header.h"
 
 int main() {
-	int l, n, a;
 	forX() {
-		int mint = 0, maxt = 0;
+		int l, n, v;
 		cin >> l >> n;
+		int mn = 0, mx = 0;
 		rep(i, 0, n) {
-			cin >> a;
-			mint = max(mint, min(a, l - a));
-			maxt = max(maxt, max(a, l - a));
+			cin >> v;
+			mn = max(mn, min(v, l - v));
+			mx = max(mx, max(v, l - v));
 		}
-		printf("%d %d\n", mint, maxt);
+		printf("%d %d\n", mn, mx);
 	}
 }

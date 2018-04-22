@@ -6,13 +6,12 @@ int main() {
 	char c;
 	while (cin >> c) {
 		if (c == '#') {
-			printf("%s\n", n == 0 ? "YES" : "NO");
+			printf(n % 131071 ? "NO\n" : "YES\n");
 			n = 0;
 		} else {
-			n <<= 1;
+			n *= 2;
 			n += c - '0';
-			if (n >= 131071)
-				n -= 131071;
+			n %= 131071;
 		}
 	}
 }

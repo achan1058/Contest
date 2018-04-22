@@ -2,24 +2,24 @@
 #include "header.h"
 
 int main() {
-	int n, k;
+	int k, n;
 	while (cin >> k >> n) {
-		vvd prob = md(n, k + 1, 0);
-		for (int j = 0; j <= k; j++)
-			prob[0][j] = 100 / double(k + 1);
-		for (int i = 1; i < n; i++) {
-			for (int j = 0; j <= k; j++) {
-				prob[i][j] = prob[i - 1][j];
-				if (j > 0)
-					prob[i][j] += prob[i - 1][j - 1];
-				if (j < k)
-					prob[i][j] += prob[i - 1][j + 1];
-				prob[i][j] /= (k + 1);
-			}
+		if (k == 0) {
+			printf("100.00000\n");
+			continue;
 		}
+		vvd prob = md(n, k + 1, 0);
+		prob[0] = vd(k + 1, 100. / (k + 1));
+		rep(i, 0, n - 1) {
+			prob[i + 1][0] = (prob[i][0] + prob[i][1]) / (k + 1);
+			prob[i + 1][k] = (prob[i][k] + prob[i][k - 1]) / (k + 1);
+			rep(j, 1, k)
+				prob[i + 1][j] = (prob[i][j - 1] + prob[i][j] + prob[i][j + 1]) / (k + 1);
+		}
+
 		double ans = 0;
-		for (int j = 0; j <= k; j++)
+		rep(j, 0, k + 1)
 			ans += prob[n - 1][j];
-		printf("%.5lf\n", ans);
+		printf("%.5f\n", ans);
 	}
 }

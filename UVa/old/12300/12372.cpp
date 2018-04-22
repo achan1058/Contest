@@ -2,9 +2,9 @@
 #include "header.h"
 
 int main() {
-	int x, y, z;
 	forX() {
-		cin >> x >> y >> z;
-		printc("%s\n", x > 20 || y > 20 || z > 20 ? "bad" : "good");
+		int a, b, c;
+		cin >> a >> b >> c;
+		printc("%s\n", a <= 20 && b <= 20 && c <= 20 ? "good" : "bad");
 	}
 }

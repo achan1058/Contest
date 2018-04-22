@@ -2,17 +2,22 @@
 #include "header.h"
 
 int main() {
-	string s;
 	forX() {
+		string s;
 		cin >> s;
-		stringstream ss(s);
-		char c;
-		int n;
+		s += "Z";
+		char output = ' ';
+		int n = 0;
 		printc("");
-		while (ss >> c) {
-			ss >> n;
-			rep(i, 0, n)
-				printf("%c", c);
+		irep(c, s) {
+			if (c >= 'A' && c <= 'Z') {
+				rep(i, 0, n)
+					printf("%c", output);
+				n = 0;
+				output = c;
+			} else {
+				n = n * 10 + c - '0';
+			}
 		}
 		printf("\n");
 	}

@@ -1,18 +1,20 @@
 #include <bits/stdc++.h>
 #include "dp_algs.h"
+#include "header.h"
 
 int main() {
-	int m, n;
-	while (cin >> m >> n && (m | n) != 0) {
-		vvi arr = mi(m, n, 0);
-		int mx = 0;
-		drep(i, j, m, n) {
-			cin >> arr[i][j];
-			arr[i][j] = 1 - arr[i][j] + (arr[i][j] == 0 && i > 0 ? arr[i - 1][j] : 0);
+	int r, c;
+	while (cin >> r >> c && (r | c) != 0) {
+		vvi grid = mi(r, c, 0);
+		read(grid);
+		drep(i, j, r, c) {
+			grid[i][j] = 1 - grid[i][j];
+			if (i > 0 && grid[i][j] != 0)
+				grid[i][j] += grid[i - 1][j];
 		}
-		rep(i, 0, m)
-			mx = max(mx, get<0>(largestRectangle(arr[i])));
-
-		printf("%d\n", mx);
+		int best = 0;
+		irep(v, grid)
+			best = max(best, get<0>(largestRectangle(v)));
+		printf("%d\n", best);
 	}
 }

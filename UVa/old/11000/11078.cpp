@@ -2,16 +2,14 @@
 #include "header.h"
 
 int main() {
-	int n, v;
 	forX() {
-		cin >> n;
-		int diff = -inf, big = -inf;
-		rep(i, 0, n) {
+		int n, best, v, diff = -inf;
+		cin >> n >> best;
+		rep(i, 1, n) {
 			cin >> v;
-			diff = max(diff, big - v);
-			big = max(v, big);
+			diff = max(diff, best - v);
+			best = max(best, v);
 		}
-
 		printf("%d\n", diff);
 	}
 }

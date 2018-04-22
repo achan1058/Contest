@@ -4,15 +4,15 @@
 int main() {
 	printf("Lumberjacks:\n");
 	forX() {
-		bool ge = true, le = true;
-		vi len(10);
-		read(len);
-		rep(i, 0, 9) {
-			if (len[i] < len[i + 1])
-				ge = false;
+		vi arr(10);
+		read(arr);
+		bool lt = false, gt = false;
+		rep(i, 1, 10) {
+			if (arr[i] > arr[i - 1])
+				gt = true;
 			else
-				le = false;
+				lt = true;
 		}
-		printf("%s\n", ge || le ? "Ordered" : "Unordered");
+		printf("%s\n", gt && lt ? "Unordered" : "Ordered");
 	}
 }

@@ -2,44 +2,34 @@
 #include "header.h"
 
 int main() {
-	int n, m, v;
-	string s;
+	int n;
 	whileX(cin >> n && n != 0) {
-		map<int, int> mp;
-
+		unordered_map<int, int> m;
+		vector<queue<int>> teams(n);
+		queue<queue<int>*> q;
 		rep(i, 0, n) {
-			cin >> m;
-			rep(j, 0, m) {
+			int ppl;
+			cin >> ppl;
+			rep(j, 0, ppl) {
+				int v;
 				cin >> v;
-				mp[v] = i;
+				m[v] = i;
 			}
 		}
-
-		list<pair<int, queue<int>>> q;
+		string s;
 		printf("Scenario #%d\n", X);
 		while (cin >> s && s != "STOP") {
 			if (s == "ENQUEUE") {
-				bool found = false;
+				int v;
 				cin >> v;
-				irep(p, q) {
-					if (p.x == mp[v]) {
-						p.y.push(v);
-						found = true;
-						break;
-					}
-				}
-
-				if (!found) {
-					queue<int> nq;
-					nq.push(v);
-					q.push_back({ mp[v], nq });
-				}
+				teams[m[v]].push(v);
+				if (sz(teams[m[v]]) == 1)
+					q.push(&teams[m[v]]);
 			} else {
-				auto& p = q.front();
-				printf("%d\n", p.y.front());
-				p.y.pop();
-				if (p.y.empty())
-					q.pop_front();
+				printf("%d\n", q.front()->front());
+				q.front()->pop();
+				if (q.front()->empty())
+					q.pop();
 			}
 		}
 		printf("\n");

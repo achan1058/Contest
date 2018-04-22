@@ -2,43 +2,47 @@
 #include "header.h"
 
 int main() {
-	int n;
 	forX() {
-		cin >> n;
-		int t = sqrt(n);
-		vvi grid = mi(n, n, 0);
-		int distinct = 0;
-		irep(g, grid) {
-			read(g);
-			vb used(n);
-			irep(v, g) {
-				if (!used[v - 1]) {
-					distinct++;
-					used[v - 1] = true;
+		int n2;
+		cin >> n2;
+		int n = sqrt(n2);
+		vvi grid = mi(n2, n2, 0);
+		read(grid);
+
+		bool good = true;
+		rep(i, 0, n2) {
+			vb used(n2);
+			rep(j, 0, n2) {
+				if (used[grid[i][j] - 1]) {
+					good = false;
+					goto end;
 				}
+				used[grid[i][j] - 1] = true;
 			}
 		}
 
-		rep(j, 0, n) {
-			vb used(n);
-			rep(i, 0, n) {
-				if (!used[grid[i][j]]) {
-					distinct++;
-					used[grid[i][j]] = true;
+		rep(i, 0, n2) {
+			vb used(n2);
+			rep(j, 0, n2) {
+				if (used[grid[j][i] - 1]) {
+					good = false;
+					goto end;
 				}
+				used[grid[j][i] - 1] = true;
 			}
 		}
 
-		drep(i1, j1, t, t) {
-			vb used(n);
-			drep(i2, j2, t, t) {
-				if (!used[grid[i1 * t + i2][j1 * t + j2]]) {
-					distinct++;
-					used[grid[i1 * t + i2][j1 * t + j2]] = true;
+		drep(I, J, n, n) {
+			vb used(n2);
+			drep(i, j, n, n) {
+				if (used[grid[n * I + i][n * J + j] - 1]) {
+					good = false;
+					goto end;
 				}
+				used[grid[n * I + i][n * J + j] - 1] = true;
 			}
 		}
-
-		printf("%s\n", distinct == 3 * n * n ? "yes" : "no");
+	end:;
+		printf("%s\n", good ? "yes" : "no");
 	}
 }

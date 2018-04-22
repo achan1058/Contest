@@ -9,7 +9,8 @@ int main() {
 		if (s == "donate") {
 			cin >> v;
 			total += v;
-		} else
+		} else {
 			printf("%d\n", total);
+		}
 	}
 }

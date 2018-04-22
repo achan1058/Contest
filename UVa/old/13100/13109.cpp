@@ -2,18 +2,22 @@
 #include "header.h"
 
 int main() {
-	int n, w;
 	forX() {
+		int n, w, v;
 		cin >> n >> w;
-		vi ele(n);
-		read(ele);
-		sort(all(ele));
-		int i = 0;
-		while (i < sz(ele) && w - ele[i] >= 0) {
-			w -= ele[i];
-			i++;
+		vi weight_count(10001);
+		rep(i, 0, n) {
+			cin >> v;
+			weight_count[v]++;
 		}
-
-		printf("%d\n", i);
+		int ans = 0;
+		rep(i, 1, 10001) {
+			if (w < i)
+				break;
+			int num = min(weight_count[i], w / i);
+			ans += num;
+			w -= i * num;
+		}
+		printf("%d\n", ans);
 	}
 }

@@ -1,16 +1,17 @@
 #include <bits/stdc++.h>
 #include "util.h"
+#include "header.h"
 
 int main() {
+	set<string> ans;
 	string s;
-	set<string> dict;
 	while (getline(cin, s)) {
-		vs str = tokenizer(s, [](int c) {return isalpha(c) ? 0 : 1; });
-		irep(s, str) {
-			transform(all(s), s.begin(), (int(*)(int))tolower);
-			dict.insert(s);
+		vs words = tokenizer(s, [](int c) {return isalpha(c) ? 0 : 1; });
+		irep(w, words) {
+			transform(all(w), w.begin(), ::tolower);
+			ans.insert(w);
 		}
 	}
-	irep(s, dict)
-		printf("%s\n", s.c_str());
+	irep(w, ans)
+		printf("%s\n", w.c_str());
 }

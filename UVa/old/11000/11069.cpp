@@ -2,10 +2,13 @@
 #include "header.h"
 
 int main() {
-	int n;
-	vi ans = { 1, 1, 2 };
+	vl ans(77);
+	ans[1] = ans[2] = 1;
 	rep(i, 3, 77)
-		ans.pb(ans[i - 2] + ans[i - 3]);
-	while (cin >> n)
-		printf("%d\n", ans[n]);
+		ans[i] = ans[i - 2] + ans[i - 3];
+
+	int n;
+	while (cin >> n) {
+		printf("%lld\n", ans[n] + ans[n - 1]);
+	}
 }

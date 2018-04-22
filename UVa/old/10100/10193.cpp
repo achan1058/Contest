@@ -2,13 +2,9 @@
 #include "header.h"
 
 int main() {
-	string s1, s2;
 	forX() {
+		string s1, s2;
 		cin >> s1 >> s2;
-		int i1 = stoi(s1, 0, 2), i2 = stoi(s2, 0, 2);
-		if (gcd(i1, i2) == 1)
-			printf("Pair #%d: Love is not all you need!\n", X);
-		else
-			printf("Pair #%d: All you need is love!\n", X);
+		printf("Pair #%d: %s\n", X, gcd(stoi(s1, 0, 2), stoi(s2, 0, 2)) == 1 ? "Love is not all you need!" : "All you need is love!");
 	}
 }

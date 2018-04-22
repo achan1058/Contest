@@ -1,33 +1,24 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-vi dx = { -1, -1, -1, 0, 1, 1, 1, 0 }, dy = { -1, 0, 1, 1, 1, 0, -1, -1 };
+vi dx = { 1, 1, 1, 0, -1, -1, -1, 0 }, dy = { 1, 0, -1, -1, -1, 0, 1, 1 };
 int main() {
-	int m, n;
-	char c;
-	whileX(cin >> m >> n && (m | n) != 0) {
-		vvi field = mi(m + 2, n + 2, 0);
+	int r, c;
+	whileX(cin >> r >> c && (r | c) != 0) {
+		vs grid(r);
+		read(grid);
+		drep(i, j, r, c) {
+			if (grid[i][j] == '*')
+				continue;
+			grid[i][j] = '0';
+			rep(k, 0, 8) {
+				int nx = i + dx[k], ny = j + dy[k];
+				if (nx >= 0 && nx < r && ny >= 0 && ny < c && grid[nx][ny] == '*')
+					grid[i][j]++;
+			}
+		}
 		printX("Field #%d:\n", X);
-
-		rep(i, 1, m + 1) {
-			rep(j, 1, n + 1) {
-				cin >> c;
-				if (c == '*') {
-					field[i][j] = -100;
-					rep(k, 0, 8)
-						field[i + dx[k]][j + dy[k]]++;
-				}
-			}
-		}
-
-		rep(i, 1, m + 1) {
-			rep(j, 1, n + 1) {
-				if (field[i][j] < 0)
-					printf("*");
-				else
-					printf("%d", field[i][j]);
-			}
-			printf("\n");
-		}
+		irep(s, grid)
+			printf("%s\n", s.c_str());
 	}
 }

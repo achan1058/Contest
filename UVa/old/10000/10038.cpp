@@ -2,26 +2,21 @@
 #include "header.h"
 
 int main() {
-	int N, cur, last;
-	while (cin >> N) {
-		vb hit(N);
+	int n;
+	while (cin >> n) {
+		bool good = true;
+		int cur, last;
 		cin >> last;
-		rep(i, 1, N) {
+		vb diff(n);
+		rep(i, 1, n) {
 			cin >> cur;
-			hit[abs(cur - last)] = true;
+			int d = abs(cur - last);
+			if (d <= 0 || d >= n || diff[d])
+				good = false;
+			if (d > 0 && d < n)
+				diff[d] = true;
 			last = cur;
 		}
-
-		bool isJolly = true;
-		rep(i, 1, N) {
-			if (!hit[i]) {
-				isJolly = false;
-				printf("Not jolly\n");
-				break;
-			}
-		}
-
-		if (isJolly)
-			printf("Jolly\n");
+		printf("%s\n", good ? "Jolly" : "Not jolly");
 	}
 }

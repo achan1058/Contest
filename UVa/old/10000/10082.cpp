@@ -1,15 +1,19 @@
 #include <bits/stdc++.h>
+#include "shortest_path.h"
 #include "header.h"
 
 int main() {
 	vs keyboard = { "`1234567890-=", "QWERTYUIOP[]\\", "ASDFGHJKL;\'", "ZXCVBNM,./" };
-	string board(300, 0);
-	char c;
-
+	map<char, char> shift;
 	irep(s, keyboard) {
-		rep(j, 0, sz(s))
-			board[s[j]] = s[j - 1];
+		rep(i, 1, sz(s))
+			shift[s[i]] = s[i - 1];
 	}
-	while (cin.get(c))
-		printf("%c", board[c] == 0 ? c : board[c]);
+	shift[' '] = ' ';
+	string s;
+	while (getline(cin, s)) {
+		irep(c, s)
+			c = shift[c];
+		printf("%s\n", s.c_str());
+	}
 }

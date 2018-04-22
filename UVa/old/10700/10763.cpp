@@ -2,24 +2,18 @@
 #include "header.h"
 
 int main() {
-	int n, v1, v2;
+	int n;
 	while (cin >> n && n != 0) {
-		map<pii, int> m;
+		int a, b;
+		map<pair<int, int>, int> m1, m2;
 		rep(i, 0, n) {
-			cin >> v1 >> v2;
-			if (v1 > v2)
-				m[{v1, v2}]++;
+			cin >> a >> b;
+			if (a < b)
+				m1[{a, b}]++;
 			else
-				m[{v2, v1}]--;
+				m2[{b, a}]++;
 		}
 
-		bool good = true;
-		irep(v, m) {
-			if (v.y != 0) {
-				good = false;
-				break;
-			}
-		}
-		printf("%s\n", good ? "YES" : "NO");
+		printf("%s\n", m1 == m2 ? "YES" : "NO");
 	}
 }

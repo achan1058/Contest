@@ -4,29 +4,22 @@
 int main() {
 	int n, m;
 	while (cin >> n >> m) {
-		if (m <= 1 || n <= 1) {
+		if (n < 2 || m < 2) {
 			printf("Boring!\n");
 			continue;
 		}
-		vi l = { n };
-		while (n > 1) {
-			if (n % m != 0) {
-				l.clear();
-				break;
-			}
+		vi ans;
+		while (n % m == 0) {
+			ans.pb(n);
 			n /= m;
-			l.pb(n);
 		}
-
-		if (l.empty())
+		if (n != 1) {
 			printf("Boring!\n");
-		else {
-			bool fs = true;
-			irep(v, l) {
-				printf("%s%d", fs ? "" : " ", v);
-				fs = false;
-			}
-			printf("\n");
+			continue;
+		} else {
+			irep(v, ans)
+				printf("%d ", v);
+			printf("1\n");
 		}
 	}
 }

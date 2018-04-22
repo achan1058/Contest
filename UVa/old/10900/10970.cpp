@@ -4,5 +4,5 @@
 int main() {
 	int m, n;
 	while (cin >> m >> n)
-		printf("%d\n", m * n - 1);
+		printf("%d\n", n * m - 1);
 }

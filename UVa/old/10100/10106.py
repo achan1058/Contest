@@ -1,7 +1,7 @@
 while True:
     try:
-        x,y = int(input()),int(input())
+        n = int(input())
+        m = int(input())
     except EOFError:
         exit()
-
-    print(x * y)
+    print(n * m)

@@ -2,9 +2,9 @@
 #include "header.h"
 
 int main() {
-	int r, c;
 	forX() {
+		int r, c;
 		cin >> r >> c;
-		printf("%d\n", int(r / 3) * int(c / 3));
+		printf("%d\n", (r / 3) * (c / 3));
 	}
 }

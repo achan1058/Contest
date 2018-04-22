@@ -1,19 +1,20 @@
 #include <bits/stdc++.h>
 #include "primes.h"
+#include "header.h"
 
 int main() {
-	string s;
 	forX() {
-		bool empty = true;
-		vi val(256);
+		string s;
 		cin >> s;
-		printc("");
-
+		map<char, int> m;
 		irep(c, s)
-			val[c]++;
-		rep(i, 0, 256) {
-			if (isPrime(val[i])) {
-				printf("%c", char(i));
+			m[c]++;
+
+		printc("");
+		bool empty = true;
+		irep(p, m) {
+			if (isPrime(p.y)) {
+				printf("%c", p.x);
 				empty = false;
 			}
 		}

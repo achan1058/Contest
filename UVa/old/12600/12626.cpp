@@ -2,21 +2,12 @@
 #include "header.h"
 
 int main() {
-	int n;
-	cin >> n;
-	string s;
-	for (int i = 0; i < n; i++) {
+	forX() {
+		map<char, int> mp;
+		string s;
 		cin >> s;
-		vector<int> count(26);
-		int ans = inf;
-		for (char c : s)
-			count[c - 'A']++;
-		ans = min(ans, count['M' - 'A']);
-		ans = min(ans, count['A' - 'A'] / 3);
-		ans = min(ans, count['R' - 'A'] / 2);
-		ans = min(ans, count['G' - 'A']);
-		ans = min(ans, count['I' - 'A']);
-		ans = min(ans, count['T' - 'A']);
-		printf("%d\n", ans);
+		irep(c, s)
+			mp[c]++;
+		printf("%d\n", min(min(min(min(min(mp['M'], mp['A'] / 3), mp['G']), mp['R'] / 2), mp['I']), mp['T']));
 	}
 }

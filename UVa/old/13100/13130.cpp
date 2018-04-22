@@ -2,10 +2,9 @@
 #include "header.h"
 
 int main() {
-	int n;
 	forX() {
 		vi dice(5);
 		read(dice);
-		printf("%c\n", dice == vi({ 1, 2, 3, 4, 5 }) || dice == vi({ 2, 3, 4, 5, 6 }) ? 'Y' : 'N');
+		printf("%c\n", dice[0] + 1 == dice[1] && dice[1] + 1 == dice[2] && dice[2] + 1 == dice[3] && dice[3] + 1 == dice[4] ? 'Y' : 'N');
 	}
 }

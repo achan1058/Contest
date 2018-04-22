@@ -2,21 +2,21 @@
 #include "header.h"
 
 int main() {
-	int n, p, h;
 	forX() {
-		cin >> n >> p;
-		vi days(n + 1);
-		rep(i, 0, p) {
-			cin >> h;
-			for (int j = 0; j <= n; j += h)
-				days[j] = true;
+		int k, n, total = 0;
+		cin >> k >> n;
+		vi parties(n);
+		read(parties);
+		rep(i, 1, k + 1) {
+			if (i % 7 == 0 || i % 7 == 6)
+				continue;
+			irep(p, parties) {
+				if (i % p == 0) {
+					total++;
+					break;
+				}
+			}
 		}
-
-		int num = 0;
-		rep (j, 1, n + 1) {
-			if (days[j] && j % 7 != 0 && j % 7 != 6)
-				num++;
-		}
-		printf("%d\n", num);
+		printf("%d\n", total);
 	}
 }

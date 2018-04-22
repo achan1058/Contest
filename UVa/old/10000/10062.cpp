@@ -4,18 +4,15 @@
 int main() {
 	string s;
 	whileX(getline(cin, s)) {
-		vector<pii> result(300);
-		rep(i, 0, 300)
-			result[i] = { 0, -i };
+		map<int, int> freq;
 		irep(c, s)
-			result[c].x++;
-
+			freq[c]++;
 		printX("");
-		sort(all(result));
-		irep(v, result) {
-			if (v.x == 0)
-				continue;
-			printf("%d %d\n", -v.y, v.x);
-		}
+		vector<pii> ans;
+		irep(p, freq)
+			ans.pb({ p.y, -p.x });
+		sort(all(ans));
+		irep(p, ans)
+			printf("%d %d\n", -p.y, p.x);
 	}
 }

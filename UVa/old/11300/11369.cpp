@@ -2,15 +2,23 @@
 #include "header.h"
 
 int main() {
-	int t;
 	forX() {
-		int total = 0;
-		cin >> t;
-		vi item(t);
-		read(item);
-		sort(all(item));
-		for (int i = sz(item) - 3; i >= 0; i -= 3)
-			total += item[i];
+		int n, v, total = 0;
+		cin >> n;
+		vi nums(20001);
+		rep(i, 0, n) {
+			cin >> v;
+			nums[v]++;
+		}
+		n = 0;
+		rrep(i, 20000, 0) {
+			while (nums[i] > 0) {
+				nums[i]--;
+				n++;
+				if (n % 3 == 0)
+					total += i;
+			}
+		}
 		printf("%d\n", total);
 	}
 }

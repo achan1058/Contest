@@ -2,16 +2,15 @@
 #include "header.h"
 
 int main() {
-	int m, M, n, v;
 	forX() {
-		m = inf;
-		M = -inf;
+		int n, v;
 		cin >> n;
+		int mn = inf, mx = -inf;
 		rep(i, 0, n) {
 			cin >> v;
-			m = min(v, m);
-			M = max(v, M);
+			mn = min(mn, v);
+			mx = max(mx, v);
 		}
-		printf("%d\n", 2 * (M - m));
+		printf("%d\n", 2 * (mx - mn));
 	}
 }

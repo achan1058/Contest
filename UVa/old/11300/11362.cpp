@@ -2,16 +2,18 @@
 #include "header.h"
 
 int main() {
-	int n;
 	forX() {
-		bool good = true;
+		int n;
 		cin >> n;
-		vs num(n);
-		read(num);
-		sort(all(num));
-		rep(i, 1, n) {
-			if (sz(num[i - 1]) <= sz(num[i]) && num[i - 1] == num[i].substr(0, sz(num[i - 1])))
+		vs nums(n);
+		read(nums);
+		sort(all(nums));
+		bool good = true;
+		rep(i, 0, n - 1) {
+			if (sz(nums[i]) < sz(nums[i + 1]) && nums[i] == nums[i + 1].substr(0, sz(nums[i]))) {
 				good = false;
+				break;
+			}
 		}
 		printf("%s\n", good ? "YES" : "NO");
 	}

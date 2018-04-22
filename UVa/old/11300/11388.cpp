@@ -2,8 +2,8 @@
 #include "header.h"
 
 int main() {
-	int g, l;
 	forX() {
+		int g, l;
 		cin >> g >> l;
 		if (l % g != 0)
 			printf("-1\n");
