@@ -264,6 +264,9 @@
     <Filter Include="GCJ\Kickstart 2017">
       <UniqueIdentifier>{3b4afde5-ada1-4d65-a6c4-08c2775f8584}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\TCO 2017\Round 1B">
+      <UniqueIdentifier>{8ba01e75-0aaf-4894-a5f4-83531412b567}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -763,6 +766,18 @@
     </ClCompile>
     <ClCompile Include="GCJ\Kickstart 2017\P1-C.cpp">
       <Filter>GCJ\Kickstart 2017</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1B\WaterAndOxygen.cpp">
+      <Filter>TopCoder\TCO 2017\Round 1B</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\2018 TCO Algorithm\RedDragonInn.cpp">
+      <Filter>TopCoder\TCO 2017</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\2018 TCO Algorithm\Resistance.cpp">
+      <Filter>TopCoder\TCO 2017</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\TCO\TCO 2018 Round 1A\Deadfish.cpp">
+      <Filter>TopCoder\TCO 2017</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
