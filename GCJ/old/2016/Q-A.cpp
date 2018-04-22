@@ -2,28 +2,28 @@
 #include "header.h"
 
 int main() {
-	int n;
 	forX() {
+		int n;
 		cin >> n;
 		if (n == 0) {
 			printp("INSOMNIA\n");
 			continue;
 		}
 
-		vb visited(10);
-		int numvisited = 0;
-		for (int a = n;; a += n) {
-			string s = to_string(a);
-			irep(c, s) {
-				if (!visited[c - '0']) {
-					visited[c - '0'] = true;
-					numvisited++;
+		vb used(10);
+		int t = 0, count = 0;
+		while (count < 10) {
+			t += n;
+			int cur = t;
+			while (cur > 0) {
+				int v = cur % 10;
+				cur /= 10;
+				if (!used[v]) {
+					used[v] = true;
+					count++;
 				}
 			}
-			if (numvisited == 10) {
-				printp("%d\n", a);
-				break;
-			}
 		}
+		printp("%d\n", t);
 	}
 }

@@ -2,16 +2,18 @@
 #include "header.h"
 
 int main() {
-	int n;
-	char c;
 	forX() {
-		cin >> n;
-		int ans = 0, total = 0;
-		rep(i, 0, n + 1) {
-			cin >> c;
-			total += c - '0';
-			ans = max(i - total + 1, ans);
+		int m, ans = 0, up = 0;
+		string s;
+		cin >> m >> s;
+		rep(i, 0, m + 1) {
+			if (up < i) {
+				ans += i - up;
+				up = i;
+			}
+			up += s[i] - '0';
 		}
+
 		printp("%d\n", ans);
 	}
 }

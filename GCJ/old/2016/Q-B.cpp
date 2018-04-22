@@ -2,17 +2,15 @@
 #include "header.h"
 
 int main() {
-	string s;
 	forX() {
 		int ans = 0;
+		string s;
 		cin >> s;
-
-		rep(i, 1, sz(s))
+		s.pb('+');
+		rep(i, 1, sz(s)) {
 			if (s[i] != s[i - 1])
 				ans++;
-		if (s.back() != '+')
-			ans++;
-
+		}
 		printp("%d\n", ans);
 	}
 }
