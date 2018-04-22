@@ -267,6 +267,24 @@
     <Filter Include="TopCoder\TCO 2017\Round 1B">
       <UniqueIdentifier>{8ba01e75-0aaf-4894-a5f4-83531412b567}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVa\400\430">
+      <UniqueIdentifier>{b981880f-99ba-4274-b3b6-97b6fb242ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\440">
+      <UniqueIdentifier>{bb082273-648e-46e7-8c65-eebd16e00e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\460">
+      <UniqueIdentifier>{63285bc8-4a4c-461a-b61d-e6f07dc330a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UVa\400\470">
+      <UniqueIdentifier>{da99425d-f5e4-497d-a7a1-14a52c4439f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO 2018">
+      <UniqueIdentifier>{ce5067e5-318e-4799-9cd8-f16f683f23ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder\TCO 2018\Round 1A">
+      <UniqueIdentifier>{6fa72a43-9373-4f8e-8c1d-f4da4cd3be0b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -275,38 +293,11 @@
     <ClCompile Include="Library\stdc++.cpp">
       <Filter>Library</Filter>
     </ClCompile>
-    <ClCompile Include="SPOJ\1\1.cpp">
-      <Filter>SPOJ\1</Filter>
-    </ClCompile>
-    <ClCompile Include="SPOJ\1\2.cpp">
-      <Filter>SPOJ\1</Filter>
-    </ClCompile>
-    <ClCompile Include="SPOJ\1\5.cpp">
-      <Filter>SPOJ\1</Filter>
-    </ClCompile>
-    <ClCompile Include="SPOJ\1\24.cpp">
-      <Filter>SPOJ\1</Filter>
-    </ClCompile>
-    <ClCompile Include="SPOJ\1\11.cpp">
-      <Filter>SPOJ\1</Filter>
-    </ClCompile>
-    <ClCompile Include="SPOJ\1\42.cpp">
-      <Filter>SPOJ\1</Filter>
-    </ClCompile>
-    <ClCompile Include="SPOJ\1100\1112.cpp">
-      <Filter>SPOJ\1100</Filter>
-    </ClCompile>
     <ClCompile Include="TopCoder\greed-source.cpp">
       <Filter>TopCoder</Filter>
     </ClCompile>
     <ClCompile Include="TopCoder\greed-test.cpp">
       <Filter>TopCoder</Filter>
-    </ClCompile>
-    <ClCompile Include="DCJ\distsource.cpp">
-      <Filter>DCJ</Filter>
-    </ClCompile>
-    <ClCompile Include="DCJ\dcjhelper.cpp">
-      <Filter>DCJ</Filter>
     </ClCompile>
     <ClCompile Include="DCJ\2016\again.cpp">
       <Filter>DCJ\2016</Filter>
@@ -323,462 +314,6 @@
     <ClCompile Include="DCJ\2016\lisp_plus_plus.cpp">
       <Filter>DCJ\2016</Filter>
     </ClCompile>
-    <ClCompile Include="DCJ\2015\mutexes.cpp">
-      <Filter>DCJ\2015</Filter>
-    </ClCompile>
-    <ClCompile Include="DCJ\2015\sandwich.cpp">
-      <Filter>DCJ\2015</Filter>
-    </ClCompile>
-    <ClCompile Include="DCJ\2015\almost_sorted.cpp">
-      <Filter>DCJ\2015</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\SRM 700-724\SRM 705\SuperUserDo.cpp">
-      <Filter>TopCoder\700\SRM 705</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10055.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12600\12626.cpp">
-      <Filter>UVa\12600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11000\11078.cpp">
-      <Filter>UVa\11000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\200\272.cpp">
-      <Filter>UVa\200</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12400\12403.cpp">
-      <Filter>UVa\12400</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11900\11942.cpp">
-      <Filter>UVa\11900</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11500\11541.cpp">
-      <Filter>UVa\11500</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10079.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10050.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10110.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10193.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10200\10222.cpp">
-      <Filter>UVa\10200</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10038.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10071.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10041.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\200\299.cpp">
-      <Filter>UVa\200</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12300\12372.cpp">
-      <Filter>UVa\12300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\136.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\108.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\147.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="Codeforces\1-25\4A.cpp">
-      <Filter>Codeforces\1-25</Filter>
-    </ClCompile>
-    <ClCompile Include="Codeforces\151-175\158B.cpp">
-      <Filter>Codeforces\151-175</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10035.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10098.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10900\10970.cpp">
-      <Filter>UVa\10900</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10900\10929.cpp">
-      <Filter>UVa\10900</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10900\10963.cpp">
-      <Filter>UVa\10900</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10900\10922.cpp">
-      <Filter>UVa\10900</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10900\10925.cpp">
-      <Filter>UVa\10900</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10066.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10013.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10081.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12600\12646.cpp">
-      <Filter>UVa\12600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12600\12696.cpp">
-      <Filter>UVa\12600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12600\12614.cpp">
-      <Filter>UVa\12600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10700\10721.cpp">
-      <Filter>UVa\10700</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10700\10714.cpp">
-      <Filter>UVa\10700</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10700\10783.cpp">
-      <Filter>UVa\10700</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10700\10789.cpp">
-      <Filter>UVa\10700</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10700\10784.cpp">
-      <Filter>UVa\10700</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10700\10763.cpp">
-      <Filter>UVa\10700</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10700\10703.cpp">
-      <Filter>UVa\10700</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\400\494.cpp">
-      <Filter>UVa\400\490</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\400\458.cpp">
-      <Filter>UVa\400\450</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\400\488.cpp">
-      <Filter>UVa\400\480</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\400\401.cpp">
-      <Filter>UVa\400\400</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\400\424.cpp">
-      <Filter>UVa\400\420</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\400\499.cpp">
-      <Filter>UVa\400\420</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\SRM 700-724\SRM 709\Robofactory.cpp">
-      <Filter>TopCoder\700\SRM 709</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\SRM 700-724\SRM 708\SafeBetting.cpp">
-      <Filter>TopCoder\700\SRM 708</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\SRM 700-724\SRM 708\BuildingStrings.cpp">
-      <Filter>TopCoder\700\SRM 708</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\400\414.cpp">
-      <Filter>UVa\400\410</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13000\13012.cpp">
-      <Filter>UVa\13000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13000\13025.cpp">
-      <Filter>UVa\13000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13000\13034.cpp">
-      <Filter>UVa\13000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13000\13026.cpp">
-      <Filter>UVa\13000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13000\13055.cpp">
-      <Filter>UVa\13000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13100\13109.cpp">
-      <Filter>UVa\13100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13100\13130.cpp">
-      <Filter>UVa\13100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13100\13148.cpp">
-      <Filter>UVa\13100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13100\13131.cpp">
-      <Filter>UVa\13100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13100\13107.cpp">
-      <Filter>UVa\13100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\13100\13115.cpp">
-      <Filter>UVa\13100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10034.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10099.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10048.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10082.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10018.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10008.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10080.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10062.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\300\357.cpp">
-      <Filter>UVa\300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12000\12034.cpp">
-      <Filter>UVa\12000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12000\12004.cpp">
-      <Filter>UVa\12000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10800\10812.cpp">
-      <Filter>UVa\10300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10800\10878.cpp">
-      <Filter>UVa\10300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10800\10815.cpp">
-      <Filter>UVa\10300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\200\264.cpp">
-      <Filter>UVa\200</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12000\12075.cpp">
-      <Filter>UVa\12000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\200\294.cpp">
-      <Filter>UVa\200</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12000\10249.cpp">
-      <Filter>UVa\12000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12100\12149.cpp">
-      <Filter>UVa\12100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12100\12146.cpp">
-      <Filter>UVa\12100</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\TCO\TCO 2016 Round 1C\SumFullSet.cpp">
-      <Filter>TopCoder\TCO 2016\Round 1C</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1A\PingPongQueue.cpp">
-      <Filter>TopCoder\TCO 2017\Round 1A</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1A\PolygonRotation.cpp">
-      <Filter>TopCoder\TCO 2017\Round 1A</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1A\CheeseSlicing.cpp">
-      <Filter>TopCoder\TCO 2017\Round 1A</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\2016\Q-A.cpp">
-      <Filter>GCJ\2016</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\2016\Q-B.cpp">
-      <Filter>GCJ\2016</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\2017\Q-A.cpp">
-      <Filter>GCJ\2017</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\2017\Q-C.cpp">
-      <Filter>GCJ\2017</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\2017\Q-B.cpp">
-      <Filter>GCJ\2017</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\2015\Q-A.cpp">
-      <Filter>GCJ\2015</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\2017\R1A-A.cpp">
-      <Filter>GCJ\2017</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\152.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\155.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\140.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\144.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\156.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10036.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10000\10074.cpp">
-      <Filter>UVa\10000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12600\12692.cpp">
-      <Filter>UVa\12600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\500\540.cpp">
-      <Filter>UVa\500</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10127.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10107.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10189.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10106.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10192.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10130.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10190.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10115.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10177.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10176.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10165.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\109.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\100\128.cpp">
-      <Filter>UVa\100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10100\10102.cpp">
-      <Filter>UVa\10100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\300\352.cpp">
-      <Filter>UVa\300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10600\10653.cpp">
-      <Filter>UVa\10600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10600\10679.cpp">
-      <Filter>UVa\10600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10600\10664.cpp">
-      <Filter>UVa\10600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10600\10651.cpp">
-      <Filter>UVa\10600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\10600\10633.cpp">
-      <Filter>UVa\10600</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11000\11057.cpp">
-      <Filter>UVa\11000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11000\11044.cpp">
-      <Filter>UVa\11000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11000\11069.cpp">
-      <Filter>UVa\11000</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11322.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11364.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11388.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11340.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11349.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11369.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11362.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11343.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\11300\11309.cpp">
-      <Filter>UVa\11300</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12100\12160.cpp">
-      <Filter>UVa\12100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12100\12157.cpp">
-      <Filter>UVa\12100</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12200\12289.cpp">
-      <Filter>UVa\12200</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12200\12250.cpp">
-      <Filter>UVa\12200</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12200\12279.cpp">
-      <Filter>UVa\12200</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa\12200\12243.cpp">
-      <Filter>UVa\12200</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\Kickstart 2017\P1-A.cpp">
-      <Filter>GCJ\Kickstart 2017</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\Kickstart 2017\P1-B.cpp">
-      <Filter>GCJ\Kickstart 2017</Filter>
-    </ClCompile>
-    <ClCompile Include="GCJ\Kickstart 2017\P1-C.cpp">
-      <Filter>GCJ\Kickstart 2017</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\TCO\TCO 2017 Round 1B\WaterAndOxygen.cpp">
-      <Filter>TopCoder\TCO 2017\Round 1B</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\TCO\2018 TCO Algorithm\RedDragonInn.cpp">
-      <Filter>TopCoder\TCO 2017</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\TCO\2018 TCO Algorithm\Resistance.cpp">
-      <Filter>TopCoder\TCO 2017</Filter>
-    </ClCompile>
-    <ClCompile Include="TopCoder\TCO\TCO 2018 Round 1A\Deadfish.cpp">
-      <Filter>TopCoder\TCO 2017</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -786,87 +321,6 @@
     </ClInclude>
     <ClInclude Include="Library\bits\stdc++.h">
       <Filter>Library</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\primes.h">
-      <Filter>Library\Mathematics</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\util.h">
-      <Filter>Library</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\max_flow.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\components.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\matching.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\point.h">
-      <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\graham.h">
-      <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\shortest_path.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\eularian.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\graph_util.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\union_find.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\spanning_tree.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\double.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\topo_sort.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\polygon.h">
-      <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\circle.h">
-      <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\triangle.h">
-      <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\segment.h">
-      <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\line.h">
-      <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\misc.h">
-      <Filter>Library</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\combinatorics.h">
-      <Filter>Library\Mathematics</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\number_theory.h">
-      <Filter>Library\Mathematics</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\bases.h">
-      <Filter>Library\Mathematics</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\sweep_line.h">
-      <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\binary_search.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\dp_algs.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\fraction.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
     <ClInclude Include="DCJ\2015\almost_sorted_1.h">
       <Filter>DCJ\2015\Headers</Filter>
@@ -940,18 +394,6 @@
     <ClInclude Include="DCJ\2016\lisp_plus_plus_3.h">
       <Filter>DCJ\2016\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Library\floodfill.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\segment_tree.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\graph.h">
-      <Filter>Library\Graph Theory</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\sorting.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
@@ -1004,23 +446,11 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <None Include="SPOJ\1\24.py">
-      <Filter>SPOJ\1</Filter>
-    </None>
     <None Include="TopCoder\greed.conf">
       <Filter>TopCoder</Filter>
     </None>
     <None Include=".gitignore">
       <Filter>Current Files</Filter>
-    </None>
-    <None Include="UVa\10900\10925.py">
-      <Filter>UVa\10900</Filter>
-    </None>
-    <None Include="UVa\400\424.py">
-      <Filter>UVa\400\420</Filter>
-    </None>
-    <None Include="UVa\10100\10106.py">
-      <Filter>UVa\10100</Filter>
     </None>
   </ItemGroup>
 </Project>
