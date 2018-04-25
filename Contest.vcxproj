@@ -88,26 +88,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DCJ\2016\again.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="DCJ\2016\crates.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="DCJ\2016\lisp_plus_plus.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="DCJ\2016\oops.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="DCJ\2016\rps.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="Library\stdc++.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -124,32 +104,20 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10055.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UVa\10700\10783.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="UVa\200\272.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DCJ\2015\almost_sorted_1.h" />
-    <ClInclude Include="DCJ\2015\almost_sorted_2.h" />
-    <ClInclude Include="DCJ\2015\almost_sorted_3.h" />
-    <ClInclude Include="DCJ\2015\mutexes_1.h" />
-    <ClInclude Include="DCJ\2015\mutexes_2.h" />
-    <ClInclude Include="DCJ\2015\mutexes_3.h" />
-    <ClInclude Include="DCJ\2015\sandwich_1.h" />
-    <ClInclude Include="DCJ\2015\sandwich_2.h" />
-    <ClInclude Include="DCJ\2015\sandwich_3.h" />
-    <ClInclude Include="DCJ\2016\again_1.h" />
-    <ClInclude Include="DCJ\2016\again_2.h" />
-    <ClInclude Include="DCJ\2016\again_3.h" />
-    <ClInclude Include="DCJ\2016\crates_1.h" />
-    <ClInclude Include="DCJ\2016\crates_2.h" />
-    <ClInclude Include="DCJ\2016\crates_3.h" />
-    <ClInclude Include="DCJ\2016\lisp_plus_plus_1.h" />
-    <ClInclude Include="DCJ\2016\lisp_plus_plus_2.h" />
-    <ClInclude Include="DCJ\2016\lisp_plus_plus_3.h" />
-    <ClInclude Include="DCJ\2016\oops_1.h" />
-    <ClInclude Include="DCJ\2016\oops_2.h" />
-    <ClInclude Include="DCJ\2016\oops_3.h" />
-    <ClInclude Include="DCJ\2016\rps_1.h" />
-    <ClInclude Include="DCJ\2016\rps_2.h" />
-    <ClInclude Include="DCJ\2016\rps_3.h" />
     <ClInclude Include="Library\bits\stdc++.h" />
     <ClInclude Include="Library\header.h" />
   </ItemGroup>

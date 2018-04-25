@@ -57,12 +57,6 @@
     <Filter Include="DCJ\2016">
       <UniqueIdentifier>{93766346-45a6-48ac-a425-0000ff10ef35}</UniqueIdentifier>
     </Filter>
-    <Filter Include="DCJ\2015\Headers">
-      <UniqueIdentifier>{639962d6-40b1-44bb-b4e8-8048b811737e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="DCJ\2016\Headers">
-      <UniqueIdentifier>{12d025fa-5f99-4bba-82c2-06aa1f136ac8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="TopCoder\700">
       <UniqueIdentifier>{517b98cd-19d4-486e-8713-640291f36209}</UniqueIdentifier>
     </Filter>
@@ -101,12 +95,6 @@
     </Filter>
     <Filter Include="UVa\100">
       <UniqueIdentifier>{03881419-6773-49f6-b303-2542a544a737}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Codeforces\1-25">
-      <UniqueIdentifier>{b6424905-b886-40b6-9867-bae016299616}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Codeforces\151-175">
-      <UniqueIdentifier>{b9266a78-fad2-4448-ae44-c730dfaa007a}</UniqueIdentifier>
     </Filter>
     <Filter Include="UVa\10900">
       <UniqueIdentifier>{aa5379f7-3013-4375-9a87-667c54448820}</UniqueIdentifier>
@@ -285,6 +273,12 @@
     <Filter Include="TopCoder\TCO 2018\Round 1A">
       <UniqueIdentifier>{6fa72a43-9373-4f8e-8c1d-f4da4cd3be0b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\1">
+      <UniqueIdentifier>{b6424905-b886-40b6-9867-bae016299616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\100">
+      <UniqueIdentifier>{b9266a78-fad2-4448-ae44-c730dfaa007a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -299,20 +293,14 @@
     <ClCompile Include="TopCoder\greed-test.cpp">
       <Filter>TopCoder</Filter>
     </ClCompile>
-    <ClCompile Include="DCJ\2016\again.cpp">
-      <Filter>DCJ\2016</Filter>
+    <ClCompile Include="UVa\10000\10055.cpp">
+      <Filter>UVa\10000</Filter>
     </ClCompile>
-    <ClCompile Include="DCJ\2016\oops.cpp">
-      <Filter>DCJ\2016</Filter>
+    <ClCompile Include="UVa\200\272.cpp">
+      <Filter>UVa\200</Filter>
     </ClCompile>
-    <ClCompile Include="DCJ\2016\rps.cpp">
-      <Filter>DCJ\2016</Filter>
-    </ClCompile>
-    <ClCompile Include="DCJ\2016\crates.cpp">
-      <Filter>DCJ\2016</Filter>
-    </ClCompile>
-    <ClCompile Include="DCJ\2016\lisp_plus_plus.cpp">
-      <Filter>DCJ\2016</Filter>
+    <ClCompile Include="UVa\10700\10783.cpp">
+      <Filter>UVa\10700</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -321,78 +309,6 @@
     </ClInclude>
     <ClInclude Include="Library\bits\stdc++.h">
       <Filter>Library</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\almost_sorted_1.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\almost_sorted_2.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\almost_sorted_3.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\mutexes_1.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\mutexes_2.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\mutexes_3.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\sandwich_3.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\sandwich_1.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2015\sandwich_2.h">
-      <Filter>DCJ\2015\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\rps_1.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\rps_2.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\rps_3.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\crates_1.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\crates_2.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\crates_3.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\oops_1.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\oops_2.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\oops_3.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\again_2.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\again_3.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\again_1.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\lisp_plus_plus_1.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\lisp_plus_plus_2.h">
-      <Filter>DCJ\2016\Headers</Filter>
-    </ClInclude>
-    <ClInclude Include="DCJ\2016\lisp_plus_plus_3.h">
-      <Filter>DCJ\2016\Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
