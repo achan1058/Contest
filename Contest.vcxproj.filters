@@ -279,6 +279,9 @@
     <Filter Include="Codeforces\100">
       <UniqueIdentifier>{b9266a78-fad2-4448-ae44-c730dfaa007a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Library\Misc">
+      <UniqueIdentifier>{438a1fb7-748d-4470-a782-90d045e19a88}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -329,6 +332,9 @@
     <ClCompile Include="UVa\10000\10038.cpp">
       <Filter>UVa\10000</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\400\494.cpp">
+      <Filter>UVa\400\490</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -336,6 +342,9 @@
     </ClInclude>
     <ClInclude Include="Library\bits\stdc++.h">
       <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\utils.h">
+      <Filter>Library\Misc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
