@@ -2,7 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// test include_empty = true
 vector<string> tokenize(const string& s, int(tokenFunc)(int) = isspace, bool include_empty = false) {
 	vector<string> result;
 	int front = 0;
