@@ -4,6 +4,6 @@
 int main() {
 	ll n;
 	while (cin >> n && n >= 0) {
-		printf("%lld\n", (n * n + n) / 2 + 1);
+		print("%lld", (n * n + n) / 2 + 1);
 	}
 }

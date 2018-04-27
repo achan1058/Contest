@@ -5,6 +5,6 @@
 int main() {
 	string s;
 	while (getline(cin, s)) {
-		printf("%d\n", sz(tokenize(s, [](int c)->int { return !isalpha(c); })));
+		print("%d", sz(tokenize(s, [](int c)->int { return !isalpha(c); })));
 	}
 }

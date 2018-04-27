@@ -8,10 +8,10 @@ int main() {
 		rep(i, 0, n) {
 			cin >> nx >> ny;
 			if (x == nx || y == ny) {
-				printn("divisa");
+				print("divisa");
 				continue;
 			}
-			printn("%c%c", ny > y ? 'N' : 'S', nx > x ? 'E' : 'O');
+			print("%c%c", ny > y ? 'N' : 'S', nx > x ? 'E' : 'O');
 		}
 	}
 }

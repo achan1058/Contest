@@ -6,9 +6,9 @@ int main() {
 	forX() {
 		cin >> sum >> diff;
 		if (diff > sum || (sum + diff) % 2) {
-			printf("impossible\n");
+			print("impossible");
 			continue;
 		}
-		printf("%d %d\n", (sum + diff) / 2, (sum - diff) / 2);
+		print("%d %d", (sum + diff) / 2, (sum - diff) / 2);
 	}
 }

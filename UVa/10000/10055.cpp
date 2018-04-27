@@ -4,6 +4,6 @@
 int main() {
 	ll a, b;
 	while (cin >> a >> b) {
-		printf("%lld\n", abs(a - b));
+		print("%lld", abs(a - b));
 	}
 }

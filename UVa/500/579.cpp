@@ -8,6 +8,6 @@ int main() {
 		double hour = (h + m / 60.) / 12 * 360;
 		double minute = m / 60. * 360;
 		double diff = abs(hour - minute);
-		printf("%.3f\n", min(diff, 360 - diff));
+		print("%.3f", min(diff, 360 - diff));
 	}
 }

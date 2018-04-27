@@ -16,6 +16,6 @@ int main() {
 			}
 			hit[d] = true;
 		}
-		printf("%s\n", jolly ? "Jolly" : "Not jolly");
+		print("%s", jolly ? "Jolly" : "Not jolly");
 	}
 }

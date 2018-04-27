@@ -17,6 +17,6 @@ int main() {
 			else
 				printf("%c", c);
 		}
-		printf("\n");
+		print("");
 	}
 }

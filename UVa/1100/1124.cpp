@@ -4,5 +4,5 @@
 int main() {
 	string s;
 	while (getline(cin, s))
-		printf("%s\n", s.c_str());
+		print("%s", s.c_str());
 }

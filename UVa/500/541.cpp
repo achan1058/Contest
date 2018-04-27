@@ -24,10 +24,10 @@ int main() {
 		}
 
 		if (r == 0 && c == 0)
-			printf("OK\n");
+			print("OK");
 		else if (r == -1 || c == -1)
-			printf("Corrupt\n");
+			print("Corrupt");
 		else
-			printf("Change bit (%d,%d)\n", r, c);
+			print("Change bit (%d,%d)", r, c);
 	}
 }

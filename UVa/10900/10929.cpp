@@ -9,6 +9,6 @@ int main() {
 			count += m * (c - '0');
 			m *= -1;
 		}
-		printf("%s is %sa multiple of 11.\n", s.c_str(), count % 11 == 0 ? "" : "not ");
+		print("%s is %sa multiple of 11.", s.c_str(), count % 11 == 0 ? "" : "not ");
 	}
 }

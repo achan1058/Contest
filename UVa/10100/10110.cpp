@@ -5,6 +5,6 @@ int main() {
 	ll n;
 	while (cin >> n && n != 0) {
 		ll d = sqrt(n);
-		printf("%s\n", d * d == n ? "yes" : "no");
+		print("%s", d * d == n ? "yes" : "no");
 	}
 }

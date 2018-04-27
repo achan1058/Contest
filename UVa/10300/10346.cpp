@@ -11,6 +11,6 @@ int main() {
 			n = stubs / d;
 			stubs %= d;
 		}
-		printf("%d\n", ans);
+		print("%d", ans);
 	}
 }

@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#include "utils.h"
 #include "header.h"
 
 int main() {
@@ -8,7 +7,7 @@ int main() {
 		int count = 0;
 		irep(c, s) {
 			if (c == '!') {
-				printf("\n");
+				print("");
 				continue;
 			}
 			if (c == 'b')
@@ -21,6 +20,6 @@ int main() {
 				count = 0;
 			}
 		}
-		printf("\n");
+		print("");
 	}
 }

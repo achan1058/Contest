@@ -15,7 +15,7 @@ int main() {
 		irep(b, bricks)
 			ans += max(b - total, 0);
 
-		printf("Set #%d\n", X);
-		printf("The minimum number of moves is %d.\n\n", ans);
+		print("Set #%d", X);
+		print("The minimum number of moves is %d.\n", ans);
 	}
 }
