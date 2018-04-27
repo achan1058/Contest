@@ -14,10 +14,10 @@ int main() {
 		}
 
 		if (num_carry == 0)
-			printf("No carry operation.\n");
+			printn("No carry operation.");
 		else if (num_carry == 1)
-			printf("1 carry operation.\n");
+			printn("1 carry operation.");
 		else
-			printf("%d carry operations.\n", num_carry);
+			printn("%d carry operations.", num_carry);
 	}
 }

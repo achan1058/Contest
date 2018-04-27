@@ -9,6 +9,6 @@ int main() {
 			a++;
 		if (b % 2 == 0)
 			b--;
-		printc("%d\n", (a + b) * (b - a + 2) / 4);
+		printc("%d", (a + b) * (b - a + 2) / 4);
 	}
 }
