@@ -7,8 +7,8 @@ typedef vector<int> vi;
 typedef vector<string> vs; // unused
 typedef pair<int, int> pii; // unused
 typedef vector<vi> vvi;
-typedef vector<ll> vl; // unused
-typedef vector<bool> vb; // unused
+typedef vector<ll> vl;
+typedef vector<bool> vb;
 typedef vector<double> vd; // unused
 typedef vector<vd> vvd; // unused
 typedef vector<vb> vvb; // unused
@@ -26,12 +26,12 @@ ll mod = 1000000007ll; // unused
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
 #define irep(k, a) for (auto& k : (a))
 #define sz(a) int(a.size())
-#define all(c) (c).begin(), (c).end() // unused
-#define pb push_back // unused
-#define x first // unused
-#define y second // unused
+#define all(c) (c).begin(), (c).end()
+#define pb push_back
+#define x first
+#define y second
 #define mi(r, c, v) vvi(r, vi(c, v))
-#define rrep(k, a, b) for (int k = (a); k >= int(b); k--) // unused
+#define rrep(k, a, b) for (int k = (a); k >= int(b); k--)
 #define drep(i, j, a, b) for (int i = 0; i < (a); i++) for (int j = 0; j < (b); j++) // unused
 #define md(r, c, v) vvd(r, vd(c, v)) // unused
 #define mb(r, c, v) vvb(r, vb(c, v)) // unused
