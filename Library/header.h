@@ -42,7 +42,7 @@ ll mod = 1000000007ll;
 #define gcd(a, b) abs(__gcd(a, b))
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
 #define lineX() string XE; if (X == 1) getline(cin, XE)
-#define whileX(a) int X = 0; string XS; bool XB; while(X++, XB = (a), getline(cin, XS), XB)
+#define whileX(a) int X = 0; string XS; bool XB; while(X++, XB = bool(a), getline(cin, XS), XB)
 #define print(...) printf(__VA_ARGS__), printf("\n")
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X), printf(__VA_ARGS__)
