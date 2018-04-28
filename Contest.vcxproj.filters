@@ -285,6 +285,9 @@
     <Filter Include="Library\old">
       <UniqueIdentifier>{56590f46-3ab8-4362-a50d-67d0c296a81d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVa\13200">
+      <UniqueIdentifier>{6dde2d24-4015-4a6c-9e0e-e1885e7adc10}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -403,6 +406,9 @@
     </ClCompile>
     <ClCompile Include="UVa\900\900.cpp">
       <Filter>UVa\900</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13200\13209.cpp">
+      <Filter>UVa\13200</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
