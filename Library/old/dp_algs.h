@@ -21,6 +21,7 @@ T lcs(const T& s1, const T& s2) {
 	}
 
 	int len = table[n][m];
+	// T s(len, 0) works?
 	T s = lcsHelper(s1, len);
 	while (len > 0) {
 		if (table[n][m] == table[n - 1][m])
