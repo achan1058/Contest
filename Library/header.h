@@ -43,7 +43,6 @@ ll mod = 1000000007ll; // unused
 #define bits(n) int(__builtin_popcount(n)) // unused
 #define gcd(a, b) abs(__gcd(a, b)) // unused
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
-#define lineX() string XE; if (X == 1) getline(cin, XE) // unused
 #define whileX(a) int X = 0; while(X++, (a))
 #define print(...) printf(__VA_ARGS__), printf("\n")
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__) // unused
