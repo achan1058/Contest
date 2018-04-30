@@ -4,7 +4,7 @@ using namespace std;
 
 typedef long long ll;
 typedef vector<int> vi;
-typedef vector<string> vs; // unused
+typedef vector<string> vs;
 typedef pair<int, int> pii; // unused
 typedef vector<vi> vvi;
 typedef vector<ll> vl;
@@ -19,8 +19,8 @@ template <class T> using vt = vector<tuple<int, int, T>>; // unused
 template <class T> inline void read(vector<T>& v) { for (int k = 0; k < int(v.size()); k++) cin >> v[k]; }
 template <class T> inline void read(vector<vector<T>>& v) { for (auto& p : v) read(p); } // unused
 
-int inf = 0x3f3f3f3f; // unused
-double eps = 1e-8; // unused
+int inf = 0x3f3f3f3f;
+double eps = 1e-8;
 ll mod = 1000000007ll; // unused
 
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
