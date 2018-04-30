@@ -488,6 +488,9 @@
     <ClCompile Include="UVa\10300\10324.cpp">
       <Filter>UVa\10300</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10066.cpp">
+      <Filter>UVa\10000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -594,6 +597,9 @@
     </ClInclude>
     <ClInclude Include="Library\primes.h">
       <Filter>Library\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\dp_algs.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
