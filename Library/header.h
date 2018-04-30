@@ -16,7 +16,7 @@ typedef vector<vs> vvs; // unused
 typedef vector<vl> vvl; // unused
 template <class T> using vvp = vector<vector<pair<int, T>>>; // unused
 template <class T> using vt = vector<tuple<int, int, T>>; // unused
-template <class T> inline void read(vector<T>& v, int b = 0, int e = 0) { for (int k = b; k < int(v.size()) - e; k++) cin >> v[k]; } // used default
+template <class T> inline void read(vector<T>& v) { for (int k = 0; k < int(v.size()); k++) cin >> v[k]; }
 template <class T> inline void read(vector<vector<T>>& v) { for (auto& p : v) read(p); } // unused
 
 int inf = 0x3f3f3f3f; // unused
@@ -41,7 +41,7 @@ ll mod = 1000000007ll; // unused
 #define add(i, j) ((i) + (j)) % mod // unused
 #define mul(i, j) ((i) * (j)) % mod // unused
 #define bits(n) int(__builtin_popcount(n)) // unused
-#define gcd(a, b) abs(__gcd(a, b)) // unused
+#define gcd(a, b) abs(__gcd(a, b))
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
 #define whileX(a) int X = 0; while(X++, (a))
 #define print(...) printf(__VA_ARGS__), printf("\n")
