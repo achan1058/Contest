@@ -509,6 +509,12 @@
     <ClCompile Include="UVa\13100\13187.cpp">
       <Filter>UVa\13100</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\13100\13108.cpp">
+      <Filter>UVa\13100</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13100\13135.cpp">
+      <Filter>UVa\13100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -618,6 +624,9 @@
     </ClInclude>
     <ClInclude Include="Library\dp_algs.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\combinatorics.h">
+      <Filter>Library\Mathematics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

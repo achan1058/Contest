@@ -25,19 +25,6 @@ vvl binomialTable(int n, ll m = 0) {
 	return result;
 }
 
-ll binomial(int n, int r) {
-	ll result = 1;
-	if (r > n / 2)
-		r = n - r;
-	if (r < 0)
-		return 0;
-	rep(i, 0, r) {
-		result *= n - i;
-		result /= i + 1;
-	}
-	return result;
-}
-
 ll multinomial(const vi& r) {
 	ll result = 1;
 	int n = 0;
