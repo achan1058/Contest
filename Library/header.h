@@ -16,8 +16,8 @@ typedef vector<vs> vvs; // unused
 typedef vector<vl> vvl; // unused
 template <class T> using vvp = vector<vector<pair<int, T>>>; // unused
 template <class T> using vt = vector<tuple<int, int, T>>; // unused
-template <class T> inline void read(vector<T>& v) { for (int k = 0; k < int(v.size()); k++) cin >> v[k]; }
-template <class T> inline void read(vector<vector<T>>& v) { for (auto& p : v) read(p); } // unused
+template <class T> inline istream& read(vector<T>& v) { for (int k = 0; k < int(v.size()); k++) cin >> v[k]; return cin; }
+template <class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v) read(p); return cin; } // unused
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
