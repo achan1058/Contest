@@ -616,9 +616,6 @@
     <ClInclude Include="Library\old\number_theory.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\old\point.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
     <ClInclude Include="Library\old\polygon.h">
       <Filter>Library\old</Filter>
     </ClInclude>

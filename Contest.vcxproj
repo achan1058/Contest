@@ -388,7 +388,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UVa\1400\1411.cpp" />
+    <ClCompile Include="UVa\1400\1411.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="UVa\1500\1585.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -486,7 +489,6 @@
     <ClInclude Include="Library\old\max_flow.h" />
     <ClInclude Include="Library\old\misc.h" />
     <ClInclude Include="Library\old\number_theory.h" />
-    <ClInclude Include="Library\old\point.h" />
     <ClInclude Include="Library\old\polygon.h" />
     <ClInclude Include="Library\old\primes.h" />
     <ClInclude Include="Library\old\segment.h" />
