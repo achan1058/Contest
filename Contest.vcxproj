@@ -388,6 +388,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\1400\1411.cpp" />
     <ClCompile Include="UVa\1500\1585.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -466,6 +467,7 @@
     <ClInclude Include="Library\combinatorics.h" />
     <ClInclude Include="Library\dp_algs.h" />
     <ClInclude Include="Library\header.h" />
+    <ClInclude Include="Library\matching.h" />
     <ClInclude Include="Library\old\bases.h" />
     <ClInclude Include="Library\old\binary_search.h" />
     <ClInclude Include="Library\old\circle.h" />
@@ -496,6 +498,7 @@
     <ClInclude Include="Library\old\topo_sort.h" />
     <ClInclude Include="Library\old\triangle.h" />
     <ClInclude Include="Library\old\util.h" />
+    <ClInclude Include="Library\point.h" />
     <ClInclude Include="Library\primes.h" />
     <ClInclude Include="Library\union_find.h" />
     <ClInclude Include="Library\utils.h" />

@@ -578,6 +578,9 @@
     <ClCompile Include="UVa\1500\1585.cpp">
       <Filter>UVa\1500</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\1400\1411.cpp">
+      <Filter>UVa\1400</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -690,6 +693,12 @@
     </ClInclude>
     <ClInclude Include="Library\union_find.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\matching.h">
+      <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\point.h">
+      <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
