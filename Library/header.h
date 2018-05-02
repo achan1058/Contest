@@ -32,7 +32,7 @@ ll mod = 1000000007ll; // unused
 #define y second
 #define mi(r, c, v) vvi(r, vi(c, v))
 #define rrep(k, a, b) for (int k = (a); k >= int(b); k--)
-#define drep(i, j, a, b) for (int i = 0; i < (a); i++) for (int j = 0; j < (b); j++) // unused
+#define drep(i, j, a, b) for (int i = 0; i < (a); i++) for (int j = 0; j < (b); j++)
 #define md(r, c, v) vvd(r, vd(c, v)) // unused
 #define mb(r, c, v) vvb(r, vb(c, v)) // unused
 #define ms(r, c, v) vvs(r, vs(c, v)) // unused
