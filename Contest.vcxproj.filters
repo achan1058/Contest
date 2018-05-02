@@ -297,6 +297,9 @@
     <Filter Include="UVa\1700">
       <UniqueIdentifier>{d09d707a-99f2-4b60-9739-14de5f24bb4b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Euler\1">
+      <UniqueIdentifier>{3ae1255d-7403-4319-b470-a9d625ca987b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -580,6 +583,12 @@
     </ClCompile>
     <ClCompile Include="UVa\1400\1411.cpp">
       <Filter>UVa\1400</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\1300\1368.cpp">
+      <Filter>UVa\1300</Filter>
+    </ClCompile>
+    <ClCompile Include="Euler\1\1.cpp">
+      <Filter>Euler\1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
