@@ -3,7 +3,7 @@
 using namespace std;
 
 class UnionFind {
-	//if p >= 0, then it points to parent, if < 0, it is number of children
+	// if p >= 0, then it points to parent, if < 0, it is number of children
 	mutable vector<int> p;
 public:
 	UnionFind(int n = 0) : p(vector<int>(n, -1)) {}
@@ -41,13 +41,5 @@ public:
 			}
 		}
 		return comps;
-	}
-	vector<int> getComponentSizes() const {
-		vector<int> sizes;
-		for (auto& v : p) {
-			if (v < 0)
-				sizes.push_back(-v);
-		}
-		return sizes;
 	}
 };

@@ -566,6 +566,9 @@
     <ClCompile Include="UVa\11200\11292.cpp">
       <Filter>UVa\11200</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10500\10583.cpp">
+      <Filter>UVa\10500</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -634,9 +637,6 @@
     <ClInclude Include="Library\old\triangle.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\old\union_find.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
     <ClInclude Include="Library\old\util.h">
       <Filter>Library\old</Filter>
     </ClInclude>
@@ -678,6 +678,9 @@
     </ClInclude>
     <ClInclude Include="Library\combinatorics.h">
       <Filter>Library\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\union_find.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
