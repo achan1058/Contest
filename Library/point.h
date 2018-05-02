@@ -34,7 +34,7 @@ struct point {
 	void angle_sort(typename vector<point<T>>::iterator begin, typename vector<point<T>>::iterator end) {
 		sort(begin, end, [&](point<T> p1, point<T> p2) {
 			T d = sa2(p1, p2);
-			return d > T(0) || (d == T(0) && dist2(p1) < dist2(p2))); // test this
+			return d > T(0) || (d == T(0) && dist2(p1) < dist2(p2)); // test this
 		});
 	}
 };
