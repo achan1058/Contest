@@ -3,6 +3,18 @@
 using namespace std;
 
 template <class T>
+bool isPrime(T n) {
+	if (n < 2) return false;
+	if (n <= 3) return true;
+	if (n % 2 == 0 || n % 3 == 0) return false;
+	for (T p = 5; p * p <= n; p += 6) {
+		if (n % p == 0 || n % (p + 2) == 0)
+			return false;
+	}
+	return true;
+}
+
+template <class T>
 vector<T> factor(T n) {
 	vector<T> result;
 	if (n < 0) {
