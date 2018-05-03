@@ -4,5 +4,5 @@
 int main() {
 	int n;
 	cin >> n;
-	printf("%s\n", n % 2 == 0 && n >= 4 ? "YES" : "NO");
+	printf("%s\n", n % 2 == 0 && n > 2 ? "YES" : "NO");
 }

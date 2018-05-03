@@ -60,9 +60,6 @@
     <Filter Include="TopCoder\700">
       <UniqueIdentifier>{517b98cd-19d4-486e-8713-640291f36209}</UniqueIdentifier>
     </Filter>
-    <Filter Include="TopCoder\700\SRM 705">
-      <UniqueIdentifier>{c18744b7-39a5-4406-8435-fd1a2c6c4bb6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="UVa\10000">
       <UniqueIdentifier>{c0fa3d7f-b86e-4745-8fdd-4b1a7c3d9cc3}</UniqueIdentifier>
     </Filter>
@@ -120,12 +117,6 @@
     <Filter Include="UVa\400\420">
       <UniqueIdentifier>{52c93c69-52d4-4520-a224-abf5dfb959e4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="TopCoder\700\SRM 709">
-      <UniqueIdentifier>{37e93a44-af6e-472f-891a-0c3ee17aa370}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="TopCoder\700\SRM 708">
-      <UniqueIdentifier>{dbcfde7c-a1ae-4670-8ca4-a67caf376f50}</UniqueIdentifier>
-    </Filter>
     <Filter Include="SPOJ\1">
       <UniqueIdentifier>{84c8a3da-9841-49ce-a15f-98d9631e30ce}</UniqueIdentifier>
     </Filter>
@@ -174,14 +165,8 @@
     <Filter Include="TopCoder\TCO 2016">
       <UniqueIdentifier>{09b4a0f5-1b3f-483d-ad24-9ec7ae94cf15}</UniqueIdentifier>
     </Filter>
-    <Filter Include="TopCoder\TCO 2016\Round 1C">
-      <UniqueIdentifier>{f6375c63-c204-4ef8-bc9e-e038ab9da5e9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="TopCoder\TCO 2017">
       <UniqueIdentifier>{f6d1e66a-38f2-4ae9-971e-0849b35e5a2e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="TopCoder\TCO 2017\Round 1A">
-      <UniqueIdentifier>{89b06cab-d1f9-4c3e-9a38-748ec20d5dd0}</UniqueIdentifier>
     </Filter>
     <Filter Include="GCJ\2016">
       <UniqueIdentifier>{6b71d6db-88df-473b-aab3-7bd8c4807c14}</UniqueIdentifier>
@@ -251,9 +236,6 @@
     </Filter>
     <Filter Include="GCJ\Kickstart 2017">
       <UniqueIdentifier>{3b4afde5-ada1-4d65-a6c4-08c2775f8584}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="TopCoder\TCO 2017\Round 1B">
-      <UniqueIdentifier>{8ba01e75-0aaf-4894-a5f4-83531412b567}</UniqueIdentifier>
     </Filter>
     <Filter Include="UVa\400\430">
       <UniqueIdentifier>{b981880f-99ba-4274-b3b6-97b6fb242ff7}</UniqueIdentifier>
@@ -607,6 +589,12 @@
     </ClCompile>
     <ClCompile Include="Euler\1\6.cpp">
       <Filter>Euler\1</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\700\706.cpp">
+      <Filter>UVa\700</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10000\10071.cpp">
+      <Filter>UVa\10000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
