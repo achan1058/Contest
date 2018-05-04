@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-template <class T>
+template<class T>
 bool isPrime(T n) {
 	if (n < 2) return false;
 	if (n <= 3) return true;
@@ -14,7 +14,7 @@ bool isPrime(T n) {
 	return true;
 }
 
-template <class T>
+template<class T>
 vector<T> factor(T n) {
 	vector<T> result;
 	if (n < 0) {

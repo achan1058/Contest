@@ -13,7 +13,6 @@ public:
 		p[n] = find(p[n]);
 		return p[n];
 	}
-	int getSize(int n) const { return -p[find(n)]; }
 	bool join(int m, int n) {
 		m = find(m);
 		n = find(n);
@@ -42,4 +41,5 @@ public:
 		}
 		return comps;
 	}
+	inline int getSize(int n) const { return -p[find(n)]; }
 };
