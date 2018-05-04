@@ -504,6 +504,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\800\821.cpp" />
     <ClCompile Include="UVa\800\895.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -517,6 +518,7 @@
     <ClInclude Include="Library\bits\stdc++.h" />
     <ClInclude Include="Library\combinatorics.h" />
     <ClInclude Include="Library\dp_algs.h" />
+    <ClInclude Include="Library\graph_util.h" />
     <ClInclude Include="Library\header.h" />
     <ClInclude Include="Library\matching.h" />
     <ClInclude Include="Library\old\bases.h" />
@@ -550,6 +552,7 @@
     <ClInclude Include="Library\old\util.h" />
     <ClInclude Include="Library\point.h" />
     <ClInclude Include="Library\primes.h" />
+    <ClInclude Include="Library\shortest_path.h" />
     <ClInclude Include="Library\union_find.h" />
     <ClInclude Include="Library\utils.h" />
   </ItemGroup>
