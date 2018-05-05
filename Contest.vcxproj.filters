@@ -623,6 +623,9 @@
     <ClCompile Include="UVa\11500\11547.cpp">
       <Filter>UVa\11500</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\300\374.cpp">
+      <Filter>UVa\300</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -744,6 +747,9 @@
     </ClInclude>
     <ClInclude Include="Library\graph_util.h">
       <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\number_theory.h">
+      <Filter>Library\Mathematics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
