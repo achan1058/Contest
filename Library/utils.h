@@ -2,7 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vi dx8 = { 1, 1, 1, 0, -1, -1, -1, 0 }, dy8 = { 1, 0, -1, -1, -1, 0, 1, 1 };
+vector<int> dx4 = { 1, 0, -1, 0 }, dy4 = { 0, 1, 0, -1 };
+vector<int> dx8 = { 1, 1, 1, 0, -1, -1, -1, 0 }, dy8 = { 1, 0, -1, -1, -1, 0, 1, 1 };
 
 template<class T>
 map<T, int> tally(const vector<T>& arr) {

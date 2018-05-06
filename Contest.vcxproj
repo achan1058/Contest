@@ -528,6 +528,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\500\572.cpp" />
     <ClCompile Include="UVa\500\575.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -573,6 +574,7 @@
     <ClInclude Include="Library\bits\stdc++.h" />
     <ClInclude Include="Library\combinatorics.h" />
     <ClInclude Include="Library\dp_algs.h" />
+    <ClInclude Include="Library\floodfill.h" />
     <ClInclude Include="Library\graph_util.h" />
     <ClInclude Include="Library\header.h" />
     <ClInclude Include="Library\matching.h" />
