@@ -282,6 +282,30 @@
     <Filter Include="Euler\1">
       <UniqueIdentifier>{3ae1255d-7403-4319-b470-a9d625ca987b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\400">
+      <UniqueIdentifier>{232e0887-c0e3-4ae1-a996-a8d9108e9ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\500">
+      <UniqueIdentifier>{0bffeeb4-db1e-4337-9cc2-7e9671f77000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\300">
+      <UniqueIdentifier>{158af746-391c-4c53-8cf5-cd446e1958e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\200">
+      <UniqueIdentifier>{cb92ab10-e781-41ed-86e2-df4ae2de41de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\600">
+      <UniqueIdentifier>{231c33b8-c7f7-40bd-b9d0-af4aafb13537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\700">
+      <UniqueIdentifier>{02ca635f-13d3-49a8-bafa-36815eb60b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\800">
+      <UniqueIdentifier>{ccc429fd-e605-4ef8-b0e2-dcdadad35657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Codeforces\900">
+      <UniqueIdentifier>{e2771c65-30d6-4568-a4cd-0ca15516125f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -670,6 +694,9 @@
     </ClCompile>
     <ClCompile Include="Codeforces\100\150\158A.cpp">
       <Filter>Codeforces\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\300\330\337A.cpp">
+      <Filter>Codeforces\300</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
