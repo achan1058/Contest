@@ -2,6 +2,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+vi dx8 = { 1, 1, 1, 0, -1, -1, -1, 0 }, dy8 = { 1, 0, -1, -1, -1, 0, 1, 1 };
+
 template<class T>
 map<T, int> tally(const vector<T>& arr) {
 	map<T, int> result;

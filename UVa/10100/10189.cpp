@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
+#include "utils.h"
 #include "header.h"
 
-vi dx = { 1, 1, 1, 0, -1, -1, -1, 0 }, dy = { 1, 0, -1, -1, -1, 0, 1, 1 };
 int main() {
 	int r, c;
 	whileX(cin >> r >> c && (r | c) != 0) {
@@ -12,7 +12,7 @@ int main() {
 			if (grid[i][j] == '*')
 				continue;
 			rep(k, 0, 8) {
-				int nx = i + dx[k], ny = j + dy[k];
+				int nx = i + dx8[k], ny = j + dy8[k];
 				if (nx < 0 || nx >= r || ny < 0 || ny >= c)
 					continue;
 				if (grid[nx][ny] == '*')
