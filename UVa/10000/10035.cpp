@@ -3,7 +3,7 @@
 
 int main() {
 	int a, b;
-	while (cin >> a >> b && (a | b != 0)) {
+	while (cin >> a >> b && (a | b) != 0) {
 		int carry = 0, num_carry = 0;
 		rep(i, 0, 10) {
 			carry += a % 10 + b % 10;

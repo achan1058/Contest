@@ -3,7 +3,7 @@
 
 int main() {
 	int n, m;
-	while (cin >> n >> m && (n | m != 0)) {
+	while (cin >> n >> m && (n | m) != 0) {
 		vi heads(n), knights(m);
 		ll cost = 0;
 		read(heads);

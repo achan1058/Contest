@@ -3,7 +3,7 @@
 
 int main() {
 	int n, k, v;
-	whileX(cin >> n >> k && (n | k != 0)) {
+	whileX(cin >> n >> k && (n | k) != 0) {
 		vi tally(10001);
 		vb hit(10001);
 		rep(i, 0, n) {

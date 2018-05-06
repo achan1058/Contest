@@ -4,7 +4,7 @@
 
 int main() {
 	int n, m;
-	whileX(cin >> n >> m && (n | m != 0)) {
+	whileX(cin >> n >> m && (n | m) != 0) {
 		UnionFind un(n);
 		int a, b;
 		rep(i, 0, m) {
