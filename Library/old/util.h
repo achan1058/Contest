@@ -6,11 +6,3 @@ using namespace std;
 template <class T> int sgn(T val) {
 	return (T(0) < val) - (val < T(0));
 }
-
-template<class T>
-map<T, int> tally(const vector<T>& arr) {
-	map<T, int> result;
-	for (auto& v : arr)
-		result[v]++;
-	return result;
-}

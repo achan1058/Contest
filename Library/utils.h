@@ -2,6 +2,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+template<class T>
+map<T, int> tally(const vector<T>& arr) {
+	map<T, int> result;
+	for (auto& v : arr)
+		result[v]++;
+	return result;
+}
+
 // maps elements of a set to [0..n-1]
 template<class T>
 class mapper {
