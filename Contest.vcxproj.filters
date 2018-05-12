@@ -767,6 +767,9 @@
     <ClCompile Include="Codeforces\400\420\427A.cpp">
       <Filter>Codeforces\400</Filter>
     </ClCompile>
+    <ClCompile Include="Codeforces\700\790\791A.cpp">
+      <Filter>Codeforces\700</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
