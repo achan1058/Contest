@@ -38,7 +38,7 @@ ll mod = 1000000007ll; // unused
 #define mc(r, c, v) vs(r, string(c, v))
 #define add(i, j) ((i) + (j)) % mod // unused
 #define mul(i, j) ((i) * (j)) % mod // unused
-#define bits(n) int(__builtin_popcount(n)) // unused
+#define bits(n) int(__builtin_popcount(n))
 #define gcd(a, b) abs(__gcd(a, b))
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
 #define whileX(a) int X = 0; while(X++, (a))
