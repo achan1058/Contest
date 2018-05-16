@@ -788,6 +788,9 @@
     <ClCompile Include="Codeforces\200\270\270A.cpp">
       <Filter>Codeforces\200</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\600\673.cpp">
+      <Filter>UVa\600</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
