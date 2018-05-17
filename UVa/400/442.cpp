@@ -11,10 +11,6 @@ int main() {
 	}
 	string s;
 	while (cin >> s) {
-		if (sz(s) == 1) {
-			print("0");
-			continue;
-		}
 		int ans = 0;
 		stack<pii> todo;
 		irep(c, s) {
