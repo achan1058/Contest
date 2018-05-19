@@ -821,6 +821,9 @@
     <ClCompile Include="UVa\11400\11461.cpp">
       <Filter>UVa\11400</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10900\10931.cpp">
+      <Filter>UVa\10900</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -948,6 +951,9 @@
     </ClInclude>
     <ClInclude Include="Library\floodfill.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\bases.h">
+      <Filter>Library\Mathematics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

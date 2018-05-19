@@ -2,33 +2,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// max base is 62
-template <class T>
-string intToString(T n, int base = 10) {
-	string s;
-	bool neg = false;
-	if (n == T(0)) {
-		return "0";
-	} else if (n < T(0)) {
-		neg = true;
-		n *= -1;
-	}
-	while (n > T(0)) {
-		char b = n % T(base);
-		if (b < 10)
-			s.pb(b + '0');
-		else if (b < 36)
-			s.pb(b - 10 + 'A');
-		else
-			s.pb(b - 36 + 'a');
-		n /= base;
-	}
-	if (neg)
-		s.pb('-');
-	reverse(all(s));
-	return s;
-}
-
 template <class T>
 vi intToDigits(T n, int base = 10) {
 	vi ans;

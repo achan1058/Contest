@@ -4,7 +4,7 @@ using namespace std;
 
 template <class T>
 T powmod(T b, T e, T m) {
-	T r = T(1);
+	T r = 1;
 	while (e > 0) {
 		if (e & 1) {
 			r *= b;
