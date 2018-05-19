@@ -9,6 +9,6 @@ int main() {
 		read(t1);
 		read(t2);
 		print("Twin Towers #%d", X);
-		print("Number of Tiles : %d\n", sz(lcs(t1, t2)));
+		print("Number of Tiles : %d\n", sz(lcs(t1, t2).x));
 	}
 }

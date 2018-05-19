@@ -34,13 +34,13 @@ pair<T, vector<int>>  lcs(const T& s1, const T& s2) {
 			index[len] = n;
 		}
 	}
-	return s;
+	return{ s, index };
 }
 
 // returns the lexicographically minimal LIS
 template<class T>
 pair<T, vector<int>> lis(const T& s, bool nondecrease = false) {
-	if (s.size() == 0) return { T(), vector<int>() };
+	if (s.size() == 0) return{ T(), vector<int>() };
 	vector<int> ind = { 0 };
 	vector<int> prev(s.size(), -1);
 	for (int i = 1; i < int(s.size()); i++) {
@@ -64,5 +64,5 @@ pair<T, vector<int>> lis(const T& s, bool nondecrease = false) {
 		index[i] = cur;
 		cur = prev[cur];
 	}
-	return { result, index };
+	return{ result, index };
 }
