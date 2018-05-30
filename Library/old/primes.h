@@ -2,35 +2,6 @@
 #include "util.h"
 
 /*
-vb sieveVector(int n) {
-	n = (n - 1) / 2;
-	vb arr(n + 1, true);
-	arr[0] = false;
-	int p = 1;
-
-	while (2 * p * (p + 1) <= n) {
-		if (arr[p]) {
-			for (int j = 2 * p * (p + 1); j <= n; j += 2 * p + 1)
-				arr[j] = false;
-		}
-		p++;
-	}
-
-	return arr;
-}
-
-vi sieve(int n) {
-	vb arr = sieveVector(n);
-	vi primes = { 2 };
-	n = (n - 1) / 2;
-
-	rep(p, 1, sz(arr)) {
-		if (arr[p])
-			primes.pb(2 * p + 1);
-	}
-
-	return primes;
-}
 
 template <class T>
 int fastIsPrime(T n, const vi& primes) {

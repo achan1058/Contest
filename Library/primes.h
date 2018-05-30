@@ -43,3 +43,30 @@ vector<T> factor(T n) {
 		result.push_back(n);
 	return result;
 }
+
+// arr[i] = true if 2 * i + 1 is prime
+vector<bool> sieveVector(int n) {
+	n = (n - 1) / 2;
+	vector<bool> arr(n + 1, true);
+	arr[0] = false;
+	for (int p = 1; 2 * p * (p + 1) <= n; p++) {
+		if (arr[p]) {
+			for (int j = 2 * p * (p + 1); j <= n; j += 2 * p + 1)
+				arr[j] = false;
+		}
+	}
+	return arr;
+}
+
+// TEST this
+vector<int> sieve(int n) {
+	if (n < 2) return{};
+	vector<bool> arr = sieveVector(n);
+	vector<int> primes = { 2 };
+	n = (n - 1) / 2;
+	for (int i = 1; i < int(arr.size()); i++) {
+		if (arr[i])
+			primes.push_back(2 * i + 1);
+	}
+	return primes;
+}
