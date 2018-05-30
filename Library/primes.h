@@ -58,7 +58,6 @@ vector<bool> sieveVector(int n) {
 	return arr;
 }
 
-// TEST this
 vector<int> sieve(int n) {
 	if (n < 2) return{};
 	vector<bool> arr = sieveVector(n);
