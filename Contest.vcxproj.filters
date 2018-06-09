@@ -899,6 +899,9 @@
     <ClCompile Include="UVa\10600\10699.cpp">
       <Filter>UVa\10600</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\400\438.cpp">
+      <Filter>UVa\400\430</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1029,6 +1032,9 @@
     </ClInclude>
     <ClInclude Include="Library\bases.h">
       <Filter>Library\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\circle.h">
+      <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
