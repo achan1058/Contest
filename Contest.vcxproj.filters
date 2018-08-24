@@ -986,6 +986,9 @@
     <ClCompile Include="UVa\10500\10579.cpp">
       <Filter>UVa\10500</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\800\820.cpp">
+      <Filter>UVa\800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1010,9 +1013,6 @@
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\matching.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\max_flow.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\misc.h">
@@ -1119,6 +1119,12 @@
     </ClInclude>
     <ClInclude Include="Library\circle.h">
       <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\old\max_flow.h">
+      <Filter>Library\old</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\max_flow.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

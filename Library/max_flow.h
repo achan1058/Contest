@@ -70,5 +70,5 @@ tuple<T, vector<vector<T>>, vector<bool>> pushRelabel(const vector<vector<T>>& g
 		if (height[i] >= n)
 			cut[i] = true;
 	}
-	return make_tuple(excess[target], flow, cut);
+	return{ excess[target], flow, cut };
 }
