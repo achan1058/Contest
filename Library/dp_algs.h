@@ -37,7 +37,7 @@ pair<T, vector<int>>  lcs(const T& s1, const T& s2) {
 	return{ s, index };
 }
 
-// returns the lexicographically minimal LIS
+// returns the lexicographically maximal LIS
 template<class T>
 pair<T, vector<int>> lis(const T& s, bool nondecrease = false) {
 	if (s.size() == 0) return{ T(), vector<int>() };
