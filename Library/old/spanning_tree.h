@@ -2,26 +2,6 @@
 #include "graph.h"
 #include "union_find.h"
 
-// CHANGES EDGE ORDER! uses edge list, returns forest cost, num components, edges in forest
-template<class T>
-tuple<T, int, vector<tuple<int, int, T>>> kruskal(vector<tuple<int, int, T>>& edges, int n = 0) {
-	if (n == 0) {
-		irep(e, edges)
-			n = max(n, max(get<0>(e), get<1>(e)) + 1);
-	}
-	UnionFind un(n);
-	T result = 0;
-	vector<tuple<int, int, T>> tree;
-	sort(all(edges), [](const tuple<int, int, T>& v1, const tuple<int, int, T>& v2) { return get<2>(v1) < get<2>(v2); });
-	irep(e, edges) {
-		if (un.join(get<0>(e), get<1>(e))) {
-			result += get<2>(e);
-			tree.pb({ get<0>(e), get<1>(e), get<2>(e) });
-		}
-	}
-	return make_tuple(result, un.getComponentSizes().size(), tree);
-}
-
 // uses adjacency list, returns tree cost, component num vertex, edges in tree
 template<class T>
 tuple<T, int, AdjList<T>> prim(const AdjList<T>& graph, int start = 0, T non_edge = inf) {

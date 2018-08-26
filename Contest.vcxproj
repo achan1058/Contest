@@ -288,6 +288,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10034.cpp" />
     <ClCompile Include="UVa\10000\10035.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -1105,6 +1106,7 @@
     <ClInclude Include="Library\point.h" />
     <ClInclude Include="Library\primes.h" />
     <ClInclude Include="Library\shortest_path.h" />
+    <ClInclude Include="Library\spanning_tree.h" />
     <ClInclude Include="Library\union_find.h" />
     <ClInclude Include="Library\utils.h" />
   </ItemGroup>
