@@ -1034,6 +1034,9 @@
     <ClCompile Include="UVa\10100\10170.cpp">
       <Filter>UVa\10100</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10900\10976.cpp">
+      <Filter>UVa\10900</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1170,6 +1173,9 @@
     </ClInclude>
     <ClInclude Include="Library\max_flow.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\fraction.h">
+      <Filter>Library\Mathematics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
