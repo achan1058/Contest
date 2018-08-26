@@ -36,7 +36,7 @@ void ass_Aab(double a, double b, double& c, double A, double& B, double& C, bool
 	C = M_PI - A - B;
 	c = sinLawSide(C, a, A);
 }
-// test me
+
 double sss_area(double a, double b, double c) { return sqrt((a + b + c) * (a + b - c) * (a - b + c) * (-a + b + c)) / 4; }
 // test me
 double sas_area(double A, double b, double c) { return b * c * sin(A) / 2; }
