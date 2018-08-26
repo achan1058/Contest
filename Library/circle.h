@@ -17,6 +17,7 @@ struct Circle {
 	//returns 1 on inside, 0 on boundary, -1 on non-intersection
 	int inCircle(const point<T>& p) const {
 		T d = r2 - c.dist2(p);
-		return d > T(0) ? 1 : (d < T(0) ? -1 : 0);
+		// Test this
+		return (0 < d) - (d < 0);
 	}
 };

@@ -5,7 +5,7 @@ using namespace std;
 typedef long long ll;
 typedef vector<int> vi;
 typedef vector<string> vs;
-typedef pair<int, int> pii; // unused
+typedef pair<int, int> pii;
 typedef vector<vi> vvi;
 typedef vector<ll> vl;
 typedef vector<bool> vb;

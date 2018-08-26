@@ -1129,9 +1129,6 @@
     <ClInclude Include="Library\old\floodfill.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\old\fraction.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
     <ClInclude Include="Library\primes.h">
       <Filter>Library\Mathematics</Filter>
     </ClInclude>

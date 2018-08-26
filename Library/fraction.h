@@ -61,9 +61,9 @@ public:
 	inline bool operator>=(const Fraction& f) const { return compare(f) >= 0; }
 	inline bool operator==(const Fraction& f) const { return compare(f) == 0; }
 	inline bool operator!=(const Fraction& f) const { return compare(f) != 0; }
-	operator double() const { return double(n) * sign / d; }
-	T num() const { return n * sign; }
-	T den() const { return d; }
+	inline operator double() const { return double(n) * sign / d; }
+	inline T num() const { return n * sign; }
+	inline T den() const { return d; }
 };
 template<class T> istream& operator>>(istream& in, Fraction<T>& f) { T n, d; in >> n >> d; f = Fraction<T>(n, d); return in; }
 typedef Fraction<int> fi;
