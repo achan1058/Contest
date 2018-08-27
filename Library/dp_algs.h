@@ -4,7 +4,7 @@ using namespace std;
 
 // returns LCS that has lexicographically minimal index w.r.t. s1
 template<class T>
-pair<T, vector<int>>  lcs(const T& s1, const T& s2) {
+pair<T, vector<int>> lcs(const T& s1, const T& s2) {
 	int n = s1.size(), m = s2.size();
 	vector<vector<int>> table = vector<vector<int>>(n + 1, vector<int>(m + 1, 0));
 	for (int i = 0; i < n; i++) {
@@ -65,4 +65,40 @@ pair<T, vector<int>> lis(const T& s, bool nondecrease = false) {
 		cur = prev[cur];
 	}
 	return{ result, index };
+}
+
+template<class T>
+vector<int> kmp_pre(const T& p) {
+	int n = p.size(), start = 0;
+	vector<int> match(n);
+	for (int i = 1; i < n; i++) {
+		while (start > 0 && p[i] != p[start])
+			start = match[start - 1];
+		if (p[i] == p[start])
+			start++;
+		match[i] = start;
+	}
+	return match;
+}
+template<class T>
+vector<int> kmp_match(const T& s, const T& p, const vector<int>& match, bool fs = false) {
+	int n = p.size(), m = s.size(), start = 0;
+	vector<int> result;
+	for (int i = 0; i < m; i++) {
+		while (start > 0 && s[i] != p[start])
+			start = match[start - 1];
+		if (s[i] == p[start])
+			start++;
+		if (start == n) {
+			result.push_back(i - n + 1);
+			if (fs)
+				return result;
+			start = match[start - 1];
+		}
+	}
+	return result;
+}
+template<class T>
+vector<int> kmp(const T& s, const T& p, bool fs = false) {
+	return kmp_match(s, p, kmp_pre(p), fs);
 }
