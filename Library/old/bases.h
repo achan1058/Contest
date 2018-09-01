@@ -3,19 +3,19 @@
 using namespace std;
 
 template <class T>
-vi intToDigits(T n, int base = 10) {
-	vi ans;
-	while (n > T(0)) {
-		ans.pb(n % T(base));
+vector<int> intToDigits(T n, int base = 10) {
+	vector<int> ans;
+	while (n > 0) {
+		ans.push_back(n % base);
 		n /= base;
 	}
-	reverse(all(ans));
+	reverse(ans.begin(), ans.end());
 	return ans;
 }
 
 int minBase(const string& s, bool extended = false) {
 	int result = 2;
-	irep(c, s) {
+	for (auto c : s) {
 		if (c <= '9')
 			result = max(result, c - '0' + 1);
 		else if (c <= 'Z')
@@ -32,7 +32,7 @@ template <class T>
 T stringToInt(const string& s, int base = 10) {
 	T result = 0;
 	int neg = s[0] == '-';
-	rep(i, neg, sz(s)) {
+	for (int i = neg; i < s.size(); i++) {
 		result *= base;
 		if (s[i] <= '9')
 			result += s[i] - '0';
