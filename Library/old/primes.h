@@ -45,20 +45,6 @@ T numFactors(const vector<T>& primes) {
 	return result;
 }
 
-template <class T>
-T sumFactors(const vector<T>& primes) {
-	T result = 1;
-	map<T, int> primepower = tally(primes);
-	for(auto& p : primepower) {
-		T v(1);
-		for (int i = 0; i < p.second; i++) {
-			v *= p.first;
-			v++;
-		}
-		result *= v;
-	}
-	return result;
-}
 /*
 template <class T>
 T eulerPhi(const vector<T>& primes) {

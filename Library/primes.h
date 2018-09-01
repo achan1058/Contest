@@ -1,6 +1,5 @@
 #pragma once
-#include <bits/stdc++.h>
-using namespace std;
+#include "utils.h"
 
 template<class T>
 bool isPrime(T n) {
@@ -68,4 +67,19 @@ vector<int> sieve(int n) {
 			primes.push_back(2 * i + 1);
 	}
 	return primes;
+}
+
+template <class T>
+T sumFactors(const vector<T>& primes) {
+	T result = 1;
+	map<T, int> primepower = tally(primes);
+	for (auto& p : primepower) {
+		T v = 1;
+		for (int i = 0; i < p.second; i++) {
+			v *= p.first;
+			v++;
+		}
+		result *= v;
+	}
+	return result;
 }
