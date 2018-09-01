@@ -44,7 +44,7 @@ struct Polygon {
 	double dist() const {
 		int n = sz(v);
 		double d = 0;
-		rep(i, 0, n)
+		for (int i = 0; i < n; i++)
 			d += v[i].dist(v[(i + 1) % n]);
 		return d;
 	}
