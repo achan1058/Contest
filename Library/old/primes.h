@@ -36,15 +36,6 @@ vector<T> fastFactor(T n, const vi& primes) {
 	return result;
 }
 */
-template <class T>
-T numFactors(const vector<T>& primes) {
-	T result = 1;
-	map<T, int> primepower = tally(primes);
-	for(auto& p : primepower)
-		result *= p.second + 1;
-	return result;
-}
-
 /*
 template <class T>
 T eulerPhi(const vector<T>& primes) {
