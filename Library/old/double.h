@@ -2,10 +2,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// #define double Double
+extern double eps;
 struct Double {
 	double v;
 	Double(double v_ = 0) : v(v_) {}
-#define double Double
 	Double& operator+=(Double d) { v += d.v; return *this; }
 	Double& operator-=(Double d) { v -= d.v; return *this; }
 	Double& operator*=(Double d) { v *= d.v; return *this; }
@@ -23,7 +24,8 @@ struct Double {
 	bool operator>=(Double d) const { return v >= d.v - eps; }
 	// actually fine as multiple overloads causes compile error
 	operator int() const { return int(v + eps); }
-	operator ll() const { return ll(v + eps); }
+	operator long long() const { return long long(v + eps); }
+	operator double() const { return v; }
 };
 istream& operator>>(istream& in, Double& d) { in >> d.v; return in; }
 Double abs(Double d) { return abs(d.v); }

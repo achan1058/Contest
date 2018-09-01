@@ -852,6 +852,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\13100\13117.cpp" />
     <ClCompile Include="UVa\13100\13130.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -920,7 +921,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="UVa\200\294.cpp" />
+    <ClCompile Include="UVa\200\294.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="UVa\200\299.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -1160,6 +1164,7 @@
     <ClInclude Include="Library\fraction.h" />
     <ClInclude Include="Library\graph_util.h" />
     <ClInclude Include="Library\header.h" />
+    <ClInclude Include="Library\line.h" />
     <ClInclude Include="Library\matching.h" />
     <ClInclude Include="Library\max_flow.h" />
     <ClInclude Include="Library\number_theory.h" />
@@ -1175,14 +1180,12 @@
     <ClInclude Include="Library\old\graham.h" />
     <ClInclude Include="Library\old\graph.h" />
     <ClInclude Include="Library\old\graph_util.h" />
-    <ClInclude Include="Library\old\line.h" />
     <ClInclude Include="Library\old\matching.h" />
     <ClInclude Include="Library\old\max_flow.h" />
     <ClInclude Include="Library\old\misc.h" />
     <ClInclude Include="Library\old\number_theory.h" />
     <ClInclude Include="Library\old\polygon.h" />
     <ClInclude Include="Library\old\primes.h" />
-    <ClInclude Include="Library\old\segment.h" />
     <ClInclude Include="Library\old\segment_tree.h" />
     <ClInclude Include="Library\old\shortest_path.h" />
     <ClInclude Include="Library\old\sorting.h" />
@@ -1190,9 +1193,9 @@
     <ClInclude Include="Library\old\sweep_line.h" />
     <ClInclude Include="Library\old\topo_sort.h" />
     <ClInclude Include="Library\old\triangle.h" />
-    <ClInclude Include="Library\old\util.h" />
     <ClInclude Include="Library\point.h" />
     <ClInclude Include="Library\primes.h" />
+    <ClInclude Include="Library\segment.h" />
     <ClInclude Include="Library\shortest_path.h" />
     <ClInclude Include="Library\spanning_tree.h" />
     <ClInclude Include="Library\triangle.h" />

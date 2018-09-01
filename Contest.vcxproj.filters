@@ -1106,6 +1106,9 @@
     <ClCompile Include="UVa\200\294.cpp">
       <Filter>UVa\200</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\13100\13117.cpp">
+      <Filter>UVa\13100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1126,9 +1129,6 @@
     <ClInclude Include="Library\old\graph_util.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\old\line.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
     <ClInclude Include="Library\old\matching.h">
       <Filter>Library\old</Filter>
     </ClInclude>
@@ -1142,9 +1142,6 @@
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\primes.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\segment.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\segment_tree.h">
@@ -1166,9 +1163,6 @@
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\triangle.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\util.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\bases.h">
@@ -1247,6 +1241,12 @@
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
     <ClInclude Include="Library\triangle.h">
+      <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\line.h">
+      <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\segment.h">
       <Filter>Library\Computational Geometry</Filter>
     </ClInclude>
   </ItemGroup>
