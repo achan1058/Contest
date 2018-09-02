@@ -1,34 +1,6 @@
 #pragma once
 #include "graph.h"
 
-// returns dist list and previous node vector
-template<class T>
-pair<vector<T>, vector<int>> dijkstra(const AdjList<T>& graph, int start, T non_edge = inf) {
-	int n = graph.size();
-	vector<T> dist(n, non_edge);
-	vector<int> prev(n, -1);
-	priority_queue<pair<T, int>, vector<pair<T, int>>, greater<pair<T, int>>> q;
-	q.push({ 0, start });
-
-	while (!q.empty()) {
-		T d = q.top().first;
-		int v1 = q.top().second;
-		q.pop();
-
-		if (dist[v1] < d)
-			continue;
-		irep(e, graph[v1]) {
-			if (d + e.second < dist[e.first]) {
-				dist[e.first] = d + e.second;
-				prev[e.first] = v1;
-				q.push({ dist[e.first], e.first });
-			}
-		}
-	}
-
-	return{ dist, prev };
-}
-
 // returns dist list and previous node vector, returns -inf for nodes in cycle
 template<class T>
 pair<vector<T>, vector<int>> bellmanFord(const AdjList<T>& graph, int start, T non_edge = inf) {
