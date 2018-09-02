@@ -90,5 +90,5 @@ pair<T, vector<int>> hungarian(const vector<vector<T>>& graph) {
 		if (row_match[i] != -1)
 			result += graph[i][row_match[i]];
 	}
-	return make_pair(result, row_match);
+	return{ result, row_match };
 }
