@@ -70,6 +70,14 @@ vector<int> sieve(int n) {
 }
 
 template <class T>
+bool sieveIsPrime(T n, const vector<bool>& primes) {
+	if (n < 2) return false;
+	if (n <= 3) return true;
+	if (n % 2 == 0) return false;
+	return primes[(n - 1) / 2];
+}
+
+template <class T>
 T numFactors(const vector<T>& primes) {
 	T result = 1;
 	map<T, int> primepower = tally(primes);
