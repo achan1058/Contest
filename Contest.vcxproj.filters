@@ -1187,6 +1187,9 @@
     <ClCompile Include="UVa\900\913.cpp">
       <Filter>UVa\900</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10200\10285.cpp">
+      <Filter>UVa\10200</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1309,9 +1312,6 @@
     <ClInclude Include="Library\old\max_flow.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\max_flow.h">
-      <Filter>Library\Data Structure and Algorithms</Filter>
-    </ClInclude>
     <ClInclude Include="Library\fraction.h">
       <Filter>Library\Mathematics</Filter>
     </ClInclude>
@@ -1326,6 +1326,9 @@
     </ClInclude>
     <ClInclude Include="Library\segment.h">
       <Filter>Library\Computational Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\max_flow.h">
+      <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
