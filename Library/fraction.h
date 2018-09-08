@@ -62,6 +62,7 @@ public:
 	inline bool operator==(const Fraction& f) const { return compare(f) == 0; }
 	inline bool operator!=(const Fraction& f) const { return compare(f) != 0; }
 	inline operator double() const { return double(n) * sign / d; }
+	inline Fraction inv() const { return Fraction(d, n); }
 	inline T num() const { return n * sign; }
 	inline T den() const { return d; }
 };
