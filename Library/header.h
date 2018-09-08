@@ -9,11 +9,11 @@ typedef pair<int, int> pii;
 typedef vector<vi> vvi;
 typedef vector<ll> vl;
 typedef vector<bool> vb;
-typedef vector<double> vd; // unused
+typedef vector<double> vd;
 typedef vector<vd> vvd;
-typedef vector<vb> vvb; // unused
+typedef vector<vb> vvb;
 typedef vector<vs> vvs; // unused
-typedef vector<vl> vvl; // unused
+typedef vector<vl> vvl;
 template<class T> inline istream& read(vector<T>& v) { for (auto& p : v) cin >> p; return cin; }
 template<class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v) read(p); return cin; }
 
@@ -32,7 +32,7 @@ ll mod = 1000000007ll; // unused
 #define rrep(k, a, b) for (int k = (a); k >= int(b); k--)
 #define drep(i, j, a, b) for (int i = 0; i < (a); i++) for (int j = 0; j < (b); j++)
 #define md(r, c, v) vvd(r, vd(c, v))
-#define mb(r, c, v) vvb(r, vb(c, v)) // unused
+#define mb(r, c, v) vvb(r, vb(c, v))
 #define ms(r, c, v) vvs(r, vs(c, v)) // unused
 #define ml(r, c, v) vvl(r, vl(c, v)) // unused
 #define mc(r, c, v) vs(r, string(c, v))
