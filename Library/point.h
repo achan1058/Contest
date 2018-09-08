@@ -38,7 +38,7 @@ struct point {
 		});
 	}
 };
-template<class T> istream& operator >> (istream& in, point<T>& p) { return in >> p.x >> p.y; }
-template<class T> ostream& operator << (ostream& out, const point<T>& p) { return out << p.x << ',' << p.y; }
+template<class T> istream& operator>>(istream& in, point<T>& p) { return in >> p.x >> p.y; }
+template<class T> ostream& operator<<(ostream& out, const point<T>& p) { return out << p.x << ',' << p.y; }
 typedef point<int> pti;
 typedef point<double> ptd;

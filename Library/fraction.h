@@ -66,5 +66,6 @@ public:
 	inline T den() const { return d; }
 };
 template<class T> istream& operator>>(istream& in, Fraction<T>& f) { T n, d; in >> n >> d; f = Fraction<T>(n, d); return in; }
+template<class T> ostream& operator<<(ostream& out, const Fraction<T>& f) { return out << n << '/' << d; }
 typedef Fraction<int> fi;
 typedef Fraction<long long> fl;
