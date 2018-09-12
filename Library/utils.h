@@ -23,18 +23,18 @@ map<T, int> tally(const vector<T>& arr) {
 // maps elements of a set to [0..n-1]
 template<class T>
 class mapper {
-	unordered_map<T, int> ind;
+	unordered_map<T, int> index;
 	vector<T> label;
 public:
 	inline T unmap(int ind) const { return label[ind]; }
 	inline int size() const { return label.size(); }
 	int map(const T& e) {
-		if (ind.find(e) == ind.end()) {
-			int t = ind.size();
-			ind[e] = t;
+		if (index.find(e) == index.end()) {
+			int t = index.size();
+			index[e] = t;
 			label.push_back(e);
 		}
-		return ind[e];
+		return index[e];
 	}
 };
 
