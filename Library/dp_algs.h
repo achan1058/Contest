@@ -3,6 +3,8 @@
 using namespace std;
 
 // returns LCS that has lexicographically minimal index w.r.t. s1
+inline string lcsHelper(const string& s, int len) { return string(len, 0); }
+template<class T> inline vector<T> lcsHelper(const vector<T>&, int len) { return vector<T>(len); }
 template<class T>
 pair<T, vector<int>> lcs(const T& s1, const T& s2) {
 	int n = s1.size(), m = s2.size();
@@ -19,7 +21,7 @@ pair<T, vector<int>> lcs(const T& s1, const T& s2) {
 	}
 
 	int len = table[n][m];
-	T s(len, 0);
+	T s = lcsHelper(s1, len);
 	vector<int> index(len);
 	while (len > 0) {
 		if (table[n][m] == table[n - 1][m]) {
