@@ -1370,6 +1370,9 @@
     <ClCompile Include="UVa\12400\12478.cpp">
       <Filter>UVa\12400</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10600\10653.cpp">
+      <Filter>UVa\10600</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1448,9 +1451,6 @@
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\eularian.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\floodfill.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\primes.h">
