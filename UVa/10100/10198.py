@@ -11,4 +11,3 @@ while True:
 	except EOFError:
 		exit()
 	print(arr[n])
-    
