@@ -1403,6 +1403,9 @@
     <ClCompile Include="UVa\10200\10229.cpp">
       <Filter>UVa\10200</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10800\10810.cpp">
+      <Filter>UVa\10800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1518,9 +1521,6 @@
     </ClInclude>
     <ClInclude Include="Library\circle.h">
       <Filter>Library\Computational Geometry</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\max_flow.h">
-      <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\fraction.h">
       <Filter>Library\Mathematics</Filter>

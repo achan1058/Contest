@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
+#include "utils.h"
 #include "header.h"
 
-vector<int> dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
 int main() {
 	forX() {
 		string name;
@@ -20,7 +20,7 @@ int main() {
 			int v = h.x, x = h.y.x, y = h.y.y;
 
 			for (int k = 0; k < 4; k++) {
-				int nx = x + dx[k], ny = y + dy[k];
+				int nx = x + dx4[k], ny = y + dy4[k];
 				if (nx < 0 || nx >= r || ny < 0 || ny >= c || grid[x][y] >= grid[nx][ny])
 					continue;
 
