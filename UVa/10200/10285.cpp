@@ -10,16 +10,15 @@ int main() {
 		vvi grid = mi(r, c, 0), longest = mi(r, c, 1);
 		read(grid);
 		vector<pair<int, pii>> heights;
-		drep(i, j, r, c) {
+		drep(i, j, r, c)
 			heights.pb({ grid[i][j], {i, j} });
-		}
 
 		int ans = 1;
 		sort(all(heights));
 		irep(h, heights) {
 			int v = h.x, x = h.y.x, y = h.y.y;
 
-			for (int k = 0; k < 4; k++) {
+			rep(k, 0, 4) {
 				int nx = x + dx4[k], ny = y + dy4[k];
 				if (nx < 0 || nx >= r || ny < 0 || ny >= c || grid[x][y] >= grid[nx][ny])
 					continue;
