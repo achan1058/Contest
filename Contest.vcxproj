@@ -808,6 +808,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\11100\11161.cpp" />
     <ClCompile Include="UVa\11100\11172.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -1669,6 +1670,7 @@
     <None Include="UVa\10500\10523.py" />
     <None Include="UVa\10500\10579.py" />
     <None Include="UVa\11100\11115.py" />
+    <None Include="UVa\11100\11161.py" />
     <None Include="UVa\11800\11879.py" />
     <None Include="UVa\13200\13216.py" />
     <None Include="UVa\400\424.py" />
