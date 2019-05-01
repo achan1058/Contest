@@ -1113,6 +1113,7 @@
     <ClCompile Include="UVa\12600\12602.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\12600\12611.cpp" />
     <ClCompile Include="UVa\12600\12626.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
