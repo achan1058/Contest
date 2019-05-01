@@ -7,7 +7,7 @@ int main() {
 		vi prob(12);
 		read(prob);
 		int n;
-		print("Case %d:", X);
+		printcn();
 
 		rep(i, 0, 12) {
 			cin >> n;

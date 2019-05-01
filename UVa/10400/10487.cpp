@@ -7,7 +7,7 @@ int main() {
 		vi nums(n);
 		read(nums);
 		sort(all(nums));
-		print("Case %d:", X);
+		printcn();
 
 		int m, v;
 		cin >> m;
