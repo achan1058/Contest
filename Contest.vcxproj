@@ -1129,6 +1129,7 @@
     <ClCompile Include="UVa\12600\12650.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\12600\12692.cpp" />
     <ClCompile Include="UVa\12600\12696.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -1658,6 +1659,7 @@
     <ClInclude Include="Library\bits\stdc++.h" />
     <ClInclude Include="Library\circle.h" />
     <ClInclude Include="Library\combinatorics.h" />
+    <ClInclude Include="Library\sorting.h" />
     <ClInclude Include="Library\dp_algs.h" />
     <ClInclude Include="Library\floodfill.h" />
     <ClInclude Include="Library\fraction.h" />

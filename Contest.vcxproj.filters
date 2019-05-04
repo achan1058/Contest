@@ -1493,6 +1493,9 @@
     <ClCompile Include="UVa\12600\12614.cpp">
       <Filter>UVa\12600</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\12600\12692.cpp">
+      <Filter>UVa\12600</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1626,6 +1629,9 @@
     </ClInclude>
     <ClInclude Include="Library\max_flow.h">
       <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\sorting.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
