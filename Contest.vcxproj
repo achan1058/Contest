@@ -811,6 +811,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\11100\11152.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="UVa\11100\11161.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -1732,7 +1735,6 @@
     <ClInclude Include="Library\old\spanning_tree.h" />
     <ClInclude Include="Library\old\sweep_line.h" />
     <ClInclude Include="Library\old\topo_sort.h" />
-    <ClInclude Include="Library\old\triangle.h" />
     <ClInclude Include="Library\point.h" />
     <ClInclude Include="Library\primes.h" />
     <ClInclude Include="Library\segment.h" />
