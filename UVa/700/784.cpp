@@ -4,7 +4,7 @@
 
 int floodfill(vs& grid, int x0, int y0, char target = '#') {
 	int r = grid.size(), d = dx4.size(), count = 1;
-	queue<pair<int, int>> q;
+	queue<pii> q;
 	char source = grid[x0][y0];
 	grid[x0][y0] = target;
 	q.push({ x0, y0 });

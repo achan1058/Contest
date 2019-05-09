@@ -4,7 +4,7 @@
 vector<int> dx = { 1, 0, -1, 0, 1, -1 }, dy = { 0, 1, 0, -1, 1, -1 };
 int floodfill(vs& grid, char target = ' ') {
 	int r = grid.size(), c = grid[0].size(), d = dx.size();
-	queue<pair<int, int>> q;
+	queue<pii> q;
 	rep(i, 0, r) {
 		if (grid[i][0] == 'w') {
 			grid[i][0] = target;
