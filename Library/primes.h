@@ -83,7 +83,7 @@ vector<T> fastFactor(T n, const vector<int>& primes) {
 		result.push_back(-1);
 		n = -n;
 	}
-	for (auto& p : primes) {
+	for (T p : primes) {
 		if (p * p > n)
 			break;
 		while (n % p == 0) {
