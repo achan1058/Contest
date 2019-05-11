@@ -17,24 +17,25 @@ int fastIsPrime(T n, const vi& primes) {
 }
 
 template <class T>
-vector<T> fastFactor(T n, const vi& primes) {
+vector<T> fastFactor(T n, const vector<int>& primes) {
 	vector<T> result;
-	if (n < T(0)) {
-		result.pb(T(-1));
-		n *= T(-1);
+	if (n < 0) {
+		result.push_back(-1);
+		n = -n;
 	}
-	irep(p, primes) {
-		if (T(p) * T(p) > n)
+	for (auto& p : primes) {
+		if (p * p > n)
 			break;
-		while (n % T(p) == 0) {
-			result.pb(T(p));
-			n /= T(p);
+		while (n % p == 0) {
+			result.push_back(p);
+			n /= p;
 		}
 	}
-	if (n > T(1))
-		result.pb(T(n));
+	if (n > 1)
+		result.push_back(n);
 	return result;
 }
+
 */
 /*
 template <class T>
