@@ -77,6 +77,26 @@ bool sieveIsPrime(int n, const vector<bool>& primes) {
 }
 
 template <class T>
+vector<T> fastFactor(T n, const vector<int>& primes) {
+	vector<T> result;
+	if (n < 0) {
+		result.push_back(-1);
+		n = -n;
+	}
+	for (auto& p : primes) {
+		if (p * p > n)
+			break;
+		while (n % p == 0) {
+			result.push_back(p);
+			n /= p;
+		}
+	}
+	if (n > 1)
+		result.push_back(n);
+	return result;
+}
+
+template <class T>
 T numFactors(const vector<T>& primes) {
 	T result = 1;
 	map<T, int> primepower = tally(primes);
@@ -96,6 +116,18 @@ T sumFactors(const vector<T>& primes) {
 			v++;
 		}
 		result *= v;
+	}
+	return result;
+}
+
+template <class T>
+T eulerPhi(const vector<T>& primes) {
+	T result = 1;
+	map<T, int> primepower = tally(primes);
+	for (auto& p : primepower) {
+		result *= p.first - 1;
+		for (int i = 1; i < p.second; i++)
+			result *= p.first;
 	}
 	return result;
 }

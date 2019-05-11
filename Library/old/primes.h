@@ -16,40 +16,8 @@ int fastIsPrime(T n, const vi& primes) {
 	return -1;
 }
 
-template <class T>
-vector<T> fastFactor(T n, const vector<int>& primes) {
-	vector<T> result;
-	if (n < 0) {
-		result.push_back(-1);
-		n = -n;
-	}
-	for (auto& p : primes) {
-		if (p * p > n)
-			break;
-		while (n % p == 0) {
-			result.push_back(p);
-			n /= p;
-		}
-	}
-	if (n > 1)
-		result.push_back(n);
-	return result;
-}
-
 */
 /*
-template <class T>
-T eulerPhi(const vector<T>& primes) {
-	T result = 1;
-	map<T, int> primepower = tally(primes);
-	irep(p, primepower) {
-		result *= p.x - 1;
-		rep(i, 1, p.y)
-			result *= p.x;
-	}
-	return result;
-}
-
 bool millerRabin(ll n) {
 	vl a = { 2, 325, 9375, 28178, 450775, 9780504, 1795265022 };
 	if (n == 2)
