@@ -9,6 +9,7 @@ int diff(int n) {
 	}
 	return sum * sum - sum_sq;
 }
+
 int main() {
 	assert(diff(10) == 2640);
 	print("%d", diff(100));
