@@ -1738,9 +1738,6 @@
     <ClInclude Include="Library\old\double.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\old\dp_algs.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
     <ClInclude Include="Library\old\eularian.h">
       <Filter>Library\old</Filter>
     </ClInclude>
