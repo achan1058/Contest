@@ -7,6 +7,6 @@ int main() {
 		double ans = 1;
 		rep(i, 0, k)
 			ans += log10(n - i) - log10(i + 1);
-		print("%d", (int)(ans + eps));
+		print("%d", int(ans + eps));
 	}
 }

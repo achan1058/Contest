@@ -13,7 +13,7 @@ int main() {
 	}
 
 	while (cin >> dollar && dollar != 0) {
-		int count = dollar * 20 + eps;
+		int count = round(dollar * 20);
 		print("%6.2f%17lld", dollar, ans[count]);
 	}
 }
