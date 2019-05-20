@@ -1670,6 +1670,9 @@
     <ClCompile Include="UVa\800\836.cpp">
       <Filter>UVa\800</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\500\558.cpp">
+      <Filter>UVa\500</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1682,9 +1685,6 @@
       <Filter>Library\Misc</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\graham.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\graph.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\graph_util.h">
