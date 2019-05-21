@@ -5,17 +5,17 @@ using namespace std;
 vector<int> dx4 = { 1, 0, -1, 0 }, dy4 = { 0, 1, 0, -1 };
 vector<int> dx8 = { 1, 1, 1, 0, -1, -1, -1, 0 }, dy8 = { 1, 0, -1, -1, -1, 0, 1, 1 };
 
-map<char, int> tally(const string& s) {
-	map<char, int> result;
-	for (auto& v : s)
-		result[v]++;
-	return result;
-}
-
 template<class T>
 map<T, int> tally(const vector<T>& arr) {
 	map<T, int> result;
 	for (auto& v : arr)
+		result[v]++;
+	return result;
+}
+
+map<char, int> tally(const string& s) {
+	map<char, int> result;
+	for (auto& v : s)
 		result[v]++;
 	return result;
 }
