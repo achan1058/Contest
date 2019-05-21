@@ -14,8 +14,8 @@ int main() {
 
 	vector<pair<int, char>> ans;
 	irep(p, m)
-		ans.pb({ -p.y, p.x });
+		ans.pb({ -p.s, p.f });
 	sort(all(ans));
 	irep(p, ans)
-		print("%c %d", p.y, -p.x);
+		print("%c %d", p.s, -p.f);
 }

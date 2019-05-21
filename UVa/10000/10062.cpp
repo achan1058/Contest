@@ -10,11 +10,11 @@ int main() {
 		vector<pii> ans;
 
 		irep(p, m)
-			ans.pb({ p.y, -p.x });
+			ans.pb({ p.s, -p.f });
 		sort(all(ans));
 
 		printX("");
 		irep(p, ans)
-			print("%d %d", -p.y, p.x);
+			print("%d %d", -p.s, p.f);
 	}
 }

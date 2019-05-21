@@ -15,6 +15,6 @@ int main() {
 
 		printX("");
 		irep(p, count)
-			print("%s %.4f", p.x.c_str(), 100. * p.y / total);
+			print("%s %.4f", p.f.c_str(), 100. * p.s / total);
 	}
 }

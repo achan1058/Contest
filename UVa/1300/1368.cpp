@@ -16,9 +16,9 @@ int main() {
 				count[words[i][j]]++;
 			int best = 0;
 			irep(p, count) {
-				if (p.y > best) {
-					best = p.y;
-					ans[j] = p.x;
+				if (p.s > best) {
+					best = p.s;
+					ans[j] = p.f;
 				}
 			}
 			total += n - best;

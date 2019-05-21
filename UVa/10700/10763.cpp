@@ -12,9 +12,9 @@ int main() {
 		}
 		bool good = true;
 		irep(c, count) {
-			p = c.x / inf;
-			q = c.x % inf;
-			if (count[q * inf + p] != c.y) {
+			p = c.f / inf;
+			q = c.f % inf;
+			if (count[q * inf + p] != c.s) {
 				good = false;
 				break;
 			}

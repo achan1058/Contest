@@ -18,7 +18,7 @@ int main() {
 			print("There are no solutions for %d.", n);
 		} else {
 			irep(sol, m[n])
-				print("%s / %s = %d", sol.x.c_str(), sol.y.c_str(), n);
+				print("%s / %s = %d", sol.f.c_str(), sol.s.c_str(), n);
 		}
 	}
 }

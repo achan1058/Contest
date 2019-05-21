@@ -48,8 +48,8 @@ int main() {
 		bool dup = false;
 		printX("");
 		irep(p, m) {
-			if (p.y > 1) {
-				print("%s-%s %d", p.x.substr(0, 3).c_str(), p.x.substr(3, 4).c_str(), p.y);
+			if (p.s > 1) {
+				print("%s-%s %d", p.f.substr(0, 3).c_str(), p.f.substr(3, 4).c_str(), p.s);
 				dup = true;
 			}
 		}

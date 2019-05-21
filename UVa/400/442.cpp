@@ -17,9 +17,9 @@ int main() {
 			if (c == '(') {
 				continue;
 			} else if (c == ')') {
-				int y1 = todo.top().x, y2 = todo.top().y;
+				int y1 = todo.top().f, y2 = todo.top().s;
 				todo.pop();
-				int x1 = todo.top().x, x2 = todo.top().y;
+				int x1 = todo.top().f, x2 = todo.top().s;
 				todo.pop();
 				if (y1 != x2) {
 					ans = inf;
@@ -28,7 +28,7 @@ int main() {
 				ans += x1 * x2 * y2;
 				todo.push({ x1, y2 });
 			} else {
-				todo.push({ matrix[c].x, matrix[c].y });
+				todo.push({ matrix[c].f, matrix[c].s });
 			}
 		}
 		if (ans == inf)
