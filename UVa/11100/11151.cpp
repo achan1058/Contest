@@ -8,6 +8,6 @@ int main() {
 		getline(cin, s);
 		string s2 = s;
 		reverse(all(s2));
-		print("%d", sz(lcs(s, s2).x));
+		print("%d", sz(lcs(s, s2).f));
 	}
 }

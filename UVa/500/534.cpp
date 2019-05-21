@@ -14,7 +14,7 @@ int main() {
 			grid[i][j] = grid[j][i] = d;
 		}
 
-		double ans = floyd(grid, true).x[0][1];
+		double ans = floyd(grid, true).f[0][1];
 		print("Scenario #%d", X);
 		print("Frog Distance = %.3f\n", ans);
 	}

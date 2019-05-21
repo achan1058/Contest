@@ -10,7 +10,7 @@ int terms(int n) {
 		for (int j = 2; j <= n; j++) {
 			map<int, int> m2;
 			irep(v, m)
-				m2[v.x] = v.y * j;
+				m2[v.f] = v.s * j;
 			s.insert(m2);
 		}
 	}

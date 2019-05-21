@@ -13,7 +13,7 @@ int main() {
 		while (cin >> s && s != "#")
 			s2.pb(s);
 
-		vs ans = lcs(s1, s2).x;
+		vs ans = lcs(s1, s2).f;
 		rep(i, 0, sz(ans))
 			printf("%s%c", ans[i].c_str(), i == sz(ans) - 1 ? '\n' : ' ');
 

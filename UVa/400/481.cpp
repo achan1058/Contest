@@ -7,7 +7,7 @@ int main() {
 	vi nums;
 	while (cin >> v)
 		nums.pb(v);
-	vi res = lis(nums).x;
+	vi res = lis(nums).f;
 	print("%d", sz(res));
 	print("-");
 	irep(d, res)

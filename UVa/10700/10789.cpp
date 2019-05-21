@@ -9,8 +9,8 @@ int main() {
 		cin >> s;
 		map<char, int> t = tally(s);
 		irep(m, t) {
-			if (isPrime(m.y))
-				ans.pb(m.x);
+			if (isPrime(m.s))
+				ans.pb(m.f);
 		}
 		printc("%s", ans.empty() ? "empty" : ans.c_str());
 	}
