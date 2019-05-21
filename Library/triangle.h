@@ -6,7 +6,6 @@ using namespace std;
 double cosLawSide(double A, double b, double c) { return sqrt(b * b + c * c - 2 * b * c * cos(A)); }
 // test me
 double cosLawAngle(double a, double b, double c) { return acos((b * b + c * c - a * a) / (2 * b * c)); }
-// test me
 double sinLawSide(double A, double b, double B) { return sin(A) / sin(B) * b; }
 // test me
 double sinLawAngle(double a, double b, double B) { return asin(a * sin(B) / b); }
