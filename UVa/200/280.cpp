@@ -11,7 +11,7 @@ int main() {
 				graph[v1 - 1][v2 - 1] = 0;
 		}
 
-		vvi dist = floyd(graph).x;
+		vvi dist = floyd(graph).f;
 		cin >> k;
 		rep(i, 0, k) {
 			vi ans;

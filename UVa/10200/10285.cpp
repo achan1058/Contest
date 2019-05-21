@@ -16,7 +16,7 @@ int main() {
 		int ans = 1;
 		sort(all(heights));
 		irep(h, heights) {
-			int v = h.x, x = h.y.x, y = h.y.y;
+			int v = h.f, x = h.s.f, y = h.s.s;
 
 			rep(k, 0, 4) {
 				int nx = x + dx4[k], ny = y + dy4[k];

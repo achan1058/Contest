@@ -12,7 +12,7 @@ int main() {
 			graph[v1].pb({ v2, w });
 			graph[v2].pb({ v1, w });
 		}
-		int ans = dijkstra(graph, s).x[t];
+		int ans = dijkstra(graph, s).f[t];
 		if (ans == inf)
 			printp("unreachable");
 		else

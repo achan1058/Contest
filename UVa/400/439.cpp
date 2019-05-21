@@ -19,7 +19,7 @@ int main() {
 			grid[8 * i + j][8 * nx + ny] = 1;
 		}
 	}
-	vvi dist = floyd(grid).x;
+	vvi dist = floyd(grid).f;
 	string s1, s2;
 	while (cin >> s1 >> s2)
 		print("To get from %s to %s takes %d knight moves.", s1.c_str(), s2.c_str(), dist[toNum(s1)][toNum(s2)]);

@@ -18,7 +18,7 @@ int main() {
 			cin >> v1;
 			graph[n].pb({ v1, 0 });
 		}
-		vi dist = dijkstra(graph, n).x;
+		vi dist = dijkstra(graph, n).f;
 		vi ans;
 		int best = 0;
 		irep(bk, banks) {

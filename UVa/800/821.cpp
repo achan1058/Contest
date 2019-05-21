@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #include "utils.h"
-#include "graph_util.h"
 #include "shortest_path.h"
 #include "header.h"
 
@@ -14,7 +13,7 @@ int main() {
 		} while (cin >> v1 >> v2 && (v1 | v2) != 0);
 
 		vvi graph = toMatrix(edges);
-		vvi dist = floyd(graph).x;
+		vvi dist = floyd(graph).f;
 		int n = sz(m);
 		double total = 0;
 		drep(i, j, n, n) {

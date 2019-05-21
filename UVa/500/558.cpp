@@ -13,7 +13,7 @@ int main() {
 			adj[v1].pb({ v2, t });
 		}
 
-		auto dist = bellmanFord(adj, 0).x;
+		auto dist = bellmanFord(adj, 0).f;
 		int good = false;
 		rep(i, 0, n) {
 			if (dist[i] == -inf) {

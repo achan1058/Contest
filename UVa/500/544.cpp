@@ -15,7 +15,7 @@ int main() {
 			int v1 = cities.map(s1), v2 = cities.map(s2);
 			graph[v1][v2] = graph[v2][v1] = -w;
 		}
-		vvi dist = floyd(graph, true).x;
+		vvi dist = floyd(graph, true).f;
 		cin >> s1 >> s2;
 		int v1 = cities.map(s1), v2 = cities.map(s2);
 		print("Scenario #%d", X);

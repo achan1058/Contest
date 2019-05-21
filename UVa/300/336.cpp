@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #include "utils.h"
-#include "graph_util.h"
 #include "shortest_path.h"
 #include "header.h"
 
@@ -18,7 +17,7 @@ int main() {
 			edges.pb({ v2, v1, 1 });
 		}
 		vvi mat = toMatrix(edges);
-		vvi dist = floyd(mat).x;
+		vvi dist = floyd(mat).f;
 		while (cin >> v1 >> v2 && (v1 | v2) != 0) {
 			X++;
 			int reach = 0, m1 = m.map(v1);
