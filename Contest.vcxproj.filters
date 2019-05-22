@@ -1706,6 +1706,9 @@
     <ClCompile Include="UVa\100\107.cpp">
       <Filter>UVa\100</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\300\378.cpp">
+      <Filter>UVa\300</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1771,9 +1774,6 @@
     <ClInclude Include="Library\old\components.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\old\double.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
     <ClInclude Include="Library\old\eularian.h">
       <Filter>Library\old</Filter>
     </ClInclude>
@@ -1833,6 +1833,9 @@
     </ClInclude>
     <ClInclude Include="Library\sorting.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\double.h">
+      <Filter>Library\Mathematics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
