@@ -14,7 +14,7 @@ int main() {
 			dist[i][j] = ants[i].dist(trees[j]);
 		}
 
-		vi ans = hungarian(dist).s;
+		vi ans = hungarian(dist).second;
 		printX("");
 		irep(v, ans)
 			print("%d", v + 1);

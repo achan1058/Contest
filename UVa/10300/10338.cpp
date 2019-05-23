@@ -11,8 +11,8 @@ int main() {
 		int cur = 0;
 		ll ans = 1;
 		irep(p, m) {
-			cur += p.s;
-			ans *= binom(cur, p.s);
+			cur += p.second;
+			ans *= binom(cur, p.second);
 		}
 		print("Data set %d: %lld", X, ans);
 	}

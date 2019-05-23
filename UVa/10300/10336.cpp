@@ -18,10 +18,10 @@ int main() {
 
 		vector<pair<int, char>> ans;
 		irep(c, count)
-			ans.pb({ -c.s, c.f });
+			ans.pb({ -c.second, c.first });
 		sort(all(ans));
 		print("World #%d", X);
 		irep(a, ans)
-			print("%c: %d", a.s, -a.f);
+			print("%c: %d", a.second, -a.first);
 	}
 }

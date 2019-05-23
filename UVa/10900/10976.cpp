@@ -14,7 +14,7 @@ int main() {
 		}
 		print("%d", ans.size());
 		irep(p, ans) {
-			print("1/%d = 1/%d + 1/%d", n, p.f.den(), p.s.den());
+			print("1/%d = 1/%d + 1/%d", n, p.first.den(), p.second.den());
 		}
 	}
 }

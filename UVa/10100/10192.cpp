@@ -6,6 +6,6 @@ int main() {
 	string s1, s2;
 	whileX(getline(cin, s1) && s1[0] != '#') {
 		getline(cin, s2);
-		printp("you can visit at most %d cities.", sz(lcs(s1, s2).f));
+		printp("you can visit at most %d cities.", sz(lcs(s1, s2).first));
 	}
 }

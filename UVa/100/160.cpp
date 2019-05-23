@@ -15,7 +15,7 @@ int main() {
 		int t = 0;
 		irep(p, primes[n]) {
 			t++;
-			printf("%3d", p.s);
+			printf("%3d", p.second);
 			if (t == sz(primes[n])) {
 				print("");
 			} else if (t % 15 == 0) {

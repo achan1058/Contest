@@ -11,6 +11,6 @@ int main() {
 		while (cin >> n && n != -1)
 			heights.pb(-n);
 		printX("Test #%d:\n", X);
-		print("  maximum possible interceptions: %d", sz(lis(heights).f));
+		print("  maximum possible interceptions: %d", sz(lis(heights).first));
 	}
 }
