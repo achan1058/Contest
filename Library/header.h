@@ -26,8 +26,6 @@ ll mod = 1000000007ll; // unused
 #define sz(a) int(a.size())
 #define all(c) (c).begin(), (c).end()
 #define pb push_back
-#define f first
-#define s second
 #define mi(r, c, v) vvi(r, vi(c, v))
 #define rrep(k, a, b) for (int k = (a); k >= int(b); k--)
 #define drep(i, j, a, b) for (int i = 0; i < (a); i++) for (int j = 0; j < (b); j++)

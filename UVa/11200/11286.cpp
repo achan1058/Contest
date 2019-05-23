@@ -14,11 +14,11 @@ int main() {
 
 		int pop = 0, ans = 0;
 		irep(c, count) {
-			if (c.s > pop) {
-				pop = c.s;
-				ans = c.s;
-			} else if (c.s == pop) {
-				ans += c.s;
+			if (c.second > pop) {
+				pop = c.second;
+				ans = c.second;
+			} else if (c.second == pop) {
+				ans += c.second;
 			}
 		}
 		print("%d", ans);

@@ -22,8 +22,8 @@ int main() {
 		}
 
 		irep(p, large) {
-			if (small[cost - p.f] > 0) {
-				print("Peter should buy books whose prices are %d and %d.\n", cost - p.f, p.f);
+			if (small[cost - p.first] > 0) {
+				print("Peter should buy books whose prices are %d and %d.\n", cost - p.first, p.first);
 				break;
 			}
 		}

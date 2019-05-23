@@ -12,8 +12,8 @@ int main() {
 	}
 	vs ans;
 	irep(p, anagram) {
-		if (sz(p.s) == 1)
-			ans.pb(p.s[0]);
+		if (sz(p.second) == 1)
+			ans.pb(p.second[0]);
 	}
 	sort(all(ans));
 	irep(a, ans)

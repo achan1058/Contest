@@ -9,9 +9,9 @@ int main() {
 	}
 	int n;
 	while (cin >> n && n != 0) {
-		if (ans[n].f == 0)
+		if (ans[n].first == 0)
 			print("No solution");
 		else
-			print("%d %d", ans[n].f, ans[n].s);
+			print("%d %d", ans[n].first, ans[n].second);
 	}
 }

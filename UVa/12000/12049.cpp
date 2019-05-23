@@ -15,7 +15,7 @@ int main() {
 			t2[v]++;
 		}
 		irep(p, t1)
-			count += min(p.s, t2[p.f]);
+			count += min(p.second, t2[p.first]);
 		print("%d", n + m - 2 * count);
 	}
 }

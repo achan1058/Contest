@@ -13,8 +13,8 @@ int main() {
 			}
 		}
 		irep(c, count) {
-			if (c.s == best)
-				printf("%c", c.f);
+			if (c.second == best)
+				printf("%c", c.first);
 		}
 		print(" %d", best);
 	}
