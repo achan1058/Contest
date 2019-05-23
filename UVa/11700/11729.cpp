@@ -13,8 +13,8 @@ int main() {
 		sort(all(ppl));
 
 		irep(p, ppl) {
-			t += p.s;
-			ans = max(ans, t - p.f);
+			t += p.second;
+			ans = max(ans, t - p.first);
 		}
 		printc("%d", ans);
 	}

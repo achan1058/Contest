@@ -26,8 +26,8 @@ int main() {
 
 			steps[x][y] = cur;
 			pii d = dxy[grid[x][y]];
-			x += d.f;
-			y += d.s;
+			x += d.first;
+			y += d.second;
 			cur++;
 		}
 
