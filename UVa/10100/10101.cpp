@@ -15,7 +15,7 @@ void printnum(ll n) {
 	n /= 100;
 
 	if (n != 0)
-		printf(" %d lakh", n);
+		printf(" %lld lakh", n);
 	if (h != 0)
 		printf(" %d hajar", h);
 	if (s != 0)
