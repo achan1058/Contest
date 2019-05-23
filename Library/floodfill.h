@@ -4,7 +4,7 @@ using namespace std;
 
 vector<int> dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
 template<class T, class U>
-int floodfill(vector<T>& grid, int x0, int y0, U target = 0) {
+int floodfill(vector<T>& grid, int x0, int y0, U target = 0, bool strict = true) {
 	int r = grid.size(), c = grid[0].size(), d = dx.size(), count = 1;
 	queue<pair<int, int>> q;
 	U source = grid[x0][y0];
@@ -16,7 +16,7 @@ int floodfill(vector<T>& grid, int x0, int y0, U target = 0) {
 		q.pop();
 		for (int k = 0; k < d; k++) {
 			int nx = x + dx[k], ny = y + dy[k];
-			if (nx < 0 || nx >= r || ny < 0 || ny >= c || grid[nx][ny] != source)
+			if (nx < 0 || nx >= r || ny < 0 || ny >= c || grid[nx][ny] == target || (grid[nx][ny] != source && strict))
 				continue;
 
 			grid[nx][ny] = target;
