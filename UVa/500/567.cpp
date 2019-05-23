@@ -17,7 +17,7 @@ int main() {
 				graph[i][v - 1] = graph[v - 1][i] = 1;
 			}
 		}
-		vvi dist = floyd(graph).f;
+		vvi dist = floyd(graph).first;
 		print("Test Set #%d", X);
 
 		int v1, v2;

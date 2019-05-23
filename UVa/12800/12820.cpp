@@ -9,9 +9,9 @@ bool isCool(const string& s) {
 	if (sz(tal) == 1)
 		return false;
 	irep(t, tal) {
-		if (m[t.s])
+		if (m[t.second])
 			return false;
-		m[t.s] = true;
+		m[t.second] = true;
 	}
 	return true;
 }

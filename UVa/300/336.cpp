@@ -17,7 +17,7 @@ int main() {
 			edges.pb({ v2, v1, 1 });
 		}
 		vvi mat = toMatrix(edges);
-		vvi dist = floyd(mat).f;
+		vvi dist = floyd(mat).first;
 		while (cin >> v1 >> v2 && (v1 | v2) != 0) {
 			X++;
 			int reach = 0, m1 = m.map(v1);

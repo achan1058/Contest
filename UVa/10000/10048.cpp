@@ -13,7 +13,7 @@ int main() {
 			grid[v2 - 1][v1 - 1] = v;
 		}
 
-		vvi dist = floyd(grid, true).f;
+		vvi dist = floyd(grid, true).first;
 		printX("Case #%d\n", X);
 		rep(i, 0, k) {
 			cin >> v1 >> v2;
