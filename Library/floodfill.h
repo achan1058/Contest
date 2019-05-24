@@ -27,6 +27,7 @@ int floodfill(vector<T>& grid, int x0, int y0, U target = 0, bool strict = true)
 	return count;
 }
 
+extern int inf;
 int flooddist(vector<vector<int>>& grid, int x0, int y0, int x1 = -1, int y1 = -1) {
 	if (x0 == x1 && y0 == y1) return 0;
 	int r = grid.size(), c = grid[0].size(), d = dx.size();
