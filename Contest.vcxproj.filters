@@ -1787,6 +1787,12 @@
     <ClCompile Include="UVa\11700\11734.cpp">
       <Filter>UVa\11700</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10900\10940.cpp">
+      <Filter>UVa\10900</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\100\151.cpp">
+      <Filter>UVa\100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -1914,6 +1920,9 @@
     </ClInclude>
     <ClInclude Include="Library\double.h">
       <Filter>Library\Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\misc.h">
+      <Filter>Library\Misc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
