@@ -1,5 +1,5 @@
 from decimal import *
-    
+
 while True:
 	try:
 		n,p = input().split()
