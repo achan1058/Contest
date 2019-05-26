@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-#include "utils.h"
 #include "primes.h"
 #include "header.h"
 
