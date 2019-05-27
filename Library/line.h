@@ -7,11 +7,15 @@ template<class T>
 struct Line {
 public:
 	T a, b, c;
+	// test this
 	Line(T a_ = 0, T b_ = 0, T c_ = 0) : a(a_), b(b_), c(c_) {}
 	Line(point<T> p1, point<T> p2) : a(p2.y - p1.y), b(p1.x - p2.x) { c = a * p1.x + b * p1.y; }
+	// test this
 	Line(T dx, T dy, point<T> p) : a(-dy), b(dx) { c = a * p.x + b * p.y; }
+	// test this
 	Line perp(point<T> p) { return Line(a, b, p); }
 	// need this?
+	// test this
 	void normalize() {
 		T m = abs(a) >= abs(b) ? a : b;
 		a /= m; b /= m; c /= m;

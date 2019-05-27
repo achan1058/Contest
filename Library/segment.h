@@ -1,11 +1,12 @@
 #pragma once
 #include "line.h"
 
+// forward declaration for Line?
 template<class T>
 struct Segment {
 	point<T> p1, p2;
 private:
-	int sgn(T val) const { return (T(0) < val) - (val < T(0)); }
+	int sgn(T v) const { return (T(0) < v) - (v < T(0)); }
 	// helper function to check whether the target point is in the bounds of the segment endpoints
 	// does NOT check whether point is actually inside the segment
 	int inside(point<T> p) const {
@@ -13,10 +14,13 @@ private:
 		return dx == -1 || dy == -1 ? 1 : (dx == 1 || dy == 1 ? -1 : 0);
 	}
 public:
+	// test this
 	Segment(T x1 = 0, T y1 = 0, T x2 = 0, T y2 = 0) : p1({ x1, y1 }), p2({ x2, y2 }) {}
 	Segment(point<T> p1_, point<T> p2_ = { 0, 0 }) : p1(p1_), p2(p2_) {}
 	// returns 1 on intersection, 0 on boundary, -1 on non-intersection
+	// test this
 	int onSegment(point<T> p) const { return p.sa2(p1, p2) == T(0) ? inside(p) : -1; }
+	// test this
 	int intersect(Segment l) {
 		int s1 = sgn(p1.sa2(p2, l.p1)) * sgn(p1.sa2(p2, l.p2)), s2 = sgn(l.p1.sa2(l.p2, p1)) * sgn(l.p1.sa2(l.p2, p2));
 		if (s1 != 0 || s2 != 0) return s1 == 1 || s2 == 1 ? -1 : (s1 == -1 && s2 == -1 ? 1 : 0);

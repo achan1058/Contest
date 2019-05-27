@@ -15,7 +15,6 @@ long long binom(int n, int r) {
 	return result;
 }
 
-// test this
 vector<long long> factorialTable(int n, long long m = 0) {
 	vector<long long> result(n + 1);
 	result[0] = 1;
