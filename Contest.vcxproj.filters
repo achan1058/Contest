@@ -1915,9 +1915,6 @@
     <ClInclude Include="Library\old\shortest_path.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\old\sorting.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
     <ClInclude Include="Library\old\spanning_tree.h">
       <Filter>Library\old</Filter>
     </ClInclude>

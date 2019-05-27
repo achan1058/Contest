@@ -2213,7 +2213,6 @@
     <ClInclude Include="Library\old\primes.h" />
     <ClInclude Include="Library\old\segment_tree.h" />
     <ClInclude Include="Library\old\shortest_path.h" />
-    <ClInclude Include="Library\old\sorting.h" />
     <ClInclude Include="Library\old\spanning_tree.h" />
     <ClInclude Include="Library\old\sweep_line.h" />
     <ClInclude Include="Library\old\topo_sort.h" />
