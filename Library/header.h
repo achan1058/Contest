@@ -20,6 +20,7 @@ template<class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v)
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
 ll mod = 1000000007ll;
+ll linf = 0x3f3f3f3f3f3f3f3f;
 
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
 #define irep(k, a) for (auto& k : (a))

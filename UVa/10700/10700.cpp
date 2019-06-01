@@ -3,7 +3,7 @@
 
 ll getAns(const vl& nums, const string& ops, bool ismin) {
 	int n = sz(nums);
-	ll start = ismin ? ll(inf) * inf : 0;
+	ll start = ismin ? linf : 0;
 	vvl dp = ml(n, n, start);
 	rep(i, 0, n)
 		dp[i][i] = nums[i];
