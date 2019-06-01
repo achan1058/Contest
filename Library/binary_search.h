@@ -3,7 +3,6 @@
 using namespace std;
 
 // Finds x such that func(x) = 0. Returns left most of such x if func is monotone.
-// test floating point.
 template<class T, class U = double>
 T binarySearch(U func(T value), T m = 0, T M = inf, T bound = eps, bool precise = true, T not_found = -inf) {
 	auto sgn = [](T v) { return (T(0) < v) - (v < T(0)); };
