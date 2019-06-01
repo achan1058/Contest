@@ -9,7 +9,6 @@ T binarySearch(U func(T value), T m = 0, T M = inf, T bound = eps, bool precise 
 	auto sgn = [](T v) { return (T(0) < v) - (v < T(0)); };
 	int m_sign = sgn(func(m));
 	T mid = (m + M) / 2;
-
 	if (m_sign == 0)
 		return m;
 	else if (m_sign == sgn(func(M)))
@@ -20,7 +19,6 @@ T binarySearch(U func(T value), T m = 0, T M = inf, T bound = eps, bool precise 
 			m = mid;
 		else
 			M = mid;
-
 		mid = (m + M) / 2;
 	} while (bound < mid - m);
 	return (sgn(func(M)) == 0 || !precise ? M : not_found);
