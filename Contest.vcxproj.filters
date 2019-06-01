@@ -1919,6 +1919,9 @@
     <ClCompile Include="UVa\10700\10700.cpp">
       <Filter>UVa\10700</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\700\714.cpp">
+      <Filter>UVa\700</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2046,6 +2049,9 @@
     </ClInclude>
     <ClInclude Include="Library\misc.h">
       <Filter>Library\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\binary_search.h">
+      <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
