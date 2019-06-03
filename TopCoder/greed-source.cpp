@@ -17,14 +17,13 @@ typedef vector<vl> vvl;
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
 ll mod = 1000000007ll;
+ll linf = 0x3f3f3f3f3f3f3f3f;
 
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
 #define irep(k, a) for (auto& k : (a))
 #define sz(a) int(a.size())
 #define all(c) (c).begin(), (c).end()
 #define pb push_back
-#define x first
-#define y second
 #define mi(r, c, v) vvi(r, vi(c, v))
 #define rrep(k, a, b) for (int k = (a); k >= int(b); k--)
 #define drep(i, j, a, b) for (int i = 0; i < (a); i++) for (int j = 0; j < (b); j++)
