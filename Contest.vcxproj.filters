@@ -1994,6 +1994,9 @@
     <ClCompile Include="TopCoder\SRM 700-799\SRM 758\LongJump2.cpp">
       <Filter>TopCoder\700\758</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10800\10855.cpp">
+      <Filter>UVa\10800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
