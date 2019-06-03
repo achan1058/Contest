@@ -1985,6 +1985,9 @@
     <ClCompile Include="TopCoder\SRM 700-799\SRM 759\EllysViewPoints.cpp">
       <Filter>TopCoder\700\759</Filter>
     </ClCompile>
+    <ClCompile Include="TopCoder\SRM 700-799\SRM 759\EllysThreePrimes.cpp">
+      <Filter>TopCoder\700\759</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
