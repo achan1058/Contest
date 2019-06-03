@@ -306,6 +306,9 @@
     <Filter Include="Codeforces\900">
       <UniqueIdentifier>{e2771c65-30d6-4568-a4cd-0ca15516125f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\700\759">
+      <UniqueIdentifier>{356e58fe-5e64-433c-80d8-00f902e432a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -1978,6 +1981,9 @@
     </ClCompile>
     <ClCompile Include="UVa\10100\10182.cpp">
       <Filter>UVa\10100</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 700-799\SRM 759\EllysViewPoints.cpp">
+      <Filter>TopCoder\700\759</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
