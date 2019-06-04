@@ -2015,6 +2015,9 @@
     <ClCompile Include="UVa\10800\10827.cpp">
       <Filter>UVa\10800</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\300\383.cpp">
+      <Filter>UVa\300</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
