@@ -312,6 +312,9 @@
     <Filter Include="TopCoder\700\758">
       <UniqueIdentifier>{1c73f7fa-d2f4-4c58-bb9e-df9ae20c101f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TopCoder\700\757">
+      <UniqueIdentifier>{1d456e9e-7c74-424e-835f-879ed8dd930f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -1996,6 +1999,12 @@
     </ClCompile>
     <ClCompile Include="UVa\10800\10855.cpp">
       <Filter>UVa\10800</Filter>
+    </ClCompile>
+    <ClCompile Include="TopCoder\SRM 700-799\SRM 757\MtGFight.cpp">
+      <Filter>TopCoder\700\757</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10900\10919.cpp">
+      <Filter>UVa\10900</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
