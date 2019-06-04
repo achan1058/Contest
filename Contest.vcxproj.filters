@@ -2018,6 +2018,9 @@
     <ClCompile Include="UVa\300\383.cpp">
       <Filter>UVa\300</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\11800\11850.cpp">
+      <Filter>UVa\11800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
