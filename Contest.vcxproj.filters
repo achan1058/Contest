@@ -315,6 +315,9 @@
     <Filter Include="TopCoder\700\757">
       <UniqueIdentifier>{1d456e9e-7c74-424e-835f-879ed8dd930f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\1000">
+      <UniqueIdentifier>{90715424-6399-4173-9570-9334f8a0e3e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -2044,6 +2047,9 @@
     </ClCompile>
     <ClCompile Include="Codeforces\700\700\705A.cpp">
       <Filter>Codeforces\700</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\1000\1090\1097A.cpp">
+      <Filter>Codeforces\1000</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
