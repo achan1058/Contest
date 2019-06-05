@@ -2039,9 +2039,6 @@
     <ClCompile Include="Codeforces\100\110\110A.cpp">
       <Filter>Codeforces\100</Filter>
     </ClCompile>
-    <ClCompile Include="Codeforces\400\469\469A.cpp">
-      <Filter>Codeforces\400</Filter>
-    </ClCompile>
     <ClCompile Include="Codeforces\400\450\451A.cpp">
       <Filter>Codeforces\400</Filter>
     </ClCompile>
@@ -2068,6 +2065,15 @@
     </ClCompile>
     <ClCompile Include="Codeforces\100\120\122A.cpp">
       <Filter>Codeforces\100</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\400\460\467A.cpp">
+      <Filter>Codeforces\400</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\500\510\510A.cpp">
+      <Filter>Codeforces\500</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\400\460\469A.cpp">
+      <Filter>Codeforces\400</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
