@@ -2027,6 +2027,9 @@
     <ClCompile Include="UVa\1500\1583.cpp">
       <Filter>UVa\1500</Filter>
     </ClCompile>
+    <ClCompile Include="Codeforces\200\260\266B.cpp">
+      <Filter>Codeforces\200</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
