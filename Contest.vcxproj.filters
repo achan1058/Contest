@@ -318,6 +318,9 @@
     <Filter Include="Codeforces\1000">
       <UniqueIdentifier>{90715424-6399-4173-9570-9334f8a0e3e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Codeforces\1100">
+      <UniqueIdentifier>{b82f81fa-3746-4ba7-ac2f-1170b0c7e3b7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -2098,6 +2101,9 @@
     </ClCompile>
     <ClCompile Include="Codeforces\1000\1090\1096A.cpp">
       <Filter>Codeforces\1000</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\1100\1130\1136A.cpp">
+      <Filter>Codeforces\1100</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
