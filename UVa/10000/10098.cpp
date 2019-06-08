@@ -7,7 +7,7 @@ int main() {
 		cin >> s;
 		sort(all(s));
 		do {
-			print("%s", s.c_str());
+			prints(s);
 		} while (next_permutation(all(s)));
 		print("");
 	}

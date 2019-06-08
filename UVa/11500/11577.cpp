@@ -20,6 +20,6 @@ int main() {
 		}
 
 		sort(all(ans));
-		print("%s", ans.c_str());
+		prints(ans);
 	}
 }

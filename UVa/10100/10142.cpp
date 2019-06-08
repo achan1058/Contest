@@ -54,7 +54,7 @@ int main() {
 		printX("");
 		rep(i, 0, n) {
 			if (!elim[i])
-				print("%s", cand[i].c_str());
+				prints(cand[i]);
 		}
 	}
 }

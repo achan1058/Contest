@@ -17,5 +17,5 @@ int main() {
 	}
 	sort(all(ans));
 	irep(a, ans)
-		print("%s", a.c_str());
+		prints(a);
 }

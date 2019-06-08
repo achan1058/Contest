@@ -11,7 +11,7 @@ int main() {
 		};
 		sort(all(s), comp);
 		do {
-			print("%s", s.c_str());
+			prints(s);
 		} while (next_permutation(all(s), comp));
 	}
 }

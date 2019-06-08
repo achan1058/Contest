@@ -28,6 +28,6 @@ int main() {
 		}
 
 		printX("RFP #%d\n", X);
-		print("%s", best_name.c_str());
+		prints(best_name);
 	}
 }
