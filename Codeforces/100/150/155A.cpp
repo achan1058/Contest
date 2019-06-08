@@ -14,5 +14,5 @@ int main() {
 			ans++;
 		}
 	}
-	print("%d", ans);
+	printd(ans);
 }

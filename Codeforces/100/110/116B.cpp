@@ -18,5 +18,5 @@ int main() {
 			grid[nx][ny] = ' ';
 		}
 	}
-	print("%d", ans);
+	printd(ans);
 }

@@ -9,5 +9,5 @@ int main() {
 		cur += b - a;
 		ans = max(ans, cur);
 	}
-	print("%d", ans);
+	printd(ans);
 }

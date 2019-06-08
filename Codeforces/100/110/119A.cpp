@@ -10,5 +10,5 @@ int main() {
 		n -= gcd(n, num[turn]);
 		turn = 1 - turn;
 	}
-	print("%d", 1 - turn);
+	printd(1 - turn);
 }

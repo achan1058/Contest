@@ -18,5 +18,5 @@ int main() {
 		tally[1] = max(tally[1] - 2, 0);
 	}
 	ans += (tally[1] + 3) / 4;
-	print("%d", ans);
+	printd(ans);
 }

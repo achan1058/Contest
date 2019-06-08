@@ -18,6 +18,5 @@ int main() {
 				e = -2;
 		}
 	}
-
-	print("%d", o > 0 ? o : e);
+	printd(o > 0 ? o : e);
 }

@@ -16,5 +16,5 @@ int main() {
 	int ans = high + n - low - 1;
 	if (ans >= n)
 		ans--;
-	print("%d", ans);
+	printd(ans);
 }
