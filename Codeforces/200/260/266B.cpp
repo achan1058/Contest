@@ -13,5 +13,5 @@ int main() {
 			}
 		}
 	}
-	printf("%s", s.c_str());
+	prints(s);
 }

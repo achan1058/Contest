@@ -20,5 +20,5 @@ int main() {
 				c = toupper(c);
 		}
 	}
-	print("%s", s.c_str());
+	prints(s);
 }
