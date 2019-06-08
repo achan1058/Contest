@@ -18,7 +18,7 @@ int main() {
 			print("NOT A VALID WORD");
 		} else {
 			irep(d, dict[s])
-				prints(d);
+				printv(d);
 		}
 		print("******");
 	}

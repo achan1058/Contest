@@ -20,7 +20,7 @@ void pancake(vi& nums, int n) {
 int main() {
 	string s;
 	while (getline(cin, s)) {
-		prints(s);
+		printv(s);
 		stringstream ss(s);
 		vi nums;
 		int t;

@@ -13,5 +13,5 @@ int main() {
 		transform(all(s), s.begin(), ::tolower);
 	else
 		transform(all(s), s.begin(), ::toupper);
-	prints(s);
+	printv(s);
 }

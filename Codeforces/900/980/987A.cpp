@@ -21,5 +21,5 @@ int main() {
 	}
 	printv(sz(ans));
 	irep(a, ans)
-		prints("%s", a.second);
+		printv("%s", a.second);
 }

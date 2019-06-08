@@ -6,6 +6,6 @@ int main() {
 	while (getline(cin, s)) {
 		irep(c, s)
 			c = c - 7;
-		prints(s);
+		printv(s);
 	}
 }

@@ -21,7 +21,7 @@ int main() {
 		cin >> s1;
 		auto it = m.find(s1);
 		if (it != m.end()) {
-			prints(it->second);
+			printv(it->second);
 			continue;
 		}
 
@@ -32,6 +32,6 @@ int main() {
 			s1 += "es";
 		else
 			s1 += "s";
-		prints(s1);
+		printv(s1);
 	}
 }

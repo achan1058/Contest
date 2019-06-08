@@ -21,6 +21,6 @@ int main() {
 				ans += to_string(c);
 			reverse(all(ans));
 		}
-		prints(ans);
+		printv(ans);
 	}
 }

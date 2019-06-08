@@ -28,6 +28,6 @@ int main() {
 		}
 
 		printX("RFP #%d\n", X);
-		prints(best_name);
+		printv(best_name);
 	}
 }

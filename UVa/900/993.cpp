@@ -22,6 +22,6 @@ int main() {
 		}
 
 		reverse(all(ans));
-		prints(ans);
+		printv(ans);
 	}
 }

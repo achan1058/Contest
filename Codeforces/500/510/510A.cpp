@@ -12,5 +12,5 @@ int main() {
 	for (int i = 3; i < r; i += 4)
 		grid[i][0] = '#';
 	irep(s, grid)
-		prints(s);
+		printv(s);
 }

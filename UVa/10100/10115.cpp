@@ -21,6 +21,6 @@ int main() {
 				s = s.substr(0, t) + p.second + s.substr(t + sz(p.first));
 			}
 		}
-		prints(s);
+		printv(s);
 	}
 }

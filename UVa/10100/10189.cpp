@@ -22,6 +22,6 @@ int main() {
 		}
 		printX("Field #%d:\n", X);
 		irep(s, grid)
-			prints(s);
+			printv(s);
 	}
 }

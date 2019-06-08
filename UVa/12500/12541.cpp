@@ -10,6 +10,6 @@ int main() {
 		ppl.pb({ date, s });
 	}
 	sort(all(ppl));
-	prints(ppl.back().second);
-	prints(ppl[0].second);
+	printv(ppl.back().second);
+	printv(ppl[0].second);
 }

@@ -5,5 +5,5 @@
 int main() {
 	int n;
 	while (cin >> n && n >= 0)
-		prints(to_string(n, 3));
+		printv(to_string(n, 3));
 }

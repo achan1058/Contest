@@ -8,6 +8,6 @@ int main() {
 		int t = sz(s) / n;
 		rep(i, 0, n)
 			reverse(s.begin() + i * t, s.begin() + (i + 1) * t);
-		prints(s);
+		printv(s);
 	}
 }

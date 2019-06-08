@@ -23,7 +23,7 @@ int main() {
 			}
 			total += n - best;
 		}
-		prints(ans);
+		printv(ans);
 		printv(total);
 	}
 }

@@ -20,6 +20,6 @@ int main() {
 		}
 
 		sort(all(ans));
-		prints(ans);
+		printv(ans);
 	}
 }

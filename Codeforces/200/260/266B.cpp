@@ -13,5 +13,5 @@ int main() {
 			}
 		}
 	}
-	prints(s);
+	printv(s);
 }

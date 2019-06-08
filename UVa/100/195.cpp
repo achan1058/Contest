@@ -11,7 +11,7 @@ int main() {
 		};
 		sort(all(s), comp);
 		do {
-			prints(s);
+			printv(s);
 		} while (next_permutation(all(s), comp));
 	}
 }

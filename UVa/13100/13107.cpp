@@ -24,6 +24,6 @@ int main() {
 			else if (c == '9')
 				c = '6';
 		}
-		prints(ans);
+		printv(ans);
 	}
 }

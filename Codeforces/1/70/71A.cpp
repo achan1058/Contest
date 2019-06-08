@@ -6,7 +6,7 @@ int main() {
 		string s;
 		cin >> s;
 		if (sz(s) <= 10)
-			prints(s);
+			printv(s);
 		else
 			print("%c%d%c", s[0], sz(s) - 2, s.back());
 	}
