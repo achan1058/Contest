@@ -8,5 +8,5 @@ int main() {
 		cin >> p >> q;
 		ans += (p + 2 <= q ? 1 : 0);
 	}
-	print("%d", ans);
+	printd(ans);
 }

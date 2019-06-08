@@ -7,5 +7,5 @@ int main() {
 		cin >> v;
 		total += v;
 	}
-	print("%d", total % 5 || total <= 0 ? -1 : total / 5);
+	printd(total % 5 || total <= 0 ? -1 : total / 5);
 }

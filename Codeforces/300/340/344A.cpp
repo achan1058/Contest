@@ -12,5 +12,5 @@ int main() {
 			ans++;
 		c = s[0];
 	}
-	print("%d", ans);
+	printd(ans);
 }

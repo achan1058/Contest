@@ -9,5 +9,5 @@ int main() {
 		ans += n / k;
 		n = n % k + n / k;
 	}
-	print("%d", ans);
+	printd(ans);
 }

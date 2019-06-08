@@ -9,5 +9,5 @@ int main() {
 	sort(all(puzzles));
 	rep(i, 0, n - k + 1)
 		ans = min(ans, puzzles[i + k - 1] - puzzles[i]);
-	print("%d", ans);
+	printd(ans);
 }
