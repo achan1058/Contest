@@ -52,6 +52,6 @@ int main() {
 		}
 
 		int ans = flooddist(dist, start, dest);
-		print("%d", ans == inf ? -1 : ans);
+		printd(ans == inf ? -1 : ans);
 	}
 }

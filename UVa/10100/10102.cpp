@@ -35,6 +35,6 @@ int main() {
 	whileX(cin >> n) {
 		vs grid(n);
 		read(grid);
-		print("%d", flooddist(grid));
+		printd(flooddist(grid));
 	}
 }

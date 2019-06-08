@@ -4,5 +4,5 @@
 int main() {
 	int t, v;
 	while (cin >> t >> v)
-		print("%d", 2 * t * v);
+		printd(2 * t * v);
 }

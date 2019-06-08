@@ -44,7 +44,7 @@ int main() {
 			adj[v2 - 1].pb(v1 - 1);
 		}
 		backtrack();
-		print("%d", sz(best));
+		printd(sz(best));
 		rep(i, 0, sz(best))
 			printf("%d%c", best[i] + 1, i == sz(best) - 1 ? '\n' : ' ');
 	}

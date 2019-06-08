@@ -10,6 +10,6 @@ int main() {
 		sort(all(houses));
 		irep(v, houses)
 			ans += abs(v - houses[n / 2]);
-		print("%d", ans);
+		printd(ans);
 	}
 }

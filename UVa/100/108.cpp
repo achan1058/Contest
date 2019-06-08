@@ -17,5 +17,5 @@ int main() {
 			cur = max(0, cur);
 		}
 	}
-	print("%d", ans);
+	printd(ans);
 }

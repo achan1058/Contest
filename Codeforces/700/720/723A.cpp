@@ -5,5 +5,5 @@ int main() {
 	vi nums(3);
 	read(nums);
 	sort(all(nums));
-	print("%d", nums[2] - nums[0]);
+	printd(nums[2] - nums[0]);
 }

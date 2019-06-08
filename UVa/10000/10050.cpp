@@ -15,6 +15,6 @@ int main() {
 				days[j] = true;
 			}
 		}
-		print("%d", ans);
+		printd(ans);
 	}
 }

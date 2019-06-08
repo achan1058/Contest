@@ -19,7 +19,7 @@ int main() {
 		cin >> s;
 		ans.erase(s);
 	}
-	print("%d", sz(ans));
+	printd(sz(ans));
 	irep(a, ans)
 		print("%s", a.second.c_str());
 }

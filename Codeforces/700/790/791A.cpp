@@ -9,5 +9,5 @@ int main() {
 		b *= 2;
 		years++;
 	}
-	print("%d", years);
+	printd(years);
 }
