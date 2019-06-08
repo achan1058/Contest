@@ -7,6 +7,6 @@ int main() {
 		cin >> s >> a >> b >> c;
 		s /= c;
 		s += s / a * b;
-		print("%lld", s);
+		printl(s);
 	}
 }

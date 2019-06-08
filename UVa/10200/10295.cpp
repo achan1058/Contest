@@ -14,6 +14,6 @@ int main() {
 		ll total = 0;
 		while (cin >> s && s != ".")
 			total += value[s];
-		print("%lld", total);
+		printl(total);
 	}
 }

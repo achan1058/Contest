@@ -8,5 +8,5 @@ ll paths(int n) {
 
 int main() {
 	assert(paths(2) == 6);
-	print("%lld", paths(20));
+	printl(paths(20));
 }

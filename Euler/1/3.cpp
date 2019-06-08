@@ -8,5 +8,5 @@ ll largest(ll n) {
 
 int main() {
 	assert(largest(13195) == 29);
-	print("%lld", largest(600851475143));
+	printl(largest(600851475143));
 }

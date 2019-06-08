@@ -11,6 +11,6 @@ int main() {
 			continue;
 		}
 		ll t = (sqrt(4 * d - 1));
-		print("%lld", t);
+		printl(t);
 	}
 }

@@ -12,5 +12,5 @@ int main() {
 
 	int n;
 	while (cin >> n)
-		print("%lld", ans[n]);
+		printl(ans[n]);
 }

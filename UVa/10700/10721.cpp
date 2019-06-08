@@ -12,6 +12,6 @@ int main() {
 				nums2[j + l + 1] += nums[j];
 			nums = nums2;
 		}
-		print("%lld", nums[n]);
+		printl(nums[n]);
 	}
 }

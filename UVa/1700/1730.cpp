@@ -23,5 +23,5 @@ int main() {
 		ans[i] += ans[i - 1];
 	int n;
 	while (cin >> n && n != 0)
-		print("%lld", ans[n]);
+		printl(ans[n]);
 }

@@ -23,6 +23,6 @@ int main() {
 			cin >> v1 >> v2 >> c;
 
 		printX("%lld\n", cost);
-		print("%lld", get<0>(kruskal(edges, n)));
+		printl(get<0>(kruskal(edges, n)));
 	}
 }

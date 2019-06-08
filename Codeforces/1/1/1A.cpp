@@ -6,5 +6,5 @@ int main() {
 	cin >> n >> m >> a;
 	n = (n + a - 1) / a;
 	m = (m + a - 1) / a;
-	print("%lld", n * m);
+	printl(n * m);
 }

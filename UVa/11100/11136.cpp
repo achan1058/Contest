@@ -23,6 +23,6 @@ int main() {
 
 			ans += mx - mn;
 		}
-		print("%lld", ans);
+		printl(ans);
 	}
 }

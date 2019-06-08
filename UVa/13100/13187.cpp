@@ -5,6 +5,6 @@ int main() {
 	forX() {
 		ll n;
 		cin >> n;
-		print("%lld", n * (n + 2));
+		printl(n * (n + 2));
 	}
 }

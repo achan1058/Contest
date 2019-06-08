@@ -10,7 +10,7 @@ int main() {
 			cin >> v;
 			total += v;
 		} else {
-			print("%lld", total);
+			printl(total);
 		}
 	}
 }

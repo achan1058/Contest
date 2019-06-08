@@ -5,6 +5,6 @@ int main() {
 	forX() {
 		ll n;
 		cin >> n;
-		print("%lld", ll((sqrt(1 + 8 * n) - 1) / 2));
+		printl(ll((sqrt(1 + 8 * n) - 1) / 2));
 	}
 }

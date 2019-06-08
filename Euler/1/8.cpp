@@ -18,5 +18,5 @@ int main() {
 	while (fin >> s)
 		digits += s;
 	assert(prod(4, digits) == 5832);
-	print("%lld", prod(13, digits));
+	printl(prod(13, digits));
 }

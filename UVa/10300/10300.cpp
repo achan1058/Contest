@@ -10,6 +10,6 @@ int main() {
 			cin >> a >> b >> c;
 			total += a * c;
 		}
-		print("%lld", total);
+		printl(total);
 	}
 }
