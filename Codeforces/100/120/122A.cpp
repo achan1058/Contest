@@ -10,5 +10,5 @@ int main() {
 		if (n % l == 0)
 			good = true;
 	}
-	print("%s", good ? "YES" : "NO");
+	print(good ? "YES" : "NO");
 }

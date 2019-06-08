@@ -15,5 +15,5 @@ int main() {
 			}
 		}
 	}
-	print("%s", n == 0 ? "I become the guy." : "Oh, my keyboard!");
+	print(n == 0 ? "I become the guy." : "Oh, my keyboard!");
 }

@@ -20,6 +20,6 @@ int main() {
 			}
 			even = !even;
 		}
-		print("%s", check % 10 ? "Invalid" : "Valid");
+		print(check % 10 ? "Invalid" : "Valid");
 	}
 }

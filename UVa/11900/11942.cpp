@@ -11,6 +11,6 @@ int main() {
 			inc = inc && ppl[i] > ppl[i - 1];
 			dec = dec && ppl[i] < ppl[i - 1];
 		}
-		print("%s", inc || dec ? "Ordered" : "Unordered");
+		print(inc || dec ? "Ordered" : "Unordered");
 	}
 }

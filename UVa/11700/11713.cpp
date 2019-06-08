@@ -14,6 +14,6 @@ int main() {
 		cin >> s1 >> s2;
 		transform(s1);
 		transform(s2);
-		print("%s", s1 == s2 ? "Yes" : "No");
+		print(s1 == s2 ? "Yes" : "No");
 	}
 }

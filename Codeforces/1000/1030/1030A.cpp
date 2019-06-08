@@ -9,5 +9,5 @@ int main() {
 		cin >> v;
 		easy = easy && v == 0;
 	}
-	print("%s", easy ? "EASY" : "HARD");
+	print(easy ? "EASY" : "HARD");
 }

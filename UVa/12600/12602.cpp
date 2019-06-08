@@ -8,6 +8,6 @@ int main() {
 		cin >> c1 >> c2 >> c3 >> c >> s;
 		int a = (c1 - 'A') * 26 * 26 + (c2 - 'A') * 26 + (c3 - 'A');
 		int b = stoi(s);
-		print("%s", abs(a - b) <= 100 ? "nice" : "not nice");
+		print(abs(a - b) <= 100 ? "nice" : "not nice");
 	}
 }

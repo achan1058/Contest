@@ -23,6 +23,6 @@ int main() {
 			if (r > 0)
 				good = false;
 		}
-		print("%s", good ? "yes" : "no");
+		print(good ? "yes" : "no");
 	}
 }

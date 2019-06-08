@@ -43,6 +43,6 @@ int main() {
 			}
 		}
 	end:;
-		print("%s", good ? "yes" : "no");
+		print(good ? "yes" : "no");
 	}
 }

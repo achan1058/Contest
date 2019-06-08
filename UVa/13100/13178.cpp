@@ -5,6 +5,6 @@ int main() {
 	forX() {
 		int n;
 		cin >> n;
-		print("%s", n % 3 == 1 ? "NO" : "YES");
+		print(n % 3 == 1 ? "NO" : "YES");
 	}
 }

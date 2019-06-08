@@ -19,6 +19,6 @@ int main() {
 				break;
 			}
 		}
-		print("%s", good ? "YES" : "NO");
+		print(good ? "YES" : "NO");
 	}
 }

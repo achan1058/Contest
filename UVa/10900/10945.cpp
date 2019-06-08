@@ -11,6 +11,6 @@ int main() {
 		}
 		string s2 = s1;
 		reverse(all(s2));
-		print("%s", s1 == s2 ? "You won't be eaten!" : "Uh oh..");
+		print(s1 == s2 ? "You won't be eaten!" : "Uh oh..");
 	}
 }

@@ -10,6 +10,6 @@ int main() {
 				t1++;
 			t2++;
 		}
-		print("%s", t1 == sz(s1) ? "Yes" : "No");
+		print(t1 == sz(s1) ? "Yes" : "No");
 	}
 }

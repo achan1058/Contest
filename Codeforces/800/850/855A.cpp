@@ -8,7 +8,7 @@ int main() {
 	string s;
 	rep(i, 0, n) {
 		cin >> s;
-		print("%s", used.find(s) == used.end() ? "NO" : "YES");
+		print(used.find(s) == used.end() ? "NO" : "YES");
 		used.insert(s);
 	}
 }

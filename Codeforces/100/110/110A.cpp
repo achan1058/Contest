@@ -9,5 +9,5 @@ int main() {
 		if (c == '4' || c == '7')
 			num++;
 	}
-	print("%s", num == 4 || num == 7 ? "YES" : "NO");
+	print(num == 4 || num == 7 ? "YES" : "NO");
 }

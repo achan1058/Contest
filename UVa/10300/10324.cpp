@@ -15,7 +15,7 @@ int main() {
 			if (a > b)
 				swap(a, b);
 			int diff = tally[b + 1] - tally[a];
-			print("%s", diff == 0 || diff == b - a + 1 ? "Yes" : "No");
+			print(diff == 0 || diff == b - a + 1 ? "Yes" : "No");
 		}
 	}
 }

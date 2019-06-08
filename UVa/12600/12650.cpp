@@ -14,6 +14,6 @@ int main() {
 			if (!ppl[i])
 				printf("%d ", i + 1);
 		}
-		print("%s", n == r ? "*" : "");
+		print(n == r ? "*" : "");
 	}
 }

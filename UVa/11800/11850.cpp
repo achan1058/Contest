@@ -14,6 +14,6 @@ int main() {
 				break;
 			}
 		}
-		print("%s", possible && 1422 - nums.back() <= 100 ? "POSSIBLE" : "IMPOSSIBLE");
+		print(possible && 1422 - nums.back() <= 100 ? "POSSIBLE" : "IMPOSSIBLE");
 	}
 }

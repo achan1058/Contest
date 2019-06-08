@@ -10,5 +10,5 @@ int main() {
 			hi++;
 		i++;
 	}
-	print("%s", hi == 5 ? "YES" : "NO");
+	print(hi == 5 ? "YES" : "NO");
 }

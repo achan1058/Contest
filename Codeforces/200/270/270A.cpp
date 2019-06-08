@@ -6,6 +6,6 @@ int main() {
 		int angle;
 		cin >> angle;
 		angle = 180 - angle;
-		print("%s", 360 % angle ? "NO" : "YES");
+		print(360 % angle ? "NO" : "YES");
 	}
 }

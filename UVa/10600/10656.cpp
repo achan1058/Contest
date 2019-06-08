@@ -13,6 +13,6 @@ int main() {
 				printed = true;
 			}
 		}
-		print("%s", printed ? "" : "0");
+		print(printed ? "" : "0");
 	}
 }

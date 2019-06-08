@@ -23,6 +23,6 @@ int main() {
 			rrep(j, total / 2 - t, 0)
 				hit[j + t] = hit[j + t] || hit[j];
 		}
-		print("%s", hit[total / 2] ? "YES" : "NO");
+		print(hit[total / 2] ? "YES" : "NO");
 	}
 }

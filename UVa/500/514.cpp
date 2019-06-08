@@ -18,7 +18,7 @@ int main() {
 					next++;
 				}
 			}
-			print("%s", next == n ? "Yes" : "No");
+			print(next == n ? "Yes" : "No");
 		}
 		print();
 	}

@@ -24,6 +24,6 @@ int main() {
 				remain.pop_back();
 			}
 		}
-		print("%s", good && remain.empty() ? "Yes" : "No");
+		print(good && remain.empty() ? "Yes" : "No");
 	}
 }

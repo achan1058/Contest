@@ -16,6 +16,6 @@ int main() {
 			}
 			hit[d] = true;
 		}
-		print("%s", jolly ? "Jolly" : "Not jolly");
+		print(jolly ? "Jolly" : "Not jolly");
 	}
 }

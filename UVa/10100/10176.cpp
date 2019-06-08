@@ -7,7 +7,7 @@ int main() {
 	while (cin >> s) {
 		irep(c, s) {
 			if (c == '#') {
-				print("%s", cur ? "NO" : "YES");
+				print(cur ? "NO" : "YES");
 				cur = 0;
 				break;
 			}

@@ -8,5 +8,5 @@ int main() {
 		24137569, 34012224,	47045881, 64000000, 85766121 };
 	int n;
 	while (cin >> n && n != 0)
-		print("%s", special.find(n) != special.end() ? "Special" : "Ordinary");
+		print(special.find(n) != special.end() ? "Special" : "Ordinary");
 }

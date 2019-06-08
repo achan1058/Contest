@@ -21,6 +21,6 @@ int main() {
 				break;
 			}
 		}
-		print("%s", good ? "possible" : "not possible");
+		print(good ? "possible" : "not possible");
 	}
 }

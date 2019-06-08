@@ -14,6 +14,6 @@ int main() {
 				males--;
 			count++;
 		}
-		print("%s", males == 0 && count >= 2 ? "LOOP" : "NO LOOP");
+		print(males == 0 && count >= 2 ? "LOOP" : "NO LOOP");
 	}
 }

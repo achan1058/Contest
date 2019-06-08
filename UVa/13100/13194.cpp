@@ -8,6 +8,6 @@ int main() {
 		ll n;
 		cin >> n;
 		ll s = sumFactors(fastFactor(n, primes)) - n;
-		print("%s", s > n ? "abundant" : (s < n ? "deficient" : "perfect"));
+		print(s > n ? "abundant" : s < n ? "deficient" : "perfect");
 	}
 }

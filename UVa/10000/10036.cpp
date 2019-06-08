@@ -23,6 +23,6 @@ int main() {
 			}
 			hit = hit2;
 		}
-		print("%s", hit[0] ? "Divisible" : "Not divisible");
+		print(hit[0] ? "Divisible" : "Not divisible");
 	}
 }

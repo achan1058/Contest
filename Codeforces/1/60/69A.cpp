@@ -10,5 +10,5 @@ int main() {
 		dy += y;
 		dz += z;
 	}
-	print("%s", (dx | dy | dz) == 0 ? "YES" : "NO");
+	print((dx | dy | dz) == 0 ? "YES" : "NO");
 }

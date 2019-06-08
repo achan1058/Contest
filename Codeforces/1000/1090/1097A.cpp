@@ -10,5 +10,5 @@ int main() {
 		if (s[0] == s2[0] || s[1] == s2[1])
 			good = true;
 	}
-	print("%s", good ? "YES" : "NO");
+	print(good ? "YES" : "NO");
 }

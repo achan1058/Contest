@@ -11,6 +11,6 @@ int main() {
 			print("NO");
 			continue;
 		}
-		print("%s", isPrime(r) ? "YES" : "NO");
+		print(isPrime(r) ? "YES" : "NO");
 	}
 }

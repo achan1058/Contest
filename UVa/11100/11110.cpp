@@ -28,6 +28,6 @@ int main() {
 		}
 	end:;
 
-		print("%s", good ? "good" : "wrong");
+		print(good ? "good" : "wrong");
 	}
 }

@@ -12,6 +12,6 @@ int main() {
 			rrep(j, l, t)
 				poss[j] = poss[j] || poss[j - t];
 		}
-		print("%s", poss[l] ? "YES" : "NO");
+		print(poss[l] ? "YES" : "NO");
 	}
 }
