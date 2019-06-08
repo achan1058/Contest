@@ -20,6 +20,7 @@ inline int printv(const int& d) { return printf("%d\n", d); }
 inline int printv(const char s[]) { return printf("%s\n", s); }
 inline int printv(const ll& d) { return printf("%lld\n", d); }
 inline int printv(const string& s) { return printf("%s\n", s.c_str()); }
+template<class... T> inline int print(const char f[], T... t) { return printf(f, t...) | printf("\n"); }
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
@@ -45,7 +46,6 @@ ll linf = 0x3f3f3f3f3f3f3f3f;
 #define gcd(a, b) abs(__gcd(a, b))
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
 #define whileX(a) int X = 0; while(X++, (a))
-#define print(...) printf(__VA_ARGS__), printf("\n")
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X), printf(__VA_ARGS__), printf("\n")
 #define printp(...) printf("Case #%d: ", X), printf(__VA_ARGS__), printf("\n")
