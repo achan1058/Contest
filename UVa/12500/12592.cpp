@@ -13,6 +13,6 @@ int main() {
 	}
 	forX() {
 		getline(cin, s1);
-		printv(ans[s1]);
+		print(ans[s1]);
 	}
 }

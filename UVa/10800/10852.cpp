@@ -15,6 +15,6 @@ int main() {
 				ans = p;
 			}
 		}
-		printv(ans);
+		print(ans);
 	}
 }

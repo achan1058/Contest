@@ -28,6 +28,6 @@ int main() {
 			cur = v;
 		}
 		cur = find(num, cur, 1);
-		printv((n - num[cur]) % n + 1);
+		print((n - num[cur]) % n + 1);
 	}
 }

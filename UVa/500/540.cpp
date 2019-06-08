@@ -27,7 +27,7 @@ int main() {
 				queues[t].push(n);
 			} else {
 				int t = global.front();
-				printv(queues[t].front());
+				print(queues[t].front());
 				queues[t].pop();
 				if (queues[t].empty())
 					global.pop();

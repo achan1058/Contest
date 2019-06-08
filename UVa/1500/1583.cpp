@@ -17,6 +17,6 @@ int main() {
 	forX() {
 		int n;
 		cin >> n;
-		printv(ans[n] == inf ? 0 : ans[n]);
+		print(ans[n] == inf ? 0 : ans[n]);
 	}
 }

@@ -12,5 +12,5 @@ int prod(int n) {
 
 int main() {
 	assert(prod(10) == 2520);
-	printv(prod(20));
+	print(prod(20));
 }

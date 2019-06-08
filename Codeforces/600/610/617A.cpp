@@ -4,5 +4,5 @@
 int main() {
 	int n;
 	cin >> n;
-	printv((n + 4) / 5);
+	print((n + 4) / 5);
 }

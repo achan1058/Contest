@@ -8,5 +8,5 @@ int main() {
 		if (s2[i] == '1')
 			s1[i] = 1 - s1[i] + 2 * '0';
 	}
-	printv(s1);
+	print(s1);
 }

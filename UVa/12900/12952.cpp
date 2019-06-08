@@ -4,5 +4,5 @@
 int main() {
 	int a, b;
 	while (cin >> a >> b)
-		printv(max(a, b));
+		print(max(a, b));
 }

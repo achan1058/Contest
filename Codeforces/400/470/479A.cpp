@@ -5,5 +5,5 @@ int main() {
 	int a, b, c;
 	cin >> a >> b >> c;
 	int d = max({ a + b + c, a + b * c, (a + b) * c, a * b + c, a * (b + c), a * b * c });
-	printv(d);
+	print(d);
 }

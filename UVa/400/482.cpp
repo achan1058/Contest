@@ -28,6 +28,6 @@ int main() {
 
 		printX("");
 		irep(out, ans)
-			printv(out);
+			print(out);
 	}
 }

@@ -6,6 +6,6 @@ int main() {
 	while (cin >> a >> b && a != -1) {
 		int d1 = (b - a + 100) % 100;
 		int d2 = (a - b + 100) % 100;
-		printv(min(d1, d2));
+		print(min(d1, d2));
 	}
 }

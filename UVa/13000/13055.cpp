@@ -13,7 +13,7 @@ int main() {
 			if (st.empty())
 				print("Not in a dream");
 			else
-				printv(st.top());
+				print(st.top());
 		} else if (!st.empty()) {
 			st.pop();
 		}

@@ -43,7 +43,7 @@ int main() {
 		printX("%d\n", t);
 		irep(a, ans) {
 			if (sz(a) == 1)
-				printv(a[0]);
+				print(a[0]);
 			else
 				print("%d %d", a[0], a[1]);
 		}

@@ -18,6 +18,6 @@ int main() {
 			cin >> w;
 			ans += best[w];
 		}
-		printv(ans);
+		print(ans);
 	}
 }

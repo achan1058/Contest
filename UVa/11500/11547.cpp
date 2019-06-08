@@ -6,6 +6,6 @@ int main() {
 		int n;
 		cin >> n;
 		n = (n * 567 / 9 + 7492) * 235 / 47 - 498;
-		printv(abs(n / 10) % 10);
+		print(abs(n / 10) % 10);
 	}
 }

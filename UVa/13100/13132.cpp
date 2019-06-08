@@ -6,6 +6,6 @@ int main() {
 	forX() {
 		int n;
 		cin >> n;
-		printv(eulerPhi(factor(n)));
+		print(eulerPhi(factor(n)));
 	}
 }

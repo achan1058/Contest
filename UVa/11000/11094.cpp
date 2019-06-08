@@ -40,6 +40,6 @@ int main() {
 			if (grid[i][j] == land)
 				ans = max(ans, floodfill(grid, i, j, ' '));
 		}
-		printv(ans);
+		print(ans);
 	}
 }

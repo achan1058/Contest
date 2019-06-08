@@ -24,5 +24,5 @@ int main() {
 		if (!hit[i])
 			ans += i;
 	}
-	printv(ans);
+	print(ans);
 }

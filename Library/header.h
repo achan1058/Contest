@@ -16,10 +16,10 @@ typedef vector<vs> vvs;
 typedef vector<vl> vvl;
 template<class T> inline istream& read(vector<T>& v) { for (auto& p : v) cin >> p; return cin; }
 template<class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v) read(p); return cin; }
-inline int printv(const int& d) { return printf("%d\n", d); }
-inline int printv(const char s[]) { return printf("%s\n", s); }
-inline int printv(const ll& d) { return printf("%lld\n", d); }
-inline int printv(const string& s) { return printf("%s\n", s.c_str()); }
+inline int print(const int& d) { return printf("%d\n", d); }
+inline int print(const char s[]) { return printf("%s\n", s); }
+inline int print(const ll& d) { return printf("%lld\n", d); }
+inline int print(const string& s) { return printf("%s\n", s.c_str()); }
 template<class... T> inline int print(const char f[], T... t) { return printf(f, t...) | printf("\n"); }
 
 int inf = 0x3f3f3f3f;

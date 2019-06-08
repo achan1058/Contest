@@ -11,5 +11,5 @@ int main() {
 		prev = v;
 		ans++;
 	}
-	printv(ans);
+	print(ans);
 }

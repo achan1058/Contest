@@ -26,6 +26,6 @@ int main() {
 			}
 			pos = 1 - pos;
 		}
-		printv(trips);
+		print(trips);
 	}
 }

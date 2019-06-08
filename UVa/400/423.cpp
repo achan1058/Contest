@@ -19,5 +19,5 @@ int main() {
 	int ans = 0;
 	irep(d, dist)
 		ans = max(ans, d);
-	printv(ans);
+	print(ans);
 }

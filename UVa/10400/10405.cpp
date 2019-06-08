@@ -6,6 +6,6 @@ int main() {
 	string s1, s2;
 	while (getline(cin, s1)) {
 		getline(cin, s2);
-		printv(sz(lcs(s1, s2).first));
+		print(sz(lcs(s1, s2).first));
 	}
 }

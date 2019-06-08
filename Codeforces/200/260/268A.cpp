@@ -13,5 +13,5 @@ int main() {
 		if (home[i] == guest[j])
 			ans++;
 	}
-	printv(ans);
+	print(ans);
 }

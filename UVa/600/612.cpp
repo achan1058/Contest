@@ -17,6 +17,6 @@ int main() {
 		sort(all(sorted));
 		printX("");
 		rep(i, 0, n)
-			printv(sorted[i].second);
+			print(sorted[i].second);
 	}
 }

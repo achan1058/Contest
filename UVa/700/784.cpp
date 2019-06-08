@@ -39,6 +39,6 @@ int main() {
 			}
 		}
 		irep(g, grid)
-			printv(g);
+			print(g);
 	}
 }

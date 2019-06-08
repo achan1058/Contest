@@ -11,6 +11,6 @@ int main() {
 			if (sales[i] >= sales[j])
 				ans++;
 		}
-		printv(ans);
+		print(ans);
 	}
 }

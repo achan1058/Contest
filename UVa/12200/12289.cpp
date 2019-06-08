@@ -15,6 +15,6 @@ int main() {
 			if (s[i] == one[i])
 				count++;
 		}
-		printv(count >= 2 ? 1 : 2);
+		print(count >= 2 ? 1 : 2);
 	}
 }

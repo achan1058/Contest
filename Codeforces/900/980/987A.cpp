@@ -19,7 +19,7 @@ int main() {
 		cin >> s;
 		ans.erase(s);
 	}
-	printv(sz(ans));
+	print(sz(ans));
 	irep(a, ans)
-		printv("%s", a.second);
+		print("%s", a.second);
 }

@@ -27,7 +27,7 @@ int main() {
 						ans.resize(offset[i], ' ');
 						ans += names[i * r + j];
 					}
-					printv(ans);
+					print(ans);
 				}
 				break;
 			}

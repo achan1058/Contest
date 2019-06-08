@@ -9,6 +9,6 @@ int main() {
 		int s1 = sumFactors(factor(n1)), s2 = 0;
 		if (n1 % n2 == 0)
 			s2 = sumFactors(factor(n1 / n2));
-		printv(s1 - s2 * n2);
+		print(s1 - s2 * n2);
 	}
 }

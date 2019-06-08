@@ -15,7 +15,7 @@ int main() {
 			cin >> s1 >> s2;
 			int v1 = m.map(s1), v2 = m.map(s2);
 			un.join(v1, v2);
-			printv(un.getSize(v1));
+			print(un.getSize(v1));
 		}
 	}
 }

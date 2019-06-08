@@ -11,6 +11,6 @@ int main() {
 				n = (1 << (i + 1)) - n - 1;
 			}
 		}
-		printv(ans);
+		print(ans);
 	}
 }

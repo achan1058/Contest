@@ -14,5 +14,5 @@ int sum(int n) {
 
 int main() {
 	assert(sum(100) == 44);
-	printv(sum(4000000));
+	print(sum(4000000));
 }

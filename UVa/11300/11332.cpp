@@ -5,6 +5,6 @@ int main() {
 	int n;
 	while (cin >> n && n != 0) {
 		n %= 9;
-		printv(n == 0 ? 9 : n);
+		print(n == 0 ? 9 : n);
 	}
 }

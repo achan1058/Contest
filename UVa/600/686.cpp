@@ -16,6 +16,6 @@ int main() {
 			if (sieveIsPrime(i, primes) && sieveIsPrime(n - i, primes))
 				ans++;
 		}
-		printv(ans);
+		print(ans);
 	}
 }

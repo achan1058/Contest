@@ -7,5 +7,5 @@ int main() {
 		ans[i] = ans[i - 1] + i * i;
 	int n;
 	while (cin >> n && n != 0)
-		printv(ans[n]);
+		print(ans[n]);
 }

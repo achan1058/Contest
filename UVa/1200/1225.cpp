@@ -14,6 +14,6 @@ int main() {
 		cin >> n;
 		rep(j, 0, 9)
 			printf("%d ", digits[n][j]);
-		printv(digits[n][9]);
+		print(digits[n][9]);
 	}
 }

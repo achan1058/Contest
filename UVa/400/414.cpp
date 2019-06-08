@@ -16,6 +16,6 @@ int main() {
 			mn = min(mn, count);
 			total += count;
 		}
-		printv(total - mn * n);
+		print(total - mn * n);
 	}
 }

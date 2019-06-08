@@ -18,6 +18,6 @@ int main() {
 		if (rit == heights.end())
 			print("X");
 		else
-			printv(*rit);
+			print(*rit);
 	}
 }

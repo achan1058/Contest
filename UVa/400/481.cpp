@@ -8,8 +8,8 @@ int main() {
 	while (cin >> v)
 		nums.pb(v);
 	vi res = lis(nums).first;
-	printv(sz(res));
+	print(sz(res));
 	print("-");
 	irep(d, res)
-		printv(d);
+		print(d);
 }

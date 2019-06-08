@@ -18,5 +18,5 @@ int main() {
 				e = -2;
 		}
 	}
-	printv(o > 0 ? o : e);
+	print(o > 0 ? o : e);
 }

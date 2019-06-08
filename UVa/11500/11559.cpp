@@ -15,7 +15,7 @@ int main() {
 			}
 		}
 		if (best <= b)
-			printv(best);
+			print(best);
 		else
 			print("stay home");
 	}

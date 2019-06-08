@@ -5,5 +5,5 @@ int main() {
 	int n;
 	double p;
 	while (cin >> n >> p)
-		printv(int(round(exp(log(p) / n))));
+		print(int(round(exp(log(p) / n))));
 }

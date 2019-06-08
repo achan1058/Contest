@@ -14,6 +14,6 @@ int main() {
 		if (dict[s].empty())
 			print("eh");
 		else
-			printv(dict[s]);
+			print(dict[s]);
 	}
 }

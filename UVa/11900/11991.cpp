@@ -11,7 +11,7 @@ int main() {
 		}
 		rep(i, 0, q) {
 			cin >> p >> v;
-			printv(p > sz(pos[v]) ? 0 : pos[v][p - 1]);
+			print(p > sz(pos[v]) ? 0 : pos[v][p - 1]);
 		}
 	}
 }

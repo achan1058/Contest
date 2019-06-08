@@ -30,7 +30,7 @@ int main() {
 			if (ans == "")
 				print("UNDETERMINED");
 			else
-				printv(ans);
+				print(ans);
 		}
 	}
 }

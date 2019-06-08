@@ -12,6 +12,6 @@ int main() {
 			nums.pb(v);
 		drep(i, j, sz(nums), i)
 			ans = max(ans, gcd(nums[i], nums[j]));
-		printv(ans);
+		print(ans);
 	}
 }

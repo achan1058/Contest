@@ -18,6 +18,6 @@ int main() {
 
 		int sr, sc, er, ec;
 		cin >> sr >> sc >> er >> ec;
-		printv(flooddist(grid, sr, sc, er, ec) - 1);
+		print(flooddist(grid, sr, sc, er, ec) - 1);
 	}
 }

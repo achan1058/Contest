@@ -20,6 +20,6 @@ int main() {
 				best = min(best, nextr);
 			}
 		}
-		printv(best);
+		print(best);
 	}
 }

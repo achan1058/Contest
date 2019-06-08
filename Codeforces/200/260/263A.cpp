@@ -6,7 +6,7 @@ int main() {
 	drep(i, j, 5, 5) {
 		cin >> v;
 		if (v == 1) {
-			printv(abs(i - 2) + abs(j - 2));
+			print(abs(i - 2) + abs(j - 2));
 			return 0;
 		}
 	}

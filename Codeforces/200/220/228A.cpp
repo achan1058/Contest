@@ -8,5 +8,5 @@ int main() {
 		cin >> n;
 		shoes.insert(n);
 	}
-	printv(4 - sz(shoes));
+	print(4 - sz(shoes));
 }

@@ -9,7 +9,7 @@ void st(int n, int m, bool b) {
 string ans = "1";
 void backtrack() {
 	if (sz(ans) == 9) {
-		printv(ans);
+		print(ans);
 		return;
 	}
 	int n = ans.back() - '1';

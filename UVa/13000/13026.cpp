@@ -19,7 +19,7 @@ int main() {
 			}
 
 			if (diff <= 1)
-				printv(v);
+				print(v);
 		}
 	}
 }

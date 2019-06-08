@@ -20,5 +20,5 @@ int main() {
 				c = toupper(c);
 		}
 	}
-	printv(s);
+	print(s);
 }

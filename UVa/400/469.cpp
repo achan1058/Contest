@@ -21,7 +21,7 @@ int main() {
 			ss >> r >> c;
 			char fill = board[r - 1][c - 1] == 'W' ? 'U' : 'W';
 			int ans = floodfill(board, r - 1, c - 1, fill);
-			printv(ans);
+			print(ans);
 		} while (getline(cin, s) && s != "");
 	}
 }

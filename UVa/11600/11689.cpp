@@ -11,6 +11,6 @@ int main() {
 			ans += n / c;
 			n = n / c + n % c;
 		}
-		printv(ans);
+		print(ans);
 	}
 }

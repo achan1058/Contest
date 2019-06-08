@@ -39,7 +39,7 @@ int main() {
 			printf("%d ", start + 1);
 			start = next[start][j];
 		}
-		printv(start + 1);
-		printv(best);
+		print(start + 1);
+		print(best);
 	}
 }

@@ -14,6 +14,6 @@ int main() {
 				}
 			}
 		}
-		printv(ans[n]);
+		print(ans[n]);
 	}
 }

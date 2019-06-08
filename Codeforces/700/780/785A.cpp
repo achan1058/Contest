@@ -17,5 +17,5 @@ int main() {
 		cin >> s;
 		ans += face[s];
 	}
-	printv(ans);
+	print(ans);
 }

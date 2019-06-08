@@ -6,7 +6,7 @@ int main() {
 		int n;
 		cin >> n;
 		if (n <= 1) {
-			printv(n);
+			print(n);
 			continue;
 		}
 		string ans;
@@ -22,6 +22,6 @@ int main() {
 		}
 
 		reverse(all(ans));
-		printv(ans);
+		print(ans);
 	}
 }

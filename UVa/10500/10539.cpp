@@ -14,6 +14,6 @@ int main() {
 	ll l, h;
 	forX() {
 		cin >> l >> h;
-		printv(upper_bound(all(primepow), h) - lower_bound(all(primepow), l));
+		print(upper_bound(all(primepow), h) - lower_bound(all(primepow), l));
 	}
 }

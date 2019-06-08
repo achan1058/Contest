@@ -10,6 +10,6 @@ int main() {
 			ans = max(ans, cur - v);
 			cur = max(cur, v);
 		}
-		printv(ans);
+		print(ans);
 	}
 }

@@ -11,5 +11,5 @@ int main() {
 		}
 		ans += tally >= 2 ? 1 : 0;
 	}
-	printv(ans);
+	print(ans);
 }

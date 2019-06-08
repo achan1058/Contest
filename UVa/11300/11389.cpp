@@ -12,6 +12,6 @@ int main() {
 		int over = 0;
 		rep(i, 0, n)
 			over += max(r1[i] + r2[n - i - 1] - d, 0);
-		printv(over * r);
+		print(over * r);
 	}
 }

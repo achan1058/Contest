@@ -6,5 +6,5 @@ int main() {
 	cin >> n >> a >> b;
 	b %= n;
 	a = (a + b + n) % n;
-	printv(a == 0 ? n : a);
+	print(a == 0 ? n : a);
 }

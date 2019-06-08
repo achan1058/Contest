@@ -17,6 +17,6 @@ int main() {
 			}
 			pos += left[i] ? -1 : 1;
 		}
-		printv(pos);
+		print(pos);
 	}
 }
