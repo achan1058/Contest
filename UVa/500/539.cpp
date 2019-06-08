@@ -32,6 +32,6 @@ int main() {
 
 		rep(i, 0, n)
 			backtrack(i);
-		print("%d", ans);
+		printd(ans);
 	}
 }

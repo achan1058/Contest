@@ -34,6 +34,6 @@ int main() {
 		if (ans == inf)
 			print("error");
 		else
-			print("%d", ans);
+			printd(ans);
 	}
 }

@@ -28,6 +28,6 @@ int main() {
 			if (good)
 				ans++;
 		}
-		print("%d", ans);
+		printd(ans);
 	}
 }

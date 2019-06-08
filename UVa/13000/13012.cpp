@@ -9,6 +9,6 @@ int main() {
 			cin >> v;
 			ans += v == n ? 1 : 0;
 		}
-		print("%d", ans);
+		printd(ans);
 	}
 }

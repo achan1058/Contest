@@ -5,6 +5,6 @@ int main() {
 	forX() {
 		int a, b, c;
 		cin >> a >> b >> c;
-		print("%d", (2 * a - b) * c / (a + b));
+		printd((2 * a - b) * c / (a + b));
 	}
 }

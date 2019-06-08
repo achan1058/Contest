@@ -10,6 +10,6 @@ int main() {
 			cin >> v1 >> v2;
 			total += v1 * v2;
 		}
-		print("%d", total / w);
+		printd(total / w);
 	}
 }

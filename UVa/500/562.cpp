@@ -18,6 +18,6 @@ int main() {
 			if (poss[i])
 				mn = min(mn, total - 2 * i);
 		}
-		print("%d", mn);
+		printd(mn);
 	}
 }

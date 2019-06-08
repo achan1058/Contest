@@ -14,6 +14,6 @@ int main() {
 			ans++;
 			w -= e;
 		}
-		print("%d", ans);
+		printd(ans);
 	}
 }

@@ -67,5 +67,5 @@ int main() {
 
 	string s;
 	while (cin >> s)
-		print("%d", m[s]);
+		printd(m[s]);
 }

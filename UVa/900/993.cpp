@@ -6,7 +6,7 @@ int main() {
 		int n;
 		cin >> n;
 		if (n <= 1) {
-			print("%d", n);
+			printd(n);
 			continue;
 		}
 		string ans;

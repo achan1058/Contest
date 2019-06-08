@@ -11,6 +11,6 @@ int main() {
 			ans += n % 2;
 			n /= 2;
 		}
-		print("%d", ans);
+		printd(ans);
 	}
 }

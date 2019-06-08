@@ -28,6 +28,6 @@ int main() {
 		read(grid);
 		rep(i, 0, r)
 			sum[i] = best(grid[i]);
-		print("%d", best(sum));
+		printd(best(sum));
 	}
 }
