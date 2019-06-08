@@ -1,16 +1,6 @@
 #include <bits/stdc++.h>
+#include "sorting.h"
 #include "header.h"
-
-int getInv(string s) {
-	int ans = 0;
-	drep(i, j, sz(s), sz(s) - i - 1) {
-		if (s[j] > s[j + 1]) {
-			ans++;
-			swap(s[j], s[j + 1]);
-		}
-	}
-	return ans;
-}
 
 int main() {
 	forX() {
@@ -19,8 +9,10 @@ int main() {
 		vs dna(n);
 		read(dna);
 		vector<pair<pii, string>> sorted(n);
-		rep(i, 0, n)
-			sorted[i] = { {getInv(dna[i]), i}, dna[i] };
+		rep(i, 0, n) {
+			string s = dna[i];
+			sorted[i] = { {inversionCount(s, 0, sz(s)), i}, dna[i] };
+		}
 
 		sort(all(sorted));
 		printX("");
