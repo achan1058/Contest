@@ -45,7 +45,7 @@ int main() {
 			}
 		}
 		irep(s, output)
-			print("%s", s.c_str());
+			prints(s);
 		print("");
 	}
 }

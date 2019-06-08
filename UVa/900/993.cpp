@@ -22,6 +22,6 @@ int main() {
 		}
 
 		reverse(all(ans));
-		print("%s", ans.c_str());
+		prints(ans);
 	}
 }

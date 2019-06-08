@@ -16,6 +16,6 @@ int main() {
 				ans = sub;
 			}
 		}
-		print("%s", ans.c_str());
+		prints(ans);
 	}
 }

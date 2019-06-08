@@ -11,7 +11,7 @@ int main() {
 
 		printX("");
 		do {
-			print("%s", s.c_str());
+			prints(s);
 		} while (next_permutation(all(s)));
 	}
 }
