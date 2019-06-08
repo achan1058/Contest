@@ -19,7 +19,7 @@ int main() {
 		bool found = false;
 		rrep(j, m, 0) {
 			if (good[n][j]) {
-				print("%d", j);
+				printd(j);
 				found = true;
 				break;
 			}

@@ -10,6 +10,6 @@ int main() {
 		sort(all(items));
 		for (int i = n - 3; i >= 0; i -= 3)
 			ans += items[i];
-		print("%d", ans);
+		printd(ans);
 	}
 }

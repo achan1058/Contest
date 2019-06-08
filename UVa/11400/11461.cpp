@@ -9,6 +9,6 @@ int main() {
 	while (cin >> a >> b && (a | b) != 0) {
 		auto i1 = lower_bound(all(squares), a);
 		auto i2 = upper_bound(all(squares), b);
-		print("%d", i2 - i1);
+		printd(i2 - i1);
 	}
 }

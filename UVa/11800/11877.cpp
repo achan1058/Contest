@@ -4,5 +4,5 @@
 int main() {
 	int n;
 	while (cin >> n && n != 0)
-		print("%d", n / 2);
+		printd(n / 2);
 }

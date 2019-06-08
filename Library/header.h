@@ -42,7 +42,7 @@ ll linf = 0x3f3f3f3f3f3f3f3f;
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
 #define whileX(a) int X = 0; while(X++, (a))
 #define print(...) printf(__VA_ARGS__), printf("\n")
-#define printd(d) printf("%d\n", d);
+#define printd(d) printf("%d\n", d)
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)
 #define printc(...) printf("Case %d: ", X), printf(__VA_ARGS__), printf("\n")
 #define printp(...) printf("Case #%d: ", X), printf(__VA_ARGS__), printf("\n")

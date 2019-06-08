@@ -21,6 +21,6 @@ int main() {
 				ans += c.second;
 			}
 		}
-		print("%d", ans);
+		printd(ans);
 	}
 }
