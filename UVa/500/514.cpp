@@ -20,6 +20,6 @@ int main() {
 			}
 			print("%s", next == n ? "Yes" : "No");
 		}
-		print("");
+		print();
 	}
 }

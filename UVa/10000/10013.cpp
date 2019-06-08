@@ -19,6 +19,6 @@ int main() {
 		printX("");
 		irep(v, digits)
 			printf("%c", v + '0');
-		print("");
+		print();
 	}
 }

@@ -26,6 +26,6 @@ int main() {
 			cin >> v1 >> v2;
 			print("%2d to %2d: %d", v1, v2, dist[v1 - 1][v2 - 1]);
 		}
-		print("");
+		print();
 	}
 }

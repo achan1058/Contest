@@ -16,6 +16,7 @@ typedef vector<vs> vvs;
 typedef vector<vl> vvl;
 template<class T> inline istream& read(vector<T>& v) { for (auto& p : v) cin >> p; return cin; }
 template<class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v) read(p); return cin; }
+inline int print() { return printf("\n"); }
 inline int print(const int& d) { return printf("%d\n", d); }
 inline int print(const char s[]) { return printf("%s\n", s); }
 inline int print(const ll& d) { return printf("%lld\n", d); }

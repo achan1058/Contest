@@ -28,7 +28,7 @@ int main() {
 				printf("%d", pearls[sz(pearls) - 1]);
 				rrep(i, sz(pearls) / 2 - 1, 0)
 					printf(" %d", pearls[2 * i]);
-				print("");
+				print();
 			} else {
 				print("NO");
 			}

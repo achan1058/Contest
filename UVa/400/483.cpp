@@ -11,6 +11,6 @@ int main() {
 			printf("%s%s", first ? "" : " ", s.c_str());
 			first = false;
 		}
-		print("");
+		print();
 	}
 }

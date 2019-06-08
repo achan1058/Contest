@@ -10,5 +10,5 @@ int main() {
 			continue;
 		printf(".%c", l);
 	}
-	print("");
+	print();
 }

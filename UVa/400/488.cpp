@@ -12,12 +12,12 @@ int main() {
 			rep(j, 1, m) {
 				rep(k, 0, j)
 					printf("%d", j);
-				print("");
+				print();
 			}
 			rrep(j, m, 1) {
 				rep(k, 0, j)
 					printf("%d", j);
-				print("");
+				print();
 			}
 		}
 	}

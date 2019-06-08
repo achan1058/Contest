@@ -16,6 +16,6 @@ int main() {
 	string s1, s2;
 	while (cin >> s1 >> s2) {
 		recurse(s1, s2);
-		print("");
+		print();
 	}
 }

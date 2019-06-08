@@ -27,5 +27,5 @@ int main() {
 	}
 	rep(i, 0, sz(ans) - 1)
 		printf("%4d", ans[i]);
-	print("");
+	print();
 }

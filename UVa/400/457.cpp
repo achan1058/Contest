@@ -15,7 +15,7 @@ int main() {
 				printf("%c", code[plate[j]]);
 				p[j] = dense[plate[j - 1] + plate[j] + plate[j + 1]];
 			}
-			print("");
+			print();
 			plate = p;
 		}
 	}

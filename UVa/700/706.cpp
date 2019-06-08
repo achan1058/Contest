@@ -46,6 +46,6 @@ int main() {
 		}
 		irep(s, output)
 			print(s);
-		print("");
+		print();
 	}
 }

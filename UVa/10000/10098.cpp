@@ -9,6 +9,6 @@ int main() {
 		do {
 			print(s);
 		} while (next_permutation(all(s)));
-		print("");
+		print();
 	}
 }

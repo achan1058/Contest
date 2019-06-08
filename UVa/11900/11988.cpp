@@ -22,6 +22,6 @@ int main() {
 		}
 		rep(i, mn, mx + 1)
 			printf("%s", m[i].c_str());
-		print("");
+		print();
 	}
 }

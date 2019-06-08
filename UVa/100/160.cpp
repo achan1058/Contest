@@ -17,9 +17,9 @@ int main() {
 			t++;
 			printf("%3d", p.second);
 			if (t == sz(primes[n])) {
-				print("");
+				print();
 			} else if (t % 15 == 0) {
-				print("");
+				print();
 				printf("      ");
 			}
 		}

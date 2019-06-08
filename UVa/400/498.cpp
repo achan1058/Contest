@@ -25,6 +25,6 @@ int main() {
 			printf("%s%lld", first ? "" : " ", ans);
 			first = false;
 		}
-		print("");
+		print();
 	}
 }

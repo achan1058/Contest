@@ -33,6 +33,6 @@ int main() {
 			continue;
 		}
 		printnum(n);
-		print("");
+		print();
 	}
 }

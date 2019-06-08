@@ -21,7 +21,7 @@ int main() {
 			printf("%d", bag[i]);
 			for (int j = i + best; j < n; j += best)
 				printf(" %d", bag[j]);
-			print("");
+			print();
 		}
 	}
 }

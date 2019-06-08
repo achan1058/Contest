@@ -7,7 +7,7 @@ int main() {
 		int count = 0;
 		irep(c, s) {
 			if (c == '!') {
-				print("");
+				print();
 				continue;
 			}
 			if (c == 'b')
@@ -20,6 +20,6 @@ int main() {
 				count = 0;
 			}
 		}
-		print("");
+		print();
 	}
 }

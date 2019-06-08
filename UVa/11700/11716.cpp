@@ -12,6 +12,6 @@ int main() {
 		}
 		drep(i, j, n, n)
 			printf("%c", s[j * n + i]);
-		print("");
+		print();
 	}
 }

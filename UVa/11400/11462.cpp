@@ -19,6 +19,6 @@ int main() {
 				printf("%d", i);
 			}
 		}
-		print("");
+		print();
 	}
 }

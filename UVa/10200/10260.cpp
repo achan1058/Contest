@@ -19,6 +19,6 @@ int main() {
 			if (cur != 0)
 				printf("%d", cur);
 		}
-		print("");
+		print();
 	}
 }

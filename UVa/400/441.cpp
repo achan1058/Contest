@@ -19,7 +19,7 @@ int main() {
 					first = false;
 				}
 			}
-			print("");
+			print();
 		} while (next_permutation(all(bad)));
 	}
 }

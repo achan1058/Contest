@@ -17,6 +17,6 @@ int main() {
 				mid = fi(mid.num() + right.num(), mid.den() + right.den());
 			}
 		}
-		print("");
+		print();
 	}
 }

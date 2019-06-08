@@ -21,6 +21,6 @@ int main() {
 		}
 		rep(i, 0, count)
 			printf("%c", last);
-		print("");
+		print();
 	}
 }

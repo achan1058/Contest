@@ -15,6 +15,6 @@ int main() {
 				break;
 			printf("%c", grid[i][j]);
 		}
-		print("");
+		print();
 	}
 }

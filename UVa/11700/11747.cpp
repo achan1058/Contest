@@ -27,6 +27,6 @@ int main() {
 			printf("%s%d", first ? "" : " ", get<2>(e));
 			first = false;
 		}
-		print("");
+		print();
 	}
 }

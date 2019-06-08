@@ -11,6 +11,6 @@ int main() {
 			printf("%d", remain / n);
 			remain %= n;
 		} while (remain != 1);
-		print("");
+		print();
 	}
 }

@@ -20,7 +20,7 @@ int main() {
 			if (space <= 62) {
 				rep(i, 0, 60)
 					printf("-");
-				print("");
+				print();
 				rep(j, 0, r) {
 					string ans;
 					for (int i = 0; i * r + j < n; i++) {

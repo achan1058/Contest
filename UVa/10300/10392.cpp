@@ -8,6 +8,6 @@ int main() {
 		vl primes = factor(n);
 		irep(p, primes)
 			print("    %lld", p);
-		print("");
+		print();
 	}
 }

@@ -23,7 +23,7 @@ int main() {
 			printf("%d", sz(ans));
 			irep(v, ans)
 				printf(" %d", v);
-			print("");
+			print();
 		}
 	}
 }

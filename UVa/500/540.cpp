@@ -33,6 +33,6 @@ int main() {
 					global.pop();
 			}
 		}
-		print("");
+		print();
 	}
 }

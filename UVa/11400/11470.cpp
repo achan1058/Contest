@@ -20,6 +20,6 @@ int main() {
 
 		if (n % 2)
 			printf(" %d", grid[n / 2][n / 2]);
-		print("");
+		print();
 	}
 }

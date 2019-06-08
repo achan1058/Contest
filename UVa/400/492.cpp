@@ -25,6 +25,6 @@ int main() {
 		}
 		if (!t.empty())
 			process(t);
-		print("");
+		print();
 	}
 }

@@ -27,7 +27,7 @@ int main() {
 				printf("%2d     ", t);
 				rep(i, 0, 8)
 					printf(" %d", sol[i]);
-				print("");
+				print();
 				t++;
 			}
 		}

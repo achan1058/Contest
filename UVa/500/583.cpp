@@ -9,6 +9,6 @@ int main() {
 		printf("%lld = %lld", n, primes[0]);
 		rep(i, 1, sz(primes))
 			printf(" x %lld", primes[i]);
-		print("");
+		print();
 	}
 }

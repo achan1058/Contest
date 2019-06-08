@@ -17,6 +17,6 @@ int main() {
 			printf("%s%d %d", first ? "" : " ", it->first, it->second);
 			first = false;
 		}
-		print("");
+		print();
 	}
 }
