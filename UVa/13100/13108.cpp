@@ -6,6 +6,6 @@ int main() {
 	forX() {
 		int n;
 		cin >> n;
-		printd(binom(n, 4) + binom(n, 2) + 1);
+		printv(binom(n, 4) + binom(n, 2) + 1);
 	}
 }

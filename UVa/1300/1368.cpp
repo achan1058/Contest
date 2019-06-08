@@ -24,6 +24,6 @@ int main() {
 			total += n - best;
 		}
 		prints(ans);
-		printd(total);
+		printv(total);
 	}
 }

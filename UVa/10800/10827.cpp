@@ -15,7 +15,7 @@ int main() {
 			ans = max(ans, v);
 		}
 		if (ans <= 0) {
-			printd(ans);
+			printv(ans);
 			continue;
 		}
 		rep(j, 0, n)
@@ -37,6 +37,6 @@ int main() {
 				ans = max(ans, cols[n] - cols[j1] + cols[j2] - m2);
 			}
 		}
-		printd(ans);
+		printv(ans);
 	}
 }

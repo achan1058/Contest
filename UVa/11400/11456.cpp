@@ -38,6 +38,6 @@ int main() {
 		int ans = 0;
 		rep(i, 0, n)
 			ans = max(ans, res[i] + res2[i] - 1);
-		printd(ans);
+		printv(ans);
 	}
 }

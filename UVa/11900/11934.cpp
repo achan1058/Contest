@@ -9,6 +9,6 @@ int main() {
 			if ((a * n * n + b * n + c) % d == 0)
 				ans++;
 		}
-		printd(ans);
+		printv(ans);
 	}
 }

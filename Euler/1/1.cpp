@@ -12,5 +12,5 @@ int sum(int n) {
 
 int main() {
 	assert(sum(10) == 23);
-	printd(sum(1000));
+	printv(sum(1000));
 }

@@ -7,5 +7,5 @@ int main() {
 	int ans = n;
 	rep(i, 1, n)
 		ans += i * (n - i);
-	printd(ans);
+	printv(ans);
 }

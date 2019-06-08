@@ -20,12 +20,12 @@ int main() {
 
 		int d = n.back() - '0';
 		if (d == 0 || d == 1 || d == 5 || d == 6) {
-			printd(d);
+			printv(d);
 			continue;
 		}
 		int e = p.back() - '0';
 		if (sz(p) >= 2)
 			e += 10 * p[sz(p) - 2] - '0';
-		printd(ans[d][e % 4]);
+		printv(ans[d][e % 4]);
 	}
 }

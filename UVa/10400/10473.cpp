@@ -5,7 +5,7 @@ int main() {
 	string s;
 	while (cin >> s && s[0] != '-') {
 		if (sz(s) > 2 && s[1] == 'x') {
-			printd(stoi(s.substr(2), 0, 16));
+			printv(stoi(s.substr(2), 0, 16));
 		} else {
 			print("0x%X", stoi(s));
 		}

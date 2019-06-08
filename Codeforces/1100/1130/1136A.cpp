@@ -11,7 +11,7 @@ int main() {
 	cin >> t;
 	rep(i, 0, n) {
 		if (t >= book[i].first && t <= book[i].second) {
-			printd(n - i);
+			printv(n - i);
 			break;
 		}
 	}

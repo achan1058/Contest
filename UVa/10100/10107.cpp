@@ -8,6 +8,6 @@ int main() {
 		nums.pb(n);
 		sort(all(nums));
 		int d = sz(nums) / 2;
-		printd(sz(nums) % 2 ? nums[d] : (nums[d - 1] + nums[d]) / 2);
+		printv(sz(nums) % 2 ? nums[d] : (nums[d - 1] + nums[d]) / 2);
 	}
 }

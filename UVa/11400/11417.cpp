@@ -9,6 +9,6 @@ int main() {
 			rep(j, i + 1, n + 1)
 				g += gcd(i, j);
 		}
-		printd(g);
+		printv(g);
 	}
 }

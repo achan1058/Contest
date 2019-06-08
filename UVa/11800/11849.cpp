@@ -20,6 +20,6 @@ int main() {
 				t2++;
 			}
 		}
-		printd(ans);
+		printv(ans);
 	}
 }

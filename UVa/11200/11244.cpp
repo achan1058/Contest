@@ -18,6 +18,6 @@ int main() {
 					ans++;
 			}
 		}
-		printd(ans);
+		printv(ans);
 	}
 }

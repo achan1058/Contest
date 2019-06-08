@@ -10,5 +10,5 @@ int main() {
 		else
 			n /= 10;
 	}
-	printd(n);
+	printv(n);
 }

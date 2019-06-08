@@ -11,6 +11,6 @@ int main() {
 	ans.pop_back();
 	int n, m;
 	while (cin >> n >> m) {
-		printd(ans[n % sz(ans)] % (1 << m));
+		printv(ans[n % sz(ans)] % (1 << m));
 	}
 }

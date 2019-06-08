@@ -13,7 +13,7 @@ int main() {
 	rep(i, 0, t) {
 		auto v = q.top();
 		q.pop();
-		printd(-get<1>(v));
+		printv(-get<1>(v));
 		q.push({ get<0>(v) + get<2>(v), get<1>(v), get<2>(v) });
 	}
 }

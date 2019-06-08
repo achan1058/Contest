@@ -10,5 +10,5 @@ int main() {
 
 	int n;
 	while (cin >> n)
-		printd(v[n] + v[n - 1]);
+		printv(v[n] + v[n - 1]);
 }

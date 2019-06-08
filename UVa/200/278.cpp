@@ -7,10 +7,10 @@ int main() {
 		int r, c;
 		cin >> t >> r >> c;
 		if (t == 'r' || t == 'Q')
-			printd(min(r, c));
+			printv(min(r, c));
 		else if (t == 'K')
-			printd(((r + 1) / 2) * ((c + 1) / 2));
+			printv(((r + 1) / 2) * ((c + 1) / 2));
 		else if (t == 'k')
-			printd((r * c + 1) / 2);
+			printv((r * c + 1) / 2);
 	}
 }

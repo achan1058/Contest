@@ -17,6 +17,6 @@ int main() {
 				count++;
 			}
 		}
-		printd(count);
+		printv(count);
 	}
 }

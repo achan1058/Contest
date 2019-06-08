@@ -6,6 +6,6 @@ int main() {
 	whileX(cin >> v1 >> v2) {
 		printX("");
 		rep(i, min(v1, v2) + 1, max(v1, v2) + 2)
-			printd(i);
+			printv(i);
 	}
 }

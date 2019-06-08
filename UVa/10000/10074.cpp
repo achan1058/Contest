@@ -19,6 +19,6 @@ int main() {
 		int best = 0;
 		rep(i, 0, r)
 			best = max(best, get<0>(largestRectangle(grid[i])));
-		printd(best);
+		printv(best);
 	}
 }

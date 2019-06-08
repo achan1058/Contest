@@ -4,6 +4,6 @@
 int main() {
 	int n;
 	while (cin >> n) {
-		printd(n + n / 2);
+		printv(n + n / 2);
 	}
 }

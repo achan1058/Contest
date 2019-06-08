@@ -12,5 +12,5 @@ int main() {
 		else
 			ans = (ans - s + d - 1) / d * d + s;
 	}
-	printd(ans);
+	printv(ans);
 }

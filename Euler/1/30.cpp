@@ -28,5 +28,5 @@ int sum(int p) {
 
 int main() {
 	assert(sum(4) == 19316);
-	printd(sum(5));
+	printv(sum(5));
 }

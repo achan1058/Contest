@@ -16,7 +16,7 @@ int main() {
 			}
 		}
 		if (bestb == 0)
-			printd(bestn);
+			printv(bestn);
 		else
 			print("%d %d", bestn, bestb);
 	}

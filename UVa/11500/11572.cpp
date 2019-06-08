@@ -18,6 +18,6 @@ int main() {
 			s.insert(v);
 			ans = max(ans, sz(q));
 		}
-		printd(ans);
+		printv(ans);
 	}
 }

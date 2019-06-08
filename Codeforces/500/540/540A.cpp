@@ -9,5 +9,5 @@ int main() {
 		int d = abs(s1[i] - s2[i]);
 		ans += min(d, 10 - d);
 	}
-	printd(ans);
+	printv(ans);
 }

@@ -20,13 +20,13 @@ int main() {
 	}
 	irep(a, ans1) {
 		if (a.second != 0) {
-			printd(a.first);
+			printv(a.first);
 			break;
 		}
 	}
 	irep(a, ans2) {
 		if (a.second != 0) {
-			printd(a.first);
+			printv(a.first);
 			break;
 		}
 	}

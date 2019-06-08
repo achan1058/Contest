@@ -31,6 +31,6 @@ int main() {
 	forX() {
 		int v1, v2;
 		cin >> v1 >> v2;
-		printd(ans[v2] - ans[v1 - 1]);
+		printv(ans[v2] - ans[v1 - 1]);
 	}
 }

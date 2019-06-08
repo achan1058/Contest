@@ -17,6 +17,6 @@ int main() {
 		int ans = 0;
 		drep(i, j, 10, i)
 			ans += inc[j] * cor[i];
-		printd(ans);
+		printv(ans);
 	}
 }

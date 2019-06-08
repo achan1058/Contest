@@ -51,6 +51,6 @@ int main() {
 		read(grid);
 		best = 0;
 		backtrack();
-		printd(best);
+		printv(best);
 	}
 }

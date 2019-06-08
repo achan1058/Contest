@@ -6,5 +6,5 @@ int main() {
 	vi primes = sieve(200000);
 	assert(sz(primes) >= 10000);
 	assert(primes[6 - 1] == 13);
-	printd(primes[10001 - 1]);
+	printv(primes[10001 - 1]);
 }

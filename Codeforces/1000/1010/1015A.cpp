@@ -15,7 +15,7 @@ int main() {
 		if (!points[i])
 			ans.pb(i);
 	}
-	printd(sz(ans));
+	printv(sz(ans));
 	rep(i, 0, sz(ans))
 		printf("%d%c", ans[i], i == sz(ans) - 1 ? '\n' : ' ');
 }

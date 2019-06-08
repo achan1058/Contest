@@ -6,5 +6,5 @@ int main() {
 	string s;
 	cin >> s;
 	string s2 = s + s;
-	printd(kmp(s2, s)[1]);
+	printv(kmp(s2, s)[1]);
 }

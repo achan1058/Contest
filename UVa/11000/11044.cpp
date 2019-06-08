@@ -5,6 +5,6 @@ int main() {
 	forX() {
 		int n, m;
 		cin >> n >> m;
-		printd((n / 3) * (m / 3));
+		printv((n / 3) * (m / 3));
 	}
 }

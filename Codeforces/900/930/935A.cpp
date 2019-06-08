@@ -5,5 +5,5 @@
 int main() {
 	int n;
 	cin >> n;
-	printd(numFactors(factor(n)) - 1);
+	printv(numFactors(factor(n)) - 1);
 }

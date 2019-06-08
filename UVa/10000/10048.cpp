@@ -20,7 +20,7 @@ int main() {
 			if (dist[v1 - 1][v2 - 1] == inf)
 				print("no path");
 			else
-				printd(dist[v1 - 1][v2 - 1]);
+				printv(dist[v1 - 1][v2 - 1]);
 		}
 	}
 }

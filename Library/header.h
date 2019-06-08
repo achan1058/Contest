@@ -16,6 +16,10 @@ typedef vector<vs> vvs;
 typedef vector<vl> vvl;
 template<class T> inline istream& read(vector<T>& v) { for (auto& p : v) cin >> p; return cin; }
 template<class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v) read(p); return cin; }
+inline int printv(const int& d) { return printf("%d\n", d); }
+inline int printv(const char s[]) { return printf("%s\n", s); }
+inline int printv(const ll& d) { return printf("%lld\n", d); }
+inline int printv(const string& s) { return printf("%s\n", s.c_str()); }
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
@@ -42,7 +46,7 @@ ll linf = 0x3f3f3f3f3f3f3f3f;
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
 #define whileX(a) int X = 0; while(X++, (a))
 #define print(...) printf(__VA_ARGS__), printf("\n")
-#define printd(d) printf("%d\n", d)
+#define printv(d) printf("%d\n", d)
 #define printl(l) printf("%lld\n", l)
 #define prints(s) printf("%s\n", s.c_str())
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)

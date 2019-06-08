@@ -7,6 +7,6 @@ int main() {
 	int n;
 	while (cin >> n && n != 0) {
 		vi p = fastFactor(n, primes);
-		printd(eulerPhi(p));
+		printv(eulerPhi(p));
 	}
 }

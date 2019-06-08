@@ -17,6 +17,6 @@ int main() {
 		vi ans = hungarian(dist).second;
 		printX("");
 		irep(v, ans)
-			printd(v + 1);
+			printv(v + 1);
 	}
 }

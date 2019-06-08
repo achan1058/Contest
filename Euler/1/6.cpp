@@ -12,5 +12,5 @@ int diff(int n) {
 
 int main() {
 	assert(diff(10) == 2640);
-	printd(diff(100));
+	printv(diff(100));
 }

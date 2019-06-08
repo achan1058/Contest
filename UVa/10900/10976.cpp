@@ -12,7 +12,7 @@ int main() {
 			if (f3.num() == 1)
 				ans.pb({ f3, f2 });
 		}
-		printd(sz(ans));
+		printv(sz(ans));
 		irep(p, ans) {
 			print("1/%d = 1/%d + 1/%d", n, p.first.den(), p.second.den());
 		}

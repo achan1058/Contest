@@ -13,5 +13,5 @@ int main() {
 			allowed++;
 		}
 	}
-	printd(allowed);
+	printv(allowed);
 }

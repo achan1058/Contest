@@ -12,5 +12,5 @@ int main() {
 		else
 			ans--;
 	}
-	printd(ans);
+	printv(ans);
 }

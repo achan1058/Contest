@@ -8,6 +8,6 @@ int main() {
 		vi shops(n);
 		read(shops);
 		sort(all(shops));
-		printd(2 * (shops.back() - shops[0]));
+		printv(2 * (shops.back() - shops[0]));
 	}
 }

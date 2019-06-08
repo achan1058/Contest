@@ -19,6 +19,6 @@ int main() {
 	}
 	rep(i, 0, 1000001) {
 		if (!gen[i])
-			printd(i);
+			printv(i);
 	}
 }

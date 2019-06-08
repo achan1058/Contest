@@ -28,6 +28,6 @@ int main() {
 			if (good)
 				ans++;
 		}
-		printd(ans);
+		printv(ans);
 	}
 }

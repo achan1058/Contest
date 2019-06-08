@@ -13,6 +13,6 @@ int main() {
 				t += n;
 			}
 		}
-		printd(ans);
+		printv(ans);
 	}
 }

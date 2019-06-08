@@ -20,5 +20,5 @@ int main() {
 
 	int l, r;
 	while (cin >> l >> r)
-		printd(tally[r] - tally[l - 1]);
+		printv(tally[r] - tally[l - 1]);
 }

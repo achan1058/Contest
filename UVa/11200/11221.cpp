@@ -28,7 +28,7 @@ int main() {
 
 	end:;
 		if (good)
-			printd(n);
+			printv(n);
 		else
 			print("No magic :(");
 	}
