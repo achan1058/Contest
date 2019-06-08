@@ -35,6 +35,6 @@ int main() {
 		vi ans1 = lis(nums), ans2 = lis(rnums);
 		rep(i, 0, n)
 			ans = max(ans, min(ans1[i], ans2[n - i - 1]));
-		print("%d", 2 * ans - 1);
+		printd(2 * ans - 1);
 	}
 }

@@ -8,6 +8,6 @@ int main() {
 		ans += (40 + a - b) % 40 * 9;
 		ans += (40 + c - b) % 40 * 9;
 		ans += (40 + c - d) % 40 * 9;
-		print("%d", ans);
+		printd(ans);
 	}
 }

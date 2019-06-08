@@ -19,6 +19,6 @@ int main() {
 			ans += u + v;
 			q.push(u + v);
 		}
-		print("%d", -ans);
+		printd(-ans);
 	}
 }

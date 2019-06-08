@@ -11,6 +11,6 @@ int main() {
 			n = stubs / d;
 			stubs %= d;
 		}
-		print("%d", ans);
+		printd(ans);
 	}
 }

@@ -14,5 +14,5 @@ int main() {
 	vi ans = joseph(500000, 2);
 	int n;
 	while (cin >> n && n != 0)
-		print("%d", ans[n - 1] + 2);
+		printd(ans[n - 1] + 2);
 }
