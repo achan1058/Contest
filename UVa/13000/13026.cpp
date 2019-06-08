@@ -19,7 +19,7 @@ int main() {
 			}
 
 			if (diff <= 1)
-				print("%s", v.c_str());
+				prints(v);
 		}
 	}
 }

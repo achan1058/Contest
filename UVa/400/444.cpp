@@ -21,6 +21,6 @@ int main() {
 				ans += to_string(c);
 			reverse(all(ans));
 		}
-		print("%s", ans.c_str());
+		prints(ans);
 	}
 }

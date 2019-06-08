@@ -13,7 +13,7 @@ int main() {
 			if (st.empty())
 				print("Not in a dream");
 			else
-				print("%s", st.top().c_str());
+				prints(st.top());
 		} else if (!st.empty()) {
 			st.pop();
 		}

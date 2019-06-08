@@ -23,7 +23,7 @@ int main() {
 			}
 			total += n - best;
 		}
-		print("%s", ans.c_str());
+		prints(ans);
 		printd(total);
 	}
 }

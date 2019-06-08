@@ -25,6 +25,6 @@ int main() {
 		sort(all(sorted));
 		printX("");
 		rep(i, 0, n)
-			print("%s", sorted[i].second.c_str());
+			prints(sorted[i].second);
 	}
 }
