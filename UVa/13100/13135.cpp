@@ -17,6 +17,6 @@ int main() {
 		if (ans[n] == 0)
 			print("No solution");
 		else
-			print("%d", ans[n]);
+			printd(ans[n]);
 	}
 }

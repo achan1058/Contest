@@ -23,7 +23,7 @@ int main() {
 			irep(f, fact)
 				n2 += digitSum(f);
 			if (n1 == n2) {
-				print("%d", n);
+				printd(n);
 				break;
 			}
 		}

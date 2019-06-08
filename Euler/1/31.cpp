@@ -9,5 +9,5 @@ int main() {
 		rep(j, c, 201)
 			nums[j] += nums[j - c];
 	}
-	print("%d", nums[200]);
+	printd(nums[200]);
 }

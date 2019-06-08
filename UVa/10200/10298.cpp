@@ -5,5 +5,5 @@
 int main() {
 	string s;
 	while (getline(cin, s) && s != ".")
-		print("%d", sz(s) / kmp(s + s, s)[1]);
+		printd(sz(s) / kmp(s + s, s)[1]);
 }

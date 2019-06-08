@@ -14,5 +14,5 @@ int sum(int n) {
 
 int main() {
 	assert(sum(100) == 44);
-	print("%d", sum(4000000));
+	printd(sum(4000000));
 }

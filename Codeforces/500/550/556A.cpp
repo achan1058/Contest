@@ -7,5 +7,5 @@ int main() {
 	cin >> n >> s;
 	irep(c, s)
 		ans += c == '1' ? 1 : -1;
-	print("%d", abs(ans));
+	printd(abs(ans));
 }

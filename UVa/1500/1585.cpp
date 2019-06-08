@@ -10,6 +10,6 @@ int main() {
 		int ans = 0;
 		irep(r, runs)
 			ans += sz(r) * (sz(r) + 1) / 2;
-		print("%d", ans);
+		printd(ans);
 	}
 }

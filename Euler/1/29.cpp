@@ -18,5 +18,5 @@ int terms(int n) {
 
 int main() {
 	assert(terms(5) == 15);
-	print("%d", terms(100));
+	printd(terms(100));
 }

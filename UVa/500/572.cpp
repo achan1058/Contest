@@ -17,6 +17,6 @@ int main() {
 				count++;
 			}
 		}
-		print("%d", count);
+		printd(count);
 	}
 }

@@ -12,7 +12,7 @@ int main() {
 	irep(w, ele)
 		weight.pb(-get<1>(w));
 	vi ans = lis(weight).second;
-	print("%d", sz(ans));
+	printd(sz(ans));
 	irep(v, ans)
-		print("%d", get<2>(ele[v]));
+		printd(get<2>(ele[v]));
 }

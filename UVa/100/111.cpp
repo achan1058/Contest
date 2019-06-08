@@ -25,6 +25,6 @@ int main() {
 			continue;
 		}
 		guess = rd(n, s);
-		print("%d", sz(lcs(guess, ans).first));
+		printd(sz(lcs(guess, ans).first));
 	}
 }

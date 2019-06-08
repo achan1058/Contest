@@ -16,6 +16,6 @@ int main() {
 		int ans = 1;
 		rep(i, 0, n)
 			ans = max(ans, un.getSize(i));
-		print("%d", ans);
+		printd(ans);
 	}
 }

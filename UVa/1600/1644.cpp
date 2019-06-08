@@ -10,6 +10,6 @@ int main() {
 			n++;
 		while (!isPrime(m))
 			m--;
-		print("%d", n - m);
+		printd(n - m);
 	}
 }

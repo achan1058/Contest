@@ -8,6 +8,6 @@ int main() {
 		cin >> s;
 		auto t = tally(s);
 		int ans = min({ t['M'], t['A'] / 3, t['R'] / 2, t['G'], t['I'], t['T'] });
-		print("%d", ans);
+		printd(ans);
 	}
 }

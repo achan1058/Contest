@@ -24,6 +24,6 @@ int main() {
 			total += n - best;
 		}
 		print("%s", ans.c_str());
-		print("%d", total);
+		printd(total);
 	}
 }

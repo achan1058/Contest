@@ -13,6 +13,6 @@ int main() {
 			total += c;
 			edges.pb({ v1, v2, c });
 		}
-		print("%d", total - get<0>(kruskal(edges, v)));
+		printd(total - get<0>(kruskal(edges, v)));
 	}
 }

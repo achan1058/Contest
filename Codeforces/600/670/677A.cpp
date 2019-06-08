@@ -8,5 +8,5 @@ int main() {
 		cin >> v;
 		ans += (v > h ? 2 : 1);
 	}
-	print("%d", ans);
+	printd(ans);
 }

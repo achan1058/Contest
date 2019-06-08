@@ -4,5 +4,5 @@
 int main() {
 	int n;
 	cin >> n;
-	print("%d", bits(n));
+	printd(bits(n));
 }

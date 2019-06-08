@@ -8,6 +8,6 @@ int main() {
 		cin >> r >> c;
 		vvi grid = mi(r, c, 0), dist = mi(r, c, inf);
 		read(grid);
-		print("%d", flooddist(grid, 0, 0, r - 1, c - 1));
+		printd(flooddist(grid, 0, 0, r - 1, c - 1));
 	}
 }

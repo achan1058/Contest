@@ -30,5 +30,5 @@ int main() {
 		tri[i].pb(t);
 	}
 	assert(sum(test) == 23);
-	print("%d", sum(tri));
+	printd(sum(tri));
 }
