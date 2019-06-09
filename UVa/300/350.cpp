@@ -12,6 +12,6 @@ int main() {
 			cur++;
 		}
 
-		printc("%d", cur - cycle[l]);
+		printc(cur - cycle[l]);
 	}
 }

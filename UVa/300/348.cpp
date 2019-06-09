@@ -26,6 +26,6 @@ int main() {
 			}
 		}
 
-		printc("%s", ans[0][n - 1].c_str());
+		printc(ans[0][n - 1]);
 	}
 }

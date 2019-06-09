@@ -5,5 +5,5 @@
 int main() {
 	ll b, p, m;
 	while (cin >> b >> p >> m)
-		printl(powmod(b, p, m));
+		print(powmod(b, p, m));
 }
