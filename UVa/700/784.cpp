@@ -38,7 +38,6 @@ int main() {
 				floodfill(grid, i, j);
 			}
 		}
-		irep(g, grid)
-			print(g);
+		print(grid, true);
 	}
 }

@@ -44,8 +44,7 @@ int main() {
 					output[len + j + 2][offset + len + 1] = '|';
 			}
 		}
-		irep(s, output)
-			print(s);
+		print(output, true);
 		print();
 	}
 }

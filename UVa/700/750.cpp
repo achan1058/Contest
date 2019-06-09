@@ -24,10 +24,8 @@ int main() {
 		print(" #      1 2 3 4 5 6 7 8\n");
 		irep(sol, solutions) {
 			if (sol[c - 1] == r) {
-				printf("%2d     ", t);
-				rep(i, 0, 8)
-					printf(" %d", sol[i]);
-				print();
+				printf("%2d      ", t);
+				print(sol);
 				t++;
 			}
 		}

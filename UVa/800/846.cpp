@@ -7,10 +7,10 @@ int main() {
 		cin >> l >> r;
 		ll d = r - l;
 		if (d == 0) {
-			print("0");
+			print(0);
 			continue;
 		}
 		ll t = (sqrt(4 * d - 1));
-		printl(t);
+		print(t);
 	}
 }

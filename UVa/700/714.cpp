@@ -32,8 +32,8 @@ int main() {
 		read(books);
 		binarySearch(greedy, 0ll, 5000000000ll);
 		rep(i, 0, m) {
-			rrep(j, sz(best[i]) - 1, 0)
-				printf("%lld%s", best[i][j], j == 0 ? "" : " ");
+			reverse(all(best[i]));
+			printf(best[i]);
 			printf("%s", i == m - 1 ? "\n" : " / ");
 		}
 	}

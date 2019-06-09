@@ -14,6 +14,6 @@ int main() {
 		}
 		printf("[");
 		rep(i, 0, sz(ans))
-			printf("%d%s", ans[i], i == 0 ? ";" : (i == sz(ans) - 1 ? "]\n" : ","));
+			printf("%d%s", ans[i], i == 0 ? ";" : i == sz(ans) - 1 ? "]\n" : ",");
 	}
 }
