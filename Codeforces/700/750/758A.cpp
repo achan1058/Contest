@@ -10,5 +10,5 @@ int main() {
 		best = max(best, v);
 		total += v;
 	}
-	printf("%d", best * n - total);
+	print(best * n - total);
 }
