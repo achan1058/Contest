@@ -12,14 +12,12 @@ int main() {
 
 		printX("");
 		do {
-			bool first = true;
+			vi ans;
 			rep(i, 0, n) {
-				if (!bad[i]) {
-					printf("%s%d", first ? "" : " ", nums[i]);
-					first = false;
-				}
+				if (!bad[i])
+					ans.pb(nums[i]);
 			}
-			print();
+			print(ans);
 		} while (next_permutation(all(bad)));
 	}
 }

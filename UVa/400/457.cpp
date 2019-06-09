@@ -12,7 +12,7 @@ int main() {
 		rep(i, 0, 50) {
 			vi p(42);
 			rep(j, 1, 41) {
-				printf("%c", code[plate[j]]);
+				printf(code[plate[j]]);
 				p[j] = dense[plate[j - 1] + plate[j] + plate[j + 1]];
 			}
 			print();

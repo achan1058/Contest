@@ -11,5 +11,5 @@ int main() {
 			order.pb(n);
 	}
 	irep(v, order)
-		print("%d %d", v, m[v]);
+		print(v, m[v]);
 }

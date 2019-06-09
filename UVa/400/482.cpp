@@ -27,7 +27,6 @@ int main() {
 		}
 
 		printX("");
-		irep(out, ans)
-			print(out);
+		print(ans, true);
 	}
 }

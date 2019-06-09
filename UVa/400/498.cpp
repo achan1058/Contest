@@ -15,16 +15,15 @@ int main() {
 
 		getline(cin, s);
 		stringstream ss(s);
-		bool first = true;
+		vl ans;
 		while (ss >> t) {
-			ll ans = 0;
+			ll v = 0;
 			irep(c, coeff) {
-				ans *= t;
-				ans += c;
+				v *= t;
+				v += c;
 			}
-			printf("%s%lld", first ? "" : " ", ans);
-			first = false;
+			ans.pb(v);
 		}
-		print();
+		print(ans);
 	}
 }

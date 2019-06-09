@@ -12,10 +12,11 @@ int main() {
 				best = max(best, count[c]);
 			}
 		}
+		string ans;
 		irep(c, count) {
 			if (c.second == best)
-				printf("%c", c.first);
+				ans.pb(c.first);
 		}
-		print(" %d", best);
+		print(ans, best);
 	}
 }

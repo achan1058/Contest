@@ -20,7 +20,7 @@ int main() {
 					process(t);
 					t.clear();
 				}
-				printf("%c", c);
+				printf(c);
 			}
 		}
 		if (!t.empty())

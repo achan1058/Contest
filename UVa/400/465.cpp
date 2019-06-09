@@ -20,7 +20,7 @@ int main() {
 		else
 			result = i1 * i2;
 
-		print("%s %c %s", s1.c_str(), c, s2.c_str());
+		print(s1, c, s2);
 		if (i1 > INT_MAX)
 			print("first number too big");
 		if (i2 > INT_MAX)

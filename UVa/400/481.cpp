@@ -10,6 +10,5 @@ int main() {
 	vi res = lis(nums).first;
 	print(sz(res));
 	print("-");
-	irep(d, res)
-		print(d);
+	print(res, true);
 }

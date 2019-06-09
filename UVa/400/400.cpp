@@ -5,6 +5,7 @@ int main() {
 	int n;
 	while (cin >> n) {
 		vs names(n);
+		string lines(60, '-');
 		read(names);
 		sort(all(names));
 		rep(r, 1, n + 1) {
@@ -18,9 +19,7 @@ int main() {
 				space += l + 2;
 			}
 			if (space <= 62) {
-				rep(i, 0, 60)
-					printf("-");
-				print();
+				print(lines);
 				rep(j, 0, r) {
 					string ans;
 					for (int i = 0; i * r + j < n; i++) {

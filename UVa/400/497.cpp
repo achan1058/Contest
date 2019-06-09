@@ -13,7 +13,6 @@ int main() {
 
 		vi ans = lis(nums).first;
 		printX("Max hits: %d\n", sz(ans));
-		irep(n, ans)
-			print(n);
+		print(ans, true);
 	}
 }

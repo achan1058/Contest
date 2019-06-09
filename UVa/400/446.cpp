@@ -12,6 +12,6 @@ int main() {
 		else
 			ans = v1 - v2;
 
-		print("%s %c %s = %d", bitset<13>(v1).to_string().c_str(), c, bitset<13>(v2).to_string().c_str(), ans);
+		print(bitset<13>(v1).to_string(), c, bitset<13>(v2).to_string(), '=', ans);
 	}
 }
