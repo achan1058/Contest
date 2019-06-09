@@ -18,13 +18,13 @@ int main() {
 	whileX(recurse()) {
 		bool first = true;
 		printcn();
+		vi out;
 		irep(v, ans) {
-			if (v > 0) {
-				printf("%s%d", first ? "" : " ", v);
-				first = false;
-			}
+			if (v > 0)
+				out.pb(v);
 		}
-		print("\n");
+		print(out);
+		print();
 		ans = vi(81);
 	}
 }
