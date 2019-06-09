@@ -28,6 +28,6 @@ int main() {
 			nums.pb(t);
 		rrep(i, sz(nums), 2)
 			pancake(nums, i);
-		print("0");
+		print(0);
 	}
 }

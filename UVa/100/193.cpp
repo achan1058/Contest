@@ -5,7 +5,6 @@ vi cur, best;
 vvi adj;
 vb used;
 int numv;
-
 void backtrack(int n = 0) {
 	if (n == numv) {
 		if (sz(cur) > sz(best))
@@ -44,8 +43,9 @@ int main() {
 			adj[v2 - 1].pb(v1 - 1);
 		}
 		backtrack();
+		irep(v, best)
+			v++;
 		print(sz(best));
-		rep(i, 0, sz(best))
-			printf("%d%c", best[i] + 1, i == sz(best) - 1 ? '\n' : ' ');
+		print(best);
 	}
 }

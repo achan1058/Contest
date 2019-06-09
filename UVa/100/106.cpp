@@ -23,6 +23,6 @@ int main() {
 			if (rel[i])
 				ans2++;
 		}
-		print("%d %d", ans1, ans2);
+		print(ans1, ans2);
 	}
 }

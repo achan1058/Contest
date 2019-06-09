@@ -16,6 +16,5 @@ int main() {
 			ans.pb(p.second[0]);
 	}
 	sort(all(ans));
-	irep(a, ans)
-		print(a);
+	print(ans, true);
 }

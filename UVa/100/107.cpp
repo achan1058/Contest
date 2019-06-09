@@ -5,7 +5,7 @@ int main() {
 	int n, k;
 	while (cin >> n >> k && (n | k) != 0) {
 		if (n == 1 && k == 1) {
-			print("0 1");
+			print(0, 1);
 			continue;
 		}
 		for (int d = 1; ; d++) {
@@ -18,7 +18,7 @@ int main() {
 				tk *= h;
 			}
 			if (tn == n && tk == k) {
-				print("%d %d", ans1, ans2 + k);
+				print(ans1, ans2 + k);
 				break;
 			}
 		}

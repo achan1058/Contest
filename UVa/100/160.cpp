@@ -16,12 +16,10 @@ int main() {
 		irep(p, primes[n]) {
 			t++;
 			printf("%3d", p.second);
-			if (t == sz(primes[n])) {
+			if (t == sz(primes[n]))
 				print();
-			} else if (t % 15 == 0) {
-				print();
-				printf("      ");
-			}
+			else if (t % 15 == 0)
+				printf("\n      ");
 		}
 	}
 }

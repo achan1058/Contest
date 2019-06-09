@@ -16,17 +16,22 @@ typedef vector<vs> vvs;
 typedef vector<vl> vvl;
 template<class T> inline istream& read(vector<T>& v) { for (auto& p : v) cin >> p; return cin; }
 template<class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v) read(p); return cin; }
-inline int print() { return printf("\n"); }
-inline int print(const int& d) { return printf("%d\n", d); }
-inline int print(const char s[]) { return printf("%s\n", s); }
-inline int print(const ll& d) { return printf("%lld\n", d); }
-inline int print(const string& s) { return printf("%s\n", s.c_str()); }
-template<class... T> inline int print(const char f[], T... t) { return printf(f, t...) | printf("\n"); }
+inline void printf(const int d) { printf("%d", d); }
+inline void printf(const ll d) { printf("%lld", d); }
+inline void printf(const char c) { printf("%c", c); }
+inline void printf(const string& s) { printf("%s", s.c_str()); }
+inline void print() { printf("\n"); }
+template<class T> inline void print(const T& t) { printf(t); printf("\n"); }
+template<class... A> inline void print(const char f[], const A& ... a) { printf(f, a...); printf("\n"); }
+template<class T, class... A> inline void print(const T& t, const A& ... a) { printf(t); printf(" "); print(a...); }
+template<class T> inline void print(const vector<T>& v, bool newline = false) {
+	for (size_t i = 0; i < v.size(); i++) { printf(v[i]); printf(newline || i + 1 == v.size() ? '\n' : ' '); }
+}
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
 ll mod = 1000000007ll;
-ll linf = 0x3f3f3f3f3f3f3f3f;
+ll binf = 0x3f3f3f3f3f3f3f3f;
 
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
 #define irep(k, a) for (auto& k : (a))

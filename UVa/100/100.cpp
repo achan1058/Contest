@@ -17,6 +17,6 @@ int main() {
 			}
 			mx = max(mx, cur);
 		}
-		print("%d %d %d", a, b, mx);
+		print(a, b, mx);
 	}
 }

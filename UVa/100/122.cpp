@@ -54,12 +54,11 @@ int main() {
 				}
 			}
 
-			if (good) {
-				rep(i, 0, sz(ans))
-					printf("%d%c", ans[i], i == sz(ans) - 1 ? '\n' : ' ');
-			} else {
+			if (good)
+				print(ans);
+			else
 				print("not complete");
-			}
+
 			good = true;
 			root = node();
 		}

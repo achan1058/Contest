@@ -35,11 +35,13 @@ int main() {
 				start = i;
 			}
 		}
-		rep(j, 0, c - 1) {
-			printf("%d ", start + 1);
+
+		vi ans(c);
+		rep(j, 0, c) {
+			ans[j] = start + 1;
 			start = next[start][j];
 		}
-		print(start + 1);
+		print(ans);
 		print(best);
 	}
 }
