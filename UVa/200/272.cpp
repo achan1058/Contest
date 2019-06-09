@@ -12,7 +12,7 @@ int main() {
 				printf("``");
 			opened = !opened;
 		} else {
-			printf("%c", c);
+			printf(c);
 		}
 	}
 }

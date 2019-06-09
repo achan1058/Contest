@@ -25,7 +25,7 @@ template<class T> inline void print(const T& t) { printf(t); printf("\n"); }
 template<class... A> inline void print(const char f[], const A& ... a) { printf(f, a...); printf("\n"); }
 template<class T, class... A> inline void print(const T& t, const A& ... a) { printf(t); printf(" "); print(a...); }
 template<class T> inline void print(const vector<T>& v, bool newline = false) {
-	for (size_t i = 0; i < v.size(); i++) { printf(v[i]); printf(newline || i + 1 == v.size() ? '\n' : ' '); }
+	for (size_t i = 0; i < v.size(); i++) { printf(i == 0 ? "" : newline ? "\n" : " "); printf(v[i]); } print();
 }
 
 int inf = 0x3f3f3f3f;

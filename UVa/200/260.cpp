@@ -34,6 +34,6 @@ int main() {
 	whileX(cin >> n && n != 0) {
 		vs grid(n);
 		read(grid);
-		print("%d %c", X, floodfill(grid) ? 'W' : 'B');
+		print(X, floodfill(grid) ? 'W' : 'B');
 	}
 }
