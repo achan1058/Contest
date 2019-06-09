@@ -12,8 +12,6 @@ int main() {
 	forX() {
 		int n;
 		cin >> n;
-		rep(j, 0, 9)
-			printf("%d ", digits[n][j]);
-		print(digits[n][9]);
+		print(digits[n]);
 	}
 }

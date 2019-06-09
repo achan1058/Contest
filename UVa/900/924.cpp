@@ -44,8 +44,8 @@ int main() {
 			q = q2;
 		}
 		if (best == 0)
-			print("0");
+			print(0);
 		else
-			print("%d %d", best, best_day);
+			print(best, best_day);
 	}
 }
