@@ -7,5 +7,5 @@ int main() {
 	cin >> s;
 	irep(c, s)
 		st.insert(c);
-	printf("%s", sz(st) % 2 ? "IGNORE HIM!" : "CHAT WITH HER!");
+	print(sz(st) % 2 ? "IGNORE HIM!" : "CHAT WITH HER!");
 }

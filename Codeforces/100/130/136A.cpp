@@ -9,6 +9,5 @@ int main() {
 		cin >> v;
 		ans[v - 1] = i + 1;
 	}
-	rep(i, 0, n)
-		printf("%d%c", ans[i], i == n - 1 ? '\n' : ' ');
+	print(ans);
 }
