@@ -11,6 +11,5 @@ int main() {
 		grid[i].back() = '#';
 	for (int i = 3; i < r; i += 4)
 		grid[i][0] = '#';
-	irep(s, grid)
-		print(s);
+	print(grid, true);
 }

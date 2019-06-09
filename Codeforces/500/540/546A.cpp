@@ -5,5 +5,5 @@ int main() {
 	int k, n, w;
 	cin >> k >> n >> w;
 	int total = w * (w + 1) / 2 * k;
-	printf("%d", max(0, total - n));
+	print(max(0, total - n));
 }

@@ -5,5 +5,5 @@ int main() {
 	ll n;
 	cin >> n;
 	n = (n + 1) / 2 * (n % 2 ? -1 : 1);
-	printl(n);
+	print(n);
 }

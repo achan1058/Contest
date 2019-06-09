@@ -7,6 +7,5 @@ int main() {
 	vi nums(n);
 	read(nums);
 	sort(all(nums));
-	rep(i, 0, n)
-		printf("%d%c", nums[i], i == n - 1 ? '\n' : ' ');
+	print(nums);
 }

@@ -4,5 +4,5 @@
 int main() {
 	int n;
 	cin >> n;
-	printf("%lld", binom(2 * n - 2, n - 1));
+	print(binom(2 * n - 2, n - 1));
 }
