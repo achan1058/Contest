@@ -37,6 +37,6 @@ int main() {
 
 		printX("%d\n", sz(ans));
 		irep(p, ans)
-			print("%d %d", p.first, p.second);
+			print(p.first, p.second);
 	}
 }

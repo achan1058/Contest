@@ -15,6 +15,6 @@ int main() {
 
 		printX("");
 		irep(p, ans)
-			print("%d %d", -p.second, p.first);
+			print(-p.second, p.first);
 	}
 }

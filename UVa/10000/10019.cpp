@@ -7,6 +7,6 @@ int main() {
 		cin >> s;
 		int b1 = bits(stoi(s, 0, 10));
 		int b2 = bits(stoi(s, 0, 16));
-		print("%d %d", b1, b2);
+		print(b1, b2);
 	}
 }

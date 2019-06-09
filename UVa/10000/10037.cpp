@@ -45,7 +45,7 @@ int main() {
 			if (sz(a) == 1)
 				print(a[0]);
 			else
-				print("%d %d", a[0], a[1]);
+				print(a[0], a[1]);
 		}
 	}
 }

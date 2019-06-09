@@ -17,5 +17,5 @@ int main() {
 		ans.pb({ -p.second, p.first });
 	sort(all(ans));
 	irep(p, ans)
-		print("%c %d", p.second, -p.first);
+		print(p.second, -p.first);
 }

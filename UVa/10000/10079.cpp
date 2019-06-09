@@ -3,7 +3,6 @@
 
 int main() {
 	ll n;
-	while (cin >> n && n >= 0) {
-		printl((n * n + n) / 2 + 1);
-	}
+	while (cin >> n && n >= 0)
+		print((n * n + n) / 2 + 1);
 }

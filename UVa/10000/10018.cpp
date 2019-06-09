@@ -14,6 +14,6 @@ int main() {
 			s = to_string(stoll(s) + stoll(s2));
 			iter++;
 		}
-		print("%d %s", iter, s.c_str());
+		print(iter, s);
 	}
 }

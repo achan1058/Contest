@@ -3,7 +3,6 @@
 
 int main() {
 	ll a, b;
-	while (cin >> a >> b) {
-		printl(abs(a - b));
-	}
+	while (cin >> a >> b)
+		print(abs(a - b));
 }
