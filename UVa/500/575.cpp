@@ -9,6 +9,6 @@ int main() {
 			ans += base * (s[i] - '0');
 			base = 2 * base + 1;
 		}
-		printl(ans);
+		print(ans);
 	}
 }

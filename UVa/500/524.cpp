@@ -33,9 +33,7 @@ int main() {
 			continue;
 		if (ans[n].empty())
 			backtrack();
-		irep(v, ans[n]) {
-			rep(i, 0, n)
-				printf("%d%c", v[i], i == n - 1 ? '\n' : ' ');
-		}
+		irep(v, ans[n])
+			print(v);
 	}
 }

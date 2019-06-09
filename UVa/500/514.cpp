@@ -5,7 +5,6 @@ int main() {
 	int n;
 	while (cin >> n && n != 0) {
 		vi trains(n);
-
 		while (cin >> trains[0] && trains[0] != 0) {
 			rep(i, 1, n)
 				cin >> trains[i];

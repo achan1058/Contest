@@ -14,9 +14,7 @@ int main() {
 			s2.pb(s);
 
 		vs ans = lcs(s1, s2).first;
-		rep(i, 0, sz(ans))
-			printf("%s%c", ans[i].c_str(), i == sz(ans) - 1 ? '\n' : ' ');
-
+		print(ans);
 		s1.clear();
 		s2.clear();
 	}

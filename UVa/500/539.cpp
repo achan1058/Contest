@@ -4,7 +4,6 @@
 vvi adj;
 vvb used;
 int ans, cur;
-
 void backtrack(int n) {
 	irep(v, adj[n]) {
 		if (!used[n][v]) {
