@@ -16,6 +16,5 @@ int main() {
 			ans.pb(i);
 	}
 	print(sz(ans));
-	rep(i, 0, sz(ans))
-		printf("%d%c", ans[i], i == sz(ans) - 1 ? '\n' : ' ');
+	print(ans);
 }

@@ -7,5 +7,5 @@ int main() {
 	if (n == 1)
 		print("-1");
 	else
-		print("%d %d", n, n);
+		print(n, n);
 }

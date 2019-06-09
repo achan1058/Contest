@@ -9,5 +9,5 @@ int main() {
 		b--;
 		a++;
 	}
-	printf("%d %d %d", 1, a, b);
+	print(1, a, b);
 }
