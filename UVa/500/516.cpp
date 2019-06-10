@@ -12,11 +12,7 @@ int main() {
 				n *= p;
 		}
 		auto ans = tally(factor(n - 1));
-		vi output;
-		for (auto it = ans.rbegin(); it != ans.rend(); it++) {
-			output.pb(it->first);
-			output.pb(it->second);
-		}
-		print(output);
+		for (auto it = ans.rbegin(); it != ans.rend(); it++)
+			printf("%d %d%c", it->first, it->second, it == --ans.rend() ? '\n' : ' ');
 	}
 }

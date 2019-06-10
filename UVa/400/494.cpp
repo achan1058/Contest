@@ -4,7 +4,6 @@
 
 int main() {
 	string s;
-	while (getline(cin, s)) {
+	while (getline(cin, s))
 		print(sz(tokenize(s, [](int c)->int { return !isalpha(c); })));
-	}
 }

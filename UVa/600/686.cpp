@@ -7,7 +7,7 @@ int main() {
 	int n;
 	while (cin >> n && n != 0) {
 		if (n == 4) {
-			print("1");
+			print(1);
 			continue;
 		}
 

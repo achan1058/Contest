@@ -33,7 +33,6 @@ int main() {
 			continue;
 		if (ans[n].empty())
 			backtrack();
-		irep(v, ans[n])
-			print(v);
+		print(ans[n], true);
 	}
 }

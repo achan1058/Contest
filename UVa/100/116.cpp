@@ -35,13 +35,10 @@ int main() {
 				start = i;
 			}
 		}
-
-		vi ans(c);
 		rep(j, 0, c) {
-			ans[j] = start + 1;
+			printf("%d%c", start + 1, j == c - 1 ? '\n' : ' ');
 			start = next[start][j];
 		}
-		print(ans);
 		print(best);
 	}
 }

@@ -16,14 +16,11 @@ bool recurse(int pos = 40) {
 int main() {
 	ans = vi(81);
 	whileX(recurse()) {
-		bool first = true;
 		printcn();
-		vi out;
-		irep(v, ans) {
-			if (v > 0)
-				out.pb(v);
+		rep(i, 0, 81) {
+			if (ans[i] > 0)
+				printf("%d%c", ans[i], ans[i + 1] == 0 ? '\n' : ' ');
 		}
-		print(out);
 		print();
 		ans = vi(81);
 	}
