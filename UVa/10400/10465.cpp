@@ -18,6 +18,6 @@ int main() {
 		if (bestb == 0)
 			print(bestn);
 		else
-			print("%d %d", bestn, bestb);
+			print(bestn, bestb);
 	}
 }

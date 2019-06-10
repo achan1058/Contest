@@ -4,5 +4,5 @@
 int main() {
 	ll a, b;
 	while (cin >> a >> b)
-		printl(a ^ b);
+		print(a ^ b);
 }

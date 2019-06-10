@@ -11,6 +11,7 @@ int main() {
 		int n;
 		cin >> n;
 		print("Scenario #%d:", X);
-		print("%lld\n", ans[n]);
+		print(ans[n]);
+		print();
 	}
 }

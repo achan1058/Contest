@@ -11,5 +11,5 @@ int main() {
 		conquests[s]++;
 	}
 	irep(con, conquests)
-		print("%s %d", con.first.c_str(), con.second);
+		print(con.first, con.second);
 }
