@@ -21,7 +21,6 @@ int main() {
 			grid[i][j] = count + '0';
 		}
 		printX("Field #%d:\n", X);
-		irep(s, grid)
-			print(s);
+		print(grid, true);
 	}
 }

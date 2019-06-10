@@ -15,7 +15,6 @@ int main() {
 			print("Boring!");
 			continue;
 		}
-		rep(i, 0, sz(ans))
-			printf("%d%c", ans[i], i == sz(ans) - 1 ? '\n' : ' ');
+		print(ans);
 	}
 }
