@@ -17,6 +17,6 @@ int main() {
 			if (!loaded)
 				stacks.pb(string(1, c));
 		}
-		printc("%d", sz(stacks));
+		printc(sz(stacks));
 	}
 }

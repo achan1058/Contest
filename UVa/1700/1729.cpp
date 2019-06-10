@@ -11,6 +11,6 @@ int main() {
 		int ans = inf;
 		irep(t, tally)
 			ans = min(t, ans);
-		printc("%d", ans);
+		printc(ans);
 	}
 }

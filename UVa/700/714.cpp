@@ -34,7 +34,7 @@ int main() {
 		rep(i, 0, m) {
 			reverse(all(best[i]));
 			printf(best[i]);
-			printf("%s", i == m - 1 ? "\n" : " / ");
+			printf(i == m - 1 ? "\n" : " / ");
 		}
 	}
 }
