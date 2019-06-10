@@ -24,7 +24,7 @@ int main() {
 				printf("%3d%3d", left + 1, right + 1);
 				remain -= 2;
 			}
-			printf(remain > 0 ? ',' : '\n');
+			printv(remain > 0 ? ',' : '\n');
 			removed[left] = removed[right] = true;
 		}
 	}

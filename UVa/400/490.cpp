@@ -13,7 +13,7 @@ int main() {
 		rrep(i, sz(grid) - 1, 0) {
 			if (j >= sz(grid[i]))
 				break;
-			printf(grid[i][j]);
+			printv(grid[i][j]);
 		}
 		print();
 	}

@@ -20,7 +20,7 @@ int main() {
 				if (dist[v1 - 1][v] == inf)
 					ans.pb(v + 1);
 			}
-			printf("%d", sz(ans));
+			printv(sz(ans));
 			irep(v, ans)
 				printf(" %d", v);
 			print();

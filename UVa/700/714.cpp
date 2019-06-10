@@ -33,7 +33,7 @@ int main() {
 		binarySearch(greedy, 0ll, 5000000000ll);
 		rep(i, 0, m) {
 			reverse(all(best[i]));
-			printf(best[i]);
+			printv(best[i]);
 			printf(i == m - 1 ? "\n" : " / ");
 		}
 	}

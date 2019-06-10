@@ -18,7 +18,7 @@ int main() {
 		}
 		printX("");
 		irep(v, digits)
-			printf(v);
+			printv(v);
 		print();
 	}
 }

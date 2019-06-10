@@ -17,7 +17,7 @@ int main() {
 				continue;
 			cur = encode[s[i]];
 			if (cur != 0)
-				printf(cur);
+				printv(cur);
 		}
 		print();
 	}

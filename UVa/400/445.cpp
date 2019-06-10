@@ -16,7 +16,7 @@ int main() {
 				count += c - '0';
 			} else {
 				rep(i, 0, count)
-					printf(c);
+					printv(c);
 				count = 0;
 			}
 		}

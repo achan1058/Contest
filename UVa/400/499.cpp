@@ -14,7 +14,7 @@ int main() {
 		}
 		irep(c, count) {
 			if (c.second == best)
-				printf(c.first);
+				printv(c.first);
 		}
 		print(" %d", best);
 	}

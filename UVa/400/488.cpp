@@ -11,12 +11,12 @@ int main() {
 			first = false;
 			rep(j, 1, m) {
 				rep(k, 0, j)
-					printf(j);
+					printv(j);
 				print();
 			}
 			rrep(j, m, 1) {
 				rep(k, 0, j)
-					printf(j);
+					printv(j);
 				print();
 			}
 		}

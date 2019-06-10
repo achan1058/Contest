@@ -10,5 +10,5 @@ int main() {
 	}
 	char c;
 	while (cin.get(c))
-		printf(ans[c]);
+		printv(ans[c]);
 }

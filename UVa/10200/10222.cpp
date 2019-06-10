@@ -12,7 +12,7 @@ int main() {
 	}
 	while (getline(cin, s)) {
 		irep(c, s)
-			printf(m[tolower(c)]);
+			printv(m[tolower(c)]);
 		print();
 	}
 }

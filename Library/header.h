@@ -16,18 +16,18 @@ typedef vector<vs> vvs;
 typedef vector<vl> vvl;
 template<class T> inline istream& read(vector<T>& v) { for (auto& p : v) cin >> p; return cin; }
 template<class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v) read(p); return cin; }
-inline void printf(const int d) { printf("%d", d); }
-inline void printf(const ll d) { printf("%lld", d); }
-inline void printf(const char c) { printf("%c", c); }
-inline void printf(const string& s) { printf("%s", s.c_str()); }
-template<class T> inline void printf(const vector<T>& v, bool newline = false) {
-	for (size_t i = 0; i < v.size(); i++) { printf(i == 0 ? "" : newline ? "\n" : " "); printf(v[i]); }
+inline void printv() {}
+inline void printv(const int d) { printf("%d", d); }
+inline void printv(const ll d) { printf("%lld", d); }
+inline void printv(const char c) { printf("%c", c); }
+inline void printv(const char s[]) { printf("%s", s); }
+inline void printv(const string& s) { printf("%s", s.c_str()); }
+template<class T, class... A> inline void printv(const T& t, const A& ... a) { printv(t); printf(" "); printv(a...); }
+template<class T> inline void printv(const vector<T>& v, bool newline = false) {
+	for (size_t i = 0; i < v.size(); i++) { printf(i == 0 ? "" : newline ? "\n" : " "); printv(v[i]); }
 }
-inline void print() { printf("\n"); }
-template<class T> inline void print(const T& t) { printf(t); printf("\n"); }
 template<class... A> inline void print(const char f[], const A& ... a) { printf(f, a...); printf("\n"); }
-template<class T, class... A> inline void print(const T& t, const A& ... a) { printf(t); printf(" "); print(a...); }
-template<class T> inline void print(const vector<T>& v, bool newline = false) { printf(v, newline); printf("\n"); }
+template<class... A> inline void print(const A& ... a) { printv(a...); printf("\n"); }
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;

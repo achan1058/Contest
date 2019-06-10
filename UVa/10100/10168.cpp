@@ -21,7 +21,7 @@ int main() {
 			}
 			for (int i = 3; i <= n / 2; i += 2) {
 				if (isPrime(i) && isPrime(n - i)) {
-					print("%d %d", i, n - i);
+					print(i, n - i);
 					break;
 				}
 			}
