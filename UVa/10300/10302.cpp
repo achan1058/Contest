@@ -4,5 +4,5 @@
 int main() {
 	ll n;
 	while (cin >> n)
-		printl(n * n * (n + 1) * (n + 1) / 4);
+		print(n * n * (n + 1) * (n + 1) / 4);
 }

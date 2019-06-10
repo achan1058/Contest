@@ -15,6 +15,6 @@ int main() {
 		else if (fact[n] < 10000)
 			print("Underflow!");
 		else
-			printl(fact[n]);
+			print(fact[n]);
 	}
 }
