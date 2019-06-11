@@ -17,11 +17,11 @@ typedef vector<vl> vvl;
 template<class T> inline istream& read(vector<T>& v) { for (auto& p : v) cin >> p; return cin; }
 template<class T> inline istream& read(vector<vector<T>>& v) { for (auto& p : v) read(p); return cin; }
 inline void printv() {}
-inline void printv(const int d) { printf("%d", d); }
 inline void printv(const ll d) { printf("%lld", d); }
 inline void printv(const char c) { printf("%c", c); }
 inline void printv(const char s[]) { printf("%s", s); }
 inline void printv(const string& s) { printf("%s", s.c_str()); }
+template<class T> inline void printv(const T& d) { printf("%d", int(d)); }
 template<class T, class... A> inline void printv(const T& t, const A& ... a) { printv(t); printf(" "); printv(a...); }
 template<class T> inline void printv(const vector<T>& v, bool newline = false) {
 	for (size_t i = 0; i < v.size(); i++) { printf(i == 0 ? "" : newline ? "\n" : " "); printv(v[i]); }

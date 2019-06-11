@@ -5,6 +5,8 @@ int main() {
 	vi v = { 123, 456, 789 };
 	string s = "ASDF";
 
+	printv(v.end() - v.begin()); print();
+	printv(v.size()); print();
 	printv(123); print();
 	printv(123456789012345678ll); print();
 	printv('c'); print();
@@ -16,6 +18,8 @@ int main() {
 	printf("%d %lld %c %s", 123, 123456789012345678ll, 'c', "ASDF"); print();
 	print();
 
+	print(v.end() - v.begin());
+	print(v.size());
 	print(123);
 	print(123456789012345678ll);
 	print('c');
