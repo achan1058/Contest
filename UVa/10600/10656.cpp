@@ -4,15 +4,13 @@
 int main() {
 	int n;
 	while (cin >> n && n != 0) {
-		bool printed = false;
+		vi ans;
 		int t;
 		rep(i, 0, n) {
 			cin >> t;
-			if (t != 0) {
-				printf("%s%d", printed ? " " : "", t);
-				printed = true;
-			}
+			if (t != 0)
+				ans.pb(t);
 		}
-		print(printed ? "" : "0");
+		print(ans.empty() ? vi(1, 0) : ans);
 	}
 }

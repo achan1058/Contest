@@ -5,6 +5,6 @@ int main() {
 	forX() {
 		int n, k;
 		cin >> n >> k;
-		print("%d %d", k - n % k, n % k);
+		print(k - n % k, n % k);
 	}
 }

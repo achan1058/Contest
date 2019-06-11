@@ -6,6 +6,6 @@ int main() {
 	while (cin >> n && n != 0) {
 		if (n % 9 == 0)
 			printf("%lld ", n + n / 9 - 1);
-		printl(n + n / 9);
+		print(n + n / 9);
 	}
 }

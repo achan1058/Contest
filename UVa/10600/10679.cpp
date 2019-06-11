@@ -9,7 +9,7 @@ int main() {
 		cin >> s1 >> n;
 		rep(i, 0, n) {
 			cin >> s2;
-			print("%c", kmp(s1, s2, true).empty() ? 'n' : 'y');
+			print(kmp(s1, s2, true).empty() ? 'n' : 'y');
 		}
 	}
 }
