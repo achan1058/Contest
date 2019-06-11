@@ -10,6 +10,6 @@ int main() {
 			mn = max(mn, min(v, l - v));
 			mx = max(mx, max(v, l - v));
 		}
-		print("%d %d", mn, mx);
+		print(mn, mx);
 	}
 }
