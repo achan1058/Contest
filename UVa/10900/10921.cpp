@@ -13,9 +13,9 @@ int main() {
 	while (cin >> s) {
 		irep(c, s) {
 			if (isupper(c))
-				printf("%d", m[c]);
+				printv(m[c]);
 			else
-				printf("%c", c);
+				printv(c);
 		}
 		print();
 	}

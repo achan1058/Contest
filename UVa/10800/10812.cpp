@@ -9,6 +9,6 @@ int main() {
 			print("impossible");
 			continue;
 		}
-		print("%d %d", (sum + diff) / 2, (sum - diff) / 2);
+		print((sum + diff) / 2, (sum - diff) / 2);
 	}
 }

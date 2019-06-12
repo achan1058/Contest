@@ -12,6 +12,6 @@ int main() {
 			else if (dist != v1 - v2)
 				dist = -inf;
 		}
-		printX("%s\n", dist >= 0 ? "yes" : "no");
+		printX(dist >= 0 ? "yes" : "no");
 	}
 }

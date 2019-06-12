@@ -18,6 +18,6 @@ int main() {
 		sort(all(ans));
 		print("Problem %d:", X);
 		irep(p, ans)
-			print("%c %d", p.second, -p.first);
+			print(p.second, -p.first);
 	}
 }

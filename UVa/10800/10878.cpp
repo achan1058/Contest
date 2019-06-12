@@ -14,6 +14,6 @@ int main() {
 			if (c == 'o')
 				out++;
 		}
-		printf("%c", out);
+		printv(out);
 	}
 }

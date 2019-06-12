@@ -6,6 +6,6 @@ int main() {
 	vvl binom = binomialTable(200, 1000000);
 	int n, k;
 	while (cin >> n >> k && (n | k) != 0) {
-		printl(binom[n + k - 1][k - 1]);
+		print(binom[n + k - 1][k - 1]);
 	}
 }

@@ -16,6 +16,6 @@ int main() {
 		if (ans == inf)
 			printp("unreachable");
 		else
-			printp("%d", ans);
+			printp(ans);
 	}
 }

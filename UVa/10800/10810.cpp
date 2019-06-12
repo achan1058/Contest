@@ -7,6 +7,6 @@ int main() {
 	while (cin >> n && n != 0) {
 		vi nums(n);
 		read(nums);
-		printl(inversionCount(nums, 0, n));
+		print(inversionCount(nums, 0, n));
 	}
 }

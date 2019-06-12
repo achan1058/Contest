@@ -26,6 +26,6 @@ int main() {
 				swap(small[k - 1 - i][k - 1 - j], small[j][k - i - 1]);
 			}
 		}
-		print("%d %d %d %d", ans[0], ans[1], ans[2], ans[3]);
+		print(ans[0], ans[1], ans[2], ans[3]);
 	}
 }
