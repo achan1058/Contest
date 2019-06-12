@@ -9,7 +9,7 @@ int main() {
 		rep(i, 0, sz(s))
 			tally[i + 1] = tally[i] + s[i] - '0';
 		cin >> n;
-		printcn();
+		printc();
 		rep(i, 0, n) {
 			cin >> a >> b;
 			if (a > b)

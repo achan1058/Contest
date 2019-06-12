@@ -27,8 +27,8 @@ int main() {
 	p[3] = p[5] = p[7] = p[11] = p[13] = p[17] = p[19] = p[23] = p[29] = p[31] = true;
 	used[1] = true;
 	whileX(cin >> n) {
-		printX("");
-		printcn();
+		printX();
+		printc();
 		if (n % 2)
 			continue;
 		if (ans[n].empty())

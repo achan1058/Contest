@@ -11,6 +11,6 @@ int main() {
 			if (isPrime(m.second))
 				ans.pb(m.first);
 		}
-		printc("%s", ans.empty() ? "empty" : ans.c_str());
+		printc(ans.empty() ? "empty" : ans.c_str());
 	}
 }

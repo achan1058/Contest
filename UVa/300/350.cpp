@@ -11,7 +11,6 @@ int main() {
 			l = (z * l + i) % m;
 			cur++;
 		}
-
 		printc(cur - cycle[l]);
 	}
 }

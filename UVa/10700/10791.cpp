@@ -17,6 +17,6 @@ int main() {
 			ans = 2;
 		if (sz(primes) == 1)
 			ans++;
-		printc("%lld", ans);
+		printc(ans);
 	}
 }

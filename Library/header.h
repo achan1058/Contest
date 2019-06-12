@@ -28,6 +28,7 @@ template<class T> inline void printv(const vector<T>& v, bool newline = false) {
 }
 template<class... A> inline void print(const char f[], const A& ... a) { printf(f, a...); printf("\n"); }
 template<class... A> inline void print(const A& ... a) { printv(a...); printf("\n"); }
+template<class... A> inline void printcHelp(const A& ... a) { if (sizeof...(a)) printf(" "); print(a...); }
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
@@ -54,7 +55,6 @@ ll binf = 0x3f3f3f3f3f3f3f3f;
 #define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
 #define whileX(a) int X = 0; while(X++, (a))
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printf(__VA_ARGS__)
-#define printc(...) printf("Case %d: ", X), printf(__VA_ARGS__), printf("\n")
-#define printp(...) printf("Case #%d: ", X), printf(__VA_ARGS__), printf("\n")
-#define printcn() printf("Case %d:\n", X)
+#define printc(...) printf("Case %d:", X), printcHelp(__VA_ARGS__)
+#define printp(...) printf("Case #%d:", X), printcHelp(__VA_ARGS__)
 struct FastIO { FastIO() { cin.sync_with_stdio(0); cin.tie(0); } }; FastIO fio;

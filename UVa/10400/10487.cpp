@@ -7,7 +7,7 @@ int main() {
 		vi nums(n);
 		read(nums);
 		sort(all(nums));
-		printcn();
+		printc();
 
 		int m, v;
 		cin >> m;

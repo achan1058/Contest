@@ -16,7 +16,7 @@ bool recurse(int pos = 40) {
 int main() {
 	ans = vi(81);
 	whileX(recurse()) {
-		printcn();
+		printc();
 		rep(i, 0, 81) {
 			if (ans[i] > 0)
 				printf("%d%c", ans[i], ans[i + 1] == 0 ? '\n' : ' ');

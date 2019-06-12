@@ -11,6 +11,6 @@ int main() {
 			cin >> a >> b;
 			un.join(a - 1, b - 1);
 		}
-		printc("%d", sz(un.getComponents()));
+		printc(sz(un.getComponents()));
 	}
 }
