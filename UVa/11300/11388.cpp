@@ -6,8 +6,8 @@ int main() {
 		int l, g;
 		cin >> g >> l;
 		if (l % g == 0)
-			print("%d %d", g, l);
+			print(g, l);
 		else
-			print("-1");
+			print(-1);
 	}
 }

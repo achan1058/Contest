@@ -26,7 +26,7 @@ int main() {
 					per_prob[i] += p;
 			}
 		} while (next_permutation(all(perm)));
-		printcn();
+		printc();
 		rep(i, 0, n)
 			print("%.6f", per_prob[i] / total);
 	}

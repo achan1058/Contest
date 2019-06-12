@@ -23,6 +23,6 @@ int main() {
 
 			ans += mx - mn;
 		}
-		printl(ans);
+		print(ans);
 	}
 }

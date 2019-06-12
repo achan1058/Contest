@@ -20,6 +20,6 @@ int main() {
 			s = "0";
 
 		reverse(all(s));
-		printp("%s", s.c_str());
+		printp(s);
 	}
 }

@@ -16,9 +16,9 @@ int main() {
 				count = 1;
 			}
 		}
-		printX("%d\n", best);
+		printX(best);
 		rep(i, 0, best) {
-			printf("%d", bag[i]);
+			printv(bag[i]);
 			for (int j = i + best; j < n; j += best)
 				printf(" %d", bag[j]);
 			print();

@@ -5,6 +5,6 @@ int main() {
 	int a, b;
 	forX() {
 		cin >> a >> b;
-		print("%c", a == b ? '=' : a > b ? '>' : '<');
+		print(a == b ? '=' : a > b ? '>' : '<');
 	}
 }
