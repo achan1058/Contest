@@ -7,7 +7,7 @@ int main() {
 		getline(cin, s);
 		s.erase(remove_if(all(s), [](int c){ return !isalpha(c); }), s.end());
 		int n = sqrt(sz(s));
-		printf("Case #%d:\n", X);
+		printp();
 		if (n * n != sz(s)) {
 			print("No magic :(");
 			continue;

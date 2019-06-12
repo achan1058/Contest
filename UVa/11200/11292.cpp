@@ -19,7 +19,7 @@ int main() {
 			ki++;
 		}
 		if (hi == sz(heads))
-			printl(cost);
+			print(cost);
 		else
 			print("Loowater is doomed!");
 	}
