@@ -28,4 +28,19 @@ int main() {
 	print(v, true);
 	print(123, 123456789012345678ll, 'c', s);
 	print("%d %lld %c %s", 123, 123456789012345678ll, 'c', "ASDF");
+
+	forX() {
+		printX();
+		print(10000);
+		printX(10000);
+		printc();
+		printc(s);
+		printc("%d %lld %c %s", 123, 123456789012345678ll, 'c', "ASDF");
+		printp();
+		printp(s);
+		printp("%d %lld %c %s", 123, 123456789012345678ll, 'c', "ASDF");
+	}
+
+	//print("test");
+	//forX() {
 }
