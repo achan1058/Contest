@@ -28,6 +28,6 @@ int main() {
 			}
 			best = min(best, cur);
 		}
-		printc("%d", best);
+		printc(best);
 	}
 }

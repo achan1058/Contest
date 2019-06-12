@@ -11,6 +11,6 @@ int main() {
 			t += v;
 			ans += abs(t);
 		}
-		printl(ans);
+		print(ans);
 	}
 }
