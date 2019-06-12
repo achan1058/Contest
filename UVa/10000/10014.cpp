@@ -13,6 +13,6 @@ int main() {
 		double ans = n * a0 + an1;
 		rep(i, 0, n)
 			ans -= 2 * c[i] * (n - i);
-		printX("%.2f\n", ans / (n + 1));
+		printX("%.2f", ans / (n + 1));
 	}
 }

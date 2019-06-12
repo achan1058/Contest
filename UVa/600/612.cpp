@@ -15,7 +15,7 @@ int main() {
 		}
 
 		sort(all(sorted));
-		printX("");
+		printX();
 		irep(s, sorted)
 			print(s.second);
 	}

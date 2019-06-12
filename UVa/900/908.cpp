@@ -22,7 +22,7 @@ int main() {
 		rep(i, 0, k)
 			cin >> v1 >> v2 >> c;
 
-		printX("%lld\n", cost);
+		printX(cost);
 		print(get<0>(kruskal(edges, n)));
 	}
 }

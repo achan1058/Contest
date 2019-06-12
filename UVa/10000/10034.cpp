@@ -12,6 +12,6 @@ int main() {
 		edge_list<double> edges;
 		drep(i, j, n, i)
 			edges.pb({ i, j, points[i].dist(points[j]) });
-		printX("%.2f\n", get<0>(kruskal(edges)));
+		printX("%.2f", get<0>(kruskal(edges)));
 	}
 }

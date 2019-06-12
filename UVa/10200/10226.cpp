@@ -13,7 +13,7 @@ int main() {
 			total++;
 		}
 
-		printX("");
+		printX();
 		irep(p, count)
 			print("%s %.4f", p.first.c_str(), 100. * p.second / total);
 	}

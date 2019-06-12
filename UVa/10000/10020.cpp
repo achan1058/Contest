@@ -35,7 +35,7 @@ int main() {
 				ans.clear();
 		}
 
-		printX("%d\n", sz(ans));
+		printX(sz(ans));
 		irep(p, ans)
 			print(p.first, p.second);
 	}

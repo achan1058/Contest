@@ -25,6 +25,6 @@ int main() {
 		int best = 0;
 		rep(i, 0, r)
 			best = max(best, get<0>(largestRectangle(tally[i])));
-		printX("%d\n", best);
+		printX(best);
 	}
 }

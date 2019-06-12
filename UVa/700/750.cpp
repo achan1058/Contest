@@ -20,7 +20,7 @@ int main() {
 	forX() {
 		int r, c, t = 1;
 		cin >> r >> c;
-		printX("SOLN       COLUMN\n");
+		printX("SOLN       COLUMN");
 		print(" #      1 2 3 4 5 6 7 8\n");
 		irep(sol, solutions) {
 			if (sol[c - 1] == r) {

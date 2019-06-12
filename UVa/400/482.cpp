@@ -26,7 +26,7 @@ int main() {
 				ss2 >> ans[perm[i]];
 		}
 
-		printX("");
+		printX();
 		print(ans, true);
 	}
 }

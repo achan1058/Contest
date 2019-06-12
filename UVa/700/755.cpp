@@ -46,7 +46,7 @@ int main() {
 		}
 
 		bool dup = false;
-		printX("");
+		printX();
 		irep(p, m) {
 			if (p.second > 1) {
 				print("%s-%s %d", p.first.substr(0, 3).c_str(), p.first.substr(3, 4).c_str(), p.second);

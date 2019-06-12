@@ -16,6 +16,6 @@ int main() {
 	forX() {
 		bool good = true;
 		recurse(good);
-		printX(good ? "YES\n" : "NO\n");
+		printX(good ? "YES" : "NO");
 	}
 }

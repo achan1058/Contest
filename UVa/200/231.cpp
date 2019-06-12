@@ -10,7 +10,7 @@ int main() {
 		heights.pb(-n);
 		while (cin >> n && n != -1)
 			heights.pb(-n);
-		printX("Test #%d:\n", X);
+		printX("Test #%d:", X);
 		print("  maximum possible interceptions: %d", sz(lis(heights).first));
 	}
 }

@@ -20,6 +20,6 @@ int main() {
 			else
 				nojoin++;
 		}
-		printX("%d,%d\n", join, nojoin);
+		printX("%d,%d", join, nojoin);
 	}
 }

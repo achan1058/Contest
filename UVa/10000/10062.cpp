@@ -13,7 +13,7 @@ int main() {
 			ans.pb({ p.second, -p.first });
 		sort(all(ans));
 
-		printX("");
+		printX();
 		irep(p, ans)
 			print(-p.second, p.first);
 	}

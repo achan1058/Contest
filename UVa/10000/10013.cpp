@@ -16,7 +16,7 @@ int main() {
 				digits[i - 1]++;
 			}
 		}
-		printX("");
+		printX();
 		irep(v, digits)
 			printv(v);
 		print();

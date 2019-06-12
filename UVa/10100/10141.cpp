@@ -27,7 +27,7 @@ int main() {
 			}
 		}
 
-		printX("RFP #%d\n", X);
+		printX("RFP #%d", X);
 		print(best_name);
 	}
 }

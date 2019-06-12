@@ -8,7 +8,7 @@ int main() {
 		read(dense);
 		plate[20] = 1;
 
-		printX("");
+		printX();
 		rep(i, 0, 50) {
 			vi p(42);
 			rep(j, 1, 41) {

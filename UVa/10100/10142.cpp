@@ -51,7 +51,7 @@ int main() {
 			}
 		}
 
-		printX("");
+		printX();
 		rep(i, 0, n) {
 			if (!elim[i])
 				print(cand[i]);

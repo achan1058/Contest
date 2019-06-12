@@ -10,7 +10,7 @@ int main() {
 		rep(i, 0, 6)
 			bad[i] = false;
 
-		printX("");
+		printX();
 		do {
 			vi ans;
 			rep(i, 0, n) {

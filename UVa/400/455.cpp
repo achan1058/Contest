@@ -7,6 +7,6 @@ int main() {
 		string s;
 		cin >> s;
 		string s2 = s + s;
-		printX("%d\n", kmp(s2, s)[1]);
+		printX(kmp(s2, s)[1]);
 	}
 }

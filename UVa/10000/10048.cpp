@@ -14,7 +14,7 @@ int main() {
 		}
 
 		vvi dist = floyd(grid, true).first;
-		printX("Case #%d\n", X);
+		printX("Case #%d", X);
 		rep(i, 0, k) {
 			cin >> v1 >> v2;
 			if (dist[v1 - 1][v2 - 1] == inf)

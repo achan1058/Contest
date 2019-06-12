@@ -21,7 +21,7 @@ int main() {
 		}
 
 		sort(all(ans), comp);
-		printX("");
+		printX();
 		rep(i, 0, n)
 			printf("%d%c", get<2>(ans[i]), i == n - 1 ? '\n' : ' ');
 	}

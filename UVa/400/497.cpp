@@ -12,7 +12,7 @@ int main() {
 			nums.pb(stoi(s));
 
 		vi ans = lis(nums).first;
-		printX("Max hits: %d\n", sz(ans));
+		printX("Max hits: %d", sz(ans));
 		print(ans, true);
 	}
 }

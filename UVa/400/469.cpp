@@ -14,7 +14,7 @@ int main() {
 		while (getline(cin, s) && (s[0] == 'L' || s[0] == 'W'))
 			board.pb(s);
 
-		printX("");
+		printX();
 		do {
 			int r, c;
 			stringstream ss(s);

@@ -40,7 +40,7 @@ int main() {
 			t += nums[0] + nums[1] + nums[2];
 		}
 
-		printX("%d\n", t);
+		printX(t);
 		irep(a, ans) {
 			if (sz(a) == 1)
 				print(a[0]);

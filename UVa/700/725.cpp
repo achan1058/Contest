@@ -13,7 +13,7 @@ int main() {
 	} while (next_permutation(all(s)));
 
 	whileX (cin >> n && n != 0) {
-		printX("");
+		printX();
 		if (sz(m[n]) == 0) {
 			print("There are no solutions for %d.", n);
 		} else {

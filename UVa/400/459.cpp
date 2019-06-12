@@ -11,6 +11,6 @@ int main() {
 		UnionFind un(c - 'A' + 1);
 		while (getline(cin, s) && s != "")
 			un.join(s[0] - 'A', s[1] - 'A');
-		printX("%d\n", sz(un.getComponents()));
+		printX(sz(un.getComponents()));
 	}
 }

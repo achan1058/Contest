@@ -56,6 +56,6 @@ int main() {
 			}
 			cur = (cur + 1) % 1000;
 		}
-		printX("%d\n", ans);
+		printX(ans);
 	}
 }

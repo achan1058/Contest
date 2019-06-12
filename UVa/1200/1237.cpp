@@ -13,7 +13,7 @@ int main() {
 		}
 
 		cin >> q;
-		printX("");
+		printX();
 		rep(i, 0, q) {
 			string ans = "";
 			cin >> v1;

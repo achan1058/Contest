@@ -9,7 +9,7 @@ int main() {
 		rep(i, 0, n - k)
 			s[i] = '0';
 
-		printX("");
+		printX();
 		do {
 			print(s);
 		} while (next_permutation(all(s)));
