@@ -13,10 +13,8 @@ int main() {
 		bool first = true;
 		rep(i, 0, sz(age)) {
 			rep(j, 0, age[i]) {
-				if (!first)
-					printf(" ");
+				printf("%s%d", first ? "" : " ", i);
 				first = false;
-				printf("%d", i);
 			}
 		}
 		print();

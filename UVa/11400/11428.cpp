@@ -12,6 +12,6 @@ int main() {
 		if (ans[n].first == 0)
 			print("No solution");
 		else
-			print("%d %d", ans[n].first, ans[n].second);
+			print(ans[n].first, ans[n].second);
 	}
 }
