@@ -12,6 +12,6 @@ int main() {
 			else
 				ans--;
 		}
-		printc("%d", ans);
+		printc(ans);
 	}
 }

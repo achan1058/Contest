@@ -15,6 +15,6 @@ int main() {
 				count++;
 			}
 		}
-		print("%c", count == n ? 'Y' : 'N');
+		print(count == n ? 'Y' : 'N');
 	}
 }

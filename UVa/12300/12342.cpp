@@ -23,6 +23,6 @@ int main() {
 		ans = (ans + 19) / 20;
 		if (ans > 0)
 			ans = max(ans, 2000ll);
-		printc("%lld", ans);
+		printc(ans);
 	}
 }

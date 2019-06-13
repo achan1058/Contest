@@ -13,6 +13,6 @@ int main() {
 				break;
 			}
 		}
-		print("%c", c == ' ' ? 'N' : 'Y');
+		print(c == ' ' ? 'N' : 'Y');
 	}
 }

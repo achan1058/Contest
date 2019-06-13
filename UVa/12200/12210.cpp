@@ -9,8 +9,8 @@ int main() {
 		read(spin);
 		sort(all(bach));
 		if (b <= s)
-			printc("0");
+			printc(0);
 		else
-			printc("%d %d", b - s, bach[0]);
+			printc(b - s, bach[0]);
 	}
 }
