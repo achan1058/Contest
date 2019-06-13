@@ -8,7 +8,7 @@ int main() {
 		printf("0.");
 		do {
 			remain *= 10;
-			printf("%d", remain / n);
+			printv(remain / n);
 			remain %= n;
 		} while (remain != 1);
 		print();
