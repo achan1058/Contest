@@ -6,7 +6,7 @@ int main() {
 		string s, one = "one";
 		cin >> s;
 		if (sz(s) == 5) {
-			print("3");
+			print(3);
 			continue;
 		}
 
