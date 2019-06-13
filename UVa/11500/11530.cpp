@@ -14,6 +14,6 @@ int main() {
 		int ans = 0;
 		irep(c, s)
 			ans += press[c];
-		printp("%d", ans);
+		printp(ans);
 	}
 }

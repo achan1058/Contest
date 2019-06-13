@@ -19,6 +19,6 @@ int main() {
 				break;
 			}
 		}
-		print("%c", good ? 'S' : 'N');
+		print(good ? 'S' : 'N');
 	}
 }

@@ -37,6 +37,6 @@ int main() {
 		if (sol == pii(inf, inf))
 			print("No solution.");
 		else
-			print("%d %d %d", sol.first, sol.second, b / sol.first / sol.second);
+			print(sol.first, sol.second, b / sol.first / sol.second);
 	}
 }

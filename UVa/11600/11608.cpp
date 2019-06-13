@@ -7,7 +7,7 @@ int main() {
 		vi prob(12);
 		read(prob);
 		int n;
-		printcn();
+		printc();
 
 		rep(i, 0, 12) {
 			cin >> n;

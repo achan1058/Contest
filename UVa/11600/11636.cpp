@@ -7,7 +7,7 @@ int main() {
 		int mx = 1;
 		rep(i, 0, 100) {
 			if (mx >= n) {
-				printc("%d", i);
+				printc(i);
 				break;
 			}
 			mx *= 2;

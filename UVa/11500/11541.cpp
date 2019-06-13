@@ -14,13 +14,13 @@ int main() {
 				count += c - '0';
 			} else {
 				rep(i, 0, count)
-					printf("%c", last);
+					printv(last);
 				last = c;
 				count = 0;
 			}
 		}
 		rep(i, 0, count)
-			printf("%c", last);
+			printv(last);
 		print();
 	}
 }
