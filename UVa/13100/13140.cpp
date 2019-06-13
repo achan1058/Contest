@@ -20,7 +20,7 @@ int main() {
 			tally++;
 			if (tally == 7) {
 				rep(j, i - 6, i + 1)
-					print("%d %d", j, j * j);
+					print(j, j * j);
 				break;
 			}
 		} else {

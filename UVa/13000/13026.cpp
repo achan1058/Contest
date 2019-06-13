@@ -10,7 +10,7 @@ int main() {
 		string s;
 		cin >> s;
 
-		printcn();
+		printc();
 		irep(v, nums) {
 			int diff = 0;
 			rep(i, 0, sz(s)) {

@@ -18,7 +18,7 @@ int main() {
 		rep(i, 0, k) {
 			auto t = q.top();
 			q.pop();
-			print("%d %s", -get<0>(t), get<2>(t).c_str());
+			print(-get<0>(t), get<2>(t));
 			q.push({ get<0>(t) + freq[get<1>(t)], get<1>(t), get<2>(t) });
 		}
 	}

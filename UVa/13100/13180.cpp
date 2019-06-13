@@ -25,7 +25,7 @@ int main() {
 			if (good) {
 				rep(i, 0, sz(pearls) / 2)
 					printf("%d ", pearls[2 * i]);
-				printf("%d", pearls[sz(pearls) - 1]);
+				printv(pearls[sz(pearls) - 1]);
 				rrep(i, sz(pearls) / 2 - 1, 0)
 					printf(" %d", pearls[2 * i]);
 				print();

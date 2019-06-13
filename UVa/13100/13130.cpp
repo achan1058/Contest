@@ -10,6 +10,6 @@ int main() {
 			if (dice[i] + 1 != dice[i + 1])
 				good = false;
 		}
-		print("%c", good ? 'Y' : 'N');
+		print(good ? 'Y' : 'N');
 	}
 }

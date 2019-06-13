@@ -9,5 +9,5 @@ int main() {
 
 	int n;
 	while (cin >> n && n != 0)
-		printl(ans[n]);
+		print(ans[n]);
 }

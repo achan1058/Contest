@@ -4,5 +4,5 @@
 int main() {
 	ll n;
 	while (cin >> n)
-		printl(n - 1);
+		print(n - 1);
 }

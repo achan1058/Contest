@@ -32,10 +32,9 @@ int main() {
 
 		sort(all(ans));
 		if (best == inf)
-			print("%d *", sz(ans));
+			print(sz(ans), '*');
 		else
-			print("%d %d", sz(ans), best);
-		rep(i, 0, sz(ans))
-			printf("%d%c", ans[i], i == sz(ans) - 1 ? '\n' : ' ');
+			print(sz(ans), best);
+		print(ans);
 	}
 }
