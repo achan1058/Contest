@@ -8,6 +8,6 @@ int main() {
 		vi players(n);
 		read(players);
 		sort(all(players));
-		printc("%d", players[n / 2]);
+		printc(players[n / 2]);
 	}
 }

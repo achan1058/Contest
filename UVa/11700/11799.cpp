@@ -9,6 +9,6 @@ int main() {
 			cin >> v;
 			ans = max(ans, v);
 		}
-		printc("%d", ans);
+		printc(ans);
 	}
 }

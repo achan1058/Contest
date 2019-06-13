@@ -6,6 +6,6 @@ int main() {
 		vi salary(3);
 		read(salary);
 		sort(all(salary));
-		printc("%d", salary[1]);
+		printc(salary[1]);
 	}
 }

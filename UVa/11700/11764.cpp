@@ -13,6 +13,6 @@ int main() {
 			else if (nums[i] - nums[i - 1] < 0)
 				low++;
 		}
-		printc("%d %d", high, low);
+		printc(high, low);
 	}
 }

@@ -6,7 +6,7 @@ int main() {
 	whileX(cin >> n >> r && (n | r) != 0) {
 		int d = (n - 1) / r;
 		if (d <= 26)
-			printc("%d", d);
+			printc(d);
 		else
 			printc("impossible");
 	}

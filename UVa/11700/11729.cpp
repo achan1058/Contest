@@ -16,6 +16,6 @@ int main() {
 			t += p.second;
 			ans = max(ans, t - p.first);
 		}
-		printc("%d", ans);
+		printc(ans);
 	}
 }
