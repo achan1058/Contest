@@ -12,5 +12,5 @@ ll tri(int n) {
 
 int main() {
 	assert(tri(5) == 28);
-	printl(tri(500));
+	print(tri(500));
 }
