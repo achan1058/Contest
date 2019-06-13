@@ -25,6 +25,6 @@ int main() {
 			cin >> s;
 			ans += (isCool(s) ? 1 : 0);
 		}
-		printc("%d", ans);
+		printc(ans);
 	}
 }

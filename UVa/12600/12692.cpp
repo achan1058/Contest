@@ -22,6 +22,6 @@ int main() {
 			ans2 = max(ans2, min_pos(k, i, nums[i]));
 		}
 		ll ans1 = inversionCount(nums, 0, sz(nums));
-		printc("%lld", ans1 - ans2);
+		printc(ans1 - ans2);
 	}
 }

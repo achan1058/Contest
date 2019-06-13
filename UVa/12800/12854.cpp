@@ -8,6 +8,6 @@ int main() {
 		bool good = true;
 		rep(i, 0, 5)
 			good = good && (a[i] + b[i] == 1);
-		print("%c", good ? 'Y' : 'N');
+		print(good ? 'Y' : 'N');
 	}
 }

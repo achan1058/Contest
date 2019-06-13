@@ -7,9 +7,9 @@ int main() {
 	forX() {
 		cin >> l >> w >> d >> t;
 		if (((l > 56 || w > 45 || d > 25) && l + w + d > 125 + eps) || t > 7) {
-			print("0");
+			print(0);
 		} else {
-			print("1");
+			print(1);
 			allowed++;
 		}
 	}
