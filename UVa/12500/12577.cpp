@@ -4,6 +4,6 @@
 int main() {
 	string s;
 	whileX(cin >> s && s != "*") {
-		printc("%s", s == "Hajj" ? "Hajj-e-Akbar" : "Hajj-e-Asghar");
+		printc(s == "Hajj" ? "Hajj-e-Akbar" : "Hajj-e-Asghar");
 	}
 }

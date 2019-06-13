@@ -4,5 +4,5 @@
 int main() {
 	int n;
 	while (cin >> n)
-		print("%c", n % 6 ? 'N' : 'Y');
+		print(n % 6 ? 'N' : 'Y');
 }
