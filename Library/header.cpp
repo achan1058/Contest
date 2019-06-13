@@ -40,7 +40,4 @@ int main() {
 		printp(s);
 		printp("%d %lld %c %s", 123, 123456789012345678ll, 'c', "ASDF");
 	}
-
-	//print("test");
-	//forX() {
 }
