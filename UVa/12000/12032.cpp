@@ -14,6 +14,6 @@ int main() {
 			else
 				ans = max(ans, ladder[i + 1] - ladder[i]);
 		}
-		printc("%d", ans);
+		printc(ans);
 	}
 }

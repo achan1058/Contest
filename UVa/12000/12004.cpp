@@ -9,6 +9,6 @@ int main() {
 		if (ans % 2)
 			printc("%lld/2", ans);
 		else
-			printc("%lld", ans / 2);
+			printc(ans / 2);
 	}
 }

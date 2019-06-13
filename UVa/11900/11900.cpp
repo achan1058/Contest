@@ -13,6 +13,6 @@ int main() {
 			total += e;
 			ans++;
 		}
-		printc("%d", min(ans, p));
+		printc(min(ans, p));
 	}
 }

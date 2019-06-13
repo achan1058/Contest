@@ -24,6 +24,6 @@ int main() {
 		if (dist[t] == inf)
 			printc("Permanently Locked");
 		else
-			printc("%d", dist[t]);
+			printc(dist[t]);
 	}
 }

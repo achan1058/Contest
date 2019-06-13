@@ -16,8 +16,7 @@ int main() {
 			if (best == v)
 				ans.pb(s);
 		}
-		print("Case #%d:", X);
-		irep(a, ans)
-			print("%s", a.c_str());
+		printp();
+		print(ans, true);
 	}
 }

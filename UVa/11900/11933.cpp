@@ -15,6 +15,6 @@ int main() {
 			n /= 2;
 			p *= 2;
 		}
-		print("%d %d", ans[0], ans[1]);
+		print(ans[0], ans[1]);
 	}
 }
