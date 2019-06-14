@@ -321,6 +321,9 @@
     <Filter Include="Codeforces\1100">
       <UniqueIdentifier>{b82f81fa-3746-4ba7-ac2f-1170b0c7e3b7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UVa\13300">
+      <UniqueIdentifier>{29fe75cf-a49b-4b92-8819-abfa760e6fa8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source.cpp">
@@ -2179,6 +2182,12 @@
     </ClCompile>
     <ClCompile Include="Library\header.cpp">
       <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\13300\13302.cpp">
+      <Filter>UVa\13300</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\12900\12992.cpp">
+      <Filter>UVa\12900</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
