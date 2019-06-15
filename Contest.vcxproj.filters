@@ -2225,6 +2225,12 @@
     <ClCompile Include="UVa\12900\12950.cpp">
       <Filter>UVa\12900</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\11400\11413.cpp">
+      <Filter>UVa\11400</Filter>
+    </ClCompile>
+    <ClCompile Include="Codeforces\400\430\431A.cpp">
+      <Filter>Codeforces\400</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
