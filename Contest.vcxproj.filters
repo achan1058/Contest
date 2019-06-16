@@ -2258,6 +2258,9 @@
     <ClCompile Include="Codeforces\1000\1090\1095A.cpp">
       <Filter>Codeforces\1000</Filter>
     </ClCompile>
+    <ClCompile Include="Codeforces\1000\1070\1077A.cpp">
+      <Filter>Codeforces\1000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
