@@ -37,7 +37,7 @@ ll mod = 1000000007ll;
 ll binf = 0x3f3f3f3f3f3f3f3f;
 
 #define rep(k, a, b) for (int k = (a); k < int(b); k++)
-#define irep(k, a) for (auto& k : (a))
+#define irep(k, a) for (auto&& k : (a))
 #define sz(a) int(a.size())
 #define all(c) (c).begin(), (c).end()
 #define pb push_back
