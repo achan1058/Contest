@@ -2348,6 +2348,9 @@
     <ClCompile Include="UVa\400\489.cpp">
       <Filter>UVa\400\480</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\11800\11838.cpp">
+      <Filter>UVa\11800</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2478,6 +2481,9 @@
     </ClInclude>
     <ClInclude Include="Library\binary_search.h">
       <Filter>Library\Data Structure and Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\components.h">
+      <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -51,39 +51,6 @@ vi getArticulationPoints(const vvi& graph) {
 	return pt;
 }
 
-void stronglyConnectedHelper(const vvi& graph, int n, int u, int& count, int& numc, vi& num, vi& low, stack<int>& stk, vi& comps) {
-	num[u] = low[u] = count++;
-	stk.push(u);
-	comps[u] = -1;
-
-	irep(v, graph[u]) {
-		if (num[v] == 0)
-			stronglyConnectedHelper(graph, n, v, count, numc, num, low, stk, comps);
-		if (comps[v] == -1)
-			low[u] = min(low[u], low[v]);
-	}
-	if (low[u] == num[u]) {
-		comps[u] = numc;
-		while (stk.top() != u) {
-			comps[stk.top()] = numc;
-			stk.pop();
-		}
-		stk.pop();
-		numc++;
-	}
-}
-// uses adjacency list, returns number of components and component vector
-pair<int, vi> stronglyConnected(const vvi& graph) {
-	int n = sz(graph), count = 1, numc = 0;
-	vi num(n, 0), low(n), comps(n, 0);
-	stack<int> stk;
-	rep(i, 0, n) {
-		if (num[i] == 0)
-			stronglyConnectedHelper(graph, n, i, count, numc, num, low, stk, comps);
-	}
-	return{ numc, comps };
-}
-
 // uses adjacency list
 vvi stronglyConnectedBlocks(const vvi& graph) {
 	pair<int, vi> comps = stronglyConnected(graph);
