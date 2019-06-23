@@ -971,9 +971,6 @@
     <ClCompile Include="UVa\11100\11138.cpp">
       <Filter>UVa\11100</Filter>
     </ClCompile>
-    <ClCompile Include="UVa\10100\10192.cpp">
-      <Filter>UVa\10900</Filter>
-    </ClCompile>
     <ClCompile Include="UVa\400\417.cpp">
       <Filter>UVa\400\410</Filter>
     </ClCompile>
@@ -1793,9 +1790,6 @@
     <ClCompile Include="UVa\400\498.cpp">
       <Filter>UVa\400\490</Filter>
     </ClCompile>
-    <ClCompile Include="UVa\10900\10911.cpp">
-      <Filter>UVa\11000</Filter>
-    </ClCompile>
     <ClCompile Include="UVa\11700\11734.cpp">
       <Filter>UVa\11700</Filter>
     </ClCompile>
@@ -2392,6 +2386,15 @@
     </ClCompile>
     <ClCompile Include="UVa\10200\10267.cpp">
       <Filter>UVa\10200</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\11000\11000.cpp">
+      <Filter>UVa\11000</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10900\10911.cpp">
+      <Filter>UVa\10900</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa\10100\10192.cpp">
+      <Filter>UVa\10100</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
