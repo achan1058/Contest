@@ -2396,6 +2396,9 @@
     <ClCompile Include="UVa\10100\10192.cpp">
       <Filter>UVa\10100</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10300\10305.cpp">
+      <Filter>UVa\10300</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2528,6 +2531,9 @@
       <Filter>Library\Data Structure and Algorithms</Filter>
     </ClInclude>
     <ClInclude Include="Library\components.h">
+      <Filter>Library\Graph Theory</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\topo_sort.h">
       <Filter>Library\Graph Theory</Filter>
     </ClInclude>
   </ItemGroup>
