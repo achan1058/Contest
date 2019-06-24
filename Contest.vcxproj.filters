@@ -2405,6 +2405,9 @@
     <ClCompile Include="UVa\500\599.cpp">
       <Filter>UVa\500</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10100\10105.cpp">
+      <Filter>UVa\10100</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2459,9 +2462,6 @@
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\circle.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\combinatorics.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\components.h">

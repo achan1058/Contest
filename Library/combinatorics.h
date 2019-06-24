@@ -40,3 +40,13 @@ vector<vector<long long>> binomialTable(int n, long long m = 0) {
 	}
 	return result;
 }
+
+long long multinom(const vector<int>& r) {
+	long long result = 1;
+	int n = 0;
+	for (auto v : r) {
+		n += v;
+		result *= binom(n, v);
+	}
+	return result;
+}
