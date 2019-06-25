@@ -2068,6 +2068,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\12500\12532.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="UVa\12500\12541.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2882,6 +2886,7 @@
     <ClInclude Include="Library\components.h" />
     <ClInclude Include="Library\double.h" />
     <ClInclude Include="Library\misc.h" />
+    <ClInclude Include="Library\segment_tree.h" />
     <ClInclude Include="Library\sorting.h" />
     <ClInclude Include="Library\dp_algs.h" />
     <ClInclude Include="Library\floodfill.h" />
@@ -2904,7 +2909,6 @@
     <ClInclude Include="Library\old\number_theory.h" />
     <ClInclude Include="Library\old\polygon.h" />
     <ClInclude Include="Library\old\primes.h" />
-    <ClInclude Include="Library\old\segment_tree.h" />
     <ClInclude Include="Library\old\shortest_path.h" />
     <ClInclude Include="Library\old\spanning_tree.h" />
     <ClInclude Include="Library\old\sweep_line.h" />
