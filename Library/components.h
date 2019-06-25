@@ -82,3 +82,12 @@ pair<int, vector<int>> stronglyConnected(const vector<vector<int>>& graph) {
 	}
 	return{ numc, comps };
 }
+
+// uses adjacency list
+vector<vector<int>> stronglyConnectedBlocks(const vector<vector<int>>& graph) {
+	pair<int, vector<int>> comps = stronglyConnected(graph);
+	vector<vector<int>> blocks(comps.first);
+	for (int i = 0; i < int(comps.second.size()); i++)
+		blocks[comps.second[i]].push_back(i);
+	return blocks;
+}

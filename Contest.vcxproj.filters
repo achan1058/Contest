@@ -2420,6 +2420,9 @@
     <ClCompile Include="UVa\300\315.cpp">
       <Filter>UVa\300</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\200\247.cpp">
+      <Filter>UVa\200</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2471,9 +2474,6 @@
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\circle.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\components.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\eularian.h">
