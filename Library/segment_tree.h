@@ -8,10 +8,7 @@ class SegmentTree {
 	bool issum;
 	vector<T> tree;
 public:
-	SegmentTree(int t, bool sum = false, T def = inf) : issum(sum) {
-		n = 1;
-		while (n < t)
-			n <<= 1;
+	SegmentTree(int t, bool sum = false, T def = inf) : issum(sum), n(t) {
 		tree = vector<T>(2 * n, issum ? 0 : def);
 	}
 	SegmentTree(const vector<T>& values, bool sum = false, T def = inf) : SegmentTree(values.size(), sum, def) {
@@ -36,11 +33,8 @@ public:
 		return ans;
 	}
 	void inline update(int p, T v) {
-		p += n;
-		tree[p] = v;
-		while(p > 1) {
-			p /= 2;
-			tree[p] = issum ? tree[2 * p] + tree[2 * p + 1] : min(tree[2 * p], tree[2 * p + 1]);
-		}
+		tree[p + n] = v;
+		for (int t = (p + n) / 2; t > 0; t /= 2)
+			tree[t] = issum ? tree[2 * t] + tree[2 * t + 1] : min(tree[2 * t], tree[2 * t + 1]);
 	}
 };
