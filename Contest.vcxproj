@@ -696,6 +696,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10000.cpp" />
     <ClCompile Include="UVa\10000\10003.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
@@ -2954,7 +2955,6 @@
     <ClInclude Include="Library\max_flow.h" />
     <ClInclude Include="Library\number_theory.h" />
     <ClInclude Include="Library\old\bases.h" />
-    <ClInclude Include="Library\old\binary_search.h" />
     <ClInclude Include="Library\old\circle.h" />
     <ClInclude Include="Library\old\eularian.h" />
     <ClInclude Include="Library\old\graham.h" />
@@ -2967,7 +2967,6 @@
     <ClInclude Include="Library\old\shortest_path.h" />
     <ClInclude Include="Library\old\spanning_tree.h" />
     <ClInclude Include="Library\old\sweep_line.h" />
-    <ClInclude Include="Library\old\topo_sort.h" />
     <ClInclude Include="Library\point.h" />
     <ClInclude Include="Library\primes.h" />
     <ClInclude Include="Library\segment.h" />

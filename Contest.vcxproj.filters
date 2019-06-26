@@ -2459,6 +2459,9 @@
     <ClCompile Include="UVa\11900\11956.cpp">
       <Filter>UVa\11900</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10000.cpp">
+      <Filter>UVa\10000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2500,13 +2503,7 @@
     <ClInclude Include="Library\old\sweep_line.h">
       <Filter>Library\old</Filter>
     </ClInclude>
-    <ClInclude Include="Library\old\topo_sort.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
     <ClInclude Include="Library\old\bases.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\binary_search.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\circle.h">
