@@ -2462,6 +2462,9 @@
     <ClCompile Include="UVa\10000\10000.cpp">
       <Filter>UVa\10000</Filter>
     </ClCompile>
+    <ClCompile Include="UVa\10000\10009.cpp">
+      <Filter>UVa\10000</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Library\header.h">
@@ -2492,9 +2495,6 @@
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\primes.h">
-      <Filter>Library\old</Filter>
-    </ClInclude>
-    <ClInclude Include="Library\old\shortest_path.h">
       <Filter>Library\old</Filter>
     </ClInclude>
     <ClInclude Include="Library\old\spanning_tree.h">
