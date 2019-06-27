@@ -95,21 +95,19 @@ pair<vector<T>, vector<int>> bellmanFord(const adj_list<T>& graph, int start, T 
 	return { dist, prev };
 }
 
+// Do we need this visited for inf loop test?
 // constructs path from previous node vector
 vector<int> getPath(const vector<int>& prev, int s, int t) {
 	int n = prev.size();
 	vector<int> result;
 	vector<bool> visited(n);
-
 	while (t != s) {
 		if (t == -1 || visited[t])
 			return vector<int>();
-
 		result.push_back(t);
 		visited[t] = true;
 		t = prev[t];
 	}
-
 	result.push_back(s);
 	reverse(result.begin(), result.end());
 	return result;
