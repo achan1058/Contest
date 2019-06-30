@@ -2,6 +2,40 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// uses adjacency list, return bipartition with minimum cardinality LHS.
+pair<vector<int>, vector<int>> bipartite(const vector<vector<int>>& graph) {
+	int n = graph.size();
+	vector<int> color(n, -1);
+	vector<vector<int>> ans(2);
+	for (int i = 0; i < n; i++) {
+		if (color[i] != -1)
+			continue;
+		vector<vector<int>> parts(2);
+		queue<int> q;
+		color[i] = 0;
+		parts[0].push_back(i);
+		q.push(i);
+		while (!q.empty()) {
+			int v = q.front();
+			q.pop();
+			for (auto e : graph[v]) {
+				if (color[e] == color[v])
+					return { vector<int>(), vector<int>() };
+				else if (color[e] == -1) {
+					color[e] = 1 - color[v];
+					parts[1 - color[v]].push_back(e);
+					q.push(e);
+				}
+			}
+		}
+		if (parts[0].size() > parts[1].size())
+			swap(parts[0], parts[1]);
+		for (int t = 0; t < 2; t++)
+			ans[t].insert(ans[t].end(), parts[t].begin(), parts[t].end());
+	}
+	return { ans[0], ans[1] };
+}
+
 void twoConnectedHelper(const vector<vector<int>>& graph, int n, int u, int& count, vector<int>& num, vector<int>& low, stack<int>& stk, vector<vector<int>>& blocks) {
 	num[u] = low[u] = count++;
 	stk.push(u);
