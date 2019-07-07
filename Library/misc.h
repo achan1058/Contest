@@ -10,3 +10,9 @@ int joseph(int n, int k) {
 		r = (r + k) % i;
 	return r;
 }
+
+int triangular(ll n, bool upper = false) {
+	double d = sqrt(8 * n + 1);
+	int t = upper ? ceil(d) : d;
+	return (d - 1) / 2;
+}
