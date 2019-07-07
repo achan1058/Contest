@@ -11,8 +11,8 @@ int joseph(int n, int k) {
 	return r;
 }
 
-int triangular(ll n, bool upper = false) {
+int triangular(long long n, bool upper = false) {
 	double d = sqrt(8 * n + 1);
-	int t = upper ? ceil(d) : d;
-	return (d - 1) / 2;
+	long long t = ((upper ? ceil(d) : d) - 1) / 2;
+	return upper ? t * (t + 1) / 2 < n ? t + 1 : t : t * (t + 1) / 2 > n ? t - 1 : t;
 }
