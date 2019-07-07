@@ -10,7 +10,6 @@ int main() {
 			print(0);
 			continue;
 		}
-		ll t = (sqrt(4 * d - 1));
-		print(t);
+		print(int(sqrt(4 * d - 1)));
 	}
 }
