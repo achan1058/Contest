@@ -30,6 +30,7 @@ template<class... A> inline void print(const char f[], const A& ... a) { printf(
 template<class... A> inline void print(const A& ... a) { printv(a...); printf("\n"); }
 template<class... A> inline void printXHelp(const A& ... a) { if (sizeof...(a)) print(a...); }
 template<class... A> inline void printcHelp(const A& ... a) { if (sizeof...(a)) printf(" "); print(a...); }
+inline void forXHelp(bool b = false) { string XS; getline(cin, XS); if (b) getline(cin, XS); }
 
 int inf = 0x3f3f3f3f;
 double eps = 1e-8;
@@ -53,7 +54,7 @@ ll binf = 0x3f3f3f3f3f3f3f3f;
 #define mul(i, j) ((i) * (j)) % mod
 #define bits(n) int(__builtin_popcount(n))
 #define gcd(a, b) abs(__gcd(a, b))
-#define forX() int XT; string XS; cin >> XT; getline(cin, XS); for (int X = 1; X <= XT; X++)
+#define forX(...) int XT; cin >> XT, forXHelp(__VA_ARGS__); for (int X = 1; X <= XT; X++)
 #define whileX(a) int X = 0; while(X++, (a))
 #define printX(...) printf("%s", (X > 1 ? "\n" : "")), printXHelp(__VA_ARGS__)
 #define printc(...) printf("Case %d:", X), printcHelp(__VA_ARGS__)

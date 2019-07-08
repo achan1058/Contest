@@ -4,9 +4,7 @@
 
 int main() {
 	string s;
-	forX() {
-		if (X == 1)
-			getline(cin, s);
+	forX(true) {
 		vi nums;
 		while (getline(cin, s) && s != "")
 			nums.pb(stoi(s));

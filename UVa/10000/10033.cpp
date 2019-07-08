@@ -12,11 +12,9 @@ string str(int n) {
 
 int main() {
 	string s;
-	forX() {
+	forX(true) {
 		vi reg(10);
 		vs code;
-		if (X == 1)
-			getline(cin, s);
 		while (getline(cin, s) && s != "")
 			code.pb(s);
 		code.resize(1000, "000");

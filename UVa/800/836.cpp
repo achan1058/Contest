@@ -4,10 +4,8 @@
 
 int main() {
 	string s;
-	forX() {
+	forX(true) {
 		vs grid;
-		if (X == 1)
-			getline(cin, s);
 		while (getline(cin, s) && s != "")
 			grid.pb(s);
 

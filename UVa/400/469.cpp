@@ -4,13 +4,11 @@
 #include "header.h"
 
 int main() {
-	forX() {
+	forX(true) {
 		dx = dx8;
 		dy = dy8;
 		vs board;
 		string s;
-		if (X == 1)
-			getline(cin, s);
 		while (getline(cin, s) && (s[0] == 'L' || s[0] == 'W'))
 			board.pb(s);
 

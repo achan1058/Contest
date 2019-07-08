@@ -2,12 +2,10 @@
 #include "header.h"
 
 int main() {
-	forX() {
+	forX(true) {
 		int total = 0;
 		string s;
 		map<string, int> count;
-		if (X == 1)
-			getline(cin, s);
 		while (getline(cin, s) && s != "") {
 			count[s]++;
 			total++;
