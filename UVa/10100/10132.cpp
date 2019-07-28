@@ -11,18 +11,19 @@ int main() {
 		int n = m.begin()->first + m.rbegin()->first;
 		vs possible;
 		rep(i, 0, n / 2 + 1) {
-			vs cur;
+			set<string> cur;
 			irep(s1, m[i]) {
 				irep(s2, m[n - i]) {
-					cur.pb(s1 + s2);
-					cur.pb(s2 + s1);
+					if (s1 == s2 && sz(m[i]) > 1)
+						continue;
+					cur.insert(s1 + s2);
+					cur.insert(s2 + s1);
 				}
 			}
-			sort(all(cur));
 
 			if (!cur.empty()) {
 				if (possible.empty())
-					possible = cur;
+					possible = { all(cur) };
 				else
 					possible.erase(set_intersection(all(possible), all(cur), possible.begin()), possible.end());
 			}
