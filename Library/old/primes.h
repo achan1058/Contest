@@ -2,22 +2,6 @@
 #include "util.h"
 
 /*
-
-template <class T>
-int fastIsPrime(T n, const vi& primes) {
-	if (n < T(2))
-		return 0;
-	irep(p, primes) {
-		if (T(p) * T(p) > n)
-			return 1;
-		if (n % T(p) == 0)
-			return 0;
-	}
-	return -1;
-}
-
-*/
-/*
 bool millerRabin(ll n) {
 	vl a = { 2, 325, 9375, 28178, 450775, 9780504, 1795265022 };
 	if (n == 2)

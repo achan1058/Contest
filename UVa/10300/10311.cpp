@@ -3,6 +3,7 @@
 #include "header.h"
 
 int main() {
+	vi primes = sieve(10000);
 	int n;
 	while (cin >> n) {
 		if (n == 5) {
@@ -10,7 +11,7 @@ int main() {
 		} else if (n <= 6) {
 			print("%d is not the sum of two primes!", n);
 		} else if (n % 2 == 1) {
-			if (isPrime(n - 2))
+			if (fastIsPrime(n - 2, primes))
 				print("%d is the sum of 2 and %d.", n, n - 2);
 			else
 				print("%d is not the sum of two primes!", n);
@@ -19,7 +20,7 @@ int main() {
 			if (m % 2 == 0)
 				m--;
 			while (true) {
-				if (isPrime(m) && isPrime(n - m)) {
+				if (fastIsPrime(m, primes) && fastIsPrime(n - m, primes)) {
 					print("%d is the sum of %d and %d.", n, m, n - m);
 					break;
 				}

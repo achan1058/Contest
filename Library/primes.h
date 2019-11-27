@@ -77,6 +77,19 @@ bool sieveIsPrime(int n, const vector<bool>& primes) {
 }
 
 template <class T>
+bool fastIsPrime(T n, const vector<int>& primes) {
+	if (n < 2)
+		return false;
+	for (T p : primes) {
+		if (p * p > n)
+			return true;
+		if (n % p == 0)
+			return false;
+	}
+	return true;
+}
+
+template <class T>
 vector<T> fastFactor(T n, const vector<int>& primes) {
 	vector<T> result;
 	if (n < 0) {
