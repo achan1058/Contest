@@ -5,7 +5,7 @@ class YetAnotherCardGame {
 public:
 	int maxCards(vector<int> petr, vector<int> snuke) {
 		int n = sz(petr);
-		vector<pii> nums;
+		vpii nums;
 
 		rep(i, 0, n) {
 			nums.pb({ petr[i], 0 });

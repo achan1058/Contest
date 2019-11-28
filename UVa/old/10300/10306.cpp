@@ -6,7 +6,7 @@ int main() {
 	forX() {
 		cin >> n >> s;
 		vvi dp = mi(s + 1, s + 1, inf);
-		vector<pii> coins(n);
+		vpii coins(n);
 		int mn = inf;
 		irep(c, coins)
 			cin >> c.x >> c.y;

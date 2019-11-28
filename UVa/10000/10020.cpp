@@ -5,7 +5,7 @@ int main() {
 	forX() {
 		int m, l, r;
 		cin >> m;
-		vector<pii> lines, ans;
+		vpii lines, ans;
 		while (cin >> l >> r && (l | r) != 0)
 			lines.pb({ l, r });
 		sort(all(lines));

@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-void floodfill(vvi& grid, vector<pii>& start) {
+void floodfill(vvi& grid, vpii& start) {
 	vi dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
 	int r = sz(grid), c = sz(grid[0]);
 	queue<pii> q;
@@ -30,7 +30,7 @@ int main() {
 		cin >> r >> c;
 		vvi jb = mi(r, c, inf);
 		vvi fb = mi(r, c, inf);
-		vector<pii> jstart, fstart;
+		vpii jstart, fstart;
 		
 		drep(i, j, r, c) {
 			cin >> ch;

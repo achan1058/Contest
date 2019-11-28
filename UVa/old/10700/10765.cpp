@@ -12,7 +12,7 @@ int main() {
 
 		vvi blocks = twoConnected(graph);
 		vi count(sz(graph), 0);
-		vector<pii> ans;
+		vpii ans;
 
 		irep(b, blocks) {
 			irep(v, b)

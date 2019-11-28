@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "header.h"
 
-int greedy(vector<pii>& switches) {
+int greedy(vpii& switches) {
 	sort(all(switches));
 	vb hit(sz(switches), false);
 	int result = 0;
@@ -27,7 +27,7 @@ public:
 		rep(i, 0, sz(states))
 			newstates[i + 1] = states[i];
 
-		vector<pii> onswitch, offswitch;
+		vpii onswitch, offswitch;
 		rep(j, 0, numlamps) {
 			rep(i, 0, n) {
 				if (newstates[i][j] == '?')

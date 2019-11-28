@@ -6,7 +6,7 @@ int main() {
 		int r, c, n, ans = inf;
 		pii st;
 		cin >> r >> c >> st.first >> st.second >> n;
-		vector<pii> beep(n);
+		vpii beep(n);
 		irep(b, beep)
 			cin >> b.first >> b.second;
 		beep.pb({ st });

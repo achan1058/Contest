@@ -10,6 +10,7 @@ typedef vector<vi> vvi;
 typedef vector<ll> vl;
 typedef vector<bool> vb;
 typedef vector<double> vd;
+typedef vector<pii> vpii;
 typedef vector<vd> vvd;
 typedef vector<vb> vvb;
 typedef vector<vs> vvs;

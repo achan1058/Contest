@@ -18,7 +18,7 @@ class LCMGCD {
 public:
 	string isPossible(vector<int> x, int t) {
 		int n = sz(x);
-		vector<pii> pairs(n);
+		vpii pairs(n);
 		pii target = getPair(t);
 		int ee = 0, eb = 0, es = 0, se = 0, sb = 0, ss = 0, be = 0, bs = 0, bb = 0;
 

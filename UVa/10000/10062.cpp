@@ -7,7 +7,7 @@ int main() {
 		map<char, int> m;
 		irep(c, s)
 			m[c]++;
-		vector<pii> ans;
+		vpii ans;
 
 		irep(p, m)
 			ans.pb({ p.second, -p.first });

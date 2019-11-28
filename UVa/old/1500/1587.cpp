@@ -6,7 +6,7 @@ int main() {
 	while (cin >> u >> v) {
 		if (u > v)
 			swap(u, v);
-		vector<pii> sides = { { u, v } };
+		vpii sides = { { u, v } };
 		rep(i, 0, 5) {
 			cin >> u >> v;
 			if (u > v)

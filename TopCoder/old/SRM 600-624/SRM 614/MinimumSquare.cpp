@@ -4,7 +4,7 @@
 class MinimumSquare {
 public:
 	long long minArea(vector<int> x, vector<int> y, int K) {
-		vector<pii> points;
+		vpii points;
 		rep(i, 0, sz(x))
 			points.pb({ x[i], y[i] });
 		sort(all(points));

@@ -4,7 +4,7 @@
 int main() {
 	int n, t;
 	cin >> n;
-	vector<pii> book(n);
+	vpii book(n);
 	irep(b, book)
 		cin >> b.first >> b.second;
 

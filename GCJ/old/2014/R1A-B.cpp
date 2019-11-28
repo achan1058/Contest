@@ -4,7 +4,7 @@
 //total node, del node
 pair<int, int> processTree(const vi& pred, const vvi& adjList, int V) {
 	int numnodes = 1;
-	vector<pii> children;
+	vpii children;
 
 	irep(v, adjList[V]) {
 		if (v != pred[V]) {

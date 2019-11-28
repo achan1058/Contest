@@ -4,7 +4,7 @@
 int main() {
 	string s;
 	forX() {
-		vector<pii> points;
+		vpii points;
 		lineX();
 		while (getline(cin, s) && s != "") {
 			int x0, y0;

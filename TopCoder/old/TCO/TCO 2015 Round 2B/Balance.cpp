@@ -7,9 +7,9 @@ struct Tree {
 
 int n;
 vi dx = { 1, 0, -1, 0 }, dy = { 0, 1, 0, -1 };
-vector<pii> floodfill(vs& board, int x0, int y0, char c) {
+vpii floodfill(vs& board, int x0, int y0, char c) {
 	queue<pii> q;
-	vector<pii> todo;
+	vpii todo;
 	vi left(n, n), right(n, 0);
 	q.push({ x0, y0 });
 	board[x0][y0] = ' ';
@@ -33,12 +33,12 @@ vector<pii> floodfill(vs& board, int x0, int y0, char c) {
 	return{ todo };
 }
 
-Tree buildTree(vs& board, vector<pii>& check, char c) {
+Tree buildTree(vs& board, vpii& check, char c) {
 	Tree result;
 	irep(p, check) {
 		if (board[p.x][p.y] == c) {
 			Tree t;
-			vector<pii> todo = floodfill(board, p.x, p.y, c);
+			vpii todo = floodfill(board, p.x, p.y, c);
 			if (c == '#')
 				t = buildTree(board, todo, '.');
 			else
@@ -84,7 +84,7 @@ public:
 				tar2[i][j] = target[i - 1][j - 1];
 			}
 		}
-		vector<pii> check;
+		vpii check;
 		rep(i, 0, n) {
 			check.pb({ 0, i });
 			check.pb({ n - 1, i });

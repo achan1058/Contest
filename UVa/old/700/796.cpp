@@ -15,7 +15,7 @@ int main() {
 		}
 
 		vvi blocks = twoConnected(graph);
-		vector<pii> bridges;
+		vpii bridges;
 		for (auto& b : blocks) {
 			if (sz(b) == 2)
 				bridges.pb({ min(b[0], b[1]), max(b[0], b[1]) });

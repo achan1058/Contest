@@ -4,7 +4,7 @@
 int main() {
 	int s, n;
 	cin >> s >> n;
-	vector<pii> dragons(n);
+	vpii dragons(n);
 	irep(d, dragons)
 		cin >> d.first >> d.second;
 	sort(all(dragons));

@@ -6,7 +6,7 @@ int main() {
 	forX() {
 		cin >> n >> d;
 		vi s(n), m(n);
-		vector<pii> win(n);
+		vpii win(n);
 		cin >> s[0] >> as >> cs >> rs;
 		cin >> m[0] >> am >> cm >> rm;
 		win[0] = { s[0], s[0] };
@@ -20,7 +20,7 @@ int main() {
 
 		int result = 0;
 		auto ls = [](pii p1, pii p2) { return p1.y < p2.y; };
-		priority_queue <pii, vector<pii>, decltype(ls)> q(ls);
+		priority_queue <pii, vpii, decltype(ls)> q(ls);
 
 		rrep(i, n - 1, 0) {
 			q.push(win[i]);

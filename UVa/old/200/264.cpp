@@ -2,7 +2,7 @@
 #include "header.h"
 
 int main() {
-	vector<pii> ans(10000001);
+	vpii ans(10000001);
 	int a = 1, b = 1;
 	bool inc = false;
 	rep(n, 1, 10000001) {

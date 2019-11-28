@@ -4,7 +4,7 @@
 int main() {
 	int n, m, v;
 	while (cin >> n >> m && (n | m) != 0) {
-		vector<pii> people(n), table(m);
+		vpii people(n), table(m);
 		for (int i = 0; i < n; i++) {
 			cin >> v;
 			people[i] = { -v, i };

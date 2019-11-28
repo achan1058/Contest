@@ -7,7 +7,7 @@ int main() {
 		cin >> m >> s;
 		vvi grid = mi(s + 1, s + 1, inf);
 		int ans = inf;
-		vector<pii> coins(m);
+		vpii coins(m);
 		irep(c, coins)
 			cin >> c.first >> c.second;
 

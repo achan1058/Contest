@@ -5,7 +5,7 @@ int main() {
 	int n;
 	whileX(cin >> n && n != 0) {
 		int b, j, ans = 0, t = 0;
-		vector<pii> ppl;
+		vpii ppl;
 		rep(i, 0, n) {
 			cin >> b >> j;
 			ppl.pb({ -j, b });

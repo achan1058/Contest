@@ -5,7 +5,7 @@ int main() {
 	int n;
 	forX() {
 		cin >> n;
-		vector<pii> pts(n);
+		vpii pts(n);
 		vvd graph = md(n, n, inf);
 		for (auto& p : pts)
 			cin >> p.x >> p.y;
