@@ -28,3 +28,37 @@ string to_string(T n, int base) {
 	reverse(s.begin(), s.end());
 	return s;
 }
+
+int minBase(const string& s, bool extended = false) {
+	int result = 2;
+	for (auto c : s) {
+		if (c <= '9')
+			result = max(result, c - '0' + 1);
+		else if (c <= 'Z')
+			result = max(result, c - 'A' + 11);
+		else if (extended)
+			result = max(result, c - 'a' + 37);
+		else
+			result = max(result, c - 'a' + 11);
+	}
+	return result;
+}
+
+template <class T>
+T stringToInt(const string& s, int base = 10) {
+	T result = 0;
+	for (auto c : s) {
+		if (c < '0')
+			continue;
+		result *= base;
+		if (c <= '9')
+			result += c - '0';
+		else if (c <= 'Z')
+			result += c - 'A' + 10;
+		else if (base > 36)
+			result += c - 'a' + 36;
+		else
+			result += c - 'a' + 10;
+	}
+	return s[0] == '-' ? -result : result;
+}
